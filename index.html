@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELARA Aviation Command Center</title>
+<style>
+:root{--bg:#05080d;--panel:#07111c;--cyan:#00d4ff;--aqua:#00ffc8;--text:#d9fbff;--muted:#84b6c5;--line:#0d8faa;--warn:#ffb347;--danger:#ff5d73}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% 15%,#0b1b2a,#05080d 45%,#020407);color:var(--text);font-family:Segoe UI,Arial,sans-serif}
+.app{display:grid;grid-template-columns:185px 1fr;min-height:100vh}.side{background:#03070b;border-right:1px solid var(--line);padding:18px 12px}.brand{font-size:28px;font-weight:800;letter-spacing:3px;color:var(--cyan);text-align:center;margin-bottom:24px}
+.nav{width:100%;padding:12px;margin:5px 0;border-radius:8px;border:1px solid transparent;background:transparent;color:var(--text);text-align:left;cursor:pointer}.nav:hover,.nav.active{background:#09283a;border-color:var(--line)}
+main{padding:18px}.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.header h1{margin:0;color:var(--cyan);font-size:24px}.status{color:var(--aqua);font-weight:700}.clock{font-family:Consolas,monospace}
+.grid{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:14px}.card{background:linear-gradient(180deg,#07111c,#06101a);border:1px solid var(--line);border-radius:12px;padding:14px}.card h3{margin:0 0 12px;color:var(--cyan)}
+.hero{min-height:390px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.orb{width:220px;height:220px;border-radius:50%;position:relative;background:radial-gradient(circle,#00d4ff 0,#07354d 30%,#04131d 55%,transparent 70%);box-shadow:0 0 38px #00d4ff,inset 0 0 32px #00ffc8;animation:pulse 2.8s infinite}.orb:before,.orb:after{content:"";position:absolute;inset:-20px;border:1px solid var(--cyan);border-radius:50%;animation:spin 10s linear infinite}.orb:after{inset:-40px;border-style:dashed;animation-direction:reverse}.orb span{position:absolute;inset:0;display:grid;place-items:center;font-size:38px;font-weight:800;letter-spacing:4px}
+@keyframes pulse{50%{transform:scale(1.04);box-shadow:0 0 58px #00d4ff,inset 0 0 44px #00ffc8}}@keyframes spin{to{transform:rotate(360deg)}}
+.btn{border:1px solid var(--line);background:#09283a;color:var(--text);padding:10px 13px;border-radius:8px;cursor:pointer}.btn.primary{background:var(--cyan);color:#031015;font-weight:700}.btn.danger{background:#3b1018;border-color:#7d2638}
+.list{display:flex;flex-direction:column;gap:8px}.item{background:#061724;border-left:3px solid var(--cyan);padding:10px;border-radius:6px}.item.overdue{border-left-color:var(--danger)}.item small{color:var(--muted)}.kpi{display:grid;grid-template-columns:1fr 1fr;gap:10px}.kpi div{background:#061724;padding:12px;border-radius:8px}.kpi b{display:block;color:var(--aqua);font-size:22px}
+.bottom{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:14px}.hidden{display:none!important}
+.crm{display:grid;grid-template-columns:350px 1fr;gap:14px}label{display:block;font-size:12px;color:var(--muted);margin-top:8px}input,select,textarea{width:100%;padding:9px;background:#061724;color:white;border:1px solid #144a5d;border-radius:7px}textarea{min-height:85px}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;border-bottom:1px solid #12384a;text-align:left}th{color:var(--cyan)}.tablewrap{max-height:610px;overflow:auto}.overdue-row{background:rgba(255,93,115,.08)}
+.chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
+@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+<div class="brand">ELARA</div>
+<button class="nav active" data-v="home">Ana Sayfa</button>
+<button class="nav" data-v="crm">Aviation CRM</button>
+<button class="nav" data-v="assistant">ELARA Assistant</button>
+<button class="nav" data-v="settings">Ayarlar</button>
+</aside>
+<main>
+<div class="header"><div><h1>ELARA Aviation Command Center</h1><div class="status" id="status">Çevrimiçi ve hazır</div></div><div class="clock" id="clock"></div></div>
+
+<section id="home" class="view">
+<div class="grid">
+<div>
+<div class="card"><h3>Merhaba Barry</h3><p>CRM aksiyonlarını, havayolu fırsatlarını ve günlük önceliklerini tek ekranda takip edebilirsin.</p><button class="btn primary" onclick="listen()">Mikrofonu Başlat</button> <button class="btn" onclick="show('crm')">CRM Aç</button></div>
+<div class="card" style="margin-top:14px"><h3>Yaklaşan ve Geciken Aksiyonlar</h3><div id="upcoming" class="list"></div></div>
+</div>
+<div class="card hero"><div class="orb"><span>ELARA</span></div><h2 id="listenText">Hazırım</h2><p>Sesli komut verebilir veya Assistant sekmesinden yazabilirsin.</p></div>
+<div>
+<div class="card"><h3>CRM Özeti</h3><div class="kpi">
+<div><b id="total">0</b>Toplam</div>
+<div><b id="high">0</b>High</div>
+<div><b id="rfp">0</b>RFP / Demo</div>
+<div><b id="overdue">0</b>Geciken</div>
+<div><b id="grossPipeline">0</b>Pipeline</div>
+<div><b id="weightedPipeline">0</b>Weighted</div>
+</div></div>
+<div class="card" style="margin-top:14px"><h3>Hızlı Komutlar</h3><button class="btn" onclick="ask('High priority prospectleri özetle')">High Priority</button> <button class="btn" onclick="ask('Geciken aksiyonları özetle')">Overdue</button> <button class="btn" onclick="ask('DCS demo ajandası hazırla')">DCS Demo</button> <button class="btn" onclick="exportCSV()">CSV Export</button></div>
+</div>
+</div>
+<div class="bottom">
+<div class="card"><h3>Dünya Saatleri</h3><div id="zones"></div></div>
+<div class="card"><h3>Pipeline by Stage</h3><div id="pipeline"></div></div>
+<div class="card"><h3>Hızlı Not</h3><textarea id="quickNote"></textarea><button class="btn" onclick="saveNote()">Kaydet</button></div>
+<div class="card"><h3>Sistem</h3><p>Kurulum gerektirmez.</p><p>Veriler bu tarayıcıda saklanır.</p><p class="note">Tarayıcı verileri temizlenirse kayıtlar silinebilir. Düzenli CSV export önerilir.</p></div>
+</div>
+</section>
+
+<section id="crm" class="view hidden">
+<div class="crm">
+<div class="card">
+<h3>Airline / Opportunity Kaydı</h3>
+<input type="hidden" id="rid">
+<label>Airline</label><input id="airline">
+<div class="twocol"><div><label>Country</label><input id="country"></div><div><label>Responsible Person</label><input id="responsible" value="Barry"></div></div>
+<label>Contact</label><input id="contact"><label>Email</label><input id="email">
+<div class="twocol"><div><label>Stage</label><select id="stage"><option>Prospect</option><option>Discovery</option><option>Demo</option><option>RFP</option><option>Commercial Negotiation</option><option>Contract</option><option>Existing Customer</option></select></div><div><label>Priority</label><select id="priority"><option>High</option><option>Medium</option><option>Low</option></select></div></div>
+<label>Products</label><input id="products">
+<div class="twocol"><div><label>Opportunity Value</label><input id="opportunityValue" type="number" min="0" step="1000"></div><div><label>Currency</label><select id="currency"><option>USD</option><option>EUR</option><option>GBP</option><option>TRY</option></select></div></div>
+<div class="twocol"><div><label>Probability %</label><input id="probability" type="number" min="0" max="100" value="25"></div><div><label>Expected Closing Date</label><input id="closingDate" type="date"></div></div>
+<div class="twocol"><div><label>Last Contact</label><input id="lastContact" type="date"></div><div><label>Next Action Date</label><input id="nextDate" type="date"></div></div>
+<label>Next Action</label><input id="nextAction"><label>Notes</label><textarea id="notes"></textarea>
+<p><button class="btn primary" onclick="saveRecord()">Kaydet</button> <button class="btn" onclick="clearForm()">Temizle</button> <button class="btn danger" onclick="delRecord()">Sil</button></p>
+</div>
+<div class="card">
+<input id="search" placeholder="Airline, stage, product, owner veya not ara..." oninput="renderCRM()"><p><button class="btn" onclick="exportCSV()">CSV Export</button></p>
+<div class="tablewrap"><table><thead><tr><th>Airline</th><th>Stage</th><th>Owner</th><th>Value</th><th>Prob.</th><th>Weighted</th><th>Closing</th><th>Next Date</th><th>Next Action</th></tr></thead><tbody id="body"></tbody></table></div>
+</div>
+</div>
+</section>
+
+<section id="assistant" class="view hidden">
+<div class="card"><h3>ELARA Assistant</h3><div id="chat" class="chat"></div><div class="chatbar"><button class="btn" onclick="listen()">Mikrofon</button><input id="cmd" placeholder="Komut ver veya sorunu yaz..." onkeydown="if(event.key==='Enter')send()"><button class="btn primary" onclick="send()">Gönder</button></div><p class="note">Gerçek ChatGPT entegrasyonu için güvenli bir backend gerekir. API anahtarı HTML içine yazılmamalıdır.</p></div>
+</section>
+
+<section id="settings" class="view hidden">
+<div class="card"><h3>Ayarlar</h3><p>Bu sürüm yerel ve kurulum gerektirmez.</p><p class="note">Mikrofon bazı kurumsal tarayıcılarda yalnızca HTTPS üzerinde çalışabilir.</p></div>
+</section>
+</main>
+</div>
+
+<script>
+const KEY='elara_crm_v1',NOTE='elara_note_v1';
+let crm=JSON.parse(localStorage.getItem(KEY)||'null')||[
+{id:1,airline:'Cayman Airways',country:'Cayman Islands',contact:'Everton',email:'',stage:'RFP',priority:'High',products:'PSS, DCS, W&B, IBE',lastContact:'2026-07-08',nextAction:'Demo follow-up ve RFP positioning',nextDate:'2026-07-10',notes:'Onsite demo tamamlandı.',opportunityValue:450000,currency:'USD',probability:65,closingDate:'2026-10-31',responsible:'Barry'},
+{id:2,airline:'Turkmenistan Airlines',country:'Turkmenistan',contact:'',email:'',stage:'Existing Customer',priority:'Medium',products:'DCS, CRC Admin, Training',lastContact:'2026-06-05',nextAction:'Training report ve sertifika takibi',nextDate:'2026-07-12',notes:'',opportunityValue:0,currency:'USD',probability:100,closingDate:'',responsible:'Barry'},
+{id:3,airline:'CHAir',country:'Bulgaria',contact:'',email:'',stage:'Discovery',priority:'Medium',products:'PSS, IBE, Mobile App, ALM',lastContact:'2026-06-24',nextAction:'ALM entegrasyonu ve OLCI kapsamını netleştir',nextDate:'2026-07-15',notes:'AeroCRS kullanıyor.',opportunityValue:180000,currency:'EUR',probability:35,closingDate:'2026-12-15',responsible:'Barry'},
+{id:4,airline:'LATAM Airlines Group',country:'Chile',contact:'',email:'',stage:'Prospect',priority:'High',products:'DCS, PSS, Integrations',lastContact:'2026-06-10',nextAction:'DCS alternatif positioning hazırla',nextDate:'2026-07-18',notes:'Sabre PSS kullanıyor.',opportunityValue:1000000,currency:'USD',probability:20,closingDate:'2027-06-30',responsible:'Barry'}
+];
+crm=crm.map(x=>({...x,opportunityValue:Number(x.opportunityValue||0),currency:x.currency||'USD',probability:Number(x.probability||0),closingDate:x.closingDate||'',responsible:x.responsible||'Barry'}));
+localStorage.setItem(KEY,JSON.stringify(crm));
+
+document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id))}
+function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
+setInterval(tick,1000);tick();
+
+function todayISO(){return new Date().toISOString().slice(0,10)}
+function isOverdue(x){return !!x.nextDate && x.nextDate<todayISO()}
+function money(n,c='USD'){try{return new Intl.NumberFormat('en-US',{style:'currency',currency:c,maximumFractionDigits:0}).format(Number(n||0))}catch{return `${c} ${Number(n||0).toLocaleString()}`}}
+function saveLocal(){localStorage.setItem(KEY,JSON.stringify(crm));render()}
+
+function render(){
+ total.textContent=crm.length;
+ high.textContent=crm.filter(x=>x.priority==='High').length;
+ rfp.textContent=crm.filter(x=>['RFP','Demo'].includes(x.stage)).length;
+ overdue.textContent=crm.filter(isOverdue).length;
+ const usdGross=crm.filter(x=>x.currency==='USD').reduce((s,x)=>s+Number(x.opportunityValue||0),0);
+ const usdWeighted=crm.filter(x=>x.currency==='USD').reduce((s,x)=>s+(Number(x.opportunityValue||0)*Number(x.probability||0)/100),0);
+ grossPipeline.textContent=money(usdGross,'USD');
+ weightedPipeline.textContent=money(usdWeighted,'USD');
+ const sorted=[...crm].filter(x=>x.nextDate).sort((a,b)=>a.nextDate.localeCompare(b.nextDate)).slice(0,8);
+ upcoming.innerHTML=sorted.map(x=>`<div class="item ${isOverdue(x)?'overdue':''}"><b>${x.airline}</b>${isOverdue(x)?' <span class="dangerText">OVERDUE</span>':''}<br><small>${x.nextDate} | ${x.nextAction||''}</small></div>`).join('')||'<p>Kayıt yok.</p>';
+ const c={};crm.forEach(x=>c[x.stage]=(c[x.stage]||0)+1);
+ pipeline.innerHTML=Object.entries(c).map(([k,v])=>`<div class="item"><b>${k}</b><br><small>${v} kayıt</small></div>`).join('');
+ quickNote.value=localStorage.getItem(NOTE)||'';
+ renderCRM()
+}
+function renderCRM(){
+ const q=(search.value||'').toLowerCase();
+ body.innerHTML=crm.filter(x=>JSON.stringify(x).toLowerCase().includes(q)).map(x=>{
+ const weighted=Number(x.opportunityValue||0)*Number(x.probability||0)/100;
+ return `<tr class="${isOverdue(x)?'overdue-row':''}" onclick="editRecord(${x.id})" style="cursor:pointer">
+ <td>${x.airline}</td><td>${x.stage}</td><td>${x.responsible||''}</td><td>${money(x.opportunityValue,x.currency)}</td><td>${x.probability||0}%</td><td>${money(weighted,x.currency)}</td><td>${x.closingDate||''}</td><td>${x.nextDate||''}${isOverdue(x)?' ⚠':''}</td><td>${x.nextAction||''}</td></tr>`}).join('')
+}
+function saveRecord(){
+ const id=Number(rid.value)||Date.now(),x={
+ id,airline:airline.value.trim(),country:country.value.trim(),contact:contact.value.trim(),email:email.value.trim(),
+ stage:stage.value,priority:priority.value,products:products.value.trim(),lastContact:lastContact.value,
+ nextAction:nextAction.value.trim(),nextDate:nextDate.value,notes:notes.value.trim(),
+ opportunityValue:Number(opportunityValue.value||0),currency:currency.value,probability:Number(probability.value||0),
+ closingDate:closingDate.value,responsible:responsible.value.trim()||'Barry'};
+ if(!x.airline)return alert('Airline zorunlu.');
+ if(x.probability<0||x.probability>100)return alert('Probability 0 ile 100 arasında olmalı.');
+ const i=crm.findIndex(r=>r.id===id);i>=0?crm[i]=x:crm.push(x);saveLocal();clearForm()
+}
+function editRecord(id){
+ const x=crm.find(r=>r.id===id);rid.value=x.id;
+ ['airline','country','contact','email','stage','priority','products','lastContact','nextAction','nextDate','notes','opportunityValue','currency','probability','closingDate','responsible'].forEach(k=>document.getElementById(k).value=x[k]??'')
+}
+function clearForm(){
+ rid.value='';document.querySelectorAll('#crm input:not(#search),#crm textarea').forEach(e=>e.value='');
+ stage.value='Prospect';priority.value='High';currency.value='USD';probability.value='25';responsible.value='Barry'
+}
+function delRecord(){const id=Number(rid.value);if(!id)return;if(confirm('Kayıt silinsin mi?')){crm=crm.filter(x=>x.id!==id);saveLocal();clearForm()}}
+function exportCSV(){
+ const rows=[['Airline','Country','Contact','Email','Stage','Priority','Products','Opportunity Value','Currency','Probability','Weighted Value','Expected Closing Date','Responsible Person','Last Contact','Next Action','Next Date','Notes'],
+ ...crm.map(x=>[x.airline,x.country,x.contact,x.email,x.stage,x.priority,x.products,x.opportunityValue,x.currency,x.probability,Number(x.opportunityValue||0)*Number(x.probability||0)/100,x.closingDate,x.responsible,x.lastContact,x.nextAction,x.nextDate,x.notes])];
+ const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n');
+ const b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='elara_aviation_crm.csv';a.click();URL.revokeObjectURL(a.href)
+}
+function saveNote(){localStorage.setItem(NOTE,quickNote.value);alert('Not kaydedildi.')}
+function addMsg(t,c){const d=document.createElement('div');d.className='msg '+c;d.textContent=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
+function send(){const t=cmd.value.trim();if(!t)return;cmd.value='';ask(t)}
+function ask(t){
+ show('assistant');addMsg(t,'user');let a='';const q=t.toLowerCase();
+ if(q.includes('high priority'))a='Yüksek öncelikli kayıtlar: '+crm.filter(x=>x.priority==='High').map(x=>`${x.airline} (${x.stage}, ${x.probability||0}%)`).join(', ')+'.';
+ else if(q.includes('geciken')||q.includes('overdue')){const o=crm.filter(isOverdue);a=o.length?`Geciken aksiyonlar: ${o.map(x=>`${x.airline}: ${x.nextAction} (${x.nextDate})`).join('; ')}.`:'Geciken aksiyon bulunmuyor.'}
+ else if(q.includes('pipeline'))a=`USD toplam pipeline ${money(crm.filter(x=>x.currency==='USD').reduce((s,x)=>s+Number(x.opportunityValue||0),0),'USD')}; weighted pipeline ${money(crm.filter(x=>x.currency==='USD').reduce((s,x)=>s+Number(x.opportunityValue||0)*Number(x.probability||0)/100,0),'USD')}.`;
+ else if(q.includes('crm')&&q.includes('özet'))a=`CRM'de ${crm.length} kayıt var. ${crm.filter(x=>x.priority==='High').length} tanesi yüksek öncelikli, ${crm.filter(isOverdue).length} aksiyon gecikmiş durumda.`;
+ else if(q.includes('demo'))a='Önerilen demo akışı: mevcut durum, hedef süreç, ürün kapsamı, canlı senaryo, entegrasyonlar, soru cevap ve sonraki aksiyonlar.';
+ else if(q.includes('rfp'))a='RFP cevabında capability, configuration, integration dependency ve roadmap ayrımını net tut.';
+ else a='Bu kurulum gerektirmeyen sürümde yerel komutlar ve CRM özetleri çalışıyor. Gerçek ChatGPT için güvenli sunucu bağlantısı gerekir.';
+ setTimeout(()=>{addMsg(a,'ai');speak(a)},200)
+}
+function speak(t){if(!speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang='tr-TR';speechSynthesis.speak(u)}
+function listen(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return alert('Chrome veya Edge kullanın.');const r=new SR();r.lang='tr-TR';status.textContent='Dinliyorum';listenText.textContent='Dinliyorum...';r.onresult=e=>{const t=e.results[0][0].transcript;listenText.textContent=t;ask(t)};r.onerror=()=>{listenText.textContent='Mikrofon erişimi engellendi'};r.onend=()=>status.textContent='Çevrimiçi ve hazır';r.start()}
+render();addMsg('Merhaba Barry. ELARA çevrimiçi. Aviation CRM ve weighted pipeline hazır.','ai');
+</script>
+</body></html>
