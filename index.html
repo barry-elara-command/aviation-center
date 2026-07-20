@@ -512,7 +512,17 @@ function ask(t){
  else a='Bu kurulum gerektirmeyen sürümde yerel komutlar ve CRM özetleri çalışıyor. Gerçek ChatGPT için güvenli sunucu bağlantısı gerekir.';
  setTimeout(()=>{addMsg(a,'ai');speak(a)},200)
 }
-function speak(t){if(!speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang='tr-TR';speechSynthesis.speak(u)}
+let turkishVoice=null;
+function findTurkishVoice(){
+ if(!window.speechSynthesis?.getVoices)return null;
+ const voices=window.speechSynthesis.getVoices(),turkish=voices.filter(v=>String(v.lang||'').toLocaleLowerCase('tr-TR').startsWith('tr'));
+ turkishVoice=turkish.find(v=>String(v.lang).toLocaleLowerCase('tr-TR')==='tr-tr')||turkish[0]||null;return turkishVoice
+}
+if(window.speechSynthesis?.getVoices){findTurkishVoice();window.speechSynthesis.addEventListener?.('voiceschanged',findTurkishVoice)}
+function speak(t){
+ if(!window.speechSynthesis?.speak)return;
+ const u=new SpeechSynthesisUtterance(t),voice=findTurkishVoice();u.lang='tr-TR';if(voice){u.voice=voice;u.lang=voice.lang}u.rate=.95;window.speechSynthesis.cancel();window.speechSynthesis.speak(u)
+}
 function listen(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return alert('Chrome veya Edge kullanın.');const r=new SR();r.lang='tr-TR';status.textContent='Dinliyorum';listenText.textContent='Dinliyorum...';r.onresult=e=>{const t=e.results[0][0].transcript;listenText.textContent=t;ask(t)};r.onerror=()=>{listenText.textContent='Mikrofon erişimi engellendi'};r.onend=()=>status.textContent='Çevrimiçi ve hazır';r.start()}
 renderProductSelector();render();initPortableMode();addMsg('Merhaba Barry. ELARA çevrimiçi. Aviation CRM ve teknik opportunity dashboard hazır.','ai');
 </script>
