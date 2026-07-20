@@ -1,8 +1,29 @@
 {
   "version": 1,
-  "lastScan": "2026-07-20T14:59:18Z",
-  "sourcesScanned": 15,
+  "lastScan": "2026-07-20T16:27:06Z",
+  "sourcesScanned": 24,
   "opportunities": [
+    {
+      "id": "srilankan-customer-engagement-platform-ecom-web-05-2026",
+      "title": "Customer Engagement Platform – ECOM/WEB/05/2026",
+      "organization": "SriLankan Airlines",
+      "country": "Sri Lanka",
+      "category": "PSS",
+      "publishedDate": "2026-06-15",
+      "deadline": "2026-07-21",
+      "detectedAt": "2026-07-20T16:27:06Z",
+      "relevance": "Medium",
+      "summary": "SriLankan Airlines; web sitesi ve mobil uygulaması için birleşik müşteri profili, gerçek zamanlı segmentasyon ve kişiselleştirme, çok kanallı mesajlaşma, kampanya yolculukları, davranış analitiği ve PSS, CRM, loyalty, IBE, mobil uygulama ve contact center entegrasyonları içeren kurumsal bir Customer Engagement Platform arıyor. Crane CCL, CM ve LL ile önemli kesişim bulunuyor; ancak kapsamın özel CDP, yapay zekâ tabanlı öneri ve kampanya orkestrasyonu gereksinimleri nedeniyle teknik gap analizi şart.",
+      "products": [
+        "Crane CCL - Customer Care Layer",
+        "Crane CM - Communication Manager",
+        "Crane LL - Loyalty Layer"
+      ],
+      "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
+      "url": "https://www.srilankan.com/download/tender/TN-Invitationforsubmiss-20260605154843166.pdf",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "srilankan-automated-routing-connection-cpit-icb-04-26",
       "title": "Automated Routing Connection Service – CPIT/ICB/04/26",
