@@ -25,12 +25,16 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 .dashboard-kpis{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:12px;margin-bottom:14px}.dashboard-kpis .card b{display:block;color:var(--aqua);font-size:22px;margin-top:6px}.dashboard-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}.locked-panel{display:flex;align-items:center;justify-content:space-between;gap:14px;background:rgba(255,179,71,.08);border:1px solid var(--warn);padding:14px;border-radius:8px}.progress-row{margin:12px 0}.progress-label{display:flex;justify-content:space-between;gap:10px;font-size:13px}.progress-track{height:8px;background:#031019;border-radius:999px;overflow:hidden;margin-top:5px}.progress-fill{height:100%;background:linear-gradient(90deg,var(--cyan),var(--aqua));border-radius:999px}.calendar-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.calendar-toolbar input{width:170px}.calendar-week,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(120px,1fr));gap:6px}.calendar-week div{text-align:center;color:var(--cyan);font-weight:700;padding:8px}.calendar-day{min-height:132px;background:#06131e;border:1px solid #12384a;border-radius:8px;padding:8px}.calendar-day.other{opacity:.35}.calendar-day.today{border-color:var(--aqua);box-shadow:inset 0 0 0 1px var(--aqua)}.calendar-number{font-weight:700;color:var(--muted);margin-bottom:6px}.cal-event{display:block;width:100%;border:0;border-left:3px solid var(--cyan);background:#09283a;color:var(--text);border-radius:5px;padding:6px;margin:5px 0;text-align:left;font-size:11px;cursor:pointer}.cal-event.bill{border-left-color:var(--warn);background:#2b210e}.cal-event.done{border-left-color:var(--aqua);opacity:.65}.cal-event.overdue{border-left-color:var(--danger);background:#32111a}.calendar-legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:12px}.legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
 .aviation-dashboard{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}.account-card{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;background:#061724;border:0;border-left:3px solid var(--cyan);color:var(--text);padding:11px;border-radius:6px;text-align:left;cursor:pointer}.account-card:hover{background:#09283a}.account-card.high{border-left-color:var(--danger)}.account-card small{color:var(--muted)}.stage-row{display:grid;grid-template-columns:150px 1fr 34px;gap:9px;align-items:center;margin:10px 0;font-size:13px}.stage-track{height:10px;background:#031019;border-radius:999px;overflow:hidden}.stage-fill{height:100%;background:linear-gradient(90deg,#087f9f,var(--cyan));border-radius:999px}.product-cloud{display:flex;gap:8px;flex-wrap:wrap}.product-tag{background:#09283a;border:1px solid #12536b;border-radius:999px;padding:7px 10px;font-size:12px}.product-tag b{color:var(--aqua)}.quality-item{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#061724;border-left:3px solid var(--warn);padding:10px;border-radius:6px;margin:7px 0;cursor:pointer}.quality-item:hover{background:#09283a}.forecast-table td:first-child{font-weight:700}.dashboard-section-title{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.dashboard-section-title h3{margin:0}
 .product-selector{display:grid;gap:10px;margin-top:8px}.product-family{border:1px solid #12384a;border-radius:8px;padding:10px;background:#04121c}.product-family legend{color:var(--cyan);font-weight:700;padding:0 6px}.product-family label{display:flex;gap:7px;align-items:flex-start;margin:7px 0;color:var(--text);font-size:12px}.product-family input{width:auto;margin-top:2px}.product-demand-group{width:100%;border-bottom:1px solid #12384a;padding-bottom:10px;margin-bottom:4px}.product-demand-group:last-child{border-bottom:0}.product-demand-group h4{color:var(--cyan);margin:4px 0 8px;font-size:13px}
+.portable-overlay{position:fixed;inset:0;z-index:9999;background:rgba(1,4,8,.96);display:grid;place-items:center;padding:20px}.portable-dialog{width:min(560px,100%);background:linear-gradient(180deg,#081827,#050d15);border:1px solid var(--cyan);border-radius:14px;padding:22px;box-shadow:0 0 45px rgba(0,212,255,.25)}.portable-dialog h2{color:var(--cyan);margin-top:0}.portable-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.portable-status{display:inline-block;border:1px solid var(--aqua);color:var(--aqua);padding:5px 8px;border-radius:999px;font-size:11px}.portable-settings{display:grid;grid-template-columns:1fr 1fr;gap:14px}.portable-warning{background:rgba(255,179,71,.1);border:1px solid var(--warn);padding:12px;border-radius:8px;color:#ffd59b}.header-tools{display:flex;align-items:center;gap:10px}.file-picker{padding:10px;border:1px dashed #24677c;border-radius:8px;background:#04121c}
 .chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
 @media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;align-items:flex-start;overflow:auto}.brand{display:none}.side>.nav{min-width:130px}.nav-section{min-width:175px}.grid,.crm,.finance,.budget,.dashboard-grid,.aviation-dashboard{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary,.dashboard-kpis{grid-template-columns:1fr 1fr}.calendar-wrap{overflow-x:auto}.calendar-week,.calendar-grid{min-width:900px}}
 @media(max-width:620px){.bottom,.finance-summary,.budget-summary,.dashboard-kpis,.twocol{grid-template-columns:1fr}.finance-toolbar input,.calendar-toolbar input{width:100%}}
 </style>
 </head>
 <body>
+<div id="portableGate" class="portable-overlay hidden">
+<div class="portable-dialog"><h2>ELARA Portable Secure Mode</h2><p>Şifreli <b>.elara</b> dosyanızı seçin ve şifrenizi girin. Veriler yalnızca bu oturumda açılır.</p><label>Şifreli ELARA Dosyası</label><input id="portableFileInput" class="file-picker" type="file" accept=".elara,application/json"><label>Dosya Şifresi</label><input id="portableOpenPassword" type="password" autocomplete="current-password" onkeydown="if(event.key==='Enter')openPortableVault()"><div class="portable-actions"><button class="btn primary" onclick="openPortableVault()">Dosyayı Aç</button><button class="btn" onclick="showPortableHelp()">Nasıl Kullanılır?</button></div><p class="secure-hint">Şifre kaydedilmez. Dosya veya şifre olmadan verilere erişilemez.</p></div>
+</div>
 <div class="app">
 <aside class="side">
 <div class="brand">ELARA</div>
@@ -54,7 +58,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 </aside>
 <main>
-<div class="header"><div><h1>ELARA Aviation Command Center</h1><div class="status" id="status">Çevrimiçi ve hazır</div></div><div class="clock" id="clock"></div></div>
+<div class="header"><div><h1>ELARA Aviation Command Center</h1><div class="status" id="status">Çevrimiçi ve hazır</div></div><div class="header-tools"><span id="portableHeaderStatus" class="portable-status hidden">Portable Mode</span><button id="portableSaveClose" class="btn primary hidden" onclick="saveAndClosePortable()">Kaydet ve Kapat</button><div class="clock" id="clock"></div></div></div>
 
 <section id="home" class="view">
 <div class="grid">
@@ -242,19 +246,26 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </section>
 
 <section id="settings" class="view hidden">
-<div class="card"><h3>Ayarlar</h3><p>Bu sürüm yerel ve kurulum gerektirmez.</p><p class="note">Mikrofon bazı kurumsal tarayıcılarda yalnızca HTTPS üzerinde çalışabilir.</p></div>
+<div class="portable-settings">
+<div class="card"><h3>Portable Secure Mode</h3><div id="portableSettingsStatus"></div><div id="portableActivation">
+<p>Tüm CRM, kredi kartı, bütçe ve not verilerini tek şifreli dosyaya taşıyın. Bilgisayara program kurulmaz.</p><label>Yeni Dosya Şifresi</label><input id="portableNewPassword" type="password" autocomplete="new-password"><label>Şifre Tekrar</label><input id="portableNewPassword2" type="password" autocomplete="new-password"><p><button class="btn primary" onclick="createFirstPortableFile()">Şifreli Dosyayı Oluştur</button></p><div id="portableActivationConfirm" class="hidden"><div class="portable-warning">Dosyanın bilgisayarınıza indiğini ve güvenli bir yere kaydettiğinizi kontrol edin.</div><p><button class="btn danger" onclick="activatePortableMode()">Dosyayı Kaydettim, Portable Mode'a Geç</button></p></div>
+</div></div>
+<div class="card"><h3>Güvenlik Bilgisi</h3><p>Portable Mode etkinleştirildiğinde hassas ELARA verileri tarayıcı hafızasında tutulmaz.</p><p>Her kullanımda dosyayı açın; çıkarken <b>Kaydet ve Kapat</b> düğmesini kullanın.</p><p class="note">Dosya şifresi unutulursa içerik kurtarılamaz.</p></div>
+</div>
+<div class="card" style="margin-top:14px"><h3>Genel Ayarlar</h3><p>Elara tarayıcıda çalışır ve kurulum gerektirmez.</p><p class="note">Mikrofon bazı kurumsal tarayıcılarda yalnızca HTTPS üzerinde çalışabilir.</p></div>
 </section>
 </main>
 </div>
 
 <script>
-const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1',BUDGET_KEY='elara_budget_v1';
-let crm=JSON.parse(localStorage.getItem(KEY)||'null')||[
+const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1',BUDGET_KEY='elara_budget_v1',PORTABLE_FLAG='elara_portable_mode_v1';
+let portableMode=localStorage.getItem(PORTABLE_FLAG)==='1',portableKey=null,portableSalt=null,portableDirty=false,portableBudgetVault=null,pendingPortablePassword='';
+let crm=portableMode?[]:(JSON.parse(localStorage.getItem(KEY)||'null')||[
 {id:1,airline:'Cayman Airways',country:'Cayman Islands',contact:'Everton',email:'',stage:'RFP',priority:'High',products:'PSS, DCS, W&B, IBE',lastContact:'2026-07-08',nextAction:'Demo follow-up ve RFP positioning',nextDate:'2026-07-10',notes:'Onsite demo tamamlandı.',probability:65,closingDate:'2026-10-31',responsible:'Barry'},
 {id:2,airline:'Turkmenistan Airlines',country:'Turkmenistan',contact:'',email:'',stage:'Existing Customer',priority:'Medium',products:'DCS, CRC Admin, Training',lastContact:'2026-06-05',nextAction:'Training report ve sertifika takibi',nextDate:'2026-07-12',notes:'',probability:100,closingDate:'',responsible:'Barry'},
 {id:3,airline:'CHAir',country:'Bulgaria',contact:'',email:'',stage:'Discovery',priority:'Medium',products:'PSS, IBE, Mobile App, ALM',lastContact:'2026-06-24',nextAction:'ALM entegrasyonu ve OLCI kapsamını netleştir',nextDate:'2026-07-15',notes:'AeroCRS kullanıyor.',probability:35,closingDate:'2026-12-15',responsible:'Barry'},
 {id:4,airline:'LATAM Airlines Group',country:'Chile',contact:'',email:'',stage:'Prospect',priority:'High',products:'DCS, PSS, Integrations',lastContact:'2026-06-10',nextAction:'DCS alternatif positioning hazırla',nextDate:'2026-07-18',notes:'Sabre PSS kullanıyor.',probability:20,closingDate:'2027-06-30',responsible:'Barry'}
-];
+]);
 const PRODUCT_CATALOG=[
  {family:'PSS',products:['Crane PAX - Reservation & Ticketing','Crane IBE - Internet Booking Engine','Crane MA - Mobile Application','Crane ALM - Allotment Manager','Crane DCS - Departure Control System','Crane WB - Weight & Balance','Crane CM - Communication Manager','Crane BRI - Baggage Reconciliation','Crane LL - Loyalty Layer','Crane CCL - Customer Care Layer']},
  {family:'Operations Planning',products:['Crane SP - Schedule Planning','Crane OCC - Operations Control','Crane CREW - Crew Management']},
@@ -266,18 +277,18 @@ const PRODUCT_CATALOG=[
 const PRODUCT_NAMES=new Set(PRODUCT_CATALOG.flatMap(x=>x.products));
 const PRODUCT_ALIASES={'dcs':'Crane DCS - Departure Control System','w&b':'Crane WB - Weight & Balance','wb':'Crane WB - Weight & Balance','ibe':'Crane IBE - Internet Booking Engine','mobile app':'Crane MA - Mobile Application','ma':'Crane MA - Mobile Application','alm':'Crane ALM - Allotment Manager','pax':'Crane PAX - Reservation & Ticketing','ra':'Crane RA - Revenue Accounting','ca':'Crane CA - Cost Accounting','bpi':'Crane BPI - Business Performance Index','occ':'Crane OCC - Operations Control','crew':'Crane CREW - Crew Management'};
 crm=crm.map(x=>{const {opportunityValue,currency,...rest}=x;return {...rest,products:normalizeCRMProducts(x.products),probability:Number(x.probability||0),closingDate:x.closingDate||'',responsible:x.responsible||'Barry'}});
-localStorage.setItem(KEY,JSON.stringify(crm));
+if(!portableMode)localStorage.setItem(KEY,JSON.stringify(crm));
 const currentMonth=()=>new Date().toISOString().slice(0,7);
-let finance=JSON.parse(localStorage.getItem(FINANCE_KEY)||'null')||{activePeriod:currentMonth(),cards:[],history:[]};
+let finance=portableMode?{activePeriod:currentMonth(),cards:[],history:[]}:(JSON.parse(localStorage.getItem(FINANCE_KEY)||'null')||{activePeriod:currentMonth(),cards:[],history:[]});
 finance.activePeriod=finance.activePeriod||currentMonth();finance.cards=Array.isArray(finance.cards)?finance.cards:[];finance.history=Array.isArray(finance.history)?finance.history:[];
 finance.cards=finance.cards.map(normalizeCard);saveFinance(false);
-let budgetKey=null,budgetData=null,calendarMonthValue=currentMonth();
+let budgetKey=null,budgetData=null,calendarMonthValue=currentMonth(),portalNote=portableMode?'':(localStorage.getItem(NOTE)||'');
 
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
 const NAV_VIEW_GROUPS={aviationDashboard:'aviation',crm:'aviation',financeDashboard:'finance',finance:'finance',budget:'finance',paymentCalendar:'finance',assistant:'elara',settings:'elara'};
 function toggleNavGroup(group,forceOpen=false){const panel=document.getElementById('nav-'+group),button=document.querySelector(`.nav-group[data-group="${group}"]`),open=forceOpen||panel.classList.contains('hidden');document.querySelectorAll('.nav-sub').forEach(x=>x.classList.add('hidden'));document.querySelectorAll('.nav-group').forEach(x=>x.classList.remove('open'));if(open){panel.classList.remove('hidden');button.classList.add('open')}}
 function openGroupForView(view){const group=NAV_VIEW_GROUPS[view];if(group)toggleNavGroup(group,true)}
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));openGroupForView(id);if(id==='aviationDashboard')renderAviationDashboard();if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar()}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));openGroupForView(id);if(id==='aviationDashboard')renderAviationDashboard();if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar();if(id==='settings')renderPortableSettings()}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
@@ -285,7 +296,8 @@ function todayISO(){return new Date().toISOString().slice(0,10)}
 function isOverdue(x){return !!x.nextDate && x.nextDate<todayISO()}
 function money(n,c='USD'){try{return new Intl.NumberFormat('en-US',{style:'currency',currency:c,maximumFractionDigits:0}).format(Number(n||0))}catch{return `${c} ${Number(n||0).toLocaleString()}`}}
 function financeMoney(n,c='TRY'){try{return new Intl.NumberFormat('tr-TR',{style:'currency',currency:c,minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(n||0))}catch{return `${c} ${Number(n||0).toLocaleString('tr-TR')}`}}
-function saveLocal(){localStorage.setItem(KEY,JSON.stringify(crm));render()}
+function markPortableDirty(){if(portableMode&&portableKey){portableDirty=true;status.textContent='Kaydedilmemiş değişiklik var'}}
+function saveLocal(){if(portableMode)markPortableDirty();else localStorage.setItem(KEY,JSON.stringify(crm));render()}
 function renderProductSelector(){productSelector.innerHTML=PRODUCT_CATALOG.map((group,gi)=>`<fieldset class="product-family"><legend>${escapeHTML(group.family)}</legend>${group.products.map((p,pi)=>`<label><input class="product-choice" type="checkbox" value="${escapeHTML(p)}" id="product-${gi}-${pi}"><span>${escapeHTML(p)}</span></label>`).join('')}</fieldset>`).join('')}
 function productTokens(value){return String(value||'').split(/[,;|]+/).map(x=>x.trim()).filter(Boolean)}
 function normalizeCRMProducts(value){return [...new Set(productTokens(value).map(token=>PRODUCT_NAMES.has(token)?token:(PRODUCT_ALIASES[token.toLowerCase()]||token)))].join('; ')}
@@ -303,7 +315,7 @@ function render(){
  upcoming.innerHTML=sorted.map(x=>`<div class="item ${isOverdue(x)?'overdue':''}"><b>${x.airline}</b>${isOverdue(x)?' <span class="dangerText">OVERDUE</span>':''}<br><small>${x.nextDate} | ${x.nextAction||''}</small></div>`).join('')||'<p>Kayıt yok.</p>';
  const c={};crm.forEach(x=>c[x.stage]=(c[x.stage]||0)+1);
  pipeline.innerHTML=Object.entries(c).map(([k,v])=>`<div class="item"><b>${k}</b><br><small>${v} kayıt</small></div>`).join('');
- quickNote.value=localStorage.getItem(NOTE)||'';
+ quickNote.value=portalNote;
  renderCRM()
 }
 function renderCRM(){
@@ -341,15 +353,17 @@ function clearForm(){
  document.querySelectorAll('.product-choice').forEach(x=>x.checked=false);otherProducts.value='';stage.value='Prospect';priority.value='High';probability.value='25';responsible.value='Barry'
 }
 function delRecord(){const id=Number(rid.value);if(!id)return;if(confirm('Kayıt silinsin mi?')){crm=crm.filter(x=>x.id!==id);saveLocal();clearForm()}}
+function allowPlainExport(){return !portableMode||confirm('CSV dosyası şifreli değildir ve şirket bilgisayarında kalabilir. Yine de dışa aktarmak istiyor musunuz?')}
 function exportCSV(){
+ if(!allowPlainExport())return;
  const rows=[['Airline','Country','Contact','Email','Stage','Priority','Products','Probability','Expected Closing Date','Responsible Person','Last Contact','Next Action','Next Date','Notes'],
  ...crm.map(x=>[x.airline,x.country,x.contact,x.email,x.stage,x.priority,x.products,x.probability,x.closingDate,x.responsible,x.lastContact,x.nextAction,x.nextDate,x.notes])];
  const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n');
  const b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='elara_aviation_crm.csv';a.click();URL.revokeObjectURL(a.href)
 }
-function saveNote(){localStorage.setItem(NOTE,quickNote.value);alert('Not kaydedildi.')}
+function saveNote(){portalNote=quickNote.value;if(portableMode)markPortableDirty();else localStorage.setItem(NOTE,portalNote);alert('Not kaydedildi.')}
 function normalizeCard(x){const {currentDebt,...rest}=x;return {...rest,id:Number(x.id||Date.now()),bank:x.bank||'',name:x.name||'',last4:String(x.last4||'').slice(-4),currency:x.currency||'TRY',statementDate:x.statementDate||'',dueDate:x.dueDate||'',statementDebt:Number(x.statementDebt||0),minimumPayment:Number(x.minimumPayment||0),plannedPayment:Number(x.plannedPayment||0),paidAmount:Number(x.paidAmount||0),notes:x.notes||''}}
-function saveFinance(shouldRender=true){localStorage.setItem(FINANCE_KEY,JSON.stringify(finance));if(shouldRender)renderFinance()}
+function saveFinance(shouldRender=true){if(portableMode)markPortableDirty();else localStorage.setItem(FINANCE_KEY,JSON.stringify(finance));if(shouldRender)renderFinance()}
 function cardRemaining(x){return Math.max(0,Number(x.statementDebt||0)-Number(x.paidAmount||0))}
 function cardStatus(x){if(!Number(x.statementDebt||0))return ['Borç Yok','clear'];if(Number(x.paidAmount||0)>=Number(x.statementDebt||0))return ['Ödendi','paid'];if(Number(x.paidAmount||0)>0)return ['Kısmen Ödendi','partial'];return ['Ödenmedi','unpaid']}
 function groupTotals(field,cards=finance.cards){const sums={};cards.forEach(x=>sums[x.currency]=(sums[x.currency]||0)+Number(field==='remaining'?cardRemaining(x):x[field]||0));return Object.entries(sums).filter(([,v])=>v!==0).map(([c,v])=>financeMoney(v,c)).join(' · ')||financeMoney(0,'TRY')}
@@ -378,6 +392,7 @@ function startNewPeriod(){
  finance.cards=finance.cards.map(x=>normalizeCard({id:x.id,bank:x.bank,name:x.name,last4:x.last4,currency:x.currency,notes:'',statementDate:'',dueDate:'',statementDebt:0,minimumPayment:0,plannedPayment:0,paidAmount:0}));finance.activePeriod=next;saveFinance();clearCardForm();alert(`${next} dönemi açıldı. Önceki dönem geçmişe kaydedildi.`)
 }
 function exportFinanceCSV(){
+ if(!allowPlainExport())return;
  const all=[{period:finance.activePeriod,cards:finance.cards},...finance.history],rows=[['Period','Bank','Card Name','Last 4','Currency','Statement Date','Due Date','Statement Debt','Minimum Payment','Planned Payment','Paid Amount','Remaining Statement','Status','Notes']];
  all.forEach(p=>p.cards.forEach(x=>rows.push([p.period,x.bank,x.name,x.last4,x.currency,x.statementDate,x.dueDate,x.statementDebt,x.minimumPayment,x.plannedPayment,x.paidAmount,cardRemaining(x),cardStatus(x)[0],x.notes])));
  const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_finans_${finance.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)
@@ -398,10 +413,12 @@ function normalizeBudgetItem(x){return {...x,id:Number(x.id||Date.now()),type:x.
 function bytesToB64(bytes){let s='';bytes.forEach(b=>s+=String.fromCharCode(b));return btoa(s)}
 function b64ToBytes(s){const raw=atob(s);return Uint8Array.from(raw,c=>c.charCodeAt(0))}
 async function deriveBudgetKey(password,salt){const material=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveKey']);return crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:250000,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['encrypt','decrypt'])}
-async function encryptBudget(data,key,salt){const iv=crypto.getRandomValues(new Uint8Array(12)),plain=new TextEncoder().encode(JSON.stringify(data)),encrypted=await crypto.subtle.encrypt({name:'AES-GCM',iv},key,plain);localStorage.setItem(BUDGET_KEY,JSON.stringify({version:1,salt:bytesToB64(salt),iv:bytesToB64(iv),data:bytesToB64(new Uint8Array(encrypted))}))}
-async function saveBudget(){if(!budgetKey||!budgetData)return;const vault=JSON.parse(localStorage.getItem(BUDGET_KEY)),salt=b64ToBytes(vault.salt);await encryptBudget(budgetData,budgetKey,salt);renderBudget()}
+function getBudgetVaultRaw(){return portableMode?portableBudgetVault:localStorage.getItem(BUDGET_KEY)}
+function setBudgetVaultRaw(raw){if(portableMode){portableBudgetVault=raw;markPortableDirty()}else localStorage.setItem(BUDGET_KEY,raw)}
+async function encryptBudget(data,key,salt){const iv=crypto.getRandomValues(new Uint8Array(12)),plain=new TextEncoder().encode(JSON.stringify(data)),encrypted=await crypto.subtle.encrypt({name:'AES-GCM',iv},key,plain);setBudgetVaultRaw(JSON.stringify({version:1,salt:bytesToB64(salt),iv:bytesToB64(iv),data:bytesToB64(new Uint8Array(encrypted))}))}
+async function saveBudget(){if(!budgetKey||!budgetData)return;const vault=JSON.parse(getBudgetVaultRaw()),salt=b64ToBytes(vault.salt);await encryptBudget(budgetData,budgetKey,salt);renderBudget()}
 function renderBudgetGate(){
- const vault=localStorage.getItem(BUDGET_KEY);
+ const vault=getBudgetVaultRaw();
  if(budgetKey&&budgetData){budgetGate.innerHTML='';budgetUnlocked.classList.remove('hidden');renderBudget();return}
  budgetUnlocked.classList.add('hidden');
  budgetGate.innerHTML=`<div class="vault-shell card"><div class="vault-icon">▣</div><div class="vault-status"><h3>${vault?'Bütçe Kasası Kilitli':'Bütçe Kasası Oluştur'}</h3><p>${vault?'Gelir ve gider rakamlarını görmek için şifrenizi girin.':'İlk kullanım için yalnızca sizin bileceğiniz bir şifre oluşturun.'}</p></div><label>Şifre</label><input id="budgetPassword" type="password" autocomplete="current-password" onkeydown="if(event.key==='Enter')${vault?'unlockBudget()':'createBudgetVault()'}">${vault?'':`<label>Şifre Tekrar</label><input id="budgetPassword2" type="password" autocomplete="new-password" onkeydown="if(event.key==='Enter')createBudgetVault()">`}<p><button class="btn primary" onclick="${vault?'unlockBudget()':'createBudgetVault()'}">${vault?'Kasayı Aç':'Şifreyi Oluştur'}</button></p><p class="secure-hint">Şifre kaydedilmez. Unutulursa şifrelenmiş bütçe verileri kurtarılamaz.</p></div>`;
@@ -412,7 +429,7 @@ async function createBudgetVault(){
  const salt=crypto.getRandomValues(new Uint8Array(16));budgetKey=await deriveBudgetKey(p,salt);budgetData={activePeriod:currentMonth(),items:defaultBudgetItems(),history:[]};await encryptBudget(budgetData,budgetKey,salt);budgetPassword.value='';budgetPassword2.value='';renderBudgetGate()
 }
 async function unlockBudget(){
- try{const p=budgetPassword.value,vault=JSON.parse(localStorage.getItem(BUDGET_KEY)),salt=b64ToBytes(vault.salt);const key=await deriveBudgetKey(p,salt),plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64ToBytes(vault.iv)},key,b64ToBytes(vault.data));const data=JSON.parse(new TextDecoder().decode(plain));data.items=(data.items||[]).map(normalizeBudgetItem);data.history=Array.isArray(data.history)?data.history:[];data.activePeriod=data.activePeriod||currentMonth();budgetKey=key;budgetData=data;budgetPassword.value='';renderBudgetGate()}catch(e){budgetKey=null;budgetData=null;alert('Şifre yanlış veya kasa verisi okunamıyor.')}
+ try{const p=budgetPassword.value,vault=JSON.parse(getBudgetVaultRaw()),salt=b64ToBytes(vault.salt);const key=await deriveBudgetKey(p,salt),plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64ToBytes(vault.iv)},key,b64ToBytes(vault.data));const data=JSON.parse(new TextDecoder().decode(plain));data.items=(data.items||[]).map(normalizeBudgetItem);data.history=Array.isArray(data.history)?data.history:[];data.activePeriod=data.activePeriod||currentMonth();budgetKey=key;budgetData=data;budgetPassword.value='';renderBudgetGate()}catch(e){budgetKey=null;budgetData=null;alert('Şifre yanlış veya kasa verisi okunamıyor.')}
 }
 function lockBudget(){budgetKey=null;budgetData=null;budgetBody.innerHTML='';budgetHistory.innerHTML='';budgetIncomePlanned.textContent='';budgetExpensePlanned.textContent='';budgetBalancePlanned.textContent='';budgetBalanceActual.textContent='';budgetUnlocked.classList.add('hidden');budgetUnlocked.querySelectorAll('input,textarea').forEach(e=>e.value='');renderBudgetGate()}
 function budgetSum(type,field,items=budgetData.items){return items.filter(x=>x.type===type).reduce((s,x)=>s+Number(x[field]||0),0)}
@@ -427,7 +444,7 @@ function editBudgetItem(id){const x=budgetData.items.find(y=>y.id===id);if(!x)re
 function clearBudgetForm(){budgetItemId.value='';budgetItemType.value='income';budgetItemName.value='';budgetItemPlanned.value='';budgetItemActual.value='';budgetItemDate.value='';budgetItemCompleted.checked=false;budgetItemFixed.checked=false;budgetItemNotes.value=''}
 function deleteBudgetItem(){const id=Number(budgetItemId.value);if(!id)return;if(confirm('Bu gelir/gider kalemi aktif dönemden silinsin mi?')){budgetData.items=budgetData.items.filter(x=>x.id!==id);saveBudget();clearBudgetForm()}}
 async function startNewBudgetPeriod(){if(!budgetData)return;const next=budgetPeriod.value;if(!next)return alert('Yeni dönemi seçin.');if(next===budgetData.activePeriod)return alert('Bu dönem zaten aktif.');if(!confirm(`${budgetData.activePeriod} dönemi şifreli geçmişe kaydedilsin ve ${next} dönemi açılsın mı?`)){budgetPeriod.value=budgetData.activePeriod;return}const snapshot={period:budgetData.activePeriod,closedAt:new Date().toISOString(),items:budgetData.items.map(x=>({...x}))},old=budgetData.history.findIndex(x=>x.period===snapshot.period);old>=0?budgetData.history[old]=snapshot:budgetData.history.push(snapshot);budgetData.items=budgetData.items.map(x=>normalizeBudgetItem({id:x.id,type:x.type,name:x.name,planned:x.fixed?x.planned:0,actual:0,date:'',completed:false,fixed:x.fixed,notes:''}));budgetData.activePeriod=next;await saveBudget();clearBudgetForm();alert(`${next} bütçe dönemi açıldı.`)}
-function exportBudgetCSV(){if(!budgetData)return;const all=[{period:budgetData.activePeriod,items:budgetData.items},...budgetData.history],rows=[['Period','Type','Item','Planned Amount','Actual Amount','Date','Completed','Copy to Next Month','Notes']];all.forEach(p=>p.items.forEach(x=>rows.push([p.period,x.type==='income'?'Gelir':'Gider',x.name,x.planned,x.actual,x.date,x.completed?'Evet':'Hayır',x.fixed?'Evet':'Hayır',x.notes])));const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_butce_${budgetData.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)}
+function exportBudgetCSV(){if(!budgetData||!allowPlainExport())return;const all=[{period:budgetData.activePeriod,items:budgetData.items},...budgetData.history],rows=[['Period','Type','Item','Planned Amount','Actual Amount','Date','Completed','Copy to Next Month','Notes']];all.forEach(p=>p.items.forEach(x=>rows.push([p.period,x.type==='income'?'Gelir':'Gider',x.name,x.planned,x.actual,x.date,x.completed?'Evet':'Hayır',x.fixed?'Evet':'Hayır',x.notes])));const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_butce_${budgetData.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)}
 function paymentEvents(){
  const events=[];finance.cards.forEach(x=>{if(x.dueDate&&cardRemaining(x)>0)events.push({date:x.dueDate,type:'card',title:`${x.bank} ${x.name}`,amount:cardRemaining(x),currency:x.currency,done:false,id:x.id})});
  if(budgetData)budgetData.items.filter(x=>x.type==='expense'&&x.date).forEach(x=>events.push({date:x.date,type:'bill',title:x.name,amount:Number(x.actual||x.planned||0),currency:'TRY',done:x.completed,id:x.id}));
@@ -451,6 +468,32 @@ function renderPaymentCalendar(){
  const [year,month]=calendarMonthValue.split('-').map(Number),first=new Date(year,month-1,1),offset=(first.getDay()+6)%7,days=new Date(year,month,0).getDate(),prevDays=new Date(year,month-1,0).getDate(),events=paymentEvents(),today=todayISO(),cells=[];
  for(let i=0;i<42;i++){let day,date,other=false;if(i<offset){day=prevDays-offset+i+1;date=new Date(year,month-2,day);other=true}else if(i>=offset+days){day=i-offset-days+1;date=new Date(year,month,day);other=true}else{day=i-offset+1;date=new Date(year,month-1,day)}const iso=`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`,dayEvents=events.filter(x=>x.date===iso);cells.push(`<div class="calendar-day ${other?'other':''} ${iso===today?'today':''}"><div class="calendar-number">${day}</div>${dayEvents.map(x=>{const late=iso<today&&!x.done;return `<button class="cal-event ${x.type==='bill'?'bill':''} ${x.done?'done':''} ${late?'overdue':''}" onclick="openCalendarEvent('${x.type}',${x.id})"><b>${escapeHTML(x.title)}</b><br>${financeMoney(x.amount,x.currency)}</button>`}).join('')}</div>`)}calendarGrid.innerHTML=cells.join('')
 }
+function portablePayload(){return {format:'ELARA_PORTABLE_DATA',version:1,exportedAt:new Date().toISOString(),data:{crm,finance,note:portalNote,budgetVault:getBudgetVaultRaw()}}}
+async function encryptPortablePayload(payload,key,salt){const iv=crypto.getRandomValues(new Uint8Array(12)),plain=new TextEncoder().encode(JSON.stringify(payload)),encrypted=await crypto.subtle.encrypt({name:'AES-GCM',iv},key,plain);return JSON.stringify({format:'ELARA_PORTABLE_VAULT',version:1,kdf:'PBKDF2-SHA256',iterations:250000,salt:bytesToB64(salt),iv:bytesToB64(iv),data:bytesToB64(new Uint8Array(encrypted))})}
+function downloadPortableText(text,name){const blob=new Blob([text],{type:'application/octet-stream'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function portableFilename(prefix='ELARA'){return `${prefix}_${todayISO()}.elara`}
+async function createFirstPortableFile(){
+ const p=portableNewPassword.value,p2=portableNewPassword2.value;if(p.length<8)return alert('Dosya şifresi en az 8 karakter olmalı.');if(p!==p2)return alert('Şifreler aynı değil.');
+ const salt=crypto.getRandomValues(new Uint8Array(16)),key=await deriveBudgetKey(p,salt),encrypted=await encryptPortablePayload(portablePayload(),key,salt);downloadPortableText(encrypted,portableFilename());portableKey=key;portableSalt=salt;pendingPortablePassword=p;portableActivationConfirm.classList.remove('hidden');alert('Şifreli ELARA dosyası oluşturuldu. Dosyanın indiğini kontrol edin; ardından geçiş düğmesine basın.')
+}
+function clearElaraLocalData(){[KEY,NOTE,FINANCE_KEY,BUDGET_KEY].forEach(k=>localStorage.removeItem(k))}
+function activatePortableMode(){
+ if(!portableKey||!portableSalt)return alert('Önce şifreli dosyayı oluşturun.');if(!confirm('Şifreli dosyanın güvenli bir yere kaydedildiğini onaylıyor musunuz? Bu işlemden sonra ELARA verileri tarayıcı hafızasından silinecek.'))return;
+ portableBudgetVault=localStorage.getItem(BUDGET_KEY);portableMode=true;localStorage.setItem(PORTABLE_FLAG,'1');clearElaraLocalData();portableDirty=false;portableNewPassword.value='';portableNewPassword2.value='';pendingPortablePassword='';updatePortableUI();renderPortableSettings();alert('Portable Secure Mode etkinleştirildi. Bundan sonra çıkarken Kaydet ve Kapat düğmesini kullanın.')
+}
+async function openPortableVault(){
+ const file=portableFileInput.files?.[0],password=portableOpenPassword.value;if(!file)return alert('Önce .elara dosyasını seçin.');if(!password)return alert('Dosya şifresini girin.');
+ try{const envelope=JSON.parse(await file.text());if(envelope.format!=='ELARA_PORTABLE_VAULT'||envelope.version!==1)throw new Error('format');const salt=b64ToBytes(envelope.salt),key=await deriveBudgetKey(password,salt),plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64ToBytes(envelope.iv)},key,b64ToBytes(envelope.data)),payload=JSON.parse(new TextDecoder().decode(plain));if(payload.format!=='ELARA_PORTABLE_DATA'||!payload.data)throw new Error('payload');
+ crm=(payload.data.crm||[]).map(x=>{const {opportunityValue,currency,...rest}=x;return {...rest,products:normalizeCRMProducts(x.products),probability:Number(x.probability||0),closingDate:x.closingDate||'',responsible:x.responsible||'Barry'}});finance=payload.data.finance||{activePeriod:currentMonth(),cards:[],history:[]};finance.activePeriod=finance.activePeriod||currentMonth();finance.cards=(finance.cards||[]).map(normalizeCard);finance.history=Array.isArray(finance.history)?finance.history:[];portalNote=payload.data.note||'';portableBudgetVault=payload.data.budgetVault||null;budgetKey=null;budgetData=null;portableKey=key;portableSalt=salt;portableDirty=false;portableOpenPassword.value='';portableGate.classList.add('hidden');updatePortableUI();renderProductSelector();render();show('home');status.textContent='Portable kasa açık';
+ }catch(e){alert('Dosya açılamadı. Şifre yanlış olabilir veya dosya geçerli bir ELARA kasası değildir.')}
+}
+async function savePortableFile(){if(!portableMode||!portableKey||!portableSalt)return false;const encrypted=await encryptPortablePayload(portablePayload(),portableKey,portableSalt);downloadPortableText(encrypted,portableFilename());portableDirty=false;status.textContent='Şifreli dosya kaydedildi';return true}
+async function saveAndClosePortable(){if(!confirm('Güncel şifreli dosya indirilsin ve açık veriler bu ekrandan temizlensin mi?'))return;if(!await savePortableFile())return;crm=[];finance={activePeriod:currentMonth(),cards:[],history:[]};portalNote='';portableBudgetVault=null;budgetKey=null;budgetData=null;portableKey=null;portableSalt=null;portableDirty=false;setTimeout(()=>location.reload(),500)}
+function showPortableHelp(){alert('1. Kişisel bulutunuzdan .elara dosyasını seçin.\n2. Dosya şifresini girin.\n3. Elara ile çalışın.\n4. Çıkarken Kaydet ve Kapat düğmesine basın.\n5. İnen yeni dosyayı kişisel bulutunuzdaki eski dosyanın yerine kaydedin.')}
+function updatePortableUI(){portableHeaderStatus.classList.toggle('hidden',!portableMode);portableSaveClose.classList.toggle('hidden',!portableMode||!portableKey);if(portableMode&&!portableKey)portableGate.classList.remove('hidden')}
+function renderPortableSettings(){if(portableMode){portableSettingsStatus.innerHTML='<p><span class="portable-status">Portable Mode aktif</span></p><p>Hassas veriler tarayıcı hafızasında kalıcı olarak tutulmuyor.</p>';portableActivation.classList.add('hidden')}else{portableSettingsStatus.innerHTML='<p><span class="badge partial">Henüz aktif değil</span></p>';portableActivation.classList.remove('hidden')}}
+function initPortableMode(){if(portableMode){clearElaraLocalData();portableGate.classList.remove('hidden')}updatePortableUI();renderPortableSettings()}
+window.addEventListener('beforeunload',e=>{if(portableMode&&portableDirty){e.preventDefault();e.returnValue=''}});
 function addMsg(t,c){const d=document.createElement('div');d.className='msg '+c;d.textContent=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
 function send(){const t=cmd.value.trim();if(!t)return;cmd.value='';ask(t)}
 function ask(t){
@@ -466,6 +509,6 @@ function ask(t){
 }
 function speak(t){if(!speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang='tr-TR';speechSynthesis.speak(u)}
 function listen(){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return alert('Chrome veya Edge kullanın.');const r=new SR();r.lang='tr-TR';status.textContent='Dinliyorum';listenText.textContent='Dinliyorum...';r.onresult=e=>{const t=e.results[0][0].transcript;listenText.textContent=t;ask(t)};r.onerror=()=>{listenText.textContent='Mikrofon erişimi engellendi'};r.onend=()=>status.textContent='Çevrimiçi ve hazır';r.start()}
-renderProductSelector();render();addMsg('Merhaba Barry. ELARA çevrimiçi. Aviation CRM ve teknik opportunity dashboard hazır.','ai');
+renderProductSelector();render();initPortableMode();addMsg('Merhaba Barry. ELARA çevrimiçi. Aviation CRM ve teknik opportunity dashboard hazır.','ai');
 </script>
 </body></html>
