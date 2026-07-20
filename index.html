@@ -254,13 +254,14 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div></div>
 <div class="card"><h3>Güvenlik Bilgisi</h3><p>Portable Mode etkinleştirildiğinde hassas ELARA verileri tarayıcı hafızasında tutulmaz.</p><p>Her kullanımda dosyayı açın; çıkarken <b>Kaydet ve Kapat</b> düğmesini kullanın.</p><p class="note">Dosya şifresi unutulursa içerik kurtarılamaz.</p></div>
 </div>
+<div class="card" style="margin-top:14px"><h3>Ses Ayarları</h3><p>ELARA'nın kullanacağı Türkçe sesi seçin.</p><label>Türkçe Ses</label><select id="voiceSelect" onchange="saveVoiceChoice()"><option value="">Sesler yükleniyor...</option></select><p><button class="btn primary" onclick="testSelectedVoice()">Sesi Test Et</button></p><p id="voiceStatus" class="note"></p></div>
 <div class="card" style="margin-top:14px"><h3>Genel Ayarlar</h3><p>Elara tarayıcıda çalışır ve kurulum gerektirmez.</p><p class="note">Mikrofon bazı kurumsal tarayıcılarda yalnızca HTTPS üzerinde çalışabilir.</p></div>
 </section>
 </main>
 </div>
 
 <script>
-const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1',BUDGET_KEY='elara_budget_v1',PORTABLE_FLAG='elara_portable_mode_v1';
+const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1',BUDGET_KEY='elara_budget_v1',PORTABLE_FLAG='elara_portable_mode_v1',VOICE_KEY='elara_voice_v1';
 let portableMode=localStorage.getItem(PORTABLE_FLAG)==='1',portableKey=null,portableSalt=null,portableDirty=false,portableBudgetVault=null,pendingPortablePassword='';
 let crm=portableMode?[]:(JSON.parse(localStorage.getItem(KEY)||'null')||[
 {id:1,airline:'Cayman Airways',country:'Cayman Islands',contact:'Everton',email:'',stage:'RFP',priority:'High',products:'PSS, DCS, W&B, IBE',lastContact:'2026-07-08',nextAction:'Demo follow-up ve RFP positioning',nextDate:'2026-07-10',notes:'Onsite demo tamamlandı.',probability:65,closingDate:'2026-10-31',responsible:'Barry'},
@@ -290,7 +291,7 @@ document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
 const NAV_VIEW_GROUPS={aviationDashboard:'aviation',crm:'aviation',financeDashboard:'finance',finance:'finance',budget:'finance',paymentCalendar:'finance',assistant:'elara',settings:'elara'};
 function toggleNavGroup(group,forceOpen=false){const panel=document.getElementById('nav-'+group),button=document.querySelector(`.nav-group[data-group="${group}"]`),open=forceOpen||panel.classList.contains('hidden');document.querySelectorAll('.nav-sub').forEach(x=>x.classList.add('hidden'));document.querySelectorAll('.nav-group').forEach(x=>x.classList.remove('open'));if(open){panel.classList.remove('hidden');button.classList.add('open')}}
 function openGroupForView(view){const group=NAV_VIEW_GROUPS[view];if(group)toggleNavGroup(group,true)}
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));openGroupForView(id);if(id==='aviationDashboard')renderAviationDashboard();if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar();if(id==='settings')renderPortableSettings()}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));openGroupForView(id);if(id==='aviationDashboard')renderAviationDashboard();if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar();if(id==='settings'){renderPortableSettings();renderVoiceSettings()}}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
@@ -516,9 +517,17 @@ let turkishVoice=null;
 function findTurkishVoice(){
  if(!window.speechSynthesis?.getVoices)return null;
  const voices=window.speechSynthesis.getVoices(),turkish=voices.filter(v=>String(v.lang||'').toLocaleLowerCase('tr-TR').startsWith('tr'));
- turkishVoice=turkish.find(v=>String(v.lang).toLocaleLowerCase('tr-TR')==='tr-tr')||turkish[0]||null;return turkishVoice
+ const selected=localStorage.getItem(VOICE_KEY);turkishVoice=turkish.find(v=>v.name===selected)||turkish.find(v=>/emel|seda|tolga|google.*türk/i.test(v.name))||turkish.find(v=>String(v.lang).toLocaleLowerCase('tr-TR')==='tr-tr')||turkish[0]||null;return turkishVoice
 }
-if(window.speechSynthesis?.getVoices){findTurkishVoice();window.speechSynthesis.addEventListener?.('voiceschanged',findTurkishVoice)}
+function renderVoiceSettings(){
+ const select=document.getElementById('voiceSelect'),info=document.getElementById('voiceStatus');if(!select||!info)return;
+ const voices=window.speechSynthesis?.getVoices?.()||[],turkish=voices.filter(v=>String(v.lang||'').toLocaleLowerCase('tr-TR').startsWith('tr'));select.innerHTML='';
+ if(!turkish.length){const option=document.createElement('option');option.textContent='Bu tarayıcıda Türkçe ses bulunamadı';option.value='';select.appendChild(option);select.disabled=true;info.textContent='Kurumsal tarayıcı Türkçe bir okuma sesi sunmuyor. Başka bir tarayıcı profiliyle deneyebiliriz.';return}
+ select.disabled=false;turkish.forEach(v=>{const option=document.createElement('option');option.value=v.name;option.textContent=`${v.name} (${v.lang})`;select.appendChild(option)});const voice=findTurkishVoice();if(voice)select.value=voice.name;info.textContent=`${turkish.length} Türkçe ses bulundu. Seçili ses: ${voice?.name||'-'}`
+}
+function saveVoiceChoice(){const select=document.getElementById('voiceSelect');if(!select?.value)return;localStorage.setItem(VOICE_KEY,select.value);turkishVoice=findTurkishVoice();renderVoiceSettings()}
+function testSelectedVoice(){saveVoiceChoice();speak('Merhaba Barış. Ben ELARA. Artık Türkçe konuşuyorum.')}
+if(window.speechSynthesis?.getVoices){findTurkishVoice();window.speechSynthesis.addEventListener?.('voiceschanged',()=>{findTurkishVoice();renderVoiceSettings()})}
 function speak(t){
  if(!window.speechSynthesis?.speak)return;
  const u=new SpeechSynthesisUtterance(t),voice=findTurkishVoice();u.lang='tr-TR';if(voice){u.voice=voice;u.lang=voice.lang}u.rate=.95;window.speechSynthesis.cancel();window.speechSynthesis.speak(u)
