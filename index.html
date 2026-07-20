@@ -20,9 +20,10 @@ main{padding:18px}.header{display:flex;justify-content:space-between;align-items
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;border-bottom:1px solid #12384a;text-align:left}th{color:var(--cyan)}.tablewrap{max-height:610px;overflow:auto}.overdue-row{background:rgba(255,93,115,.08)}
 .finance{display:grid;grid-template-columns:360px 1fr;gap:14px}.finance-summary{display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));gap:10px;margin-bottom:14px}.finance-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.finance-summary b{display:block;color:var(--aqua);font-size:18px;margin-top:5px}.finance-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.finance-toolbar label{margin:0}.finance-toolbar input{width:160px}.period-alert{background:rgba(255,179,71,.1);border:1px solid var(--warn);color:#ffd59b;padding:12px;border-radius:8px;margin-bottom:14px}.badge{display:inline-block;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}.badge.paid{background:#0b493d;color:#7affdd}.badge.partial{background:#4a3710;color:#ffd277}.badge.unpaid{background:#4a1520;color:#ff9cac}.badge.clear{background:#12303d;color:#9ddceb}.finance-note{padding:10px;border-left:3px solid var(--warn);background:#201708;color:#ffd59b;border-radius:6px}.history-details{margin-top:8px;border:1px solid #12384a;border-radius:8px;padding:10px}.history-details summary{cursor:pointer;color:var(--cyan);font-weight:700}
+.vault-shell{max-width:580px;margin:70px auto}.vault-icon{width:76px;height:76px;border:2px solid var(--cyan);border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;color:var(--aqua);font-size:32px;box-shadow:0 0 24px rgba(0,212,255,.35)}.vault-status{text-align:center;margin-bottom:20px}.budget{display:grid;grid-template-columns:350px 1fr;gap:14px}.budget-summary{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:10px;margin-bottom:14px}.budget-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.budget-summary b{display:block;color:var(--aqua);font-size:19px;margin-top:5px}.income-row{background:rgba(0,255,200,.035)}.expense-row{background:rgba(255,93,115,.035)}.type-income{color:var(--aqua);font-weight:700}.type-expense{color:#ff9cac;font-weight:700}.secure-hint{font-size:12px;color:var(--muted);text-align:center;margin-top:14px}
 .chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
-@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.bottom,.finance-summary,.twocol{grid-template-columns:1fr}.finance-toolbar input{width:100%}}
+@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance,.budget{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.bottom,.finance-summary,.budget-summary,.twocol{grid-template-columns:1fr}.finance-toolbar input{width:100%}}
 </style>
 </head>
 <body>
@@ -32,6 +33,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <button class="nav active" data-v="home">Ana Sayfa</button>
 <button class="nav" data-v="crm">Aviation CRM</button>
 <button class="nav" data-v="finance">Kişisel Finans</button>
+<button class="nav" data-v="budget">Gelir &amp; Gider</button>
 <button class="nav" data-v="assistant">ELARA Assistant</button>
 <button class="nav" data-v="settings">Ayarlar</button>
 </aside>
@@ -127,6 +129,44 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 </section>
 
+<section id="budget" class="view hidden">
+<div id="budgetGate"></div>
+<div id="budgetUnlocked" class="hidden">
+<div id="budgetPeriodAlert"></div>
+<div class="finance-toolbar card">
+<div><label>Aktif dönem</label><input id="budgetPeriod" type="month"></div>
+<button class="btn primary" onclick="startNewBudgetPeriod()">Yeni Dönemi Onayla</button>
+<button class="btn" onclick="exportBudgetCSV()">Bütçe CSV Export</button>
+<button class="btn danger" onclick="lockBudget()">Kasayı Kilitle</button>
+<span class="note">Rakamlar yalnızca kasa açıkken görünür.</span>
+</div>
+<div class="budget-summary">
+<div>Planlanan Gelir<b id="budgetIncomePlanned">₺0,00</b></div>
+<div>Planlanan Gider<b id="budgetExpensePlanned">₺0,00</b></div>
+<div>Planlanan Bakiye<b id="budgetBalancePlanned">₺0,00</b></div>
+<div>Gerçekleşen Bakiye<b id="budgetBalanceActual">₺0,00</b></div>
+</div>
+<div class="budget">
+<div class="card">
+<h3>Gelir / Gider Kaydı</h3>
+<input type="hidden" id="budgetItemId">
+<label>Tür</label><select id="budgetItemType"><option value="income">Gelir</option><option value="expense">Gider</option></select>
+<label>Kalem Adı</label><input id="budgetItemName">
+<div class="twocol"><div><label>Planlanan Tutar</label><input id="budgetItemPlanned" type="number" min="0" step="0.01"></div><div><label>Gerçekleşen Tutar</label><input id="budgetItemActual" type="number" min="0" step="0.01"></div></div>
+<label>Ödeme / Tahsilat Tarihi</label><input id="budgetItemDate" type="date">
+<label><input id="budgetItemCompleted" type="checkbox" style="width:auto"> Ödendi / Tahsil Edildi</label>
+<label><input id="budgetItemFixed" type="checkbox" style="width:auto"> Tutarı yeni aya kopyala</label>
+<label>Not</label><textarea id="budgetItemNotes"></textarea>
+<p><button class="btn primary" onclick="saveBudgetItem()">Kaydet</button> <button class="btn" onclick="clearBudgetForm()">Temizle</button> <button class="btn danger" onclick="deleteBudgetItem()">Sil</button></p>
+</div>
+<div>
+<div class="card"><h3>Aylık Gelir ve Giderler</h3><div class="tablewrap"><table><thead><tr><th>Tür</th><th>Kalem</th><th>Planlanan</th><th>Gerçekleşen</th><th>Tarih</th><th>Durum</th></tr></thead><tbody id="budgetBody"></tbody></table></div></div>
+<div class="card" style="margin-top:14px"><h3>Geçmiş Dönemler</h3><div id="budgetHistory"></div></div>
+</div>
+</div>
+</div>
+</section>
+
 <section id="assistant" class="view hidden">
 <div class="card"><h3>ELARA Assistant</h3><div id="chat" class="chat"></div><div class="chatbar"><button class="btn" onclick="listen()">Mikrofon</button><input id="cmd" placeholder="Komut ver veya sorunu yaz..." onkeydown="if(event.key==='Enter')send()"><button class="btn primary" onclick="send()">Gönder</button></div><p class="note">Gerçek ChatGPT entegrasyonu için güvenli bir backend gerekir. API anahtarı HTML içine yazılmamalıdır.</p></div>
 </section>
@@ -138,7 +178,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 
 <script>
-const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1';
+const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1',BUDGET_KEY='elara_budget_v1';
 let crm=JSON.parse(localStorage.getItem(KEY)||'null')||[
 {id:1,airline:'Cayman Airways',country:'Cayman Islands',contact:'Everton',email:'',stage:'RFP',priority:'High',products:'PSS, DCS, W&B, IBE',lastContact:'2026-07-08',nextAction:'Demo follow-up ve RFP positioning',nextDate:'2026-07-10',notes:'Onsite demo tamamlandı.',opportunityValue:450000,currency:'USD',probability:65,closingDate:'2026-10-31',responsible:'Barry'},
 {id:2,airline:'Turkmenistan Airlines',country:'Turkmenistan',contact:'',email:'',stage:'Existing Customer',priority:'Medium',products:'DCS, CRC Admin, Training',lastContact:'2026-06-05',nextAction:'Training report ve sertifika takibi',nextDate:'2026-07-12',notes:'',opportunityValue:0,currency:'USD',probability:100,closingDate:'',responsible:'Barry'},
@@ -151,9 +191,10 @@ const currentMonth=()=>new Date().toISOString().slice(0,7);
 let finance=JSON.parse(localStorage.getItem(FINANCE_KEY)||'null')||{activePeriod:currentMonth(),cards:[],history:[]};
 finance.activePeriod=finance.activePeriod||currentMonth();finance.cards=Array.isArray(finance.cards)?finance.cards:[];finance.history=Array.isArray(finance.history)?finance.history:[];
 finance.cards=finance.cards.map(normalizeCard);saveFinance(false);
+let budgetKey=null,budgetData=null;
 
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance()}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate()}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
@@ -247,6 +288,52 @@ function exportFinanceCSV(){
  all.forEach(p=>p.cards.forEach(x=>rows.push([p.period,x.bank,x.name,x.last4,x.currency,x.statementDate,x.dueDate,x.statementDebt,x.minimumPayment,x.currentDebt,x.plannedPayment,x.paidAmount,cardRemaining(x),cardStatus(x)[0],x.notes])));
  const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_finans_${finance.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)
 }
+function defaultBudgetItems(){return [
+ {id:Date.now()+1,type:'income',name:'Barış İş Maaşı',fixed:true},
+ {id:Date.now()+2,type:'income',name:'Barış Yemek Parası',fixed:true},
+ {id:Date.now()+3,type:'income',name:'Barış Emekli Maaşı',fixed:true},
+ {id:Date.now()+4,type:'income',name:'Nalan Emekli Maaşı',fixed:true},
+ {id:Date.now()+5,type:'expense',name:'Kira',fixed:true},
+ {id:Date.now()+6,type:'expense',name:'Elektrik Faturası',fixed:false},
+ {id:Date.now()+7,type:'expense',name:'Su Faturası',fixed:false},
+ {id:Date.now()+8,type:'expense',name:'Doğal Gaz Faturası',fixed:false},
+ {id:Date.now()+9,type:'expense',name:'Digiturk Faturası',fixed:true},
+ {id:Date.now()+10,type:'expense',name:'Netflix Faturası',fixed:true}
+ ].map(normalizeBudgetItem)}
+function normalizeBudgetItem(x){return {...x,id:Number(x.id||Date.now()),type:x.type==='expense'?'expense':'income',name:x.name||'',planned:Number(x.planned||0),actual:Number(x.actual||0),date:x.date||'',completed:!!x.completed,fixed:!!x.fixed,notes:x.notes||''}}
+function bytesToB64(bytes){let s='';bytes.forEach(b=>s+=String.fromCharCode(b));return btoa(s)}
+function b64ToBytes(s){const raw=atob(s);return Uint8Array.from(raw,c=>c.charCodeAt(0))}
+async function deriveBudgetKey(password,salt){const material=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveKey']);return crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:250000,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['encrypt','decrypt'])}
+async function encryptBudget(data,key,salt){const iv=crypto.getRandomValues(new Uint8Array(12)),plain=new TextEncoder().encode(JSON.stringify(data)),encrypted=await crypto.subtle.encrypt({name:'AES-GCM',iv},key,plain);localStorage.setItem(BUDGET_KEY,JSON.stringify({version:1,salt:bytesToB64(salt),iv:bytesToB64(iv),data:bytesToB64(new Uint8Array(encrypted))}))}
+async function saveBudget(){if(!budgetKey||!budgetData)return;const vault=JSON.parse(localStorage.getItem(BUDGET_KEY)),salt=b64ToBytes(vault.salt);await encryptBudget(budgetData,budgetKey,salt);renderBudget()}
+function renderBudgetGate(){
+ const vault=localStorage.getItem(BUDGET_KEY);
+ if(budgetKey&&budgetData){budgetGate.innerHTML='';budgetUnlocked.classList.remove('hidden');renderBudget();return}
+ budgetUnlocked.classList.add('hidden');
+ budgetGate.innerHTML=`<div class="vault-shell card"><div class="vault-icon">▣</div><div class="vault-status"><h3>${vault?'Bütçe Kasası Kilitli':'Bütçe Kasası Oluştur'}</h3><p>${vault?'Gelir ve gider rakamlarını görmek için şifrenizi girin.':'İlk kullanım için yalnızca sizin bileceğiniz bir şifre oluşturun.'}</p></div><label>Şifre</label><input id="budgetPassword" type="password" autocomplete="current-password" onkeydown="if(event.key==='Enter')${vault?'unlockBudget()':'createBudgetVault()'}">${vault?'':`<label>Şifre Tekrar</label><input id="budgetPassword2" type="password" autocomplete="new-password" onkeydown="if(event.key==='Enter')createBudgetVault()">`}<p><button class="btn primary" onclick="${vault?'unlockBudget()':'createBudgetVault()'}">${vault?'Kasayı Aç':'Şifreyi Oluştur'}</button></p><p class="secure-hint">Şifre kaydedilmez. Unutulursa şifrelenmiş bütçe verileri kurtarılamaz.</p></div>`;
+ setTimeout(()=>document.getElementById('budgetPassword')?.focus(),0)
+}
+async function createBudgetVault(){
+ const p=budgetPassword.value,p2=budgetPassword2.value;if(p.length<6)return alert('Şifre en az 6 karakter olmalı.');if(p!==p2)return alert('Şifreler aynı değil.');
+ const salt=crypto.getRandomValues(new Uint8Array(16));budgetKey=await deriveBudgetKey(p,salt);budgetData={activePeriod:currentMonth(),items:defaultBudgetItems(),history:[]};await encryptBudget(budgetData,budgetKey,salt);budgetPassword.value='';budgetPassword2.value='';renderBudgetGate()
+}
+async function unlockBudget(){
+ try{const p=budgetPassword.value,vault=JSON.parse(localStorage.getItem(BUDGET_KEY)),salt=b64ToBytes(vault.salt);const key=await deriveBudgetKey(p,salt),plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64ToBytes(vault.iv)},key,b64ToBytes(vault.data));const data=JSON.parse(new TextDecoder().decode(plain));data.items=(data.items||[]).map(normalizeBudgetItem);data.history=Array.isArray(data.history)?data.history:[];data.activePeriod=data.activePeriod||currentMonth();budgetKey=key;budgetData=data;budgetPassword.value='';renderBudgetGate()}catch(e){budgetKey=null;budgetData=null;alert('Şifre yanlış veya kasa verisi okunamıyor.')}
+}
+function lockBudget(){budgetKey=null;budgetData=null;budgetBody.innerHTML='';budgetHistory.innerHTML='';budgetIncomePlanned.textContent='';budgetExpensePlanned.textContent='';budgetBalancePlanned.textContent='';budgetBalanceActual.textContent='';budgetUnlocked.classList.add('hidden');budgetUnlocked.querySelectorAll('input,textarea').forEach(e=>e.value='');renderBudgetGate()}
+function budgetSum(type,field,items=budgetData.items){return items.filter(x=>x.type===type).reduce((s,x)=>s+Number(x[field]||0),0)}
+function renderBudget(){
+ if(!budgetData)return;budgetPeriod.value=budgetData.activePeriod;const needsRenewal=budgetData.activePeriod!==currentMonth();budgetPeriodAlert.innerHTML=needsRenewal?`<div class="period-alert"><b>${escapeHTML(budgetData.activePeriod)}</b> dönemi aktif. Yeni dönemi açmak için ayı seçip onaylayın.</div>`:'';
+ const ip=budgetSum('income','planned'),ep=budgetSum('expense','planned'),ia=budgetSum('income','actual'),ea=budgetSum('expense','actual');budgetIncomePlanned.textContent=financeMoney(ip,'TRY');budgetExpensePlanned.textContent=financeMoney(ep,'TRY');budgetBalancePlanned.textContent=financeMoney(ip-ep,'TRY');budgetBalanceActual.textContent=financeMoney(ia-ea,'TRY');
+ budgetBody.innerHTML=budgetData.items.map(x=>`<tr class="${x.type==='income'?'income-row':'expense-row'}" onclick="editBudgetItem(${x.id})" style="cursor:pointer"><td class="${x.type==='income'?'type-income':'type-expense'}">${x.type==='income'?'Gelir':'Gider'}</td><td><b>${escapeHTML(x.name)}</b>${x.fixed?'<br><small>Yeni aya kopyalanır</small>':''}</td><td>${financeMoney(x.planned,'TRY')}</td><td>${financeMoney(x.actual,'TRY')}</td><td>${x.date||'-'}</td><td><span class="badge ${x.completed?'paid':'unpaid'}">${x.completed?(x.type==='income'?'Alındı':'Ödendi'):'Bekliyor'}</span></td></tr>`).join('')||'<tr><td colspan="6">Kayıt yok.</td></tr>';
+ budgetHistory.innerHTML=[...budgetData.history].sort((a,b)=>b.period.localeCompare(a.period)).map(p=>{const inc=p.items.filter(x=>x.type==='income').reduce((s,x)=>s+Number(x.actual||0),0),exp=p.items.filter(x=>x.type==='expense').reduce((s,x)=>s+Number(x.actual||0),0);return `<details class="history-details"><summary>${escapeHTML(p.period)} · Gelir ${financeMoney(inc,'TRY')} · Gider ${financeMoney(exp,'TRY')} · Bakiye ${financeMoney(inc-exp,'TRY')}</summary><div class="tablewrap"><table><thead><tr><th>Tür</th><th>Kalem</th><th>Planlanan</th><th>Gerçekleşen</th><th>Durum</th></tr></thead><tbody>${p.items.map(x=>`<tr><td>${x.type==='income'?'Gelir':'Gider'}</td><td>${escapeHTML(x.name)}</td><td>${financeMoney(x.planned,'TRY')}</td><td>${financeMoney(x.actual,'TRY')}</td><td>${x.completed?'Tamamlandı':'Bekliyor'}</td></tr>`).join('')}</tbody></table></div></details>`}).join('')||'<p>Henüz kapatılmış dönem yok.</p>'
+}
+function saveBudgetItem(){if(!budgetData)return;const id=Number(budgetItemId.value)||Date.now(),x=normalizeBudgetItem({id,type:budgetItemType.value,name:budgetItemName.value.trim(),planned:budgetItemPlanned.value,actual:budgetItemActual.value,date:budgetItemDate.value,completed:budgetItemCompleted.checked,fixed:budgetItemFixed.checked,notes:budgetItemNotes.value.trim()});if(!x.name)return alert('Kalem adı zorunlu.');const i=budgetData.items.findIndex(y=>y.id===id);i>=0?budgetData.items[i]=x:budgetData.items.push(x);saveBudget();clearBudgetForm()}
+function editBudgetItem(id){const x=budgetData.items.find(y=>y.id===id);if(!x)return;budgetItemId.value=x.id;budgetItemType.value=x.type;budgetItemName.value=x.name;budgetItemPlanned.value=x.planned;budgetItemActual.value=x.actual;budgetItemDate.value=x.date;budgetItemCompleted.checked=x.completed;budgetItemFixed.checked=x.fixed;budgetItemNotes.value=x.notes}
+function clearBudgetForm(){budgetItemId.value='';budgetItemType.value='income';budgetItemName.value='';budgetItemPlanned.value='';budgetItemActual.value='';budgetItemDate.value='';budgetItemCompleted.checked=false;budgetItemFixed.checked=false;budgetItemNotes.value=''}
+function deleteBudgetItem(){const id=Number(budgetItemId.value);if(!id)return;if(confirm('Bu gelir/gider kalemi aktif dönemden silinsin mi?')){budgetData.items=budgetData.items.filter(x=>x.id!==id);saveBudget();clearBudgetForm()}}
+async function startNewBudgetPeriod(){if(!budgetData)return;const next=budgetPeriod.value;if(!next)return alert('Yeni dönemi seçin.');if(next===budgetData.activePeriod)return alert('Bu dönem zaten aktif.');if(!confirm(`${budgetData.activePeriod} dönemi şifreli geçmişe kaydedilsin ve ${next} dönemi açılsın mı?`)){budgetPeriod.value=budgetData.activePeriod;return}const snapshot={period:budgetData.activePeriod,closedAt:new Date().toISOString(),items:budgetData.items.map(x=>({...x}))},old=budgetData.history.findIndex(x=>x.period===snapshot.period);old>=0?budgetData.history[old]=snapshot:budgetData.history.push(snapshot);budgetData.items=budgetData.items.map(x=>normalizeBudgetItem({id:x.id,type:x.type,name:x.name,planned:x.fixed?x.planned:0,actual:0,date:'',completed:false,fixed:x.fixed,notes:''}));budgetData.activePeriod=next;await saveBudget();clearBudgetForm();alert(`${next} bütçe dönemi açıldı.`)}
+function exportBudgetCSV(){if(!budgetData)return;const all=[{period:budgetData.activePeriod,items:budgetData.items},...budgetData.history],rows=[['Period','Type','Item','Planned Amount','Actual Amount','Date','Completed','Copy to Next Month','Notes']];all.forEach(p=>p.items.forEach(x=>rows.push([p.period,x.type==='income'?'Gelir':'Gider',x.name,x.planned,x.actual,x.date,x.completed?'Evet':'Hayır',x.fixed?'Evet':'Hayır',x.notes])));const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_butce_${budgetData.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)}
 function addMsg(t,c){const d=document.createElement('div');d.className='msg '+c;d.textContent=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
 function send(){const t=cmd.value.trim();if(!t)return;cmd.value='';ask(t)}
 function ask(t){
