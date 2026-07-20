@@ -19,8 +19,10 @@ main{padding:18px}.header{display:flex;justify-content:space-between;align-items
 .crm{display:grid;grid-template-columns:350px 1fr;gap:14px}label{display:block;font-size:12px;color:var(--muted);margin-top:8px}input,select,textarea{width:100%;padding:9px;background:#061724;color:white;border:1px solid #144a5d;border-radius:7px}textarea{min-height:85px}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;border-bottom:1px solid #12384a;text-align:left}th{color:var(--cyan)}.tablewrap{max-height:610px;overflow:auto}.overdue-row{background:rgba(255,93,115,.08)}
+.finance{display:grid;grid-template-columns:360px 1fr;gap:14px}.finance-summary{display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));gap:10px;margin-bottom:14px}.finance-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.finance-summary b{display:block;color:var(--aqua);font-size:18px;margin-top:5px}.finance-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.finance-toolbar label{margin:0}.finance-toolbar input{width:160px}.period-alert{background:rgba(255,179,71,.1);border:1px solid var(--warn);color:#ffd59b;padding:12px;border-radius:8px;margin-bottom:14px}.badge{display:inline-block;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}.badge.paid{background:#0b493d;color:#7affdd}.badge.partial{background:#4a3710;color:#ffd277}.badge.unpaid{background:#4a1520;color:#ff9cac}.badge.clear{background:#12303d;color:#9ddceb}.finance-note{padding:10px;border-left:3px solid var(--warn);background:#201708;color:#ffd59b;border-radius:6px}.history-details{margin-top:8px;border:1px solid #12384a;border-radius:8px;padding:10px}.history-details summary{cursor:pointer;color:var(--cyan);font-weight:700}
 .chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
-@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}}
+@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.bottom,.finance-summary,.twocol{grid-template-columns:1fr}.finance-toolbar input{width:100%}}
 </style>
 </head>
 <body>
@@ -29,6 +31,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <div class="brand">ELARA</div>
 <button class="nav active" data-v="home">Ana Sayfa</button>
 <button class="nav" data-v="crm">Aviation CRM</button>
+<button class="nav" data-v="finance">Kişisel Finans</button>
 <button class="nav" data-v="assistant">ELARA Assistant</button>
 <button class="nav" data-v="settings">Ayarlar</button>
 </aside>
@@ -38,7 +41,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <section id="home" class="view">
 <div class="grid">
 <div>
-<div class="card"><h3>Merhaba Barry</h3><p>CRM aksiyonlarını, havayolu fırsatlarını ve günlük önceliklerini tek ekranda takip edebilirsin.</p><button class="btn primary" onclick="listen()">Mikrofonu Başlat</button> <button class="btn" onclick="show('crm')">CRM Aç</button></div>
+<div class="card"><h3>Merhaba Barry</h3><p>CRM aksiyonlarını, havayolu fırsatlarını, günlük önceliklerini ve kişisel finans durumunu tek ekranda takip edebilirsin.</p><button class="btn primary" onclick="listen()">Mikrofonu Başlat</button> <button class="btn" onclick="show('crm')">CRM Aç</button> <button class="btn" onclick="show('finance')">Finans Aç</button></div>
 <div class="card" style="margin-top:14px"><h3>Yaklaşan ve Geciken Aksiyonlar</h3><div id="upcoming" class="list"></div></div>
 </div>
 <div class="card hero"><div class="orb"><span>ELARA</span></div><h2 id="listenText">Hazırım</h2><p>Sesli komut verebilir veya Assistant sekmesinden yazabilirsin.</p></div>
@@ -85,6 +88,45 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 </section>
 
+<section id="finance" class="view hidden">
+<div id="periodAlert"></div>
+<div class="finance-toolbar card">
+<div><label>Aktif dönem</label><input id="financePeriod" type="month"></div>
+<button class="btn primary" onclick="startNewPeriod()">Yeni Dönemi Onayla</button>
+<button class="btn" onclick="exportFinanceCSV()">Finans CSV Export</button>
+<span class="note">Yeni dönem yalnızca sizin onayınızla açılır.</span>
+</div>
+<div class="finance-summary">
+<div>Hesap Özeti Borcu<b id="sumStatement">TRY 0</b></div>
+<div>Asgari Ödeme<b id="sumMinimum">TRY 0</b></div>
+<div>Güncel Toplam Borç<b id="sumCurrent">TRY 0</b></div>
+<div>Planlanan Ödeme<b id="sumPlanned">TRY 0</b></div>
+<div>Kalan Hesap Özeti<b id="sumRemaining">TRY 0</b></div>
+</div>
+<div class="finance">
+<div class="card">
+<h3>Kredi Kartı Kaydı</h3>
+<input type="hidden" id="cardId">
+<div class="twocol"><div><label>Banka</label><input id="cardBank" placeholder="Örn. Garanti BBVA"></div><div><label>Kart Adı</label><input id="cardName" placeholder="Örn. Bonus Platinum"></div></div>
+<div class="twocol"><div><label>Son 4 Hane</label><input id="cardLast4" inputmode="numeric" maxlength="4" placeholder="1234"></div><div><label>Para Birimi</label><select id="cardCurrency"><option>TRY</option><option>USD</option><option>EUR</option><option>GBP</option></select></div></div>
+<div class="twocol"><div><label>Hesap Kesim Tarihi</label><input id="cardStatementDate" type="date"></div><div><label>Son Ödeme Tarihi</label><input id="cardDueDate" type="date"></div></div>
+<div class="twocol"><div><label>Hesap Özeti Borcu</label><input id="cardStatementDebt" type="number" min="0" step="0.01"></div><div><label>Asgari Ödeme</label><input id="cardMinimumPayment" type="number" min="0" step="0.01"></div></div>
+<div class="twocol"><div><label>Güncel Toplam Borç</label><input id="cardCurrentDebt" type="number" min="0" step="0.01"></div><div><label>Planlanan Ödeme</label><input id="cardPlannedPayment" type="number" min="0" step="0.01"></div></div>
+<label>Yapılan Ödeme</label><input id="cardPaidAmount" type="number" min="0" step="0.01">
+<label>Not</label><textarea id="cardNotes" placeholder="Taksit, kampanya veya ödeme notu..."></textarea>
+<p><button class="btn primary" onclick="saveCard()">Kaydet</button> <button class="btn" onclick="clearCardForm()">Temizle</button> <button class="btn danger" onclick="deleteCard()">Sil</button></p>
+<p class="finance-note">Güvenlik için tam kart numarası, CVV, internet bankacılığı şifresi veya PIN bilgisi girmeyin.</p>
+</div>
+<div>
+<div class="card">
+<h3>Kartlar ve Ödeme Durumu</h3>
+<div class="tablewrap"><table><thead><tr><th>Kart</th><th>Ekstre</th><th>Asgari</th><th>Güncel Borç</th><th>Planlanan</th><th>Ödenen</th><th>Kalan</th><th>Son Ödeme</th><th>Durum</th></tr></thead><tbody id="financeBody"></tbody></table></div>
+</div>
+<div class="card" style="margin-top:14px"><h3>Aylık Geçmiş</h3><div id="financeHistory"></div></div>
+</div>
+</div>
+</section>
+
 <section id="assistant" class="view hidden">
 <div class="card"><h3>ELARA Assistant</h3><div id="chat" class="chat"></div><div class="chatbar"><button class="btn" onclick="listen()">Mikrofon</button><input id="cmd" placeholder="Komut ver veya sorunu yaz..." onkeydown="if(event.key==='Enter')send()"><button class="btn primary" onclick="send()">Gönder</button></div><p class="note">Gerçek ChatGPT entegrasyonu için güvenli bir backend gerekir. API anahtarı HTML içine yazılmamalıdır.</p></div>
 </section>
@@ -96,7 +138,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 
 <script>
-const KEY='elara_crm_v1',NOTE='elara_note_v1';
+const KEY='elara_crm_v1',NOTE='elara_note_v1',FINANCE_KEY='elara_finance_v1';
 let crm=JSON.parse(localStorage.getItem(KEY)||'null')||[
 {id:1,airline:'Cayman Airways',country:'Cayman Islands',contact:'Everton',email:'',stage:'RFP',priority:'High',products:'PSS, DCS, W&B, IBE',lastContact:'2026-07-08',nextAction:'Demo follow-up ve RFP positioning',nextDate:'2026-07-10',notes:'Onsite demo tamamlandı.',opportunityValue:450000,currency:'USD',probability:65,closingDate:'2026-10-31',responsible:'Barry'},
 {id:2,airline:'Turkmenistan Airlines',country:'Turkmenistan',contact:'',email:'',stage:'Existing Customer',priority:'Medium',products:'DCS, CRC Admin, Training',lastContact:'2026-06-05',nextAction:'Training report ve sertifika takibi',nextDate:'2026-07-12',notes:'',opportunityValue:0,currency:'USD',probability:100,closingDate:'',responsible:'Barry'},
@@ -105,15 +147,20 @@ let crm=JSON.parse(localStorage.getItem(KEY)||'null')||[
 ];
 crm=crm.map(x=>({...x,opportunityValue:Number(x.opportunityValue||0),currency:x.currency||'USD',probability:Number(x.probability||0),closingDate:x.closingDate||'',responsible:x.responsible||'Barry'}));
 localStorage.setItem(KEY,JSON.stringify(crm));
+const currentMonth=()=>new Date().toISOString().slice(0,7);
+let finance=JSON.parse(localStorage.getItem(FINANCE_KEY)||'null')||{activePeriod:currentMonth(),cards:[],history:[]};
+finance.activePeriod=finance.activePeriod||currentMonth();finance.cards=Array.isArray(finance.cards)?finance.cards:[];finance.history=Array.isArray(finance.history)?finance.history:[];
+finance.cards=finance.cards.map(normalizeCard);saveFinance(false);
 
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id))}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance()}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
 function todayISO(){return new Date().toISOString().slice(0,10)}
 function isOverdue(x){return !!x.nextDate && x.nextDate<todayISO()}
 function money(n,c='USD'){try{return new Intl.NumberFormat('en-US',{style:'currency',currency:c,maximumFractionDigits:0}).format(Number(n||0))}catch{return `${c} ${Number(n||0).toLocaleString()}`}}
+function financeMoney(n,c='TRY'){try{return new Intl.NumberFormat('tr-TR',{style:'currency',currency:c,minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(n||0))}catch{return `${c} ${Number(n||0).toLocaleString('tr-TR')}`}}
 function saveLocal(){localStorage.setItem(KEY,JSON.stringify(crm));render()}
 
 function render(){
@@ -166,6 +213,40 @@ function exportCSV(){
  const b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='elara_aviation_crm.csv';a.click();URL.revokeObjectURL(a.href)
 }
 function saveNote(){localStorage.setItem(NOTE,quickNote.value);alert('Not kaydedildi.')}
+function normalizeCard(x){return {...x,id:Number(x.id||Date.now()),bank:x.bank||'',name:x.name||'',last4:String(x.last4||'').slice(-4),currency:x.currency||'TRY',statementDate:x.statementDate||'',dueDate:x.dueDate||'',statementDebt:Number(x.statementDebt||0),minimumPayment:Number(x.minimumPayment||0),currentDebt:Number(x.currentDebt||0),plannedPayment:Number(x.plannedPayment||0),paidAmount:Number(x.paidAmount||0),notes:x.notes||''}}
+function saveFinance(shouldRender=true){localStorage.setItem(FINANCE_KEY,JSON.stringify(finance));if(shouldRender)renderFinance()}
+function cardRemaining(x){return Math.max(0,Number(x.statementDebt||0)-Number(x.paidAmount||0))}
+function cardStatus(x){if(!Number(x.statementDebt||0))return ['Borç Yok','clear'];if(Number(x.paidAmount||0)>=Number(x.statementDebt||0))return ['Ödendi','paid'];if(Number(x.paidAmount||0)>0)return ['Kısmen Ödendi','partial'];return ['Ödenmedi','unpaid']}
+function groupTotals(field,cards=finance.cards){const sums={};cards.forEach(x=>sums[x.currency]=(sums[x.currency]||0)+Number(field==='remaining'?cardRemaining(x):x[field]||0));return Object.entries(sums).filter(([,v])=>v!==0).map(([c,v])=>financeMoney(v,c)).join(' · ')||financeMoney(0,'TRY')}
+function renderFinance(){
+ financePeriod.value=finance.activePeriod;
+ const needsRenewal=finance.activePeriod!==currentMonth();
+ periodAlert.innerHTML=needsRenewal?`<div class="period-alert"><b>${finance.activePeriod}</b> dönemi hâlâ aktif. <b>${currentMonth()}</b> dönemine geçmek için ayı seçip “Yeni Dönemi Onayla” düğmesine basın. Hiçbir kayıt onayınız olmadan değiştirilmeyecek.</div>`:'';
+ sumStatement.textContent=groupTotals('statementDebt');sumMinimum.textContent=groupTotals('minimumPayment');sumCurrent.textContent=groupTotals('currentDebt');sumPlanned.textContent=groupTotals('plannedPayment');sumRemaining.textContent=groupTotals('remaining');
+ financeBody.innerHTML=finance.cards.map(x=>{const [label,cls]=cardStatus(x),late=x.dueDate&&x.dueDate<todayISO()&&cardRemaining(x)>0;return `<tr class="${late?'overdue-row':''}" onclick="editCard(${x.id})" style="cursor:pointer"><td><b>${escapeHTML(x.bank)} ${escapeHTML(x.name)}</b><br><small>${x.last4?'•••• '+escapeHTML(x.last4):'Son hane yok'} · ${x.currency}</small></td><td>${financeMoney(x.statementDebt,x.currency)}</td><td>${financeMoney(x.minimumPayment,x.currency)}</td><td>${financeMoney(x.currentDebt,x.currency)}</td><td>${financeMoney(x.plannedPayment,x.currency)}</td><td>${financeMoney(x.paidAmount,x.currency)}</td><td>${financeMoney(cardRemaining(x),x.currency)}</td><td>${x.dueDate||'-'}${late?' <span class="dangerText">GECİKTİ</span>':''}</td><td><span class="badge ${cls}">${label}</span></td></tr>`}).join('')||'<tr><td colspan="9">Bu dönem için kredi kartı eklenmedi.</td></tr>';
+ financeHistory.innerHTML=[...finance.history].sort((a,b)=>b.period.localeCompare(a.period)).map(p=>`<details class="history-details"><summary>${p.period} · ${p.cards.length} kart · Ekstre ${groupTotalsForHistory('statementDebt',p.cards)}</summary><div class="tablewrap"><table><thead><tr><th>Kart</th><th>Ekstre</th><th>Asgari</th><th>Güncel Borç</th><th>Planlanan</th><th>Ödenen</th></tr></thead><tbody>${p.cards.map(x=>`<tr><td>${escapeHTML(x.bank)} ${escapeHTML(x.name)}</td><td>${financeMoney(x.statementDebt,x.currency)}</td><td>${financeMoney(x.minimumPayment,x.currency)}</td><td>${financeMoney(x.currentDebt,x.currency)}</td><td>${financeMoney(x.plannedPayment,x.currency)}</td><td>${financeMoney(x.paidAmount,x.currency)}</td></tr>`).join('')}</tbody></table></div></details>`).join('')||'<p>Henüz kapatılmış dönem yok.</p>';
+}
+function groupTotalsForHistory(field,cards){return groupTotals(field,cards)}
+function escapeHTML(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+function saveCard(){
+ const id=Number(cardId.value)||Date.now(),x=normalizeCard({id,bank:cardBank.value.trim(),name:cardName.value.trim(),last4:cardLast4.value.trim(),currency:cardCurrency.value,statementDate:cardStatementDate.value,dueDate:cardDueDate.value,statementDebt:cardStatementDebt.value,minimumPayment:cardMinimumPayment.value,currentDebt:cardCurrentDebt.value,plannedPayment:cardPlannedPayment.value,paidAmount:cardPaidAmount.value,notes:cardNotes.value.trim()});
+ if(!x.bank||!x.name)return alert('Banka ve kart adı zorunlu.');if(x.last4&&!/^\d{4}$/.test(x.last4))return alert('Son 4 hane yalnızca dört rakam olmalı.');
+ const i=finance.cards.findIndex(c=>c.id===id);i>=0?finance.cards[i]=x:finance.cards.push(x);saveFinance();clearCardForm()
+}
+function editCard(id){const x=finance.cards.find(c=>c.id===id);if(!x)return;cardId.value=x.id;cardBank.value=x.bank;cardName.value=x.name;cardLast4.value=x.last4;cardCurrency.value=x.currency;cardStatementDate.value=x.statementDate;cardDueDate.value=x.dueDate;cardStatementDebt.value=x.statementDebt;cardMinimumPayment.value=x.minimumPayment;cardCurrentDebt.value=x.currentDebt;cardPlannedPayment.value=x.plannedPayment;cardPaidAmount.value=x.paidAmount;cardNotes.value=x.notes}
+function clearCardForm(){cardId.value='';cardBank.value='';cardName.value='';cardLast4.value='';cardCurrency.value='TRY';cardStatementDate.value='';cardDueDate.value='';cardStatementDebt.value='';cardMinimumPayment.value='';cardCurrentDebt.value='';cardPlannedPayment.value='';cardPaidAmount.value='';cardNotes.value=''}
+function deleteCard(){const id=Number(cardId.value);if(!id)return;if(confirm('Bu kart aktif dönemden silinsin mi?')){finance.cards=finance.cards.filter(x=>x.id!==id);saveFinance();clearCardForm()}}
+function startNewPeriod(){
+ const next=financePeriod.value;if(!next)return alert('Yeni dönemi seçin.');if(next===finance.activePeriod)return alert('Bu dönem zaten aktif.');
+ if(!confirm(`${finance.activePeriod} dönemi geçmişe kaydedilsin ve ${next} dönemi açılsın mı?`)){financePeriod.value=finance.activePeriod;return}
+ const snapshot={period:finance.activePeriod,closedAt:new Date().toISOString(),cards:finance.cards.map(x=>({...x}))};const old=finance.history.findIndex(x=>x.period===snapshot.period);old>=0?finance.history[old]=snapshot:finance.history.push(snapshot);
+ finance.cards=finance.cards.map(x=>normalizeCard({id:x.id,bank:x.bank,name:x.name,last4:x.last4,currency:x.currency,notes:'',statementDate:'',dueDate:'',statementDebt:0,minimumPayment:0,currentDebt:0,plannedPayment:0,paidAmount:0}));finance.activePeriod=next;saveFinance();clearCardForm();alert(`${next} dönemi açıldı. Önceki dönem geçmişe kaydedildi.`)
+}
+function exportFinanceCSV(){
+ const all=[{period:finance.activePeriod,cards:finance.cards},...finance.history],rows=[['Period','Bank','Card Name','Last 4','Currency','Statement Date','Due Date','Statement Debt','Minimum Payment','Current Total Debt','Planned Payment','Paid Amount','Remaining Statement','Status','Notes']];
+ all.forEach(p=>p.cards.forEach(x=>rows.push([p.period,x.bank,x.name,x.last4,x.currency,x.statementDate,x.dueDate,x.statementDebt,x.minimumPayment,x.currentDebt,x.plannedPayment,x.paidAmount,cardRemaining(x),cardStatus(x)[0],x.notes])));
+ const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_finans_${finance.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)
+}
 function addMsg(t,c){const d=document.createElement('div');d.className='msg '+c;d.textContent=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
 function send(){const t=cmd.value.trim();if(!t)return;cmd.value='';ask(t)}
 function ask(t){
