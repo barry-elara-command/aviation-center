@@ -7,8 +7,9 @@
 <style>
 :root{--bg:#05080d;--panel:#07111c;--cyan:#00d4ff;--aqua:#00ffc8;--text:#d9fbff;--muted:#84b6c5;--line:#0d8faa;--warn:#ffb347;--danger:#ff5d73}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% 15%,#0b1b2a,#05080d 45%,#020407);color:var(--text);font-family:Segoe UI,Arial,sans-serif}
-.app{display:grid;grid-template-columns:185px 1fr;min-height:100vh}.side{background:#03070b;border-right:1px solid var(--line);padding:18px 12px}.brand{font-size:28px;font-weight:800;letter-spacing:3px;color:var(--cyan);text-align:center;margin-bottom:24px}
+.app{display:grid;grid-template-columns:215px 1fr;min-height:100vh}.side{background:#03070b;border-right:1px solid var(--line);padding:18px 12px}.brand{font-size:28px;font-weight:800;letter-spacing:3px;color:var(--cyan);text-align:center;margin-bottom:24px}
 .nav{width:100%;padding:12px;margin:5px 0;border-radius:8px;border:1px solid transparent;background:transparent;color:var(--text);text-align:left;cursor:pointer}.nav:hover,.nav.active{background:#09283a;border-color:var(--line)}
+.nav-section{margin:7px 0}.nav-group{width:100%;display:flex;justify-content:space-between;align-items:center;padding:12px;margin:4px 0;border:1px solid #12384a;border-radius:8px;background:#06111b;color:var(--text);font-weight:700;letter-spacing:.3px;cursor:pointer}.nav-group:hover,.nav-group.open{background:#09283a;border-color:var(--line)}.nav-group.finance-group{color:var(--aqua)}.nav-group.aviation-group{color:var(--cyan)}.nav-group.elara-group{color:#d8c6ff}.nav-chevron{font-size:12px;transition:transform .2s}.nav-group.open .nav-chevron{transform:rotate(90deg)}.nav-sub{padding:2px 0 4px 10px;border-left:1px solid #12384a;margin-left:8px}.nav-sub .nav{padding:10px 9px;font-size:13px;margin:3px 0}.nav-sub .nav.active{border-color:var(--aqua)}
 main{padding:18px}.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.header h1{margin:0;color:var(--cyan);font-size:24px}.status{color:var(--aqua);font-weight:700}.clock{font-family:Consolas,monospace}
 .grid{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:14px}.card{background:linear-gradient(180deg,#07111c,#06101a);border:1px solid var(--line);border-radius:12px;padding:14px}.card h3{margin:0 0 12px;color:var(--cyan)}
 .hero{min-height:390px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.orb{width:220px;height:220px;border-radius:50%;position:relative;background:radial-gradient(circle,#00d4ff 0,#07354d 30%,#04131d 55%,transparent 70%);box-shadow:0 0 38px #00d4ff,inset 0 0 32px #00ffc8;animation:pulse 2.8s infinite}.orb:before,.orb:after{content:"";position:absolute;inset:-20px;border:1px solid var(--cyan);border-radius:50%;animation:spin 10s linear infinite}.orb:after{inset:-40px;border-style:dashed;animation-direction:reverse}.orb span{position:absolute;inset:0;display:grid;place-items:center;font-size:38px;font-weight:800;letter-spacing:4px}
@@ -23,7 +24,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 .vault-shell{max-width:580px;margin:70px auto}.vault-icon{width:76px;height:76px;border:2px solid var(--cyan);border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;color:var(--aqua);font-size:32px;box-shadow:0 0 24px rgba(0,212,255,.35)}.vault-status{text-align:center;margin-bottom:20px}.budget{display:grid;grid-template-columns:350px 1fr;gap:14px}.budget-summary{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:10px;margin-bottom:14px}.budget-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.budget-summary b{display:block;color:var(--aqua);font-size:19px;margin-top:5px}.income-row{background:rgba(0,255,200,.035)}.expense-row{background:rgba(255,93,115,.035)}.type-income{color:var(--aqua);font-weight:700}.type-expense{color:#ff9cac;font-weight:700}.secure-hint{font-size:12px;color:var(--muted);text-align:center;margin-top:14px}
 .dashboard-kpis{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:12px;margin-bottom:14px}.dashboard-kpis .card b{display:block;color:var(--aqua);font-size:22px;margin-top:6px}.dashboard-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}.locked-panel{display:flex;align-items:center;justify-content:space-between;gap:14px;background:rgba(255,179,71,.08);border:1px solid var(--warn);padding:14px;border-radius:8px}.progress-row{margin:12px 0}.progress-label{display:flex;justify-content:space-between;gap:10px;font-size:13px}.progress-track{height:8px;background:#031019;border-radius:999px;overflow:hidden;margin-top:5px}.progress-fill{height:100%;background:linear-gradient(90deg,var(--cyan),var(--aqua));border-radius:999px}.calendar-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.calendar-toolbar input{width:170px}.calendar-week,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(120px,1fr));gap:6px}.calendar-week div{text-align:center;color:var(--cyan);font-weight:700;padding:8px}.calendar-day{min-height:132px;background:#06131e;border:1px solid #12384a;border-radius:8px;padding:8px}.calendar-day.other{opacity:.35}.calendar-day.today{border-color:var(--aqua);box-shadow:inset 0 0 0 1px var(--aqua)}.calendar-number{font-weight:700;color:var(--muted);margin-bottom:6px}.cal-event{display:block;width:100%;border:0;border-left:3px solid var(--cyan);background:#09283a;color:var(--text);border-radius:5px;padding:6px;margin:5px 0;text-align:left;font-size:11px;cursor:pointer}.cal-event.bill{border-left-color:var(--warn);background:#2b210e}.cal-event.done{border-left-color:var(--aqua);opacity:.65}.cal-event.overdue{border-left-color:var(--danger);background:#32111a}.calendar-legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:12px}.legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
 .chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
-@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance,.budget,.dashboard-grid{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary,.dashboard-kpis{grid-template-columns:1fr 1fr}.calendar-wrap{overflow-x:auto}.calendar-week,.calendar-grid{min-width:900px}}
+@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;align-items:flex-start;overflow:auto}.brand{display:none}.side>.nav{min-width:130px}.nav-section{min-width:175px}.grid,.crm,.finance,.budget,.dashboard-grid{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary,.dashboard-kpis{grid-template-columns:1fr 1fr}.calendar-wrap{overflow-x:auto}.calendar-week,.calendar-grid{min-width:900px}}
 @media(max-width:620px){.bottom,.finance-summary,.budget-summary,.dashboard-kpis,.twocol{grid-template-columns:1fr}.finance-toolbar input,.calendar-toolbar input{width:100%}}
 </style>
 </head>
@@ -32,13 +33,23 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <aside class="side">
 <div class="brand">ELARA</div>
 <button class="nav active" data-v="home">Ana Sayfa</button>
-<button class="nav" data-v="crm">Aviation CRM</button>
+<div class="nav-section">
+<button class="nav-group aviation-group" data-group="aviation" onclick="toggleNavGroup('aviation')">Havacılık <span class="nav-chevron">›</span></button>
+<div id="nav-aviation" class="nav-sub hidden"><button class="nav" data-v="crm">Aviation CRM</button></div>
+</div>
+<div class="nav-section">
+<button class="nav-group finance-group" data-group="finance" onclick="toggleNavGroup('finance')">Finans <span class="nav-chevron">›</span></button>
+<div id="nav-finance" class="nav-sub hidden">
 <button class="nav" data-v="financeDashboard">Finans Dashboard</button>
-<button class="nav" data-v="finance">Kişisel Finans</button>
+<button class="nav" data-v="finance">Kredi Kartları</button>
 <button class="nav" data-v="budget">Gelir &amp; Gider</button>
 <button class="nav" data-v="paymentCalendar">Ödeme Takvimi</button>
-<button class="nav" data-v="assistant">ELARA Assistant</button>
-<button class="nav" data-v="settings">Ayarlar</button>
+</div>
+</div>
+<div class="nav-section">
+<button class="nav-group elara-group" data-group="elara" onclick="toggleNavGroup('elara')">Elara <span class="nav-chevron">›</span></button>
+<div id="nav-elara" class="nav-sub hidden"><button class="nav" data-v="assistant">ELARA Assistant</button><button class="nav" data-v="settings">Ayarlar</button></div>
+</div>
 </aside>
 <main>
 <div class="header"><div><h1>ELARA Aviation Command Center</h1><div class="status" id="status">Çevrimiçi ve hazır</div></div><div class="clock" id="clock"></div></div>
@@ -231,7 +242,10 @@ finance.cards=finance.cards.map(normalizeCard);saveFinance(false);
 let budgetKey=null,budgetData=null,calendarMonthValue=currentMonth();
 
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar()}
+const NAV_VIEW_GROUPS={crm:'aviation',financeDashboard:'finance',finance:'finance',budget:'finance',paymentCalendar:'finance',assistant:'elara',settings:'elara'};
+function toggleNavGroup(group,forceOpen=false){const panel=document.getElementById('nav-'+group),button=document.querySelector(`.nav-group[data-group="${group}"]`),open=forceOpen||panel.classList.contains('hidden');document.querySelectorAll('.nav-sub').forEach(x=>x.classList.add('hidden'));document.querySelectorAll('.nav-group').forEach(x=>x.classList.remove('open'));if(open){panel.classList.remove('hidden');button.classList.add('open')}}
+function openGroupForView(view){const group=NAV_VIEW_GROUPS[view];if(group)toggleNavGroup(group,true)}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));openGroupForView(id);if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar()}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
