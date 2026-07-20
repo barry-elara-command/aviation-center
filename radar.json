@@ -1,6 +1,26 @@
 {
   "version": 1,
-  "lastScan": "",
-  "sourcesScanned": 0,
-  "opportunities": []
+  "lastScan": "2026-07-20T14:59:18Z",
+  "sourcesScanned": 15,
+  "opportunities": [
+    {
+      "id": "srilankan-automated-routing-connection-cpit-icb-04-26",
+      "title": "Automated Routing Connection Service – CPIT/ICB/04/26",
+      "organization": "SriLankan Airlines",
+      "country": "Sri Lanka",
+      "category": "Operations Planning",
+      "publishedDate": "",
+      "deadline": "2026-08-04",
+      "detectedAt": "2026-07-20T14:59:18Z",
+      "relevance": "Medium",
+      "summary": "SriLankan Airlines, gerçek uçuş tarifelerinden otomatik bağlantı ve routing dosyaları üretip bunları Amadeus, Sabre ve Travelport’a dağıtacak, PSS/CRS ve gelir yönetimi sistemleriyle entegre beş yıllık bir SaaS hizmeti arıyor. Kapsam Crane SP ile ilişkili görünse de özel routing-file üretimi nedeniyle ürün uyumu teknik olarak doğrulanmalı.",
+      "products": [
+        "Crane SP - Schedule Planing"
+      ],
+      "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
+      "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260622132629221.pdf",
+      "official": true,
+      "status": "Open"
+    }
+  ]
 }
