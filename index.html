@@ -21,9 +21,10 @@ main{padding:18px}.header{display:flex;justify-content:space-between;align-items
 table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;border-bottom:1px solid #12384a;text-align:left}th{color:var(--cyan)}.tablewrap{max-height:610px;overflow:auto}.overdue-row{background:rgba(255,93,115,.08)}
 .finance{display:grid;grid-template-columns:360px 1fr;gap:14px}.finance-summary{display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));gap:10px;margin-bottom:14px}.finance-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.finance-summary b{display:block;color:var(--aqua);font-size:18px;margin-top:5px}.finance-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.finance-toolbar label{margin:0}.finance-toolbar input{width:160px}.period-alert{background:rgba(255,179,71,.1);border:1px solid var(--warn);color:#ffd59b;padding:12px;border-radius:8px;margin-bottom:14px}.badge{display:inline-block;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}.badge.paid{background:#0b493d;color:#7affdd}.badge.partial{background:#4a3710;color:#ffd277}.badge.unpaid{background:#4a1520;color:#ff9cac}.badge.clear{background:#12303d;color:#9ddceb}.finance-note{padding:10px;border-left:3px solid var(--warn);background:#201708;color:#ffd59b;border-radius:6px}.history-details{margin-top:8px;border:1px solid #12384a;border-radius:8px;padding:10px}.history-details summary{cursor:pointer;color:var(--cyan);font-weight:700}
 .vault-shell{max-width:580px;margin:70px auto}.vault-icon{width:76px;height:76px;border:2px solid var(--cyan);border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;color:var(--aqua);font-size:32px;box-shadow:0 0 24px rgba(0,212,255,.35)}.vault-status{text-align:center;margin-bottom:20px}.budget{display:grid;grid-template-columns:350px 1fr;gap:14px}.budget-summary{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:10px;margin-bottom:14px}.budget-summary div{background:#061724;padding:12px;border-radius:8px;border:1px solid #12384a}.budget-summary b{display:block;color:var(--aqua);font-size:19px;margin-top:5px}.income-row{background:rgba(0,255,200,.035)}.expense-row{background:rgba(255,93,115,.035)}.type-income{color:var(--aqua);font-weight:700}.type-expense{color:#ff9cac;font-weight:700}.secure-hint{font-size:12px;color:var(--muted);text-align:center;margin-top:14px}
+.dashboard-kpis{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:12px;margin-bottom:14px}.dashboard-kpis .card b{display:block;color:var(--aqua);font-size:22px;margin-top:6px}.dashboard-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}.locked-panel{display:flex;align-items:center;justify-content:space-between;gap:14px;background:rgba(255,179,71,.08);border:1px solid var(--warn);padding:14px;border-radius:8px}.progress-row{margin:12px 0}.progress-label{display:flex;justify-content:space-between;gap:10px;font-size:13px}.progress-track{height:8px;background:#031019;border-radius:999px;overflow:hidden;margin-top:5px}.progress-fill{height:100%;background:linear-gradient(90deg,var(--cyan),var(--aqua));border-radius:999px}.calendar-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin-bottom:14px}.calendar-toolbar input{width:170px}.calendar-week,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(120px,1fr));gap:6px}.calendar-week div{text-align:center;color:var(--cyan);font-weight:700;padding:8px}.calendar-day{min-height:132px;background:#06131e;border:1px solid #12384a;border-radius:8px;padding:8px}.calendar-day.other{opacity:.35}.calendar-day.today{border-color:var(--aqua);box-shadow:inset 0 0 0 1px var(--aqua)}.calendar-number{font-weight:700;color:var(--muted);margin-bottom:6px}.cal-event{display:block;width:100%;border:0;border-left:3px solid var(--cyan);background:#09283a;color:var(--text);border-radius:5px;padding:6px;margin:5px 0;text-align:left;font-size:11px;cursor:pointer}.cal-event.bill{border-left-color:var(--warn);background:#2b210e}.cal-event.done{border-left-color:var(--aqua);opacity:.65}.cal-event.overdue{border-left-color:var(--danger);background:#32111a}.calendar-legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:12px}.legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
 .chat{height:520px;overflow:auto;background:#041019;border:1px solid #12384a;border-radius:8px;padding:12px}.msg{padding:10px 12px;margin:8px 0;border-radius:8px;max-width:85%}.user{margin-left:auto;background:#0b3850}.ai{background:#08251f;border:1px solid #0e6f5b}.chatbar{display:flex;gap:8px;margin-top:10px}.chatbar input{flex:1}.note{font-size:12px;color:var(--warn)}.dangerText{color:var(--danger);font-weight:700}
-@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance,.budget{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.bottom,.finance-summary,.budget-summary,.twocol{grid-template-columns:1fr}.finance-toolbar input{width:100%}}
+@media(max-width:1100px){.app{grid-template-columns:1fr}.side{display:flex;overflow:auto}.brand{display:none}.nav{min-width:130px}.grid,.crm,.finance,.budget,.dashboard-grid{grid-template-columns:1fr}.bottom{grid-template-columns:1fr 1fr}.finance-summary,.budget-summary,.dashboard-kpis{grid-template-columns:1fr 1fr}.calendar-wrap{overflow-x:auto}.calendar-week,.calendar-grid{min-width:900px}}
+@media(max-width:620px){.bottom,.finance-summary,.budget-summary,.dashboard-kpis,.twocol{grid-template-columns:1fr}.finance-toolbar input,.calendar-toolbar input{width:100%}}
 </style>
 </head>
 <body>
@@ -32,8 +33,10 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <div class="brand">ELARA</div>
 <button class="nav active" data-v="home">Ana Sayfa</button>
 <button class="nav" data-v="crm">Aviation CRM</button>
+<button class="nav" data-v="financeDashboard">Finans Dashboard</button>
 <button class="nav" data-v="finance">Kişisel Finans</button>
 <button class="nav" data-v="budget">Gelir &amp; Gider</button>
+<button class="nav" data-v="paymentCalendar">Ödeme Takvimi</button>
 <button class="nav" data-v="assistant">ELARA Assistant</button>
 <button class="nav" data-v="settings">Ayarlar</button>
 </aside>
@@ -64,6 +67,40 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <div class="card"><h3>Pipeline by Stage</h3><div id="pipeline"></div></div>
 <div class="card"><h3>Hızlı Not</h3><textarea id="quickNote"></textarea><button class="btn" onclick="saveNote()">Kaydet</button></div>
 <div class="card"><h3>Sistem</h3><p>Kurulum gerektirmez.</p><p>Veriler bu tarayıcıda saklanır.</p><p class="note">Tarayıcı verileri temizlenirse kayıtlar silinebilir. Düzenli CSV export önerilir.</p></div>
+</div>
+</section>
+
+<section id="financeDashboard" class="view hidden">
+<div class="dashboard-kpis">
+<div class="card">Güncel Kart Borcu<b id="dashCardDebt">₺0,00</b></div>
+<div class="card">Kalan Hesap Özeti<b id="dashStatementRemaining">₺0,00</b></div>
+<div class="card">Toplam Asgari Ödeme<b id="dashMinimum">₺0,00</b></div>
+<div class="card">30 Günlük Ödeme<b id="dashDue30">₺0,00</b></div>
+</div>
+<div class="dashboard-grid">
+<div>
+<div class="card"><h3>Yaklaşan Ödemeler</h3><div id="dashboardUpcoming" class="list"></div></div>
+<div class="card" style="margin-top:14px"><h3>Kart Borç Dağılımı</h3><div id="dashboardCards"></div></div>
+</div>
+<div>
+<div class="card"><h3>Şifreli Aylık Bütçe</h3><div id="dashboardBudget"></div></div>
+<div class="card" style="margin-top:14px"><h3>Finansal Kontrol</h3><div id="dashboardWarnings" class="list"></div></div>
+</div>
+</div>
+</section>
+
+<section id="paymentCalendar" class="view hidden">
+<div class="card calendar-toolbar">
+<button class="btn" onclick="changeCalendarMonth(-1)">Önceki Ay</button>
+<div><label>Takvim ayı</label><input id="calendarMonth" type="month" onchange="setCalendarMonth(this.value)"></div>
+<button class="btn" onclick="changeCalendarMonth(1)">Sonraki Ay</button>
+<button class="btn" onclick="setCalendarMonth(currentMonth())">Bu Ay</button>
+<span id="calendarSecureStatus" class="note"></span>
+</div>
+<div class="card calendar-wrap">
+<div class="calendar-week"><div>Pazartesi</div><div>Salı</div><div>Çarşamba</div><div>Perşembe</div><div>Cuma</div><div>Cumartesi</div><div>Pazar</div></div>
+<div id="calendarGrid" class="calendar-grid"></div>
+<div class="calendar-legend"><span><i class="legend-dot" style="background:var(--cyan)"></i>Kredi kartı</span><span><i class="legend-dot" style="background:var(--warn)"></i>Fatura / gider</span><span><i class="legend-dot" style="background:var(--aqua)"></i>Tamamlandı</span><span><i class="legend-dot" style="background:var(--danger)"></i>Gecikmiş</span></div>
 </div>
 </section>
 
@@ -191,10 +228,10 @@ const currentMonth=()=>new Date().toISOString().slice(0,7);
 let finance=JSON.parse(localStorage.getItem(FINANCE_KEY)||'null')||{activePeriod:currentMonth(),cards:[],history:[]};
 finance.activePeriod=finance.activePeriod||currentMonth();finance.cards=Array.isArray(finance.cards)?finance.cards:[];finance.history=Array.isArray(finance.history)?finance.history:[];
 finance.cards=finance.cards.map(normalizeCard);saveFinance(false);
-let budgetKey=null,budgetData=null;
+let budgetKey=null,budgetData=null,calendarMonthValue=currentMonth();
 
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>show(b.dataset.v));
-function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate()}
+function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.v===id));if(id==='finance')renderFinance();if(id==='budget')renderBudgetGate();if(id==='financeDashboard')renderFinanceDashboard();if(id==='paymentCalendar')renderPaymentCalendar()}
 function tick(){const d=new Date();clock.textContent=d.toLocaleString('tr-TR');const z=[['IST','Europe/Istanbul'],['BKK','Asia/Bangkok'],['GCM','America/Cayman'],['YYZ','America/Toronto']];zones.innerHTML=z.map(x=>`<div class="item"><b>${x[0]}</b> ${new Intl.DateTimeFormat('tr-TR',{timeZone:x[1],hour:'2-digit',minute:'2-digit'}).format(d)}</div>`).join('')}
 setInterval(tick,1000);tick();
 
@@ -334,6 +371,29 @@ function clearBudgetForm(){budgetItemId.value='';budgetItemType.value='income';b
 function deleteBudgetItem(){const id=Number(budgetItemId.value);if(!id)return;if(confirm('Bu gelir/gider kalemi aktif dönemden silinsin mi?')){budgetData.items=budgetData.items.filter(x=>x.id!==id);saveBudget();clearBudgetForm()}}
 async function startNewBudgetPeriod(){if(!budgetData)return;const next=budgetPeriod.value;if(!next)return alert('Yeni dönemi seçin.');if(next===budgetData.activePeriod)return alert('Bu dönem zaten aktif.');if(!confirm(`${budgetData.activePeriod} dönemi şifreli geçmişe kaydedilsin ve ${next} dönemi açılsın mı?`)){budgetPeriod.value=budgetData.activePeriod;return}const snapshot={period:budgetData.activePeriod,closedAt:new Date().toISOString(),items:budgetData.items.map(x=>({...x}))},old=budgetData.history.findIndex(x=>x.period===snapshot.period);old>=0?budgetData.history[old]=snapshot:budgetData.history.push(snapshot);budgetData.items=budgetData.items.map(x=>normalizeBudgetItem({id:x.id,type:x.type,name:x.name,planned:x.fixed?x.planned:0,actual:0,date:'',completed:false,fixed:x.fixed,notes:''}));budgetData.activePeriod=next;await saveBudget();clearBudgetForm();alert(`${next} bütçe dönemi açıldı.`)}
 function exportBudgetCSV(){if(!budgetData)return;const all=[{period:budgetData.activePeriod,items:budgetData.items},...budgetData.history],rows=[['Period','Type','Item','Planned Amount','Actual Amount','Date','Completed','Copy to Next Month','Notes']];all.forEach(p=>p.items.forEach(x=>rows.push([p.period,x.type==='income'?'Gelir':'Gider',x.name,x.planned,x.actual,x.date,x.completed?'Evet':'Hayır',x.fixed?'Evet':'Hayır',x.notes])));const csv=rows.map(r=>r.map(v=>`"${String(v??'').replaceAll('"','""')}"`).join(',')).join('\n'),b=new Blob(['\ufeff'+csv],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`elara_butce_${budgetData.activePeriod}.csv`;a.click();URL.revokeObjectURL(a.href)}
+function paymentEvents(){
+ const events=[];finance.cards.forEach(x=>{if(x.dueDate&&cardRemaining(x)>0)events.push({date:x.dueDate,type:'card',title:`${x.bank} ${x.name}`,amount:cardRemaining(x),currency:x.currency,done:false,id:x.id})});
+ if(budgetData)budgetData.items.filter(x=>x.type==='expense'&&x.date).forEach(x=>events.push({date:x.date,type:'bill',title:x.name,amount:Number(x.actual||x.planned||0),currency:'TRY',done:x.completed,id:x.id}));
+ return events.sort((a,b)=>a.date.localeCompare(b.date))
+}
+function daysFromToday(date){const a=new Date(todayISO()+'T00:00:00'),b=new Date(date+'T00:00:00');return Math.round((b-a)/86400000)}
+function renderFinanceDashboard(){
+ dashCardDebt.textContent=groupTotals('currentDebt');dashStatementRemaining.textContent=groupTotals('remaining');dashMinimum.textContent=groupTotals('minimumPayment');
+ const due30Cards=finance.cards.filter(x=>x.dueDate&&daysFromToday(x.dueDate)>=0&&daysFromToday(x.dueDate)<=30);dashDue30.textContent=groupTotals('remaining',due30Cards);
+ const upcoming=paymentEvents().filter(x=>daysFromToday(x.date)<=30).slice(0,10);dashboardUpcoming.innerHTML=upcoming.map(x=>{const d=daysFromToday(x.date),late=d<0&&!x.done;return `<div class="item ${late?'overdue':''}"><b>${escapeHTML(x.title)}</b>${late?' <span class="dangerText">GECİKTİ</span>':''}<br><small>${x.date} · ${financeMoney(x.amount,x.currency)} · ${x.type==='card'?'Kredi kartı':'Gider'}${x.done?' · Tamamlandı':''}</small></div>`}).join('')||'<p>Önümüzdeki 30 gün için ödeme bulunmuyor.</p>';
+ const max=Math.max(1,...finance.cards.map(x=>Number(x.currentDebt||0)));dashboardCards.innerHTML=finance.cards.map(x=>`<div class="progress-row"><div class="progress-label"><span>${escapeHTML(x.bank)} ${escapeHTML(x.name)}</span><b>${financeMoney(x.currentDebt,x.currency)}</b></div><div class="progress-track"><div class="progress-fill" style="width:${Math.min(100,Number(x.currentDebt||0)/max*100)}%"></div></div></div>`).join('')||'<p>Kredi kartı kaydı yok.</p>';
+ if(!budgetData)dashboardBudget.innerHTML='<div class="locked-panel"><div><b>Bütçe kasası kilitli</b><br><small>Gelir, gider ve bakiye rakamları gizleniyor.</small></div><button class="btn primary" onclick="show(\'budget\')">Kasayı Aç</button></div>';
+ else{const ip=budgetSum('income','planned'),ep=budgetSum('expense','planned'),ia=budgetSum('income','actual'),ea=budgetSum('expense','actual');dashboardBudget.innerHTML=`<div class="kpi"><div><b>${financeMoney(ip,'TRY')}</b>Planlanan Gelir</div><div><b>${financeMoney(ep,'TRY')}</b>Planlanan Gider</div><div><b>${financeMoney(ip-ep,'TRY')}</b>Planlanan Bakiye</div><div><b>${financeMoney(ia-ea,'TRY')}</b>Gerçekleşen Bakiye</div></div><p><button class="btn" onclick="show('budget')">Gelir ve Gider Detayı</button></p>`}
+ const warnings=[];finance.cards.forEach(x=>{const d=x.dueDate?daysFromToday(x.dueDate):null;if(d!==null&&d<0&&cardRemaining(x)>0)warnings.push(`${x.bank} ${x.name}: son ödeme tarihi geçti.`);else if(d!==null&&d<=7&&d>=0&&cardRemaining(x)>0)warnings.push(`${x.bank} ${x.name}: son ödemeye ${d} gün kaldı.`);if(Number(x.plannedPayment||0)<Number(x.minimumPayment||0)&&Number(x.minimumPayment||0)>0)warnings.push(`${x.bank} ${x.name}: planlanan ödeme asgari tutarın altında.`)});if(budgetData)budgetData.items.filter(x=>x.type==='expense'&&!x.completed&&x.date&&daysFromToday(x.date)<0).forEach(x=>warnings.push(`${x.name}: ödeme tarihi geçti.`));dashboardWarnings.innerHTML=warnings.map(x=>`<div class="item overdue">${escapeHTML(x)}</div>`).join('')||'<div class="item">Kritik finansal uyarı bulunmuyor.</div>'
+}
+function setCalendarMonth(month){if(!month)return;calendarMonthValue=month;renderPaymentCalendar()}
+function changeCalendarMonth(delta){const [y,m]=calendarMonthValue.split('-').map(Number),d=new Date(y,m-1+delta,1);calendarMonthValue=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;renderPaymentCalendar()}
+function openCalendarEvent(type,id){if(type==='card'){show('finance');editCard(id)}else{show('budget');if(budgetData)editBudgetItem(id)}}
+function renderPaymentCalendar(){
+ calendarMonth.value=calendarMonthValue;calendarSecureStatus.textContent=budgetData?'Şifreli giderler takvime dahil.':'Bütçe kasası kilitli; yalnızca kart ödemeleri gösteriliyor.';
+ const [year,month]=calendarMonthValue.split('-').map(Number),first=new Date(year,month-1,1),offset=(first.getDay()+6)%7,days=new Date(year,month,0).getDate(),prevDays=new Date(year,month-1,0).getDate(),events=paymentEvents(),today=todayISO(),cells=[];
+ for(let i=0;i<42;i++){let day,date,other=false;if(i<offset){day=prevDays-offset+i+1;date=new Date(year,month-2,day);other=true}else if(i>=offset+days){day=i-offset-days+1;date=new Date(year,month,day);other=true}else{day=i-offset+1;date=new Date(year,month-1,day)}const iso=`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`,dayEvents=events.filter(x=>x.date===iso);cells.push(`<div class="calendar-day ${other?'other':''} ${iso===today?'today':''}"><div class="calendar-number">${day}</div>${dayEvents.map(x=>{const late=iso<today&&!x.done;return `<button class="cal-event ${x.type==='bill'?'bill':''} ${x.done?'done':''} ${late?'overdue':''}" onclick="openCalendarEvent('${x.type}',${x.id})"><b>${escapeHTML(x.title)}</b><br>${financeMoney(x.amount,x.currency)}</button>`}).join('')}</div>`)}calendarGrid.innerHTML=cells.join('')
+}
 function addMsg(t,c){const d=document.createElement('div');d.className='msg '+c;d.textContent=t;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
 function send(){const t=cmd.value.trim();if(!t)return;cmd.value='';ask(t)}
 function ask(t){
