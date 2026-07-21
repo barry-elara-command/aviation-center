@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-07-20T16:27:06Z",
-  "sourcesScanned": 24,
+  "lastScan": "2026-07-21T04:31:34Z",
+  "sourcesScanned": 27,
   "opportunities": [
     {
       "id": "srilankan-customer-engagement-platform-ecom-web-05-2026",
@@ -22,7 +22,7 @@
       "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforsubmiss-20260605154843166.pdf",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "srilankan-automated-routing-connection-cpit-icb-04-26",
