@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-21T05:25:52Z",
-  "sourcesScanned": 34,
+  "lastScan": "2026-07-23T03:29:40Z",
+  "sourcesScanned": 42,
   "opportunities": [
+    {
+      "id": "south-african-airways-bidt-service-gsm051-2026",
+      "title": "Billing Information Data Tapes (BIDT) Service – RFQ GSM051/2026",
+      "organization": "South African Airways",
+      "country": "South Africa",
+      "category": "Accounting & Business Performance",
+      "publishedDate": "",
+      "deadline": "2026-07-28",
+      "detectedAt": "2026-07-23T03:29:40Z",
+      "relevance": "Medium",
+      "summary": "South African Airways, GDS üzerinden gerçekleşen küresel dolaylı satış dağıtımına ilişkin içgörü, maliyet yönetimi ve takip eden yaptırım önlemleri için Billing Information Data Tapes (BIDT) hizmeti arıyor. Crane BPI ile satış kanalı performansı ve üçüncü taraf pazar istihbaratı entegrasyonu bakımından kesişim bulunuyor; ancak BIDT verisinin tedariki, GDS maliyet denetimi ve yaptırım iş akışları için teknik gap analizi gerekli. Resmî SAA sayfası son teklif zamanının 28 Temmuz 2026 saat 16.00 SAST olarak uzatıldığını bildiriyor.",
+      "products": [
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "South African Airways Resmî İhale Sayfası",
+      "url": "https://www.flysaa.com/about-us/leading-carrier/saa-tenders",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "nepal-airlines-zed-ticketing-system-nac-it-zed-icb-2082-83",
       "title": "ZED Ticketing System – Re: NAC/IT/ZED/ICB/2082/83",
