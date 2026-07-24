@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-07-23T03:29:40Z",
+  "lastScan": "2026-07-24T22:25:36Z",
   "sourcesScanned": 42,
   "opportunities": [
     {
@@ -9,7 +9,7 @@
       "organization": "South African Airways",
       "country": "South Africa",
       "category": "Accounting & Business Performance",
-      "publishedDate": "",
+      "publishedDate": "2026-07-24",
       "deadline": "2026-07-28",
       "detectedAt": "2026-07-23T03:29:40Z",
       "relevance": "Medium",
