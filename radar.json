@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-24T22:25:36Z",
+  "lastScan": "2026-07-26T11:30:37Z",
   "sourcesScanned": 42,
   "opportunities": [
+    {
+      "id": "vietnam-airlines-b2b-corporate-loyalty-lotusbiz-2027-2029",
+      "title": "Corporate and Business Customers Management System (B2B) and Corporate Loyalty Program (LotusBiz) – 2027–2029",
+      "organization": "Vietnam Airlines",
+      "country": "Vietnam",
+      "category": "Loyalty & Customer Management",
+      "publishedDate": "2026-07-24",
+      "deadline": "2026-08-10",
+      "detectedAt": "2026-07-26T11:30:37Z",
+      "relevance": "Medium",
+      "summary": "Vietnam Airlines, 2027–2029 dönemi için kurumsal ve ticari müşterileri yönetecek B2B sistemini ve LotusBiz kurumsal sadakat programını hizmet kiralama modeliyle tedarik ediyor. Crane LL ile kurumsal sadakat programı tarafında doğrudan kesişim bulunuyor; ancak B2B şirket hesabı, hiyerarşi ve kurumsal müşteri yönetimi işlevlerinin ayrıntıları e-posta ile talep edilen RFP üzerinden doğrulanmalı. Teklifler 10 Ağustos 2026 saat 15.00 Vietnam saati öncesinde elden, posta veya e-posta ile sunulabiliyor.",
+      "products": [
+        "Crane LL - Loyalty Layer"
+      ],
+      "sourceName": "Vietnam Airlines Resmî Tedarik Duyurusu",
+      "url": "https://www.vietnamairlines.com/au/en/vietnam-airlines/procurement/information/2026/0724-msdsmm-07242026",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "south-african-airways-bidt-service-gsm051-2026",
       "title": "Billing Information Data Tapes (BIDT) Service – RFQ GSM051/2026",
