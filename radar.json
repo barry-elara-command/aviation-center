@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-26T11:30:37Z",
-  "sourcesScanned": 42,
+  "lastScan": "2026-07-27T02:26:01Z",
+  "sourcesScanned": 46,
   "opportunities": [
+    {
+      "id": "malaysia-aviation-group-digital-cashless-compensation-platform-2026",
+      "title": "Implementation and Integration of a Digital Cashless Compensation Platform",
+      "organization": "Malaysia Aviation Group",
+      "country": "Malaysia",
+      "category": "Customer Care",
+      "publishedDate": "2026-07-21",
+      "deadline": "2026-08-06",
+      "detectedAt": "2026-07-27T02:26:01Z",
+      "relevance": "Low",
+      "summary": "Malaysia Aviation Group, müşteri tazminatlarının nakitsiz ve dijital olarak sunulmasını sağlayacak bir platformun kurulumu ve entegrasyonu için hizmet sağlayıcı arıyor. Duyuru yalnızca katılım ilgisinin 6 Ağustos 2026 saat 15.00 Malezya saati öncesinde bildirilmesini istiyor; ayrıntılı fonksiyonel kapsam kamuya açık değil. Crane CCL ile müşteri hizmetleri ve vaka yönetimi tarafında sınırlı kesişim bulunabilir, ancak ödeme, dijital cüzdan/kupon, tazminat uygunluk kuralları ve finansal entegrasyonlar için kapsamlı teknik gap analizi gerekir.",
+      "products": [
+        "Crane CCL - Customer Care Layer"
+      ],
+      "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
+      "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7485149713789239296-UARQ",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "vietnam-airlines-b2b-corporate-loyalty-lotusbiz-2027-2029",
       "title": "Corporate and Business Customers Management System (B2B) and Corporate Loyalty Program (LotusBiz) – 2027–2029",
