@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-29T08:32:03Z",
-  "sourcesScanned": 46,
+  "lastScan": "2026-07-29T13:26:51Z",
+  "sourcesScanned": 50,
   "opportunities": [
+    {
+      "id": "eindhoven-airport-cupps-497661-2026",
+      "title": "Delivery, Implementation and Support of CUPPS at Eindhoven Airport – 497661-2026",
+      "organization": "Eindhoven Airport N.V.",
+      "country": "Netherlands",
+      "category": "DCS",
+      "publishedDate": "2026-07-17",
+      "deadline": "2026-10-26",
+      "detectedAt": "2026-07-29T13:26:51Z",
+      "relevance": "Low",
+      "summary": "Eindhoven Airport, mevcut Common Use Passenger Processing System’ın (CUPPS) yenilenmesi için teslimat, uygulama ve destek hizmetleri tedarik ediyor. Crane DCS yaygın CUPPS ortamlarında sertifikalı ve ortak kullanım havalimanı altyapılarıyla çalışıyor; ancak ihale bir havayolu DCS’sinden ziyade havalimanı ortak kullanım platformunun doğrudan tedarikini kapsadığından ürün uyumu düşüktür ve ana yüklenici/entegrasyon ortağı modeliyle değerlendirilmelidir. Teklif son tarihi 26 Ekim 2026’dır.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "TenderNed Resmî İhale Duyurusu",
+      "url": "https://www.tenderned.nl/aankondigingen/overzicht/433524",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "malaysia-aviation-group-training-management-system-rfqf3cheq9w100678",
       "title": "End-to-End Training Management System (TMS) – RFQF3CHEQ9W100678",
