@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-27T02:26:01Z",
+  "lastScan": "2026-07-29T08:32:03Z",
   "sourcesScanned": 46,
   "opportunities": [
+    {
+      "id": "malaysia-aviation-group-training-management-system-rfqf3cheq9w100678",
+      "title": "End-to-End Training Management System (TMS) – RFQF3CHEQ9W100678",
+      "organization": "Malaysia Aviation Group",
+      "country": "Malaysia",
+      "category": "Crew Management",
+      "publishedDate": "",
+      "deadline": "2026-08-10",
+      "detectedAt": "2026-07-29T08:32:03Z",
+      "relevance": "Low",
+      "summary": "Malaysia Aviation Group, grup genelinde uçtan uca bir Training Management System’ın uygulanması için hizmet sağlayıcı arıyor. Kamuya açık duyuru yalnızca başlık ve katılım tarihini içeriyor; sistemin uçuş ekibi eğitimleri, yetkinlik/sertifika takibi veya kurumsal LMS kapsamı doğrulanamıyor. Crane CREW içindeki eğitim modülüyle olası kesişim bulunmakla birlikte ayrıntılı RFP alınarak ürün kapsamı ve grup geneli gereksinimler için teknik gap analizi yapılmalı. Katılım ilgisi 10 Ağustos 2026 saat 15.00 Malezya saati öncesinde bildirilmelidir.",
+      "products": [
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
+      "url": "https://www.linkedin.com/company/malaysia-aviation-group/",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "malaysia-aviation-group-digital-cashless-compensation-platform-2026",
       "title": "Implementation and Integration of a Digital Cashless Compensation Platform",
