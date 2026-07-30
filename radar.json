@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-29T13:26:51Z",
+  "lastScan": "2026-07-30T15:29:53Z",
   "sourcesScanned": 50,
   "opportunities": [
+    {
+      "id": "rhode-island-airport-cupps-gms-ids-rfp-37399-2026",
+      "title": "Common Use Passenger Processing Systems (CUPPS), Gate Management Systems (GMS) and Information Display Systems (IDS) – RFP 37399",
+      "organization": "Rhode Island Airport Corporation",
+      "country": "United States",
+      "category": "DCS",
+      "publishedDate": "2026-07-17",
+      "deadline": "2026-08-25",
+      "detectedAt": "2026-07-30T15:29:53Z",
+      "relevance": "Low",
+      "summary": "Rhode Island Airport Corporation; Common Use Passenger Processing Systems (CUPPS), Gate Management Systems (GMS) ve Information Display Systems (IDS) için teklif istiyor. Crane DCS ile ortak kullanım terminal ortamı ve havayolu kalkış kontrolü bağlantıları bakımından sınırlı kesişim bulunuyor; ancak alımın ana kapsamı havalimanı ortak kullanım, kapı yönetimi ve bilgi ekranı platformları olduğundan uyum düşüktür ve entegrasyon/ana yüklenici ortaklığıyla değerlendirilmelidir. Teklifler 25 Ağustos 2026 saat 14.00 EDT'ye kadar sunulmalıdır; zorunlu ön teklif toplantısı 29 Temmuz'da yapılmıştır.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Rhode Island Airport Corporation Resmî Tedarik Sayfası",
+      "url": "https://flyri.com/riac/procurement/",
+      "official": true,
+      "status": "Open"
+    },
     {
       "id": "eindhoven-airport-cupps-497661-2026",
       "title": "Delivery, Implementation and Support of CUPPS at Eindhoven Airport – 497661-2026",
