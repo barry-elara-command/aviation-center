@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "lastScan": "2026-07-30T15:29:53Z",
-  "sourcesScanned": 50,
+  "lastScan": "2026-07-30T21:26:05Z",
+  "sourcesScanned": 54,
   "opportunities": [
+    {
+      "id": "srilankan-airline-network-planning-cpit-icb-10-25",
+      "title": "Airline Network Planning Solution – CPIT/ICB/10/25",
+      "organization": "SriLankan Airlines",
+      "country": "Sri Lanka",
+      "category": "Operations Planning",
+      "publishedDate": "2026-06-02",
+      "deadline": "2026-07-15",
+      "detectedAt": "2026-07-30T21:26:05Z",
+      "relevance": "Medium",
+      "summary": "SriLankan Airlines, beş yıllık entegre bir Airline Network Planning Solution tedarik ediyor. Kapsam; SSIM içe/dışa aktarımı, çoklu tarife senaryoları, QSI ve ücret payına dayalı yolcu/gelir tahmini, rota ve O&D analizi, codeshare etkisi, filo tahsisi, bağlantı ve kârlılık modellemesini içeriyor. Crane SP - Schedule Planning ile tarife, senaryo, bağlantı ve filo kullanımı alanlarında güçlü kesişim bulunuyor; ancak QSI/fare-share tahmini, True O&D pazar verisi, gelir stimülasyonu ve kapsamlı network optimization işlevleri için teknik gap analizi gerekli. Teklif süresi 15 Temmuz 2026 saat 11.00 Sri Lanka saati itibarıyla dolmuştur.",
+      "products": [
+        "Crane SP - Schedule Planning"
+      ],
+      "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
+      "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260602083306475.pdf",
+      "official": true,
+      "status": "Expired"
+    },
     {
       "id": "rhode-island-airport-cupps-gms-ids-rfp-37399-2026",
       "title": "Common Use Passenger Processing Systems (CUPPS), Gate Management Systems (GMS) and Information Display Systems (IDS) – RFP 37399",
@@ -169,7 +188,7 @@
       "relevance": "Medium",
       "summary": "SriLankan Airlines, gerçek uçuş tarifelerinden otomatik bağlantı ve routing dosyaları üretip bunları Amadeus, Sabre ve Travelport’a dağıtacak, PSS/CRS ve gelir yönetimi sistemleriyle entegre beş yıllık bir SaaS hizmeti arıyor. Kapsam Crane SP ile ilişkili görünse de özel routing-file üretimi nedeniyle ürün uyumu teknik olarak doğrulanmalı.",
       "products": [
-        "Crane SP - Schedule Planing"
+        "Crane SP - Schedule Planning"
       ],
       "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260622132629221.pdf",
