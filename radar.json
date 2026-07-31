@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-07-31T06:29:39Z",
-  "sourcesScanned": 58,
+  "lastScan": "2026-07-31T07:26:48Z",
+  "sourcesScanned": 62,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -21,6 +21,25 @@
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260602083306475.pdf",
       "official": true,
       "status": "Expired"
+    },
+    {
+      "id": "norfolk-airport-cupps-fids-gms-rfp-fy27-102-01",
+      "title": "Integrated Common Use Passenger Processing System (CUPPS) and Flight Information Display System (FIDS) Replacement – RFP-FY27-102-01",
+      "organization": "Norfolk Airport Authority",
+      "country": "United States",
+      "category": "DCS",
+      "publishedDate": "2026-07-09",
+      "deadline": "2026-08-07",
+      "detectedAt": "2026-07-31T07:26:48Z",
+      "relevance": "Low",
+      "summary": "Norfolk Airport Authority, Norfolk International Airport için tamamen bulut tabanlı CUPPS/CUTE ile entegre FIDS, GIDS, BIDS ve Gate Management System tedarik ediyor. Sistem; ortak kullanım check-in, biletleme, boarding ve bagaj işlemlerini, mevcut yedi havayolunun uygulamalarıyla güvenli bağlantıyı ve opsiyonel kaynak yönetimini kapsıyor. Crane DCS ile yolcu işlem ve havayolu host entegrasyonu tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım altyapısı, ekran sistemleri ve donanımı içerdiğinden uyum düşüktür ve CUPPS ana yüklenicisi/entegrasyon ortağı modeliyle değerlendirilmelidir. Teklifler 7 Ağustos 2026 saat 14.00 ET'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Norfolk Airport Authority Resmî RFP Dokümanı",
+      "url": "https://www.flyorf.com/wp-content/uploads/2026/07/ORF-CUPPS-FIDS-GMS-RFP-FY27-102-01.pdf",
+      "official": true,
+      "status": "Open"
     },
     {
       "id": "rhode-island-airport-cupps-gms-ids-rfp-37399-2026",
