@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-02T03:31:38Z",
-  "sourcesScanned": 66,
+  "lastScan": "2026-08-02T04:25:31Z",
+  "sourcesScanned": 71,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -231,6 +231,26 @@
       ],
       "sourceName": "South Africa eTenders Resmî İhale Portalı",
       "url": "https://www.etenders.gov.za/Home/?id=163980",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "und-aviation-operations-software-platform-483-2026",
+      "title": "Aviation Operations Software Platform – RFP 483-2026",
+      "organization": "University of North Dakota – John D. Odegard School of Aerospace Sciences",
+      "country": "United States",
+      "category": "Crew Management",
+      "publishedDate": "2026-07-06",
+      "deadline": "2026-08-05",
+      "detectedAt": "2026-08-02T04:25:31Z",
+      "relevance": "Low",
+      "summary": "University of North Dakota, mevcut AIMS platformunun yerine bulut tabanlı kapsamlı bir uçuş okulu operasyon yazılımı tedarik ediyor. Kapsam uçuş planlama ve dispatch, eğitim, öğrenci faturalama, eğitmen yönetimi ve emniyet risk değerlendirmesini içeriyor. Crane CREW ile eğitim ve personel yönetimi tarafında, Crane SP ile planlama tarafında sınırlı kesişim bulunuyor; ancak ana kapsam ticari havayolu operasyonu yerine uçuş okulu, öğrenci ve eğitmen süreçlerine özgü olduğundan uyum düşüktür. Resmî UND portalına göre teklifler 5 Ağustos 2026 saat 14.00 CDT'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane CREW - Crew Management",
+        "Crane SP - Schedule Planning"
+      ],
+      "sourceName": "University of North Dakota Resmî Tedarik Portalı",
+      "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=UND",
       "official": true,
       "status": "Open"
     }
