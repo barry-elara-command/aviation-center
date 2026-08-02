@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-07-31T07:26:48Z",
-  "sourcesScanned": 62,
+  "lastScan": "2026-08-02T03:31:38Z",
+  "sourcesScanned": 66,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -211,6 +211,26 @@
       ],
       "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260622132629221.pdf",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "eskom-flight-operations-management-software-e3256ntcsamwp",
+      "title": "Flight Operations Management Software Programme – E3256NTCSAMWP",
+      "organization": "Eskom",
+      "country": "South Africa",
+      "category": "Operations Planning",
+      "publishedDate": "2026-07-30",
+      "deadline": "2026-08-27",
+      "detectedAt": "2026-08-02T03:31:38Z",
+      "relevance": "Medium",
+      "summary": "Eskom, uçuş planlama, teklif oluşturma, faturalama, havacılık proje/iş mutabakatı ve aylık operasyonel raporlama için beş yıllık bir Flight Operations Management yazılım programı tedarik ediyor. Crane SP ile uçuş planlama, Crane BPI ile operasyonel performans raporlaması tarafında önemli kesişim bulunuyor; ancak kurumsal havacılığa özgü teklif, faturalama ve proje/iş mutabakatı işlevleri için teknik gap analizi gerekli. Teklifler 27 Ağustos 2026 saat 10.00'a kadar sunulmalıdır; zorunlu olmayan bilgilendirme toplantısı 13 Ağustos 2026 saat 10.00'da MS Teams üzerinden yapılacaktır.",
+      "products": [
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "South Africa eTenders Resmî İhale Portalı",
+      "url": "https://www.etenders.gov.za/Home/?id=163980",
       "official": true,
       "status": "Open"
     }
