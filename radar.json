@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-04T05:30:16Z",
+  "lastScan": "2026-08-04T06:29:10Z",
   "sourcesScanned": 75,
   "opportunities": [
     {
@@ -29,10 +29,10 @@
       "country": "United States",
       "category": "DCS",
       "publishedDate": "2026-07-09",
-      "deadline": "2026-08-07",
+      "deadline": "2026-08-14",
       "detectedAt": "2026-07-31T07:26:48Z",
       "relevance": "Low",
-      "summary": "Norfolk Airport Authority, Norfolk International Airport için tamamen bulut tabanlı CUPPS/CUTE ile entegre FIDS, GIDS, BIDS ve Gate Management System tedarik ediyor. Sistem; ortak kullanım check-in, biletleme, boarding ve bagaj işlemlerini, mevcut yedi havayolunun uygulamalarıyla güvenli bağlantıyı ve opsiyonel kaynak yönetimini kapsıyor. Crane DCS ile yolcu işlem ve havayolu host entegrasyonu tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım altyapısı, ekran sistemleri ve donanımı içerdiğinden uyum düşüktür ve CUPPS ana yüklenicisi/entegrasyon ortağı modeliyle değerlendirilmelidir. Teklifler 7 Ağustos 2026 saat 14.00 ET'ye kadar sunulmalıdır.",
+      "summary": "Norfolk Airport Authority, Norfolk International Airport için tamamen bulut tabanlı CUPPS/CUTE ile entegre FIDS, GIDS, BIDS ve opsiyonel Gate Management System tedarik ediyor. Sistem; ortak kullanım check-in, biletleme, boarding ve bagaj işlemlerini, mevcut yedi havayolunun uygulamalarıyla güvenli bağlantıyı ve opsiyonel kaynak yönetimini kapsıyor. Crane DCS ile yolcu işlem ve havayolu host entegrasyonu tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım altyapısı, ekran sistemleri ve donanımı içerdiğinden uyum düşüktür ve CUPPS ana yüklenicisi/entegrasyon ortağı modeliyle değerlendirilmelidir. Resmî Addendum #02 ile teklif son tarihi bir hafta uzatılarak 14 Ağustos 2026 saat 14.00 ET olarak değiştirilmiştir.",
       "products": [
         "Crane DCS - Departure Control System"
       ],
