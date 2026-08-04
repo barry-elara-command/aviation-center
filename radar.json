@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-04T19:33:10Z",
+  "lastScan": "2026-08-04T20:25:32Z",
   "sourcesScanned": 75,
   "opportunities": [
     {
@@ -289,6 +289,26 @@
       ],
       "sourceName": "Fiji Airways Resmî Tedarik Portalı",
       "url": "https://portal.tenderlink.com/fijiair/alltenders/",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "fiji-airports-aoms-airfjl-1167524",
+      "title": "Airport Operations & Management System (AOMS) – AIRFJL-1167524",
+      "organization": "Fiji Airports",
+      "country": "Fiji",
+      "category": "Operations Control",
+      "publishedDate": "",
+      "deadline": "2026-08-14",
+      "detectedAt": "2026-08-04T20:25:32Z",
+      "relevance": "Low",
+      "summary": "Fiji Airports, Airport Operations & Management System (AOMS) tedariki için teklif istiyor. Resmî portal yalnızca başlık ve son tarihi kamuya açık gösteriyor; ayrıntılı fonksiyonel kapsam ücretsiz tedarikçi kaydı sonrasında erişilebiliyor. Crane OCC ile operasyonel izleme ve koordinasyon, Crane BPI ile performans görünürlüğü açısından sınırlı kesişim olabilir; ancak alımın havayolu operasyon kontrolünden ziyade havalimanı kaynak, tesis ve operasyon yönetimine odaklanması muhtemel olduğundan uyum düşüktür ve teknik doküman incelenmeden kapsam varsayılmamalıdır. Teklifler 14 Ağustos 2026 saat 18.00 FJT'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane OCC - Operations Control Center",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Fiji Airports Resmî Tedarik Portalı",
+      "url": "https://portal.tenderlink.com/afl/alltenders/",
       "official": true,
       "status": "Open"
     }
