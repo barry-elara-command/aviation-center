@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-04T06:29:10Z",
+  "lastScan": "2026-08-04T19:33:10Z",
   "sourcesScanned": 75,
   "opportunities": [
     {
@@ -270,6 +270,25 @@
       ],
       "sourceName": "Rapid City Regional Airport Resmî İhale Sayfası",
       "url": "https://rapairport.com/request-for-proposals-bids-or-qualifications/",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "fiji-airways-self-service-check-in-kiosk-application-airpa-1167022",
+      "title": "Airport Self-Service Check-in Kiosk Application – AIRPA-1167022",
+      "organization": "Fiji Airways",
+      "country": "Fiji",
+      "category": "DCS",
+      "publishedDate": "",
+      "deadline": "2026-08-14",
+      "detectedAt": "2026-08-04T19:33:10Z",
+      "relevance": "Medium",
+      "summary": "Fiji Airways, havalimanı self-service check-in kioskları için bir uygulama tedarik etmek üzere teklif istiyor. İlan doğrudan havayolunun resmî tedarik portalında yayımlanmış olup ayrıntılı fonksiyonel dokümanlar ücretsiz tedarikçi kaydı sonrasında erişilebiliyor. Crane DCS ile check-in, yolcu ve bagaj işlemleri ile CUSS/kiosk entegrasyonu tarafında doğrudan kesişim bulunuyor; kiosk donanımı, cihaz sertifikasyonu ve mevcut host/DCS entegrasyon kapsamı RFP dokümanından doğrulanmalıdır. Teklifler 14 Ağustos 2026 saat 17.00 AET'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Fiji Airways Resmî Tedarik Portalı",
+      "url": "https://portal.tenderlink.com/fijiair/alltenders/",
       "official": true,
       "status": "Open"
     }
