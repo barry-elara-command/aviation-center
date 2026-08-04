@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-04T20:25:32Z",
-  "sourcesScanned": 75,
+  "lastScan": "2026-08-04T21:32:01Z",
+  "sourcesScanned": 79,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -309,6 +309,26 @@
       ],
       "sourceName": "Fiji Airports Resmî Tedarik Portalı",
       "url": "https://portal.tenderlink.com/afl/alltenders/",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "fiji-airways-enterprise-social-media-management-platform-airpa-1168989",
+      "title": "Enterprise Social Media Management Platform – AIRPA-1168989",
+      "organization": "Fiji Airways",
+      "country": "Fiji",
+      "category": "Communication & Customer Care",
+      "publishedDate": "",
+      "deadline": "2026-08-12",
+      "detectedAt": "2026-08-04T21:32:01Z",
+      "relevance": "Low",
+      "summary": "Fiji Airways, kurumsal bir sosyal medya yönetim platformu için teklif istiyor. Resmî tedarik portalı kamuya açık olarak yalnızca ihale başlığını ve son tarihi gösteriyor; ayrıntılı fonksiyonel dokümanlar tedarikçi kaydı sonrasında erişilebiliyor. Crane CM ile dış iletişim, Crane CCL ile müşteri etkileşimi tarafında olası fakat sınırlı kesişim bulunuyor; sosyal medya yayınlama, dinleme, moderasyon, vaka yönlendirme ve entegrasyon gereksinimleri RFP dokümanından doğrulanmadan daha yüksek uyum varsayılmamalıdır. Teklifler 12 Ağustos 2026 saat 17.00 AET'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane CM - Communication Manager",
+        "Crane CCL - Customer Care Layer"
+      ],
+      "sourceName": "Fiji Airways Resmî Tedarik Portalı",
+      "url": "https://portal.tenderlink.com/fijiair/alltenders/",
       "official": true,
       "status": "Open"
     }
