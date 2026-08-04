@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-03T10:31:28Z",
+  "lastScan": "2026-08-04T05:30:16Z",
   "sourcesScanned": 75,
   "opportunities": [
     {
@@ -205,14 +205,14 @@
       "deadline": "2026-08-04",
       "detectedAt": "2026-07-20T14:59:18Z",
       "relevance": "Medium",
-      "summary": "SriLankan Airlines, gerçek uçuş tarifelerinden otomatik bağlantı ve routing dosyaları üretip bunları Amadeus, Sabre ve Travelport’a dağıtacak, PSS/CRS ve gelir yönetimi sistemleriyle entegre beş yıllık bir SaaS hizmeti arıyor. Kapsam Crane SP ile ilişkili görünse de özel routing-file üretimi nedeniyle ürün uyumu teknik olarak doğrulanmalı.",
+      "summary": "SriLankan Airlines, gerçek uçuş tarifelerinden otomatik bağlantı ve routing dosyaları üretip bunları Amadeus, Sabre ve Travelport’a dağıtacak, PSS/CRS ve gelir yönetimi sistemleriyle entegre beş yıllık bir SaaS hizmeti arıyordu. Kapsam Crane SP ile ilişkili görünse de özel routing-file üretimi nedeniyle ürün uyumu teknik olarak doğrulanmalıydı. Resmî ihale dokümanındaki teklif süresi 4 Ağustos 2026 saat 11.00 Sri Lanka saati itibarıyla dolmuştur; kamuya açık resmî kaynaklarda uzatma duyurusu bulunmamıştır.",
       "products": [
         "Crane SP - Schedule Planning"
       ],
       "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260622132629221.pdf",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "eskom-flight-operations-management-software-e3256ntcsamwp",
