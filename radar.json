@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-04T21:32:01Z",
+  "lastScan": "2026-08-05T06:33:23Z",
   "sourcesScanned": 79,
   "opportunities": [
     {
@@ -165,14 +165,14 @@
       "deadline": "2026-08-05",
       "detectedAt": "2026-07-20T18:30:37Z",
       "relevance": "Medium",
-      "summary": "Nepal Airlines Corporation, ZED biletleme sisteminin tedarik ve uygulaması için üçüncü kez uluslararası rekabetçi ihale yayımladı. Resmî ilan tekliflerin 5 Ağustos 2026 saat 12.00 Nepal saati öncesinde elektronik olarak verilmesini istiyor. Crane PAX ile biletleme tarafında eşleşme potansiyeli bulunuyor; ancak ilandaki kapsam başlık düzeyinde olduğundan ZED işlevleri ve entegrasyon gereksinimleri teknik ihale dokümanından doğrulanmalı.",
+      "summary": "Nepal Airlines Corporation, ZED biletleme sisteminin tedarik ve uygulaması için üçüncü kez uluslararası rekabetçi ihale yayımladı. Crane PAX ile biletleme tarafında eşleşme potansiyeli bulunuyordu; ancak ilandaki kapsam başlık düzeyindeydi ve ZED işlevleri ile entegrasyon gereksinimlerinin teknik ihale dokümanından doğrulanması gerekiyordu. Resmî ilandaki teklif süresi 5 Ağustos 2026 saat 12.00 Nepal saati itibarıyla dolmuştur; kamuya açık resmî kaynaklarda uzatma duyurusu bulunmamıştır.",
       "products": [
         "Crane PAX - Reservation & Ticketing"
       ],
       "sourceName": "Nepal Airlines Corporation Resmî İhale Duyurusu",
       "url": "https://www.nepalairlines.com.np/notices/icb-tender-re-tender-notice-for-procurement-of-zed-ticketing-system",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "srilankan-customer-engagement-platform-ecom-web-05-2026",
