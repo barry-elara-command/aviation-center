@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-05T06:33:23Z",
-  "sourcesScanned": 79,
+  "lastScan": "2026-08-08T04:31:34Z",
+  "sourcesScanned": 85,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -108,14 +108,14 @@
       "deadline": "2026-08-06",
       "detectedAt": "2026-07-27T02:26:01Z",
       "relevance": "Low",
-      "summary": "Malaysia Aviation Group, müşteri tazminatlarının nakitsiz ve dijital olarak sunulmasını sağlayacak bir platformun kurulumu ve entegrasyonu için hizmet sağlayıcı arıyor. Duyuru yalnızca katılım ilgisinin 6 Ağustos 2026 saat 15.00 Malezya saati öncesinde bildirilmesini istiyor; ayrıntılı fonksiyonel kapsam kamuya açık değil. Crane CCL ile müşteri hizmetleri ve vaka yönetimi tarafında sınırlı kesişim bulunabilir, ancak ödeme, dijital cüzdan/kupon, tazminat uygunluk kuralları ve finansal entegrasyonlar için kapsamlı teknik gap analizi gerekir.",
+      "summary": "Malaysia Aviation Group, müşteri tazminatlarının nakitsiz ve dijital olarak sunulmasını sağlayacak bir platformun kurulumu ve entegrasyonu için hizmet sağlayıcı arıyor. Duyuru yalnızca katılım ilgisinin 6 Ağustos 2026 saat 15.00 Malezya saati öncesinde bildirilmesini istiyor; ayrıntılı fonksiyonel kapsam kamuya açık değil. Crane CCL ile müşteri hizmetleri ve vaka yönetimi tarafında sınırlı kesişim bulunabilir, ancak ödeme, dijital cüzdan/kupon, tazminat uygunluk kuralları ve finansal entegrasyonlar için kapsamlı teknik gap analizi gerekir. Resmî olarak doğrulanmış bir uzatma duyurusu bulunmadığından teklif süresi dolmuştur.",
       "products": [
         "Crane CCL - Customer Care Layer"
       ],
       "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
       "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7485149713789239296-UARQ",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "vietnam-airlines-b2b-corporate-loyalty-lotusbiz-2027-2029",
@@ -244,7 +244,7 @@
       "deadline": "2026-08-05",
       "detectedAt": "2026-08-02T04:25:31Z",
       "relevance": "Low",
-      "summary": "University of North Dakota, mevcut AIMS platformunun yerine bulut tabanlı kapsamlı bir uçuş okulu operasyon yazılımı tedarik ediyor. Kapsam uçuş planlama ve dispatch, eğitim, öğrenci faturalama, eğitmen yönetimi ve emniyet risk değerlendirmesini içeriyor. Crane CREW ile eğitim ve personel yönetimi tarafında, Crane SP ile planlama tarafında sınırlı kesişim bulunuyor; ancak ana kapsam ticari havayolu operasyonu yerine uçuş okulu, öğrenci ve eğitmen süreçlerine özgü olduğundan uyum düşüktür. Resmî UND portalına göre teklifler 5 Ağustos 2026 saat 14.00 CDT'ye kadar sunulmalıdır.",
+      "summary": "University of North Dakota, mevcut AIMS platformunun yerine bulut tabanlı kapsamlı bir uçuş okulu operasyon yazılımı tedarik ediyor. Kapsam uçuş planlama ve dispatch, eğitim, öğrenci faturalama, eğitmen yönetimi ve emniyet risk değerlendirmesini içeriyor. Crane CREW ile eğitim ve personel yönetimi tarafında, Crane SP ile planlama tarafında sınırlı kesişim bulunuyor; ancak ana kapsam ticari havayolu operasyonu yerine uçuş okulu, öğrenci ve eğitmen süreçlerine özgü olduğundan uyum düşüktür. Resmî UND portalına göre teklifler 5 Ağustos 2026 saat 14.00 CDT'ye kadar sunulmalıdır. Resmî olarak doğrulanmış bir uzatma duyurusu bulunmadığından teklif süresi dolmuştur.",
       "products": [
         "Crane CREW - Crew Management",
         "Crane SP - Schedule Planning"
@@ -252,7 +252,7 @@
       "sourceName": "University of North Dakota Resmî Tedarik Portalı",
       "url": "https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=UND",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "rapid-city-airport-integrated-terminal-technology-cupps-2026",
@@ -329,6 +329,34 @@
       ],
       "sourceName": "Fiji Airways Resmî Tedarik Portalı",
       "url": "https://portal.tenderlink.com/fijiair/alltenders/",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "alliance-air-pss-reservation-inventory-dcs-2026",
+      "title": "Passenger Service System (PSS) – Reservation, Inventory and Departure Control System (DCS) – Tender/Alliance Air/PSS/2026",
+      "organization": "Alliance Air Aviation Limited",
+      "country": "India",
+      "category": "PSS",
+      "publishedDate": "2026-08-05",
+      "deadline": "2026-08-25",
+      "detectedAt": "2026-08-05T13:33:16Z",
+      "relevance": "High",
+      "summary": "Alliance Air, barındırılan ASP modeliyle kapsamlı bir Yolcu Hizmetleri Sistemi tedarik ediyor. Ana kapsam rezervasyon, envanter, internet rezervasyon motoru, mobil uygulama, DCS, check-in/boarding, yük kontrolü, bagaj mutabakat entegrasyonu, yan hizmet dağıtımı ve iletişim kanallarını; opsiyonel kapsam ise schedule/slot yönetimi, OCC ve rota kârlılığı raporlamasını içeriyor. Sözleşme veri sayfasında 3 yıl ve karşılıklı mutabakatla 2 yıl uzatma olarak belirtiliyor; dokümanın başka bir maddesindeki 5+2 yıl ifadesi ön teklif sürecinde netleştirilmelidir. Ön teklif toplantısı 14 Ağustos 2026 saat 11.00 IST, teklif son tarihi 25 Ağustos 2026 saat 15.00 IST'dir. Ön yeterlilikte en az iki tarifeli yolcu havayolu müşterisi ve bunlardan birinin 2025'te en az 2 milyon yolcu taşımış olması şartı bulunuyor.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Alliance Air Aviation Limited Resmî İhale Dokümanı",
+      "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/alliance-air-pss_rfp-05-08-2026.pdf",
       "official": true,
       "status": "Open"
     }
