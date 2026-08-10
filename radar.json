@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-08T04:31:34Z",
+  "lastScan": "2026-08-10T07:31:04Z",
   "sourcesScanned": 85,
   "opportunities": [
     {
@@ -89,14 +89,14 @@
       "deadline": "2026-08-10",
       "detectedAt": "2026-07-29T08:32:03Z",
       "relevance": "Low",
-      "summary": "Malaysia Aviation Group, grup genelinde uçtan uca bir Training Management System’ın uygulanması için hizmet sağlayıcı arıyor. Kamuya açık duyuru yalnızca başlık ve katılım tarihini içeriyor; sistemin uçuş ekibi eğitimleri, yetkinlik/sertifika takibi veya kurumsal LMS kapsamı doğrulanamıyor. Crane CREW içindeki eğitim modülüyle olası kesişim bulunmakla birlikte ayrıntılı RFP alınarak ürün kapsamı ve grup geneli gereksinimler için teknik gap analizi yapılmalı. Katılım ilgisi 10 Ağustos 2026 saat 15.00 Malezya saati öncesinde bildirilmelidir.",
+      "summary": "Malaysia Aviation Group, grup genelinde uçtan uca bir Training Management System’ın uygulanması için hizmet sağlayıcı aradı. Kamuya açık duyuru yalnızca başlık ve katılım tarihini içerdi; sistemin uçuş ekibi eğitimleri, yetkinlik/sertifika takibi veya kurumsal LMS kapsamı doğrulanamadı. Crane CREW içindeki eğitim modülüyle olası kesişim bulunmakla birlikte ürün uyumu düşüktür. Katılım ilgisi için 10 Ağustos 2026 saat 15.00 Malezya saati son tarihi geçti ve resmî uzatma duyurusu bulunmadı.",
       "products": [
         "Crane CREW - Crew Management"
       ],
       "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
       "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7487688299898163200-AtiE",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "malaysia-aviation-group-digital-cashless-compensation-platform-2026",
