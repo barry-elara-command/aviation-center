@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-10T07:31:04Z",
+  "lastScan": "2026-08-10T08:35:57Z",
   "sourcesScanned": 85,
   "opportunities": [
     {
@@ -127,14 +127,14 @@
       "deadline": "2026-08-10",
       "detectedAt": "2026-07-26T11:30:37Z",
       "relevance": "Medium",
-      "summary": "Vietnam Airlines, 2027–2029 dönemi için kurumsal ve ticari müşterileri yönetecek B2B sistemini ve LotusBiz kurumsal sadakat programını hizmet kiralama modeliyle tedarik ediyor. Crane LL ile kurumsal sadakat programı tarafında doğrudan kesişim bulunuyor; ancak B2B şirket hesabı, hiyerarşi ve kurumsal müşteri yönetimi işlevlerinin ayrıntıları e-posta ile talep edilen RFP üzerinden doğrulanmalı. Teklifler 10 Ağustos 2026 saat 15.00 Vietnam saati öncesinde elden, posta veya e-posta ile sunulabiliyor.",
+      "summary": "Vietnam Airlines, 2027–2029 dönemi için kurumsal ve ticari müşterileri yönetecek B2B sistemi ile LotusBiz kurumsal sadakat programını hizmet kiralama modeliyle tedarik etti. Crane LL ile kurumsal sadakat programı tarafında doğrudan kesişim bulunuyordu; ancak B2B şirket hesabı, hiyerarşi ve kurumsal müşteri yönetimi işlevlerinin ayrıntıları e-posta ile talep edilen RFP üzerinden doğrulanmalıydı. Teklif süresi 10 Ağustos 2026 saat 15.00 Vietnam saati itibarıyla doldu ve resmî uzatma duyurusu bulunmadı.",
       "products": [
         "Crane LL - Loyalty Layer"
       ],
       "sourceName": "Vietnam Airlines Resmî Tedarik Duyurusu",
       "url": "https://www.vietnamairlines.com/au/en/vietnam-airlines/procurement/information/2026/0724-msdsmm-07242026",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "south-african-airways-bidt-service-gsm051-2026",
