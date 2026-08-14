@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-14T07:24:22Z",
-  "sourcesScanned": 85,
+  "lastScan": "2026-08-14T18:26:12Z",
+  "sourcesScanned": 89,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -32,14 +32,14 @@
       "deadline": "2026-08-14",
       "detectedAt": "2026-07-31T07:26:48Z",
       "relevance": "Low",
-      "summary": "Norfolk Airport Authority, Norfolk International Airport için tamamen bulut tabanlı CUPPS/CUTE ile entegre FIDS, GIDS, BIDS ve opsiyonel Gate Management System tedarik ediyor. Sistem; ortak kullanım check-in, biletleme, boarding ve bagaj işlemlerini, mevcut yedi havayolunun uygulamalarıyla güvenli bağlantıyı ve opsiyonel kaynak yönetimini kapsıyor. Crane DCS ile yolcu işlem ve havayolu host entegrasyonu tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım altyapısı, ekran sistemleri ve donanımı içerdiğinden uyum düşüktür ve CUPPS ana yüklenicisi/entegrasyon ortağı modeliyle değerlendirilmelidir. Resmî Addendum #02 ile teklif son tarihi bir hafta uzatılarak 14 Ağustos 2026 saat 14.00 ET olarak değiştirilmiştir.",
+      "summary": "Norfolk Airport Authority, Norfolk International Airport için tamamen bulut tabanlı CUPPS/CUTE ile entegre FIDS, GIDS, BIDS ve opsiyonel Gate Management System tedarik etti. Sistem; ortak kullanım check-in, biletleme, boarding ve bagaj işlemlerini, mevcut yedi havayolunun uygulamalarıyla güvenli bağlantıyı ve opsiyonel kaynak yönetimini kapsıyordu. Crane DCS ile yolcu işlem ve havayolu host entegrasyonu tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım altyapısı, ekran sistemleri ve donanımı içerdiğinden uyum düşüktür ve CUPPS ana yüklenicisi/entegrasyon ortağı modeliyle değerlendirilmelidir. Resmî Addendum #03 ile uzatılan teklif süresi 14 Ağustos 2026 saat 14.00 ET itibarıyla dolmuştur; yeni bir uzatma duyurusu bulunmamıştır.",
       "products": [
         "Crane DCS - Departure Control System"
       ],
       "sourceName": "Norfolk Airport Authority Resmî RFP Dokümanı",
       "url": "https://www.flyorf.com/wp-content/uploads/2026/07/ORF-CUPPS-FIDS-GMS-RFP-FY27-102-01.pdf",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
     },
     {
       "id": "rhode-island-airport-cupps-gms-ids-rfp-37399-2026",
