@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-14T18:26:12Z",
-  "sourcesScanned": 89,
+  "lastScan": "2026-08-14T20:25:34Z",
+  "sourcesScanned": 93,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -221,10 +221,10 @@
       "country": "South Africa",
       "category": "Operations Planning",
       "publishedDate": "2026-07-30",
-      "deadline": "2026-08-27",
+      "deadline": "2026-09-10",
       "detectedAt": "2026-08-02T03:31:38Z",
       "relevance": "Medium",
-      "summary": "Eskom, uçuş planlama, teklif oluşturma, faturalama, havacılık proje/iş mutabakatı ve aylık operasyonel raporlama için beş yıllık bir Flight Operations Management yazılım programı tedarik ediyor. Crane SP ile uçuş planlama, Crane BPI ile operasyonel performans raporlaması tarafında önemli kesişim bulunuyor; ancak kurumsal havacılığa özgü teklif, faturalama ve proje/iş mutabakatı işlevleri için teknik gap analizi gerekli. Teklifler 27 Ağustos 2026 saat 10.00'a kadar sunulmalıdır; zorunlu olmayan bilgilendirme toplantısı 13 Ağustos 2026 saat 10.00'da MS Teams üzerinden yapılacaktır.",
+      "summary": "Eskom, uçuş planlama, teklif oluşturma, faturalama, havacılık proje/iş mutabakatı ve aylık operasyonel raporlama için beş yıllık bir Flight Operations Management yazılım programı tedarik ediyor. Crane SP ile uçuş planlama, Crane BPI ile operasyonel performans raporlaması tarafında önemli kesişim bulunuyor; ancak kurumsal havacılığa özgü teklif, faturalama ve proje/iş mutabakatı işlevleri için teknik gap analizi gerekli. South Africa eTenders güncel ihale kayıt verisinde teklif son tarihi 10 Eylül 2026 olarak güncellenmiştir; güncel kapanış saati kamuya açık listede doğrulanamadığından belirtilmemiştir.",
       "products": [
         "Crane SP - Schedule Planning",
         "Crane BPI - Business Performance Index"
