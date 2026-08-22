@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-14T20:25:34Z",
-  "sourcesScanned": 93,
+  "lastScan": "2026-08-22T09:24:44Z",
+  "sourcesScanned": 101,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -357,6 +357,25 @@
       ],
       "sourceName": "Alliance Air Aviation Limited Resmî İhale Dokümanı",
       "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/alliance-air-pss_rfp-05-08-2026.pdf",
+      "official": true,
+      "status": "Open"
+    },
+    {
+      "id": "south-african-airways-uld-management-rfi-gsm-001-2026",
+      "title": "Request for Information for ULD Management – RFI GSM 001-2026",
+      "organization": "South African Airways",
+      "country": "South Africa",
+      "category": "Air Cargo",
+      "publishedDate": "",
+      "deadline": "2026-08-28",
+      "detectedAt": "2026-08-22T09:24:44Z",
+      "relevance": "Low",
+      "summary": "South African Airways, ULD yönetimi için bir Bilgi Talebi (RFI) yayımladı. Resmî kamu sayfasında başlık, referans ve kapanış bilgileri doğrulanabiliyor; ayrıntılı RFI dokümanı ise iletişim bilgileri ve doğrulama adımı sonrasında indirilebildiğinden fonksiyonel kapsam kamuya açık sayfadan teyit edilemedi. Crane CGO ile kargo operasyonları ve taşıma birimi görünürlüğü bakımından olası fakat sınırlı kesişim bulunuyor; özel ULD envanteri, takip, havuz ve maliyet yönetimi gereksinimleri doğrulanmadan doğrudan ürün uyumu varsayılmamalıdır. Bilgi yanıtları 28 Ağustos 2026 saat 16.00 SAST'ye kadar sunulmalıdır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "South African Airways Resmî İhale Sayfası",
+      "url": "https://www.flysaa.com/about-us/leading-carrier/tender?getFile=e5cfc6ba-f53b-851c-062e-88c133eb6590&sectionTitle=UkZJIEdTTSAwMDEtMjAyNiB8IFJlcXVlc3QgZm9yIEluZm9ybWF0aW9uIGZvciBVTEQgTWFuYWdlbWVudA==&tenderReference=UkZJIEdTTSAwMDEtMjAyNg==",
       "official": true,
       "status": "Open"
     }
