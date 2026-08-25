@@ -339,10 +339,10 @@
       "country": "India",
       "category": "PSS",
       "publishedDate": "2026-08-05",
-      "deadline": "2026-08-25",
+      "deadline": "2026-09-11",
       "detectedAt": "2026-08-05T13:33:16Z",
       "relevance": "High",
-      "summary": "Alliance Air, barındırılan ASP modeliyle kapsamlı bir Yolcu Hizmetleri Sistemi tedarik ediyor. Ana kapsam rezervasyon, envanter, internet rezervasyon motoru, mobil uygulama, DCS, check-in/boarding, yük kontrolü, bagaj mutabakat entegrasyonu, yan hizmet dağıtımı ve iletişim kanallarını; opsiyonel kapsam ise schedule/slot yönetimi, OCC ve rota kârlılığı raporlamasını içeriyor. Sözleşme veri sayfasında 3 yıl ve karşılıklı mutabakatla 2 yıl uzatma olarak belirtiliyor; dokümanın başka bir maddesindeki 5+2 yıl ifadesi ön teklif sürecinde netleştirilmelidir. Ön teklif toplantısı 14 Ağustos 2026 saat 11.00 IST, teklif son tarihi 25 Ağustos 2026 saat 15.00 IST'dir. Ön yeterlilikte en az iki tarifeli yolcu havayolu müşterisi ve bunlardan birinin 2025'te en az 2 milyon yolcu taşımış olması şartı bulunuyor.",
+      "summary": "Alliance Air, barındırılan ASP modeliyle kapsamlı bir Yolcu Hizmetleri Sistemi tedarik ediyor. Ana kapsam rezervasyon, envanter, internet rezervasyon motoru, mobil uygulama, DCS, check-in/boarding, yük kontrolü, bagaj mutabakat entegrasyonu, yan hizmet dağıtımı ve iletişim kanallarını; opsiyonel kapsam ise schedule/slot yönetimi, OCC ve rota kârlılığı raporlamasını içeriyor. Sözleşme veri sayfasında 3 yıl ve karşılıklı mutabakatla 2 yıl uzatma olarak belirtiliyor; dokümanın başka bir maddesindeki 5+2 yıl ifadesi netleştirilmelidir. Ön yeterlilikte en az iki tarifeli yolcu havayolu müşterisi ve bunlardan birinin 2025'te en az 2 milyon yolcu taşımış olması şartı bulunuyor. Alliance Air'ın 25 Ağustos 2026 tarihli resmî corrigendum'u teklif son tarihini 11 Eylül 2026'ya uzatmıştır; güncel kapanış saati kamuya açık ihale sayfasında doğrulanamadığından belirtilmemiştir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -355,10 +355,10 @@
         "Crane OCC - Operations Control Center",
         "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "Alliance Air Aviation Limited Resmî İhale Dokümanı",
-      "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/alliance-air-pss_rfp-05-08-2026.pdf",
+      "sourceName": "Alliance Air Aviation Limited Resmî Corrigendum",
+      "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/pss-corrigendum-25-08-2026.pdf",
       "official": true,
-      "status": "Expired"
+      "status": "Open"
     },
     {
       "id": "south-african-airways-uld-management-rfi-gsm-001-2026",
