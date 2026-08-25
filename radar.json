@@ -378,6 +378,25 @@
       "url": "https://www.flysaa.com/about-us/leading-carrier/tender?getFile=e5cfc6ba-f53b-851c-062e-88c133eb6590&sectionTitle=UkZJIEdTTSAwMDEtMjAyNiB8IFJlcXVlc3QgZm9yIEluZm9ybWF0aW9uIGZvciBVTEQgTWFuYWdlbWVudA==&tenderReference=UkZJIEdTTSAwMDEtMjAyNg==",
       "official": true,
       "status": "Open"
+    },
+    {
+      "id": "berlin-brandenburg-airport-cupps-ea-2026-0120",
+      "title": "Provision, Setup, Configuration and Operation of a Common Use Passenger Processing System (CUPPS) – EA-2026-0120 / 517679-2026",
+      "organization": "Flughafen Berlin Brandenburg GmbH",
+      "country": "Germany",
+      "category": "DCS",
+      "publishedDate": "2026-07-27",
+      "deadline": "2026-08-26",
+      "detectedAt": "2026-08-25T21:27:03Z",
+      "relevance": "Low",
+      "summary": "Flughafen Berlin Brandenburg GmbH, IATA RP 1797 uyumlu bir Common Use Passenger Processing System'ın (CUPPS) donanım ve yazılım bileşenleriyle kurulumu, yapılandırılması, işletimi, bakımı, 1./2./3. seviye desteği ve havayollarının Departure Control System'larına bağlantısı için iki aşamalı bir ihale yürütüyor. Crane DCS ile havayolu host/DCS bağlantısı ve ortak kullanım yolcu işlemleri tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı CUPPS altyapısı, donanım ve saha desteğine odaklandığından uyum düşüktür ve ana yüklenici/entegrasyon ortağı modeliyle değerlendirilmelidir. İlk aşama katılım başvuruları 26 Ağustos 2026 saat 10.00 CEST'ye kadar kabul edilmektedir.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
+      "url": "https://ted.europa.eu/de/notice/-/detail/517679-2026",
+      "official": true,
+      "status": "Open"
     }
   ]
 }
