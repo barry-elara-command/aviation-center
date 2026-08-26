@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-22T09:24:44Z",
-  "sourcesScanned": 101,
+  "lastScan": "2026-08-26T08:25:02Z",
+  "sourcesScanned": 103,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -389,14 +389,33 @@
       "deadline": "2026-08-26",
       "detectedAt": "2026-08-25T21:27:03Z",
       "relevance": "Low",
-      "summary": "Flughafen Berlin Brandenburg GmbH, IATA RP 1797 uyumlu bir Common Use Passenger Processing System'ın (CUPPS) donanım ve yazılım bileşenleriyle kurulumu, yapılandırılması, işletimi, bakımı, 1./2./3. seviye desteği ve havayollarının Departure Control System'larına bağlantısı için iki aşamalı bir ihale yürütüyor. Crane DCS ile havayolu host/DCS bağlantısı ve ortak kullanım yolcu işlemleri tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı CUPPS altyapısı, donanım ve saha desteğine odaklandığından uyum düşüktür ve ana yüklenici/entegrasyon ortağı modeliyle değerlendirilmelidir. İlk aşama katılım başvuruları 26 Ağustos 2026 saat 10.00 CEST'ye kadar kabul edilmektedir.",
+      "summary": "Flughafen Berlin Brandenburg GmbH, IATA RP 1797 uyumlu bir Common Use Passenger Processing System'ın (CUPPS) donanım ve yazılım bileşenleriyle kurulumu, yapılandırılması, işletimi, bakımı, 1./2./3. seviye desteği ve havayollarının Departure Control System'larına bağlantısı için iki aşamalı bir ihale yürüttü. Crane DCS ile havayolu host/DCS bağlantısı ve ortak kullanım yolcu işlemleri tarafında sınırlı kesişim bulunuyor; ancak ana alım havalimanı CUPPS altyapısı, donanım ve saha desteğine odaklandığından uyum düşüktür ve ana yüklenici/entegrasyon ortağı modeliyle değerlendirilmelidir. İlk aşama katılım süresi 26 Ağustos 2026 saat 10.00 CEST itibarıyla dolmuştur; resmî kaynaklarda doğrulanabilen bir uzatma duyurusu bulunmamaktadır.",
       "products": [
         "Crane DCS - Departure Control System"
       ],
       "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
       "url": "https://ted.europa.eu/de/notice/-/detail/517679-2026",
       "official": true,
-      "status": "Open"
+      "status": "Expired"
+    },
+    {
+      "id": "berlin-brandenburg-airport-brs-ea-2026-0152",
+      "title": "Provision, Setup, Configuration and Operation of a Baggage Reconciliation System (BRS), Including Maintenance and Support – EA-2026-0152 / 514931-2026",
+      "organization": "Flughafen Berlin Brandenburg GmbH",
+      "country": "Germany",
+      "category": "Baggage Reconciliation",
+      "publishedDate": "2026-07-24",
+      "deadline": "2026-08-25",
+      "detectedAt": "2026-08-26T08:25:02Z",
+      "relevance": "Medium",
+      "summary": "Flughafen Berlin Brandenburg GmbH, BER Havalimanı'nda bagaj ve yolcu verilerinin mutabakatı ile IATA Resolution 753 uyumlu otomatik bagaj takibi için Baggage Reconciliation System'ın (BRS) kurulumu, yapılandırılması, işletimi, bakım ve desteğini tam hizmet kiralama modeliyle tedarik etti. Crane BRI ile bagaj-yolcu eşleştirme ve bagaj izlenebilirliği bakımından doğrudan ürün kesişimi bulunuyor; ancak havalimanı altyapısı, cihazlar, saha işletimi ve destek yükümlülükleri için entegrasyon/ana yüklenici modeli ve teknik gap analizi gerekir. İlk aşama katılım süresi 25 Ağustos 2026 saat 10.00 CEST itibarıyla dolmuştur.",
+      "products": [
+        "Crane BRI - Baggage Reconciliation Itinerary"
+      ],
+      "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
+      "url": "https://ted.europa.eu/en/notice/-/detail/514931-2026",
+      "official": true,
+      "status": "Expired"
     }
   ]
 }
