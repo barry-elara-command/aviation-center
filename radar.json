@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-27T05:20:22Z",
-  "sourcesScanned": 107,
+  "lastScan": "2026-08-27T19:27:47Z",
+  "sourcesScanned": 108,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -433,6 +433,27 @@
       ],
       "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
       "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260602091035244.pdf",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "lao-airlines-digital-ecosystem-website-ibe-redesign-2026",
+      "title": "Comprehensive Redesign of Lao Airlines Digital Ecosystem 2026 – Website & IBE Redesign",
+      "organization": "Lao Airlines State Enterprise",
+      "country": "Laos",
+      "category": "Digital Commerce",
+      "publishedDate": "2026-02-17",
+      "deadline": "2026-03-03",
+      "detectedAt": "2026-08-27T19:27:47Z",
+      "relevance": "Low",
+      "summary": "Lao Airlines, yaklaşık 30 sayfalık WordPress web sitesinin yeniden tasarlanması, çevrim içi check-in ve rezervasyon yönetimi yolculuklarının iyileştirilmesi, Sabre Internet Booking Engine için uyumlu stil/CSS geliştirilmesi ve CRM/e-posta pazarlama entegrasyonlarını içeren bir dijital ekosistem projesi yürüttü. Crane IBE ve Crane MA ile dijital satış deneyimi, Crane CM ile müşteri iletişimi tarafında sınırlı kesişim bulunuyor; ancak ana kapsam yeni bir IBE/PSS tedarikinden ziyade mevcut Sabre IBE’nin görsel uyumlandırılması ve web ajansı hizmetleri olduğundan uyum düşüktür. Teklif süresi 3 Mart 2026 tarihinde dolmuştur; hedef lansman tarihi 20 Temmuz 2026 olarak belirtilmiştir.",
+      "products": [
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane CM - Communication Manager"
+      ],
+      "sourceName": "Lao Airlines Resmî RFP Duyurusu",
+      "url": "https://laoairlines.com/en/request-for-proposal-rfp-comprehensive-redesign-of-lao-airlines-digital-ecosystem-2026/",
       "official": true,
       "status": "Expired"
     }
