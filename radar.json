@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-26T08:25:02Z",
-  "sourcesScanned": 103,
+  "lastScan": "2026-08-27T05:20:22Z",
+  "sourcesScanned": 107,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -414,6 +414,25 @@
       ],
       "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
       "url": "https://ted.europa.eu/en/notice/-/detail/514931-2026",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "srilankan-competitor-fare-monitoring-cpit-icb-11-25",
+      "title": "Competitor Fare Monitoring Solution – CPIT/ICB/11/25",
+      "organization": "SriLankan Airlines",
+      "country": "Sri Lanka",
+      "category": "Accounting & Business Performance",
+      "publishedDate": "2026-06-02",
+      "deadline": "2026-07-15",
+      "detectedAt": "2026-08-27T05:20:22Z",
+      "relevance": "Low",
+      "summary": "SriLankan Airlines, fiyatlandırma ve gelir yönetimi ekipleri için rakip ücretlerini otomatik izleyen; havayolunun kendi ücret verisini sağlayan ve mevcut revenue management, availability management ile fare management çözümlerine entegre olacak beş yıllık bir sistem tedarik etti. Crane BPI ile fiyat ve ticari performans analizi bakımından sınırlı kesişim bulunuyor; ancak rakip ücret verisinin toplanması, gerçek zamanlı pazar verisi sağlanması ve fare-management entegrasyonu özel yetkinlik gerektirdiğinden uyum düşüktür. Teklif süresi 15 Temmuz 2026 saat 11.00 Sri Lanka saati itibarıyla dolmuştur.",
+      "products": [
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
+      "url": "https://www.srilankan.com/download/tender/TN-Invitationforbidsfor-20260602091035244.pdf",
       "official": true,
       "status": "Expired"
     }
