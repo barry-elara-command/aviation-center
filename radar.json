@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-31T08:23:46Z",
-  "sourcesScanned": 122,
+  "lastScan": "2026-08-31T11:31:51Z",
+  "sourcesScanned": 130,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -473,6 +473,25 @@
       ],
       "sourceName": "Royal Jordanian Airlines Resmî Tedarik Portalı",
       "url": "https://procurement.rj.com/RFP_Check.aspx?R1ktb=ehWMVeNbHwsuC+qZB7PTmR645ppaUUASWGq5LtdOi4KIJr1iVQaeN6SnQyTyegBl",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "firefly-automated-crew-management-system-rfp-2026",
+      "title": "Implementation of Automated Crew Management System for FlyFirefly Sdn Bhd (Firefly)",
+      "organization": "FlyFirefly Sdn Bhd (Firefly)",
+      "country": "Malaysia",
+      "category": "Crew Management",
+      "publishedDate": "",
+      "deadline": "2026-05-15",
+      "detectedAt": "2026-08-31T11:31:51Z",
+      "relevance": "High",
+      "summary": "Malaysia Aviation Group, FlyFirefly Sdn Bhd (Firefly) için otomatik bir Crew Management System'ın uygulanmasına yönelik RFP'ye nitelikli hizmet sağlayıcıları davet etti. Crane CREW ile doğrudan ürün eşleşmesi bulunuyor. Kamuya açık resmî duyuru yalnızca ihale başlığını ve katılım kaydı için son zamanı içerdiğinden; crew planning, rostering, tracking, legality, training ve entegrasyon gereksinimleri ayrıntılı RFP dokümanından doğrulanmalıdır. Katılım ilgisi ve kayıt için 15 Mayıs 2026 saat 15.00 Malezya saati son tarihi geçtiğinden fırsat yeni katılıma kapalıdır.",
+      "products": [
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
+      "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7454835503826325504-lrgf",
       "official": true,
       "status": "Expired"
     }
