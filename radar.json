@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-31T11:31:51Z",
-  "sourcesScanned": 130,
+  "lastScan": "2026-08-31T12:35:45Z",
+  "sourcesScanned": 138,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -492,6 +492,25 @@
       ],
       "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
       "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7454835503826325504-lrgf",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "daa-dublin-cork-airports-cuss-cupps-p20883-127598-2026",
+      "title": "CUSS and CUPPS for Dublin and Cork Airports – P20883 / 127598-2026",
+      "organization": "daa plc",
+      "country": "Ireland",
+      "category": "DCS",
+      "publishedDate": "2026-02-24",
+      "deadline": "2026-03-24",
+      "detectedAt": "2026-08-31T12:35:45Z",
+      "relevance": "Low",
+      "summary": "daa plc, Dublin ve Cork havalimanları için Common Use Self-Service (CUSS) ve Common Use Passenger Processing System (CUPPS) tedarikine yönelik bir ihale yürüttü. Crane DCS ile ortak kullanım check-in ve yolcu işlemleri ile havayolu host bağlantıları bakımından sınırlı kesişim bulunuyor; ancak ana alım havalimanı ortak kullanım ağ, kiosk ve terminal altyapısına odaklandığından uyum düşüktür ve ana yüklenici/entegrasyon ortağı modeliyle değerlendirilmelidir. Teklif süresi 24 Mart 2026 tarihinde dolmuştur.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
+      "url": "https://ted.europa.eu/en/notice/-/detail/127598-2026",
       "official": true,
       "status": "Expired"
     }
