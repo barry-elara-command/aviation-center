@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-28T14:31:32Z",
-  "sourcesScanned": 110,
+  "lastScan": "2026-08-31T08:23:46Z",
+  "sourcesScanned": 122,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -454,6 +454,25 @@
       ],
       "sourceName": "Lao Airlines Resmî RFP Duyurusu",
       "url": "https://laoairlines.com/en/request-for-proposal-rfp-comprehensive-redesign-of-lao-airlines-digital-ecosystem-2026/",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "royal-jordanian-cargo-management-system-rfp-21-2026",
+      "title": "Cargo Management System (CMS) – RFP 21/2026",
+      "organization": "Royal Jordanian Airlines",
+      "country": "Jordan",
+      "category": "Air Cargo",
+      "publishedDate": "2026-06-12",
+      "deadline": "2026-06-30",
+      "detectedAt": "2026-08-31T08:23:46Z",
+      "relevance": "High",
+      "summary": "Royal Jordanian Airlines; rezervasyon ve booking'den operasyon, faturalama, interline işlemleri, revenue accounting, raporlama, müşteri kanalları ve dijital hizmetlere kadar tüm kargo yaşam döngüsünü kapsayan modern, güvenli ve ölçeklenebilir bir Cargo Management System tedarik etti. Kapsam ayrıca entegrasyon, veri migrasyonu, eğitim, test, devreye alma, hypercare, garanti ve destek hizmetlerini içeriyor. Crane CGO ile kargo rezervasyon ve operasyon süreçlerinde doğrudan, uçtan uca ürün eşleşmesi bulunuyor. Resmî Royal Jordanian tedarik portalı talebin kapandığını doğruluyor; teklif son tarihi 30 Haziran 2026 olduğundan kayıt geçmişe dönük olarak Expired durumunda eklenmiştir.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "Royal Jordanian Airlines Resmî Tedarik Portalı",
+      "url": "https://procurement.rj.com/RFP_Check.aspx?R1ktb=ehWMVeNbHwsuC+qZB7PTmR645ppaUUASWGq5LtdOi4KIJr1iVQaeN6SnQyTyegBl",
       "official": true,
       "status": "Expired"
     }
