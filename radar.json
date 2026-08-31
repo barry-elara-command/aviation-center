@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-31T12:35:45Z",
-  "sourcesScanned": 138,
+  "lastScan": "2026-08-31T14:34:35Z",
+  "sourcesScanned": 146,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -511,6 +511,25 @@
       ],
       "sourceName": "Tenders Electronic Daily (TED) Resmî İhale Duyurusu",
       "url": "https://ted.europa.eu/en/notice/-/detail/127598-2026",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "maskargo-wms-enhancement-maintenance-rfp-2026",
+      "title": "Enhancement of Existing MAB Kargo Warehouse Management System (WMS), Including Maintenance Program",
+      "organization": "MASkargo",
+      "country": "Malaysia",
+      "category": "Air Cargo",
+      "publishedDate": "",
+      "deadline": "2026-01-30",
+      "detectedAt": "2026-08-31T14:34:35Z",
+      "relevance": "Medium",
+      "summary": "Malaysia Aviation Group, MASkargo'nun KLIA'daki mevcut MAB Kargo Warehouse Management System'ının geliştirilmesi ve bakım programı için hizmet sağlayıcıları RFP sürecine davet etti. Crane CGO ile kargo kabul, depo ve operasyon süreçleri bakımından önemli kesişim bulunuyor; ancak talep yeni bir uçtan uca cargo management platformundan ziyade mevcut WMS'nin geliştirilmesi ve bakımına odaklandığından incumbent teknoloji, entegrasyon kapsamı ve özel depo işlevleri ayrıntılı RFP dokümanından doğrulanmalıdır. Katılım ilgisi ve kayıt için 30 Ocak 2026 saat 12.00 Malezya saati son tarihi geçmiştir; kamuya açık resmî duyuruda uzatma bilgisi bulunmamaktadır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
+      "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7414490588550557696-B9aB",
       "official": true,
       "status": "Expired"
     }
