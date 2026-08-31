@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-08-31T14:34:35Z",
-  "sourcesScanned": 146,
+  "lastScan": "2026-08-31T19:24:35Z",
+  "sourcesScanned": 153,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -530,6 +530,29 @@
       ],
       "sourceName": "Malaysia Aviation Group Resmî LinkedIn Duyurusu",
       "url": "https://www.linkedin.com/posts/malaysia-aviation-group_malaysia-aviation-group-mag-invites-qualified-activity-7414490588550557696-B9aB",
+      "official": true,
+      "status": "Expired"
+    },
+    {
+      "id": "cayman-airways-airline-passenger-solutions-system-ppc-2026-cal-041-rfp",
+      "title": "Airline Passenger Solutions System – PPC-2026-CAL-041-RFP",
+      "organization": "Cayman Airways Limited",
+      "country": "Cayman Islands",
+      "category": "PSS",
+      "publishedDate": "2026-04-29",
+      "deadline": "2026-06-27",
+      "detectedAt": "2026-08-31T19:24:35Z",
+      "relevance": "High",
+      "summary": "Cayman Airways, mevcut Sabre ortamının yerine tek sağlayıcıdan veya modüler olarak tedarik edilebilecek yeni bir Airline Passenger Solutions System için RFP yürüttü. Kamuya açık ihale kapsamı rezervasyon ve biletleme, departure control, internet booking engine, mobil uygulama, loyalty ve self-service kiosk bileşenlerini; ayrıca mevcut revenue management, revenue accounting, baggage ve ortak kullanım havalimanı platformlarıyla entegrasyonları içeriyordu. Crane PAX, Crane DCS, Crane IBE, Crane MA ve Crane LL ile güçlü ve doğrudan ürün eşleşmesi bulunuyor. Cayman Islands Government'ın resmî Bonfire portalı PPC-2026-CAL-041-RFP kaydını Closed olarak gösteriyor; kapanış zamanı 27 Haziran 2026 saat 00.00 EST olduğundan fırsat aktif teklif kabulüne kapalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane DCS - Departure Control System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane LL - Loyalty Layer"
+      ],
+      "sourceName": "Cayman Islands Government Resmî Bonfire Tedarik Portalı",
+      "url": "https://cayman.bonfirehub.com/opportunities/234138",
       "official": true,
       "status": "Expired"
     }
