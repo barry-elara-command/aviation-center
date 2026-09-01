@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-08-31T19:24:35Z",
+  "lastScan": "2026-09-01T05:33:27Z",
   "sourcesScanned": 153,
   "opportunities": [
     {
@@ -555,6 +555,28 @@
       "url": "https://cayman.bonfirehub.com/opportunities/234138",
       "official": true,
       "status": "Expired"
+    },
+    {
+      "id": "aena-integral-loyalty-management-application-ddt-87-2026",
+      "title": "Integral Loyalty Management Application – DDT-87/2026",
+      "organization": "Aena S.M.E., S.A.",
+      "country": "Spain",
+      "category": "Loyalty & Customer Management",
+      "publishedDate": "",
+      "deadline": "2026-05-11",
+      "detectedAt": "2026-09-01T05:33:27Z",
+      "relevance": "Medium",
+      "summary": "Aena, bütünleşik bir loyalty management uygulamasının tedariki için ihale yürüttü. Resmî kayıt alımı yazılım/lisans tedariki olarak sınıflandırıyor; teknik şartname ayrıca erişilebilir durumda. Crane LL ile sadakat programı yönetimi bakımından doğrudan ürün kesişimi bulunuyor; ancak alıcının havalimanı işletmecisi olması ve ayrıntılı müşteri, kampanya, ödül, ortaklık ve entegrasyon gereksinimlerinin teknik şartnameden doğrulanması gerektiği için uyum orta seviyededir. Teklif süresi 11 Mayıs 2026 saat 12.00 İspanya yarımada saati itibarıyla dolmuştur.",
+      "products": [
+        "Crane LL - Loyalty Layer"
+      ],
+      "sourceName": "Aena Resmî Tedarik Portalı",
+      "url": "https://contratacion.aena.es/contratacion/principal?idexp=9610176548&portal=infoexp&tipoexp=400",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "Tender",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Benzer Aena loyalty yenilemeleri ve olası yeni fazlar için tedarikçi portalı izlenmeli; teknik şartname Crane LL gap analizi için incelenmeli."
     }
   ]
 }
