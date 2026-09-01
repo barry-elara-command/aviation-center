@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-09-01T08:37:05Z",
+  "lastScan": "2026-09-01T20:22:07Z",
   "sourcesScanned": 153,
   "opportunities": [
     {
@@ -601,6 +601,31 @@
       "recommendation": "Monitor",
       "incumbent": "WISE Cargo",
       "qualificationNotes": "Havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık Cargo Management Software hizmet deneyimi ve teklif değerlendirmesinde QA/test sisteminde örnek veriyle fonksiyonel test beklenmiştir."
+    },
+    {
+      "id": "vietnam-airlines-customer-data-platform-cdp-2026-2031",
+      "title": "Implementation of the Customer Data Platform (CDP) System – August 2026 to July 2031",
+      "organization": "Vietnam Airlines",
+      "country": "Vietnam",
+      "category": "Loyalty & Customer Management",
+      "publishedDate": "",
+      "deadline": "2026-02-05",
+      "detectedAt": "2026-09-01T20:22:07Z",
+      "relevance": "Medium",
+      "summary": "Vietnam Airlines, Ağustos 2026–Temmuz 2031 dönemi için bir Customer Data Platform (CDP) sisteminin uygulanmasına yönelik RFP yürüttü. Resmî davet, ayrıntılı gereksinimlerin RFP dokümanında bulunduğunu ve teklif son tarihinin 29 Ocak 2026’dan 5 Şubat 2026 saat 09.00 Hanoi saatine uzatıldığını doğruluyor. Crane CCL, Crane CM ve Crane LL ile birleşik müşteri görünümü, müşteri iletişimi ve sadakat verisinin kullanımı bakımından anlamlı kesişim bulunuyor; ancak kamuya açık davette veri kaynakları, kimlik çözümleme, gerçek zamanlı segmentasyon, kişiselleştirme, kampanya orkestrasyonu ve entegrasyon gereksinimleri açıklanmadığından teknik gap analizi için RFP dokümanı gereklidir. Teklif süresi dolmuş olduğundan kayıt geçmişe dönük olarak Expired durumunda eklenmiştir.",
+      "products": [
+        "Crane CCL - Customer Care Layer",
+        "Crane CM - Communication Manager",
+        "Crane LL - Loyalty Layer"
+      ],
+      "sourceName": "Vietnam Airlines Resmî Tedarik Duyurusu",
+      "url": "https://www.vietnamairlines.com/vn/en/vietnam-airlines/procurement/information/2025/31Dec-TTBSP-CDP-en",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "RFP",
+      "commercialPriority": "P3",
+      "recommendation": "Monitor",
+      "qualificationNotes": "Kamuya açık davet ayrıntılı teknik ve ön yeterlilik şartlarını içermiyor; bunlar RFP dokümanından doğrulanmalıdır. Teklif son tarihi 29 Ocak 2026'dan 5 Şubat 2026 saat 09.00 Hanoi saatine uzatılmıştır."
     }
   ]
 }
