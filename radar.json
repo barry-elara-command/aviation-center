@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-09-01T05:33:27Z",
+  "lastScan": "2026-09-01T08:37:05Z",
   "sourcesScanned": 153,
   "opportunities": [
     {
@@ -577,6 +577,30 @@
       "procurementType": "Tender",
       "commercialPriority": "Watchlist",
       "recommendation": "Benzer Aena loyalty yenilemeleri ve olası yeni fazlar için tedarikçi portalı izlenmeli; teknik şartname Crane LL gap analizi için incelenmeli."
+    },
+    {
+      "id": "aiasl-cargo-management-software-gem-2026-b-7379190",
+      "title": "Maintenance & Service of Cargo Management Software (CMS) – GEM/2026/B/7379190",
+      "organization": "AI Airport Services Limited (AIASL)",
+      "country": "India",
+      "category": "Air Cargo",
+      "publishedDate": "2026-03-20",
+      "deadline": "2026-04-03",
+      "detectedAt": "2026-09-01T08:37:05Z",
+      "relevance": "Medium",
+      "summary": "AI Airport Services Limited (AIASL), mevcut WISE Cargo Management System için SaaS modeliyle bakım ve hizmet tedariki gerçekleştirdi. Resmî AIASL ihale listesi, GEM/2026/B/7379190 referansını, 20 Mart 2026 yayın ve 3 Nisan 2026 kapanış tarihlerini doğruluyor. Teknik doküman; havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık CMS deneyimi ile teklif değerlendirmesi kapsamında QA/test sisteminde örnek veriyle fonksiyonel test öngörüyor. Crane CGO ile kargo kabul, rezervasyon ve operasyon süreçlerinde önemli kesişim bulunmakla birlikte talep yeni platform değişiminden ziyade incumbent WISE Cargo sisteminin bakım ve hizmetine odaklandığından doğrudan katılım fırsatı sınırlıdır; benzer yenileme veya yeniden ihale süreçleri izlenmelidir.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "AI Airport Services Limited Resmî İhale Sayfası",
+      "url": "https://www.aiasl.in/Tenders",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "Tender",
+      "commercialPriority": "P3",
+      "recommendation": "Monitor",
+      "incumbent": "WISE Cargo",
+      "qualificationNotes": "Havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık Cargo Management Software hizmet deneyimi ve teklif değerlendirmesinde QA/test sisteminde örnek veriyle fonksiyonel test beklenmiştir."
     }
   ]
 }
