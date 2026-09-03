@@ -654,6 +654,31 @@
       "clarificationDate": "2026-05-22",
       "preBidDate": "2026-05-15",
       "qualificationNotes": "En az iki yıllık multi-airport loyalty platform deneyimi; referanslardan en az birinin yılda en az 20 milyon yolcuya hizmet veren bir havalimanı olması; son beş yıldan üç benzer proje referansı ve Florida'da iş yapma kaydı istenmiştir."
+    },
+    {
+      "id": "usdot-airline-analysis-scheduling-solution-693jk426r600002",
+      "title": "Airline Analysis and Scheduling Solution via a Web-based Application – 693JK426R600002",
+      "organization": "U.S. Department of Transportation – Office of Aviation Analysis",
+      "country": "United States",
+      "category": "Operations Planning",
+      "publishedDate": "2026-02-04",
+      "deadline": "2026-03-30",
+      "detectedAt": "2026-09-03T05:20:58Z",
+      "relevance": "Low",
+      "summary": "ABD Ulaştırma Bakanlığı Office of Aviation Analysis, küresel O&D, ücret, hizmet sınıfı ve havayolu tarife verilerini web tabanlı bir analiz aracı üzerinden sağlayacak çözüm için RFP yayımladı. Crane SP ve Crane BPI ile tarife görüntüleme ve analitik bakımından sınırlı kesişim bulunsa da alımın ağırlığı havayolu operasyonel planlamasından ziyade geniş dış pazar verisi içeriği, tarihsel veri kapsamı ve düzenli veri güncellemesidir. Teklif öncesi canlı ürün demosu zorunlu tutulmuş, sözleşme bir yıllık temel dönem ve dört opsiyon yılı olarak planlanmıştır. Nihai teklif tarihi 30 Mart 2026 saat 10.00 EST olarak düzeltildiğinden fırsat süresi dolmuştur; Crane portföyü açısından doğrudan takip önerilmez.",
+      "products": [
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "SAM.gov Resmî Federal Tedarik Portalı",
+      "url": "https://sam.gov/opp/c5b1a194de9548c6a8134d6533d70783/view",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "RFP",
+      "commercialPriority": "P3",
+      "recommendation": "No-Go",
+      "clarificationDate": "2026-02-13",
+      "qualificationNotes": "Teklif sunulmadan önce çözümün DOT personeline canlı gösterimi istenmiştir. Temel gereksinim küresel O&D, ücret, hizmet sınıfı ve tarife verisi ile kapsamlı tarihsel veri ve sık güncellemedir; bunlar Crane SP/BPI'nin çekirdek kapsamının ötesindedir."
     }
   ]
 }
