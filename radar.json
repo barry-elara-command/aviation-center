@@ -626,6 +626,34 @@
       "commercialPriority": "P3",
       "recommendation": "Monitor",
       "qualificationNotes": "Kamuya açık davet ayrıntılı teknik ve ön yeterlilik şartlarını içermiyor; bunlar RFP dokümanından doğrulanmalıdır. Teklif son tarihi 29 Ocak 2026'dan 5 Şubat 2026 saat 09.00 Hanoi saatine uzatılmıştır."
+    },
+    {
+      "id": "goaa-mco-rewards-loyalty-program-26-319-itn",
+      "title": "MCO Rewards Loyalty Program – 26-319-ITN",
+      "organization": "Greater Orlando Aviation Authority (GOAA)",
+      "country": "United States",
+      "category": "Loyalty & Customer Management",
+      "publishedDate": "2026-05-08",
+      "deadline": "2026-06-09",
+      "detectedAt": "2026-09-03T04:27:51Z",
+      "relevance": "Medium",
+      "summary": "Greater Orlando Aviation Authority (GOAA), Orlando International Airport ve yetki alanındaki diğer havalimanları için çok havalimanlı bir yolcu sadakati ve passenger management platformu tedarik etti. Kapsam; yolcu davranışı ve harcama analitiği, segmentasyon ve kişiselleştirilmiş iletişim, gerçek zamanlı Voice of the Customer ve duygu analizi, 7/24 yapay zekâ destekli müşteri hizmetleri, concessionaire metrikleri, gelir görselleştirme ve Wi-Fi/API entegrasyonunu içeriyor. Crane LL, Crane CCL, Crane CM ve Crane BPI ile anlamlı kesişim bulunuyor. Ancak en az iki yıllık multi-airport loyalty deneyimi, yıllık en az 20 milyon yolcuya sahip bir havalimanı referansı ve son beş yıldan üç benzer proje referansı şartları doğrudan katılım için kritik bariyer oluşturuyor. Teklif süresi 9 Haziran 2026 saat 14.00 Doğu Saati itibarıyla dolmuştur; yeni faz veya benzer büyük havalimanı alımları için partner modeliyle izlenmelidir.",
+      "products": [
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane CM - Communication Manager",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Greater Orlando Aviation Authority Resmî OpenGov Tedarik Portalı",
+      "url": "https://procurement.opengov.com/portal/goaa/projects/138823",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "ITN",
+      "commercialPriority": "P3",
+      "recommendation": "Partner",
+      "clarificationDate": "2026-05-22",
+      "preBidDate": "2026-05-15",
+      "qualificationNotes": "En az iki yıllık multi-airport loyalty platform deneyimi; referanslardan en az birinin yılda en az 20 milyon yolcuya hizmet veren bir havalimanı olması; son beş yıldan üç benzer proje referansı ve Florida'da iş yapma kaydı istenmiştir."
     }
   ]
 }
