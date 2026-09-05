@@ -588,19 +588,25 @@
       "deadline": "2026-04-03",
       "detectedAt": "2026-09-01T08:37:05Z",
       "relevance": "Medium",
-      "summary": "AI Airport Services Limited (AIASL), mevcut WISE Cargo Management System için SaaS modeliyle bakım ve hizmet tedariki gerçekleştirdi. Resmî AIASL ihale listesi, GEM/2026/B/7379190 referansını, 20 Mart 2026 yayın ve 3 Nisan 2026 kapanış tarihlerini doğruluyor. Teknik doküman; havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık CMS deneyimi ile teklif değerlendirmesi kapsamında QA/test sisteminde örnek veriyle fonksiyonel test öngörüyor. Crane CGO ile kargo kabul, rezervasyon ve operasyon süreçlerinde önemli kesişim bulunmakla birlikte talep yeni platform değişiminden ziyade incumbent WISE Cargo sisteminin bakım ve hizmetine odaklandığından doğrudan katılım fırsatı sınırlıdır; benzer yenileme veya yeniden ihale süreçleri izlenmelidir.",
+      "summary": "AI Airport Services Limited (AIASL), mevcut WISE Cargo Management System için SaaS modeliyle bakım ve hizmet tedarikini sonuçlandırdı. Resmî GeM sonuç ve sözleşme kayıtları GEM/2026/B/7379190 ihalesinin 29 Nisan 2026'da Hans Infomatic Private Limited'e 43.130.724 INR bedelle verildiğini gösteriyor. Teknik doküman; havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık CMS deneyimi ile QA/test sisteminde fonksiyonel test öngörüyordu. Crane CGO ile kargo kabul, rezervasyon ve operasyon süreçlerinde önemli kesişim bulunmakla birlikte sonuç incumbent odaklı bakım pazarında Hans Infomatic'in konumunu teyit ediyor; sonraki platform yenilemesi veya yeniden ihale öncesi ilişki ve partner seçeneği izlenmelidir.",
       "products": [
         "Crane CGO - Reservation & Cargo Services"
       ],
-      "sourceName": "AI Airport Services Limited Resmî İhale Sayfası",
-      "url": "https://www.aiasl.in/Tenders",
+      "sourceName": "Government e-Marketplace (GeM) Resmî İhale Sonuç Kaydı",
+      "url": "https://bidplus.gem.gov.in/bidding/bid/getBidResultView/9148324",
       "official": true,
-      "status": "Expired",
+      "status": "Awarded",
       "procurementType": "Tender",
       "commercialPriority": "P3",
       "recommendation": "Monitor",
       "incumbent": "WISE Cargo",
-      "qualificationNotes": "Havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık Cargo Management Software hizmet deneyimi ve teklif değerlendirmesinde QA/test sisteminde örnek veriyle fonksiyonel test beklenmiştir."
+      "qualificationNotes": "Havayolu, havalimanı veya cargo custodian ortamında en az üç yıllık Cargo Management Software hizmet deneyimi ve teklif değerlendirmesinde QA/test sisteminde örnek veriyle fonksiyonel test beklenmiştir.",
+      "awardDate": "2026-04-29",
+      "awardedSupplier": "Hans Infomatic Private Limited",
+      "awardValue": {
+        "amount": 43130724,
+        "currency": "INR"
+      }
     },
     {
       "id": "vietnam-airlines-customer-data-platform-cdp-2026-2031",
