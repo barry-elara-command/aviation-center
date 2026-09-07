@@ -740,6 +740,29 @@
       "commercialPriority": "P3",
       "recommendation": "Monitor",
       "qualificationNotes": "Kamuya açık duyuru yalnız paket adı, üç yıllık hizmet dönemi ve ihale dokümanı erişim tarihlerini içeriyor; teknik kapsam ve ön yeterlilik şartları ayrıntılı ihale dokümanından doğrulanmalıdır."
+    },
+    {
+      "id": "swedavia-baggage-reconciliation-message-service-474897-2026",
+      "title": "Baggage Reconciliation System and Bag Message Service – 474897-2026",
+      "organization": "Swedavia AB",
+      "country": "Sweden",
+      "category": "Baggage Reconciliation",
+      "publishedDate": "2026-07-08",
+      "deadline": "2026-08-04",
+      "detectedAt": "2026-09-07T11:34:48Z",
+      "relevance": "Medium",
+      "summary": "Swedavia AB, tüm Swedavia havalimanlarında bagaj operasyonlarını ve operasyonel mesaj alışverişini destekleyecek entegre Baggage Reconciliation System (BRS) ve Message Broker Service tedarik etmiştir. Kapsam; geçiş projesi, BRS yazılımı ve donanımı, ikinci/üçüncü seviye destek, servis ve bakımı içeriyor; uygulamanın 2027 ikinci çeyrek sonuna kadar tam operasyona alınması ve sözleşmenin sekiz yıla kadar sürmesi planlanıyor. Crane BRI - Baggage Reconciliation Itinerary ile doğrudan fonksiyonel kesişim bulunuyor. Bununla birlikte çok havalimanlı saha donanımı, message broker, yerel uygulama ve uzun dönem destek kapsamı için güçlü bir entegrasyon/saha ortağı gerekir. Teklif süresi 4 Ağustos 2026'da sona ermiştir; award bilgisi kamuya açık resmî kayıtta doğrulanamadı.",
+      "products": [
+        "Crane BRI - Baggage Reconciliation Itinerary"
+      ],
+      "sourceName": "TED – Tenders Electronic Daily",
+      "url": "https://ted.europa.eu/en/notice/-/detail/474897-2026",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "Contract Notice – Negotiated Procedure",
+      "commercialPriority": "P2",
+      "recommendation": "Partner",
+      "qualificationNotes": "Çok havalimanlı BRS geçişi; yazılım ve saha donanımı; Message Broker Service; ikinci ve üçüncü seviye destek, bakım ve 2027 Q2 sonuna kadar tam operasyon hedefi. Ayrıntılı ön yeterlilik koşulları kamuya açık özette doğrulanamadı."
     }
   ]
 }
