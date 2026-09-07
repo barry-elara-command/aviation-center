@@ -711,6 +711,29 @@
       "recommendation": "Partner",
       "clarificationDate": "2026-01-15",
       "qualificationNotes": "Chatbot proje deneyimi, havayolu sistemleri ve PSS entegrasyonu bilgisi, yerel ve uzaktan destek kabiliyeti ile benzer uygulama referansları istenmiştir. Minimum %85–90 intent doğruluğu, 1 saniyenin altında yanıt, %99,9 erişilebilirlik ve İngilizce/Malayca/Çince desteği beklenmiştir."
+    },
+    {
+      "id": "vietnam-airlines-automated-travel-document-2026-2029",
+      "title": "Automated Travel Document Software Service – April 2026 to March 2029",
+      "organization": "Vietnam Airlines",
+      "country": "Vietnam",
+      "category": "DCS",
+      "publishedDate": "2025-12-05",
+      "deadline": "2025-12-12",
+      "detectedAt": "2026-09-07T08:41:57Z",
+      "relevance": "Medium",
+      "summary": "Vietnam Airlines, Nisan 2026–Mart 2029 dönemi için Automated Travel Document yazılım hizmeti tedarikine yönelik resmî ihale süreci yürüttü. Çözüm, yolcu seyahat belgelerinin otomatik kontrolü ve passenger-processing akışları bakımından Crane DCS ile anlamlı kesişim taşıyor. Ancak kamuya açık duyuru; desteklenen belge türleri, Timatic/seyahat kuralı veri kaynağı, OCR/biometrik yetenekler, PSS-DCS entegrasyonu ve havalimanı kullanım noktaları gibi teknik ayrıntıları içermediğinden ürün uyumu ayrıntılı ihale dokümanıyla doğrulanmalıdır. İhale dokümanı erişim süresi 12 Aralık 2025 saat 16.00 Hanoi saati itibarıyla sona ermiştir; sonraki yenileme veya benzer yolcu-belge otomasyonu alımları izlenmelidir.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Vietnam Airlines Resmî Tedarik Duyurusu",
+      "url": "https://www.vietnamairlines.com/in/en/vietnam-airlines/procurement/information/2025/1205-DVHK",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "Tender",
+      "commercialPriority": "P3",
+      "recommendation": "Monitor",
+      "qualificationNotes": "Kamuya açık duyuru yalnız paket adı, üç yıllık hizmet dönemi ve ihale dokümanı erişim tarihlerini içeriyor; teknik kapsam ve ön yeterlilik şartları ayrıntılı ihale dokümanından doğrulanmalıdır."
     }
   ]
 }
