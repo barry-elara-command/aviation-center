@@ -685,6 +685,32 @@
       "recommendation": "No-Go",
       "clarificationDate": "2026-02-13",
       "qualificationNotes": "Teklif sunulmadan önce çözümün DOT personeline canlı gösterimi istenmiştir. Temel gereksinim küresel O&D, ücret, hizmet sınıfı ve tarife verisi ile kapsamlı tarihsel veri ve sık güncellemedir; bunlar Crane SP/BPI'nin çekirdek kapsamının ötesindedir."
+    },
+    {
+      "id": "royal-brunei-customer-service-centre-chatbot-rb-pm-01-26",
+      "title": "Customer Service Centre Chatbot – RB/PM/01/26",
+      "organization": "Royal Brunei Airlines Sdn Bhd",
+      "country": "Brunei",
+      "category": "Customer Care",
+      "publishedDate": "2025-12-20",
+      "deadline": "2026-01-31",
+      "detectedAt": "2026-09-07T04:46:04Z",
+      "relevance": "Medium",
+      "summary": "Royal Brunei Airlines, müşteri hizmetleri merkezi için 7/24 çalışan, İngilizce, Malayca ve Çince destekli bağımsız bir chatbot platformu tedarik etti. Kapsam; web sitesi, WhatsApp, Facebook ve Instagram kanalları, canlı temsilciye konuşma geçmişiyle devir, CRM/ticketing, Royal Skies loyalty, Plusgrade ve gerçek zamanlı uçuş durumu entegrasyonlarını içeriyor. PSS entegrasyonu zorunlu tutulmuş ve kabul edilen platform örnekleri arasında Hitit açıkça belirtilmiştir; PNR sorgulama, rezervasyon durumu ve bilet bilgisi beklenmektedir. Crane CCL, Crane CM ve Crane PAX ile entegrasyon ve müşteri hizmetleri bakımından anlamlı kesişim bulunmakla birlikte ana ürün yapay zekâ chatbot/voicebot olduğundan doğrudan teklif yerine uzman chatbot ortağıyla yaklaşım gerektirir. Teklif süresi 31 Ocak 2026 tarihinde dolmuştur.",
+      "products": [
+        "Crane CCL - Customer Care Layer",
+        "Crane CM - Communication Manager",
+        "Crane PAX - Reservation & Ticketing"
+      ],
+      "sourceName": "Royal Brunei Airlines Resmî RFP Dokümanı",
+      "url": "https://www.flyroyalbrunei.com/wp-content/uploads/2026/01/RFP-Customer-Service-Center.pdf",
+      "official": true,
+      "status": "Expired",
+      "procurementType": "RFP",
+      "commercialPriority": "P3",
+      "recommendation": "Partner",
+      "clarificationDate": "2026-01-15",
+      "qualificationNotes": "Chatbot proje deneyimi, havayolu sistemleri ve PSS entegrasyonu bilgisi, yerel ve uzaktan destek kabiliyeti ile benzer uygulama referansları istenmiştir. Minimum %85–90 intent doğruluğu, 1 saniyenin altında yanıt, %99,9 erişilebilirlik ve İngilizce/Malayca/Çince desteği beklenmiştir."
     }
   ]
 }
