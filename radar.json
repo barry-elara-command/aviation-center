@@ -925,6 +925,72 @@
           "sourceUrl": "https://aviationweek.com/air-transport/airlines-lessors/another-nigerian-region-plans-local-carrier"
         }
       ]
+    },
+    {
+      "id": "motu-link-french-polynesia-cargo-startup-2026",
+      "title": "Motu Link Cargo – French Polynesia Startup Cargo Airline",
+      "organization": "Motu Link Airline / Motu Link Cargo",
+      "country": "French Polynesia",
+      "category": "Cargo",
+      "publishedDate": "2026-05-14",
+      "deadline": null,
+      "detectedAt": "2026-09-25T20:30:06Z",
+      "relevance": "High",
+      "summary": "Fransız Polinezyası'nın ilk özel inter-island kargo havayolu Motu Link, 14 Mayıs 2026'da Fransız DGAC'den AOC aldı; daha önce hava taşıma işletme lisansını edinmiş, 380 milyon XPF (yaklaşık 3,18 milyon avro) sermaye toplamış ve ATR 72-500F F-OHEI'yi filosuna katmıştı. Haziran 2026'da altı noktaya tarifeli gelir uçuşlarına başladı. Tek uçağın yer hizmetleri sırasında hasar görmesi üzerine operasyon Temmuz'da geçici olarak durdu; resmî web sitesi bugün rezervasyon, beş ada istasyonu ve gerçek zamanlı gönderi takibi sunuyor. Açıklanmış bir cargo management yazılım sağlayıcısı yoktur. Üç kargo ATR'sine 2027'ye kadar büyüme hedefi, Crane CGO için acil discovery ve ölçekleme fırsatı yaratıyor; ancak mevcut rezervasyon/takip çözümünün sahibi ve operasyonun fiilî yeniden başlama durumu doğrulanmalıdır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "Motu Link Cargo Resmî Web Sitesi; Le Journal de l’Aviation; ch-aviation",
+      "url": "https://www.motulink.com/cargo",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "qualificationNotes": "AOC, işletme lisansı, finansman, uçak ve gelir operasyonu doğrulanmıştır. Havayolu canlı web sitesinde çevrim içi rezervasyon ve gerçek zamanlı gönderi takibi sunduğundan bir mevcut veya geçici çözüm bulunduğu açıktır; sağlayıcı kamuya açıklanmamıştır. İlk uçak Haziran sonundaki yer olayı sonrası geçici olarak yerde kaldı. İlk temas; yeniden başlama durumu, mevcut cargo platformunun mimarisi/sözleşmesi, e-AWB/warehouse/accounting entegrasyonları ve 2027'de üç uçaklık filo hedefi üzerinde yoğunlaşmalıdır.",
+      "startupStage": "AOC granted and revenue operations launched; scale-up/restart phase after temporary single-aircraft grounding",
+      "targetLaunchDate": "2026-06-01",
+      "aocStatus": "French DGAC AOC granted on 14 May 2026",
+      "fleetPlan": "Bir ATR 72-500F (F-OHEI/MSN 713) doğrulandı; 2027'ye kadar üç all-cargo ATR hedefi açıklandı",
+      "fundingStatus": "380 milyon XPF (yaklaşık 3,18 milyon avro) toplandı; bunun 72 milyon XPF'si yerel yatırımcılardan",
+      "evidence": [
+        {
+          "date": "2026-05-14",
+          "type": "AOC and licence",
+          "detail": "Fransız DGAC AOC'si 14 Mayıs 2026'da alındı; şirket hava taşıma işletme lisansını 2021'de edinmişti.",
+          "sourceUrl": "https://www.journal-aviation.com/en/air-transport-news/cargo-companies/motu-link-airline-a-new-cargo-airline-ready-for-take-off-in-french-polynesia-20260522.html"
+        },
+        {
+          "date": "2026-02-20",
+          "type": "Fleet",
+          "detail": "ATR 72-500F F-OHEI (MSN 713) teslim edildi; uçak şirketin resmî sitesinde aktif filo olarak gösteriliyor.",
+          "sourceUrl": "https://www.motulink.com/cargo"
+        },
+        {
+          "type": "Funding",
+          "detail": "Katılımcı yatırım kampanyasında toplam 380 milyon XPF toplandı; 72 milyon XPF yerel yatırımcılardan geldi.",
+          "sourceUrl": "https://www.journal-aviation.com/en/air-transport-news/cargo-companies/motu-link-airline-a-new-cargo-airline-ready-for-take-off-in-french-polynesia-20260522.html"
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Commercial launch",
+          "detail": "Tarifeli kargo gelir uçuşları Haziran başında altı dış ada noktasına başladı.",
+          "sourceUrl": "https://www.ch-aviation.com/news/169866-french-polynesias-motu-link-grounds-sole-atr72-500f"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "Digital commercial readiness",
+          "detail": "Resmî site rezervasyon, ada istasyonları ve gerçek zamanlı gönderi takibi sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
+          "sourceUrl": "https://www.motulink.com/cargo"
+        },
+        {
+          "date": "2026-07-24",
+          "type": "Operational risk",
+          "detail": "Tek ATR, yer hizmetleri sırasında burun iniş takımı hasarı nedeniyle geçici olarak yerde kaldı; operasyon yeniden başlatma durumu satış yeterlilik görüşmesinde doğrulanmalıdır.",
+          "sourceUrl": "https://www.ch-aviation.com/news/169866-french-polynesias-motu-link-grounds-sole-atr72-500f"
+        }
+      ]
     }
   ]
 }
