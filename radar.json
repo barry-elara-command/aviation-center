@@ -991,6 +991,68 @@
           "sourceUrl": "https://www.ch-aviation.com/news/169866-french-polynesias-motu-link-grounds-sole-atr72-500f"
         }
       ]
+    },
+    {
+      "id": "chingis-airlines-unity-mongolia-startup-2026",
+      "title": "Chingis Airlines Unity – Mongolian Regional Startup Airline",
+      "organization": "Chingis Airlines Unity LLC / NOMIN Group",
+      "country": "Mongolia",
+      "category": "Multi-product",
+      "publishedDate": "2026-09-16",
+      "deadline": null,
+      "detectedAt": "2026-09-25T21:43:50Z",
+      "relevance": "High",
+      "summary": "NOMIN Group'a ait yeni bölgesel taşıyıcı Chingis Airlines Unity, 2026 ilkbaharında Moğolistan AOC'sini ve ilk kiralık ATR 72-600'ünü aldı; 16 Eylül 2026'da Ulaanbaatar–Khovd hattında ilk yurt içi uçuşunu gerçekleştirdi. Lessor ACIA ve üretici ATR, şirketi Moğolistan'ın yeni havayolu ve yeni ATR operatörü olarak doğruluyor. Taşıyıcı iç hatlarda uzak ve madencilik bölgelerine erişim sağladıktan sonra uluslararası hatlara açılmayı planlıyor. Kamuya açık ayrı rezervasyon/IBE kanalı veya açıklanmış PSS/DCS sağlayıcısı bulunmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik erken satış fırsatı vardır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "NOMIN Group; ACIA Aero Leasing; ATR; ch-aviation",
+      "url": "https://www.nomin.co/en/newsroom",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "qualificationNotes": "AOC, ilk ATR 72-600 JU-1234 ve 16 Eylül 2026'daki ilk Ulaanbaatar–Khovd operasyonu doğrulandı. İkinci uçağın Haziran 2026'da eklenmesi planlanmıştı fakat teslimatı kamuya açık kaynaklarda doğrulanmadı. Bağımsız satış sitesi, PSS/DCS tedarikçisi, dağıtım modeli ve DCS/W&B operasyon yapısı açıklanmamıştır. İlk temas; NOMIN Group havacılık/IT karar vericileri, satış kanalının mevcut durumu, domestic charter versus scheduled model ve uluslararası büyüme yol haritasına odaklanmalıdır.",
+      "startupStage": "AOC granted; first domestic revenue/launch flight completed",
+      "targetLaunchDate": "2026-09-16",
+      "aocStatus": "Mongolian AOC granted in 2026 before commercial launch",
+      "fleetPlan": "Bir kiralık ATR 72-600 (JU-1234/MSN 1057) doğrulandı; ikinci uçak planı açıklandı ancak teslimatı doğrulanmadı",
+      "fundingStatus": "NOMIN Group ownership and corporate backing verified; investment amount not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-04-01",
+          "type": "AOC",
+          "detail": "Chingis Airlines Unity'nin Moğolistan AOC'sini ticari lansman öncesinde aldığı sektör kaynağınca bildirildi.",
+          "sourceUrl": "https://www.ch-aviation.com/airlines/N4PTS"
+        },
+        {
+          "date": "2026-03-16",
+          "type": "Fleet",
+          "detail": "İlk ATR 72-600 JU-1234 (MSN 1057) ACIA Aero Leasing'den teslim alındı.",
+          "sourceUrl": "https://aviator.aero/press/acia-aero-leasing-delivers-an-atr-72-600-to-chingis-airlines-unity-mongolia"
+        },
+        {
+          "date": "2026-09-16",
+          "type": "Commercial launch",
+          "detail": "NOMIN Group, Ulaanbaatar–Khovd hattındaki ilk iç hat uçuşunun ATR 72-600 ile tamamlandığını duyurdu.",
+          "sourceUrl": "https://www.nomin.co/en/newsroom"
+        },
+        {
+          "type": "Ownership and growth plan",
+          "detail": "NOMIN Group sahipliği, uzak bölgelere iç hat bağlantısı ve daha sonra uluslararası büyüme hedefi lessor açıklamasında doğrulandı.",
+          "sourceUrl": "https://aviator.aero/press/acia-aero-leasing-delivers-an-atr-72-600-to-chingis-airlines-unity-mongolia"
+        },
+        {
+          "type": "Technology gap",
+          "detail": "Kamuya açık araştırmada bağımsız rezervasyon/IBE sitesi veya açıklanmış PSS/DCS sağlayıcısı bulunamadı.",
+          "sourceUrl": "https://www.nomin.co/en/newsroom"
+        }
+      ]
     }
   ]
 }
