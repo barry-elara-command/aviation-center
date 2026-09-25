@@ -822,6 +822,56 @@
       ]
     },
     {
+      "id": "flydar-syria-aoc-startup-2026",
+      "title": "Flydar – Syrian Private Airline AOC and Pre-launch Readiness",
+      "organization": "Flydar Aviation",
+      "country": "Syria",
+      "category": "Multi-product",
+      "publishedDate": "2026-09-24",
+      "deadline": null,
+      "detectedAt": "2026-09-25T17:52:27Z",
+      "relevance": "Medium",
+      "summary": "Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Otoritesi, 24 Eylül 2026'da Flydar'a Hava İşletme Sertifikası/CTA verdi; Flydar böylece yeni yönetim döneminde sertifika alan ilk özel Suriye havayolu oldu. Girişimin daha önce sahip olduğu Boeing 737-500'ü Syrian Airlines'a kiralayarak fiilî operasyonel hazırlık göstermesi, AOC kaydını destekleyen ikinci somut kanıttır. Kamuya açıklanmış PSS/DCS sağlayıcısı veya kesin tarifeli uçuş başlangıcı bulunmadığından Crane PAX, Crane DCS ve Crane WB için erken aşama fırsat vardır. Bununla birlikte Suriye bağlantılı satış, ödeme, ihracat kontrolü ve yaptırım uyumu teklif öncesinde hukuk/uyum ekiplerince doğrulanmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "SANA – Suriye Arap Haber Ajansı / Sivil Havacılık Otoritesi açıklaması",
+      "url": "https://sana.sy/fr/uncategorized/2331426/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "AOC/CTA verilmesi ve en az bir Boeing 737-500 sahipliği/önceki operasyonel kullanımı doğrulanmıştır. Kesin lansman tarihi, tarifeli yolcu modeli, satış kanalları, filo büyüme planı ve sistem tedarik yöntemi açıklanmamıştır. Herhangi bir ticari temas öncesinde Suriye ile ilgili güncel yaptırım, ihracat kontrolü, ödeme ve sözleşme uygulanabilirliği incelemesi zorunludur.",
+      "startupStage": "AOC granted; commercial launch and distribution readiness not publicly confirmed",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC/CTA granted by the Syrian civil aviation authority on 24 September 2026",
+      "fleetPlan": "En az bir Boeing 737-500 sahipliği doğrulanıyor; daha geniş filo planı kamuya açık resmî kaynakta doğrulanmadı",
+      "fundingStatus": null,
+      "evidence": [
+        {
+          "date": "2026-09-24",
+          "type": "AOC/CTA grant",
+          "detail": "Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Otoritesi, Flydar'a Hava İşletme Sertifikası verdiğini açıkladı.",
+          "sourceUrl": "https://sana.sy/fr/uncategorized/2331426/"
+        },
+        {
+          "type": "Aircraft and operational preparation",
+          "detail": "Flydar'ın sahip olduğu Boeing 737-500, Syrian Airlines tarafından işletildi; bu, girişimin doğrulanabilir uçak varlığı ve operasyonel hazırlık geçmişini gösteriyor.",
+          "sourceUrl": "https://www.linkedin.com/posts/nadineitani_safety-quality-turbulence-activity-7280871314498719746-9alM"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Independent AOC confirmation",
+          "detail": "Arap-Brezilya Ticaret Odası haber servisi, Flydar'ın Suriye'de yeni yönetim döneminde AOC alan ilk özel havayolu olduğunu bildirdi.",
+          "sourceUrl": "https://anba.com.br/en/syria-authorizes-private-airline-to-operate/"
+        }
+      ]
+    },
+    {
       "id": "caliphate-air-nigeria-startup-2026",
       "title": "Caliphate Air – Nigerian Startup Airline and AOC Process",
       "organization": "Caliphate Air / Sokoto State Government",
