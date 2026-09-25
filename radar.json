@@ -763,6 +763,63 @@
       "commercialPriority": "P2",
       "recommendation": "Partner",
       "qualificationNotes": "Çok havalimanlı BRS geçişi; yazılım ve saha donanımı; Message Broker Service; ikinci ve üçüncü seviye destek, bakım ve 2027 Q2 sonuna kadar tam operasyon hedefi. Ayrıntılı ön yeterlilik koşulları kamuya açık özette doğrulanamadı."
+    },
+    {
+      "id": "vietjet-australia-cherrie-aviation-new-aoc-2026",
+      "title": "Vietjet Australia / Cherrie Aviation – New Australian AOC",
+      "organization": "Cherrie Aviation Pty Ltd / Vietjet Aviation",
+      "country": "Australia",
+      "category": "Passenger Service Systems",
+      "publishedDate": "2026-09-24",
+      "deadline": null,
+      "detectedAt": "2026-09-25T08:29:47Z",
+      "relevance": "Medium",
+      "summary": "Vietjet destekli Avustralya girişimi Cherrie Aviation, yerel AOC/onay sürecini ilerletirken ilk uçağını Avustralya siciline kaydettirdi. Boeing 737-8 VH-T8A, 23 Eylül 2026'da Vietjet Aviation mülkiyetinde ve Melbourne merkezli Cherrie Aviation kayıtlı işletmeciliğinde CASA sicilinde göründü; Vietjet de uçağın Avustralyalı bir kuruluşa kiralandığını ve bu kuruluşun operasyon izni aradığını doğruladı. Vietjet'in Ocak 2027'den itibaren Western Sydney'de uluslararası operasyona başlayacak olması ülkedeki ticari ve operasyonel hazırlığı destekleyen ikinci sinyaldir; ancak yerel iç hat operasyonunun başlangıç tarihi henüz açıklanmadı. Yeni ve ayrı AOC, Crane PAX, Crane IBE, Crane DCS ve Crane WB için potansiyel Pre-RFP alanı yaratıyor. Bununla birlikte Vietjet'in mevcut PSS ortağı InteliSys olduğundan grup platformunun yeniden kullanılması güçlü incumbent riski oluşturuyor.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Australian Aviation; CASA sicil verisi ve Vietjet açıklaması",
+      "url": "https://australianaviation.com.au/2026/09/exclusive-vietjet-registers-first-aircraft-in-australia/",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": "InteliSys Aviation – amelia (Vietjet grup PSS ilişkisi; Avustralya AOC seçimi doğrulanmadı)",
+      "qualificationNotes": "VH-T8A (Boeing 737-8, MSN 63879) 23 Eylül 2026'da Avustralya siciline girdi; kayıt sahibi Vietjet Aviation, kayıtlı işletmeci Cherrie Aviation Pty Ltd. Vietjet, yerel kuruluşun Avustralya'da uçak işletmek için düzenleyici onay aradığını doğruladı. Ayrı AOC için PSS/DCS tedarik yöntemi, iç hat başlangıç tarihi ve grup sisteminin kullanılıp kullanılmayacağı açıklanmadı.",
+      "startupStage": "Aircraft registered; regulatory approval/AOC pending",
+      "targetLaunchDate": null,
+      "aocStatus": "Regulatory approval sought; AOC grant not publicly confirmed",
+      "fleetPlan": "İlk doğrulanmış uçak: Boeing 737-8 VH-T8A; daha geniş filo planı resmî olarak doğrulanmadı",
+      "fundingStatus": "Vietjet Aviation aircraft ownership and group backing verified; separate funding amount not disclosed",
+      "evidence": [
+        {
+          "date": "2026-09-23",
+          "type": "Aircraft registration",
+          "detail": "VH-T8A, Vietjet Aviation mülkiyetinde ve Cherrie Aviation kayıtlı işletmeciliğinde Avustralya siciline girdi.",
+          "sourceUrl": "https://www.casa.gov.au/search-centre/aircraft-register"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Regulatory preparation",
+          "detail": "Vietjet, uçağı Avustralyalı bir kuruluşa kiraladığını ve kuruluşun operasyon için düzenleyici onay aradığını açıkladı.",
+          "sourceUrl": "https://australianaviation.com.au/2026/09/exclusive-vietjet-registers-first-aircraft-in-australia/"
+        },
+        {
+          "date": "2026-08-10",
+          "type": "Commercial readiness",
+          "detail": "Western Sydney International, Vietjet biletlerinin satışta olduğunu ve Ocak 2027'den itibaren haftada iki sefer başlayacağını duyurdu.",
+          "sourceUrl": "https://www.wsiairport.com.au/flights-sale-wsi"
+        },
+        {
+          "type": "Incumbent evidence",
+          "detail": "InteliSys Aviation, Vietjet Air'i havayolu partneri olarak listeliyor; Avustralya kuruluşu için nihai teknoloji seçimi açıklanmadı.",
+          "sourceUrl": "https://intelisysaviation.com/airline_partners/vietjet-air/"
+        }
+      ]
     }
   ]
 }
