@@ -820,6 +820,61 @@
           "sourceUrl": "https://intelisysaviation.com/airline_partners/vietjet-air/"
         }
       ]
+    },
+    {
+      "id": "caliphate-air-nigeria-startup-2026",
+      "title": "Caliphate Air – Nigerian Startup Airline and AOC Process",
+      "organization": "Caliphate Air / Sokoto State Government",
+      "country": "Nigeria",
+      "category": "Passenger Service Systems",
+      "publishedDate": "",
+      "deadline": null,
+      "detectedAt": "2026-09-25T11:44:55Z",
+      "relevance": "Medium",
+      "summary": "Sokoto State Government tarafından 2025'te kurulan Caliphate Air, düzenleyici izin ve AOC sürecini tamamlamadan önce ticari hazırlığını ilerletiyor. Havayolunun resmî sitesi Abuja merkezli dokuz şehirlik ağı, ERJ145 ve ERJ190 filo planını, uçuş arama/rezervasyon arayüzünü ve ticari satışların düzenleyici izin tamamlanana kadar kapalı olduğunu gösteriyor. Sektör kaynağı da AOC'nin tamamlanması ve 2026 içinde operasyon hedefini bildiriyor; ancak NCAA tarafından AOC verildiği kamuya açık biçimde doğrulanmadı. Açıklanmış bir PSS/DCS sağlayıcısı bulunmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için erken temas penceresi vardır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Caliphate Air Resmî Web Sitesi",
+      "url": "https://caliphateair.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "qualificationNotes": "AOC/operasyon izninin verildiği henüz NCAA kaynağında doğrulanmadı. ERJ145 ve ERJ190 ile dokuz şehirlik ağ resmî havayolu sitesinde yayımlanmış, satışlar düzenleyici izin tamamlanana kadar kapalı tutulmuştur. PSS/DCS seçim yöntemi, kesin lansman tarihi, uçak tescilleri ve doğrulanmış filo adedi araştırılmalıdır.",
+      "startupStage": "Pre-launch commercial and fleet preparation; regulatory clearance pending",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC/regulatory clearance in progress; grant not publicly confirmed by NCAA",
+      "fleetPlan": "Resmî site ERJ145 ve ERJ190 tiplerini gösteriyor; adet ve tesciller bağımsız resmî kaynakta doğrulanmadı",
+      "fundingStatus": "Sokoto State Government kuruluş desteği doğrulanıyor; tahsis edilen bütçe kamuya açık kaynakta doğrulanmadı",
+      "evidence": [
+        {
+          "type": "Ownership and establishment",
+          "detail": "Caliphate Air resmî sitesi, havayolunun Sokoto State Government tarafından 2025'te kurulduğunu bildiriyor.",
+          "sourceUrl": "https://caliphateair.com/about"
+        },
+        {
+          "type": "Regulatory and commercial preparation",
+          "detail": "Resmî rezervasyon sayfası, ticari satışların düzenleyici izin tamamlanana kadar kapalı olduğunu ve pre-launch booking/manage experience bulunduğunu belirtiyor.",
+          "sourceUrl": "https://caliphateair.com/book"
+        },
+        {
+          "type": "Fleet and network preparation",
+          "detail": "Resmî site ERJ145 ve ERJ190 tipleri ile Abuja merkezli dokuz şehirlik planlanan ağı yayımlıyor; bağımsız tescil doğrulaması bekleniyor.",
+          "sourceUrl": "https://caliphateair.com/"
+        },
+        {
+          "date": "2026-02-27",
+          "type": "AOC process and launch intent",
+          "detail": "Aviation Week, Sokoto State girişiminin AOC'yi tamamlayarak 2026 içinde uçuşlara başlamayı hedeflediğini bildirdi.",
+          "sourceUrl": "https://aviationweek.com/air-transport/airlines-lessors/another-nigerian-region-plans-local-carrier"
+        }
+      ]
     }
   ]
 }
