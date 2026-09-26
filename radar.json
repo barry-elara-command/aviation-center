@@ -1285,6 +1285,60 @@
           "sourceUrl": "https://www.airbus.com/en/newsroom/press-releases/2026-07-shohin-airlines-discloses-order-for-four-airbus-a320neo-family"
         }
       ]
+    },
+    {
+      "id": "alatau-air-cargo-kazakhstan-startup-2026",
+      "title": "Alatau Air Cargo – Kazakhstan National Cargo Airline",
+      "organization": "Alatau Air Cargo (formerly KTZ Air Cargo)",
+      "country": "Kazakhstan",
+      "category": "Cargo",
+      "publishedDate": "2026-09-10",
+      "deadline": null,
+      "detectedAt": "2026-09-26T06:46:04Z",
+      "relevance": "Medium",
+      "summary": "Kazakistan'ın ulusal kargo havayolu projesi hükümet tarafından uygulama aşamasında doğrulandı. 2025 sonunda KTZ Air Cargo olarak kurulan şirket, özel yatırımcı katılımı sonrasında Haziran 2026'da Alatau Air Cargo adını aldı; havayolu kuruluş deneyimine sahip CEO ve teknik/İK yönetimiyle operasyonel temelini oluşturuyor. Resmî plan başlangıçta üç kiralık uçak ve daha sonra on uçağa büyümeyi öngörüyor; ancak AOC, uçak teslimatı ve ticari başlangıç henüz doğrulanmadı. Kamuya açıklanmış cargo platformu sağlayıcısı bulunmadığından Crane CGO için P2 pre-RFP discovery fırsatıdır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "Prime Minister of Kazakhstan; KTZ Express; Alatau Air Cargo",
+      "url": "https://primeminister.kz/en/news/olzhas-bektenov-holds-meeting-on-transport-sector-development-31376",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Cargo management/reservation platform provider not publicly disclosed",
+      "qualificationNotes": "Hükümet desteği, kurulu tüzel yapı, özel yatırımcı katılımı, deneyimli yönetim ataması ve resmî filo ölçekleme planı güçlü erken sinyallerdir. Bununla birlikte AOC başvuru/aşaması, ilk üç uçağın tipi ve kiralama sözleşmeleri, teslimat tarihi, ilk gelir uçuşu, hub/hat planı ve cargo teknoloji tedarik yöntemi kamuya açıklanmamıştır. İlk temas; AOC takvimi, launch-fleet, cargo reservation/booking, capacity and rate management, AWB/e-AWB, tracking, warehouse ve revenue-accounting entegrasyonlarını doğrulamaya odaklanmalıdır.",
+      "startupStage": "Company established and restructured; management build-out; pre-AOC/pre-launch implementation phase",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC grant not publicly confirmed",
+      "fleetPlan": "Resmî hükümet planı başlangıçta üç kiralık uçak, daha sonra on uçağa büyüme öngörüyor; uçak tipi, sözleşme ve teslimatlar doğrulanmadı",
+      "fundingStatus": "KTZ Express/Samruk-Kazyna kökenli ulusal proje ve özel yatırımcı katılımı doğrulandı; finansman tutarı kamuya açıklanmadı",
+      "evidence": [
+        {
+          "date": "2025-07-07",
+          "type": "Government project and fleet plan",
+          "detail": "Kazakistan Başbakanlığı ulusal kargo taşıyıcısının KTZ Express temelinde kurulacağını, başlangıçta üç kiralık uçakla faaliyete geçip on uçağa büyümesinin planlandığını açıkladı.",
+          "sourceUrl": "https://primeminister.kz/en/news/olzhas-bektenov-held-a-meeting-on-the-development-of-the-aviation-industry-and-the-creation-of-a-national-cargo-air-carrier-as-part-of-implementing-the-presidents-instructions-30318"
+        },
+        {
+          "date": "2026-05-13",
+          "type": "Implementation and ownership preparation",
+          "detail": "Başbakanlık, projenin uygulama aşamasında olduğunu; Ulaştırma Bakanlığı, Samruk-Kazyna, KTZ ve Turlov Private'ın operasyonel lansman ile aşamalı filo konuşlandırmasını görüştüğünü doğruladı.",
+          "sourceUrl": "https://primeminister.kz/en/news/olzhas-bektenov-holds-meeting-on-transport-sector-development-31376"
+        },
+        {
+          "date": "2026-09-10",
+          "type": "Company and management formation",
+          "detail": "KTZ Air Cargo'nun Alatau Air Cargo olarak yeniden adlandırıldığı ve havayolu kuruluş deneyimine sahip Blair Pollock'un CEO olarak operasyonel kabiliyetler, ekip, sistemler ve temel süreçleri kurmak üzere atandığı açıklandı.",
+          "sourceUrl": "https://www.linkedin.com/company/alatau-air-cargo"
+        },
+        {
+          "type": "Procurement readiness",
+          "detail": "KTZ Express, ulusal kargo havayolunun kurulmasında pratik aşamaya geçildiğini ve 2026 satın alma planının onaylandığını yayımladı.",
+          "sourceUrl": "https://www.ktze.kz/en/cooperation/procurement"
+        }
+      ]
     }
   ]
 }
