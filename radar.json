@@ -1053,6 +1053,70 @@
           "sourceUrl": "https://www.nomin.co/en/newsroom"
         }
       ]
+    },
+    {
+      "id": "airborneo-malaysia-relaunch-scaleup-2026",
+      "title": "AirBorneo – Sarawak State Airline Relaunch and ATR Scale-up",
+      "organization": "AirBorneo / Sarawak Government",
+      "country": "Malaysia",
+      "category": "Multi-product",
+      "publishedDate": "2026-02-03",
+      "deadline": null,
+      "detectedAt": "2026-09-26T00:41:55Z",
+      "relevance": "Medium",
+      "summary": "Sarawak hükümetinin Malaysia Aviation Group'dan devraldığı MASwings, AirBorneo adıyla ayrı bir eyalet havayolu olarak yeniden markalandı ve 14 Ocak 2026'da ticari operasyona geçti. Taşıyıcı 20'den fazla destinasyonda çevrim içi satış ve mobil uygulama sunuyor; 4 Mart 2026 itibarıyla ATR hatlarında çevrim içi check-in, koltuk seçimi ve elektronik boarding pass devreye alındı. Şubat 2026'da beş ATR 72-600 ve üç ATR 42-600 için kesin sipariş verildi; teslimatlar 2027–2029 döneminde planlanıyor. Çalışır durumdaki rezervasyon/DCS altyapısının sağlayıcısı ve MASwings/MAG sistemlerinden ne ölçüde ayrıştığı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB açısından büyüme ve olası platform ayrıştırma fırsatı bulunuyor; önce incumbent ve sözleşme durumu doğrulanmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Sarawak Government / Ministry of Transport Sarawak",
+      "url": "https://mot.sarawak.gov.my/web/subpage/news_view/829",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Airline Relaunch",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "AirBorneo ticari olarak faal olduğundan rezervasyon, mobil ve check-in çözümleri hâlihazırda kullanılmaktadır; sağlayıcı kamuya açıklanmamıştır. İlk yeterlilik çalışması MASwings/Malaysia Aviation Group'dan devralınan PSS/DCS sözleşmelerini, yeni tüzel/operasyonel yapının sistem ayrışmasını, 2027–2029 ATR filo geçişini ve gelecekteki jet/uluslararası büyüme planını doğrulamalıdır.",
+      "startupStage": "Relaunched and operating; fleet modernisation and independent-platform scale-up phase",
+      "targetLaunchDate": "2026-01-14",
+      "aocStatus": "Commercial operations active under AirBorneo; public sources reviewed do not separately disclose the certificate identifier",
+      "fleetPlan": "Mevcut ATR 72-500 ve DHC-6-400 operasyonuna ek olarak 5 ATR 72-600 ve 3 ATR 42-600 kesin siparişi; teslimatlar 2027–2029",
+      "fundingStatus": "Sarawak Government ownership and state backing verified; transaction and technology budget amounts not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2025-02-12",
+          "type": "Ownership and relaunch",
+          "detail": "Malaysia Aviation Group, MASwings'in Sarawak hükümetine devrini ve AirBorneo adıyla tam hizmet taşıyıcısına dönüştürülmesini açıkladı.",
+          "sourceUrl": "https://www.reuters.com/business/aerospace-defense/malaysia-aviation-group-sells-maswings-airline-sarawak-state-government-2025-02-12/"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "Commercial launch",
+          "detail": "AirBorneo markası altında ticari uçuşlar ve bilet satışları başladı.",
+          "sourceUrl": "https://www.airborneo.com/"
+        },
+        {
+          "date": "2026-03-04",
+          "type": "Digital operational readiness",
+          "detail": "Sarawak Ulaştırma Bakanlığı, ATR ağında çevrim içi check-in, koltuk seçimi ve elektronik boarding pass hizmetinin devreye alındığını duyurdu.",
+          "sourceUrl": "https://mot.sarawak.gov.my/web/subpage/news_view/829"
+        },
+        {
+          "date": "2026-02-03",
+          "type": "Fleet commitment",
+          "detail": "Sarawak hükümetinin resmî haber servisi, beş ATR 72-600 ve üç ATR 42-600 için kesin siparişi; 2027–2029 teslimat programını doğruladı.",
+          "sourceUrl": "https://ukas.sarawak.gov.my/web/subpage/news_view/33449"
+        },
+        {
+          "date": "2026-09-18",
+          "type": "Mobile commercial channel",
+          "detail": "AirBorneo mobil uygulaması 20'den fazla destinasyonda uçuş arama, rezervasyon ve check-in/boarding pass işlevleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
+          "sourceUrl": "https://play.google.com/store/apps/details?id=com.airborneo.app"
+        }
+      ]
     }
   ]
 }
