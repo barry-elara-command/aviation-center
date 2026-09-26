@@ -1170,6 +1170,63 @@
           "sourceUrl": "https://www.skywayair.ph/tracking"
         }
       ]
+    },
+    {
+      "id": "sum-air-south-korea-startup-2026",
+      "title": "SUM Air – South Korean Regional Startup Airline",
+      "organization": "SUM Air Co., Ltd. / MAAF",
+      "country": "South Korea",
+      "category": "Multi-product",
+      "publishedDate": "2026-04-03",
+      "deadline": null,
+      "detectedAt": "2026-09-26T02:48:43Z",
+      "relevance": "High",
+      "summary": "MAAF iştiraki SUM Air, 10 Mart 2026'da Güney Kore AOC'sini aldı; kiralık yeni ATR 72-600 ile 12 Mart'ta ticari, 31 Mart'ta Gimpo–Sacheon tarifeli operasyonuna başladı. Resmî satış kanalı rezervasyon, check-in/boarding pass, mobil kiosk ve SUM Air Pay işlevleri sunuyor. Taşıyıcı dört kesin ATR 72-600 siparişi ve dört satın alma hakkıyla 2028'den itibaren filosunu büyütüp ada havalimanları ile Japonya/Çin kısa hatlarına açılmayı planlıyor. PSS/DCS sağlayıcısı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "SUM Air; ATR; Swiss AviationSoftware",
+      "url": "https://home.sumair.kr/pressroom",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": "AMOS (maintenance/MRO only); PSS/DCS provider not publicly disclosed",
+      "qualificationNotes": "SUM Air faal rezervasyon, ödeme, check-in/boarding pass ve mobil kiosk kanallarına sahip olduğundan mevcut PSS/DCS altyapısı vardır; sağlayıcı ve sözleşme süresi kamuya açıklanmamıştır. AMOS yalnız bakım ve mühendislik sistemi olarak doğrulanmıştır. İlk temas; PSS/IBE/DCS/W&B karar vericilerini, mevcut sağlayıcıyı, IATA/GDS/interline planını, yerel ödeme gereksinimlerini ve 2028 ATR büyüme programını doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC granted; commercial and scheduled operations active; fleet scale-up phase",
+      "targetLaunchDate": "2026-03-12",
+      "aocStatus": "South Korean AOC granted by MOLIT on 10 March 2026",
+      "fleetPlan": "Bir kiralık yeni ATR 72-600 faal; dört kesin ATR 72-600 ve dört satın alma hakkı, teslimatlar 2028'den itibaren",
+      "fundingStatus": "MAAF corporate backing, investor participation and firm aircraft commitment verified; investment amount not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-03-10",
+          "type": "AOC and launch",
+          "detail": "SUM Air, Güney Kore Ulaştırma Bakanlığı AOC'sini aldı; 12 Mart'ta ticari ve 31 Mart'ta tarifeli Gimpo–Sacheon operasyonuna başladı.",
+          "sourceUrl": "https://home.sumair.kr/pressroom"
+        },
+        {
+          "date": "2026-04-03",
+          "type": "Fleet commitment",
+          "detail": "ATR, dört kesin ATR 72-600 siparişini ve dört satın alma hakkını; 2028'den itibaren teslimatları doğruladı.",
+          "sourceUrl": "https://www.atr-aircraft.com/presspost/sum-air-orders-up-to-eight-atr72-600s/"
+        },
+        {
+          "type": "Commercial readiness",
+          "detail": "Resmî satış kanalı rezervasyon, rezervasyon yönetimi, check-in/boarding pass, mobil kiosk ve SUM Air Pay hizmetlerini sunuyor.",
+          "sourceUrl": "https://www.sumair.kr/"
+        },
+        {
+          "date": "2026-05-28",
+          "type": "Known technology",
+          "detail": "Swiss AviationSoftware, SUM Air'ın bakım ve mühendislik için AMOS'u canlıya aldığını doğruladı; PSS/DCS sağlayıcısı açıklanmadı.",
+          "sourceUrl": "https://www.swiss-as.com/news/amos-supports-sum-airs-first-aircraft-delivery"
+        }
+      ]
     }
   ]
 }
