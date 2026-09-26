@@ -1227,6 +1227,64 @@
           "sourceUrl": "https://www.swiss-as.com/news/amos-supports-sum-airs-first-aircraft-delivery"
         }
       ]
+    },
+    {
+      "id": "shohin-airlines-tajikistan-startup-2026",
+      "title": "Shohin Airlines – Tajikistan Startup Airline",
+      "organization": "Shohin Airlines",
+      "country": "Tajikistan",
+      "category": "Multi-product",
+      "publishedDate": "2026-07-21",
+      "deadline": null,
+      "detectedAt": "2026-09-26T06:01:04Z",
+      "relevance": "Medium",
+      "summary": "Haziran 2025'te tescil edilen Shohin Airlines, Tacikistan Sivil Havacılık Ajansı tarafından yeni özel taşıyıcı olarak doğrulandı. CFC ile beş yıllık 200 milyon ABD dolarını aşan yatırım programı açıklandı ve Airbus iki A320neo ile iki A321neo için kesin siparişi doğruladı. Ticari operasyon başlangıç tarihi ve AOC henüz açıklanmadı; PSS/DCS sağlayıcısı da kamuya açık değil. Bu nedenle Crane PAX, Crane IBE, Crane DCS ve Crane WB için AOC öncesi P2 discovery fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Airbus; CFC Fund; Tajikistan Civil Aviation Agency / Air Navigation Tajikistan; Shohin Airlines",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-shohin-airlines-discloses-order-for-four-airbus-a320neo-family",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "qualificationNotes": "Şirket tescili, düzenleyici makam açıklaması, 200 milyon ABD dolarını aşan yatırım programı ve dört uçaklık kesin Airbus siparişi girişimin gerçekliğini güçlendiriyor. Ancak AOC başvuru/aşama bilgisi, teslimat takvimi, ilk operasyon tarihi, başlangıçta kullanılacak geçici/kiralık filo ve satış kanallarının teknoloji sağlayıcısı bilinmiyor. Temas; AOC programı, launch-fleet takvimi, PSS/DCS/IBE/W&B seçim süreci, yerel ödeme ve government messaging gereksinimlerini doğrulamaya odaklanmalıdır.",
+      "startupStage": "Company registered; funded; firm fleet order placed; pre-AOC/pre-launch",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC grant not publicly confirmed; company registration and Civil Aviation Agency engagement verified",
+      "fleetPlan": "İki A320neo ve iki A321neo kesin Airbus siparişi; ayrıca L-410/başlangıç filosu planı düzenleyici makam açıklamalarında yer aldı ancak teslimat ve operasyon durumu doğrulanmadı",
+      "fundingStatus": "CFC ile beş yıllık, 200 milyon ABD dolarını aşan planlı yatırım programı açıklandı",
+      "evidence": [
+        {
+          "date": "2026-01-28",
+          "type": "Regulatory and company establishment",
+          "detail": "Tacikistan Sivil Havacılık Ajansı Başkanı, Shohin Airlines'ın yeni özel havayolu olarak tescil edildiğini, Dushanbe Havalimanı'nda konuşlandığını ve filo görüşmeleri yürüttüğünü açıkladı.",
+          "sourceUrl": "https://asiaplus.news/en/2026/01/28/new-privately-owned-airline-registered-in-tajikistan/"
+        },
+        {
+          "date": "2026-03-16",
+          "type": "Funding",
+          "detail": "CFC, Shohin Airlines ile filo, operasyonel kabiliyet ve altyapıya yönelik 200 milyon ABD dolarını aşan planlı yatırım programını açıkladı.",
+          "sourceUrl": "https://www.cfc-fund.com/news.html"
+        },
+        {
+          "date": "2026-04-16",
+          "type": "Operational preparation",
+          "detail": "Air Navigation Tajikistan, Shohin yönetiminin Türk Hava Yolları, Turkish Technic, Turkish Technology, IGA ve diğer kuruluşlarla operasyonel hazırlık görüşmelerini doğruladı.",
+          "sourceUrl": "https://www.airnav.tj/en/presscenter_en/news_en/4160-new-step-in-the-national-aviation-development-shohin-airlines-expands-cooperation-with-leading-turkish-companies.html"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "Firm fleet commitment",
+          "detail": "Airbus, Shohin Airlines'ın iki A320neo ve iki A321neo için kesin sipariş verdiğini doğruladı.",
+          "sourceUrl": "https://www.airbus.com/en/newsroom/press-releases/2026-07-shohin-airlines-discloses-order-for-four-airbus-a320neo-family"
+        }
+      ]
     }
   ]
 }
