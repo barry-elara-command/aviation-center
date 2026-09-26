@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-26T14:29:00Z",
-  "sourcesScanned": 174,
+  "lastScan": "2026-09-26T16:25:00Z",
+  "sourcesScanned": 182,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1522,6 +1522,38 @@
           "type": "Government fleet investment plan",
           "detail": "Cabo Verde 2026 bütçe direktifleri LACV iç hat operasyonları için üç uçak yatırımını öngörüyor.",
           "sourceUrl": "https://www.mf.gov.cv/documents/198414/5793427/DIRECTIVAS_OE_2026.pdf/d8e5f774-88ce-e6aa-2e06-b1b8a6008b28?download=true&t=1757418516896&version=1.0"
+        }
+      ]
+    },
+    {
+      "id": "aibd-cute-registration-system-procurement-plan-2026",
+      "title": "Acquisition of Check-in System (CUTE) – 2026 Procurement Plan",
+      "organization": "Aéroport International Blaise Diagne (AIBD) S.A.",
+      "country": "Senegal",
+      "category": "DCS",
+      "publishedDate": "2026",
+      "deadline": null,
+      "detectedAt": "2026-09-26T16:25:00Z",
+      "relevance": "Low",
+      "summary": "AIBD S.A.'nın 2026 resmî satın alma planında “Acquisition système d'enregistrement (Systèmes CUTE)” alımı, kısıtlı fiyat/teklif talebi yöntemiyle planlanıyor. Alım ortak kullanım havalimanı check-in altyapısına yöneliktir; Crane DCS yalnız havayolu host/DCS entegrasyonu ve yolcu işlem akışlarında dolaylı eşleşir. Teknik şartname, istasyon/kontuar kapsamı, yayın ve son teklif tarihleri henüz kamuya açık kayıtta bulunmadığından ana yüklenici yerine CUTE sağlayıcısıyla partner/entegrasyon yaklaşımı izlenmelidir.",
+      "products": [
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Portail Officiel des Marchés Publics du Sénégal – AIBD 2026 Procurement Plan",
+      "url": "https://marchesdusenegal.com/tenders/ppm-f-aibd-020-acquisition-syst-me-d-enregistrement-syst-mes-D_020",
+      "official": true,
+      "status": "Early Signal",
+      "procurementType": "Official Procurement Plan / Restricted RFQ",
+      "commercialPriority": "P3",
+      "recommendation": "Partner",
+      "incumbent": null,
+      "qualificationNotes": "Plan kaydı somut bir gelecek alımı gösteriyor ancak ihale dokümanı henüz yayımlanmamış görünüyor. Ana kapsam CUTE/common-use airport infrastructure olduğundan Hitit'in doğrudan prime olması uygun değildir. Yayınlandığında CUPPS/CUTE sağlayıcısı, havayolu host bağlantıları, kiosk/bag-drop, DCS mesajlaşması, donanım ve saha bakım yükümlülükleri doğrulanmalı; Crane DCS entegrasyonu ancak partner modeliyle değerlendirilmelidir.",
+      "evidence": [
+        {
+          "date": "2026",
+          "type": "Official procurement plan",
+          "detail": "AIBD S.A. 2026 planında kayıt/check-in sistemi (CUTE) alımını kısıtlı talep yöntemiyle listeledi; ihale takvimi ve teknik şartname henüz yayımlanmadı.",
+          "sourceUrl": "https://marchesdusenegal.com/tenders/ppm-f-aibd-020-acquisition-syst-me-d-enregistrement-syst-mes-D_020"
         }
       ]
     }
