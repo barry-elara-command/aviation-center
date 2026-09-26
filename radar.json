@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-26T13:28:00Z",
-  "sourcesScanned": 166,
+  "lastScan": "2026-09-26T14:29:00Z",
+  "sourcesScanned": 174,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1458,6 +1458,70 @@
           "type": "Launch and certification preparation",
           "detail": "Government and regulatory reporting set December 2026 as the intended launch window, with AOC certification and aircraft acquisition identified as outstanding milestones.",
           "sourceUrl": "https://travelnews.africa/news-single.html?id=18135"
+        }
+      ]
+    },
+    {
+      "id": "cvsky-cabo-verde-startup-2026",
+      "title": "CVSky (Linhas Aéreas de Cabo Verde) – Domestic Airline Launch",
+      "organization": "Linhas Aéreas de Cabo Verde, S.A. (CVSky)",
+      "country": "Cabo Verde",
+      "category": "Multi-product",
+      "publishedDate": "2025-12-24",
+      "deadline": null,
+      "detectedAt": "2026-09-26T14:29:00Z",
+      "relevance": "High",
+      "summary": "Cabo Verde'nin tamamı kamuya ait yeni iç hat taşıyıcısı Linhas Aéreas de Cabo Verde, CVSky markasıyla AAC operasyon sertifikalarını aldı; Şubat 2026'da doğrudan ve acente satışını açtı ve 25 Eylül 2026'da iki ATR ile adalar arası ticari operasyona geçti. 2026 bütçe direktifleri üç uçak yatırımı öngörüyor. Canlı IBE/PSS/DCS bulunduğu açık olmakla birlikte sağlayıcı kamuya açıklanmadığından, kısa vadeli değiştirme ihtimalinden çok incumbent keşfi, ölçekleme ve yenileme penceresi için P1 satış sinyalidir.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "CVSky; Cabo Verde Civil Aviation Agency reporting; Cabo Verde Ministry of Finance",
+      "url": "https://www.cvsky.cv/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P1",
+      "recommendation": "Monitor",
+      "incumbent": "PSS/DCS/IBE provider not publicly disclosed; live booking stack is already operational",
+      "qualificationNotes": "AOC/operasyon sertifikası, kamu finansmanı, ATR filosu, canlı satış kanalı ve fiilî gelir operasyonu birlikte doğrulanmıştır. Ancak taşıyıcı ticari faaliyete geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık bir RFP veya sağlayıcı adı bulunmamaktadır. İlk temas mevcut PSS/DCS/IBE sözleşmesini, sözleşme süresini, sistem performansını, acente/GDS dağıtımını, ödeme altyapısını, online check-in'i, W&B mimarisini, üçüncü uçak planını ve yenileme/değişim penceresini doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC/operating certificates granted; direct sales active; commercial domestic operations launched",
+      "targetLaunchDate": "2026-09-25",
+      "aocStatus": "AAC operating certificates granted in December 2025",
+      "fleetPlan": "Commercial launch with two ATR aircraft; official 2026 budget directives provide for investment in three aircraft for LACV domestic operations",
+      "fundingStatus": "State-owned carrier; initial public capital of CVE 750 million reported and 2026 government budget directives support three-aircraft investment",
+      "evidence": [
+        {
+          "date": "2024-09-15",
+          "type": "Company formation and public capital",
+          "detail": "Devlet, Linhas Aéreas de Cabo Verde'yi iç hat operasyonları için tamamı kamuya ait CVE 750 milyon başlangıç sermayesiyle kurdu.",
+          "sourceUrl": "https://expressodasilhas.cv/pais/2024/09/15/nova-companhia-aerea-domestica-lancada-com-capital-inicial-de-750-milhoes-de-escudos/93273"
+        },
+        {
+          "date": "2025-12-24",
+          "type": "AOC / operating certification",
+          "detail": "AAC tarafından verilen operasyon sertifikalarının LACV/CVSky'nin adalar arası iç hat faaliyetine başlamasını mümkün kıldığı açıklandı.",
+          "sourceUrl": "https://inforpress.cv/linhas-aereas-de-cabo-verde-certificada-pela-aac-para-iniciar-voos-domesticos-inter-ilhas"
+        },
+        {
+          "date": "2026-02-26",
+          "type": "Commercial technology readiness",
+          "detail": "CVSky resmî sitesi, bilet satışlarının web sitesi ve seyahat acenteleri üzerinden açıldığını, ATR 72-600 filosuyla IATA yaz sezonunda lansman hazırlığı yapıldığını duyurdu.",
+          "sourceUrl": "https://www.cvsky.cv/"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "Commercial launch",
+          "detail": "CVSky iki ATR ile adalar arası ticari operasyona başladı; canlı rezervasyon kanalı çalışıyor ancak teknoloji sağlayıcısı açıklanmıyor.",
+          "sourceUrl": "https://www.cvsky.cv/"
+        },
+        {
+          "date": "2025-09",
+          "type": "Government fleet investment plan",
+          "detail": "Cabo Verde 2026 bütçe direktifleri LACV iç hat operasyonları için üç uçak yatırımını öngörüyor.",
+          "sourceUrl": "https://www.mf.gov.cv/documents/198414/5793427/DIRECTIVAS_OE_2026.pdf/d8e5f774-88ce-e6aa-2e06-b1b8a6008b28?download=true&t=1757418516896&version=1.0"
         }
       ]
     }
