@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-09-01T20:22:07Z",
+  "lastScan": "2026-09-26T07:50:17Z",
   "sourcesScanned": 153,
   "opportunities": [
     {
@@ -1337,6 +1337,69 @@
           "type": "Procurement readiness",
           "detail": "KTZ Express, ulusal kargo havayolunun kurulmasında pratik aşamaya geçildiğini ve 2026 satın alma planının onaylandığını yayımladı.",
           "sourceUrl": "https://www.ktze.kz/en/cooperation/procurement"
+        }
+      ]
+    },
+    {
+      "id": "oneclick-airways-georgia-startup-2026",
+      "title": "OneClick Airways – Georgian Low-Cost Startup Airline",
+      "organization": "JSC OneClick Airways",
+      "country": "Georgia",
+      "category": "Multi-product",
+      "publishedDate": "2026-07-04",
+      "deadline": null,
+      "detectedAt": "2026-09-26T07:50:17Z",
+      "relevance": "High",
+      "summary": "2024'te kurulan OneClick Airways, 2 Eylül 2025'te Gürcistan AOC No.101'i aldı ve Boeing 737-800 filosuyla charter operasyonuna başladı. Taşıyıcı Temmuz 2026'da Tiflis/Batum–Tel Aviv tarifeli hatlarını açarak kendi IBE'si, rezervasyon yönetimi ve online check-in kanallarını devreye aldı. Kamuya açık PSS/DCS sağlayıcısı bulunmadığından, tarifeli LCC ölçeklenmesi öncesinde Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Georgian Civil Aviation Agency; OneClick Airways; EASA",
+      "url": "https://gcaa.ge/aoc-holders/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "qualificationNotes": "AOC, uçak filosu, aktif tarifeli operasyon, canlı doğrudan satış/rezervasyon yönetimi ve online check-in doğrulanmıştır. Mevcut PSS/DCS sözleşmesi bulunduğu açıktır ancak sağlayıcı, sözleşme süresi ve teknoloji yol haritası açıklanmamıştır. İlk temas; incumbent ve yenileme penceresi, 4L dağıtım/GDS planı, interline/codeshare hedefi, DCS istasyon kapsamı, W&B mimarisi ve büyüme rotalarını doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC granted; charter operations active since 2025; scheduled international operations launched in July 2026",
+      "targetLaunchDate": "2025-10",
+      "aocStatus": "Georgian AOC No.101 granted on 2 September 2025; current GCAA AOC-holder list confirms passenger and cargo authority",
+      "fleetPlan": "Boeing 737-800 fleet; two aircraft reported delivered during launch preparation, current active fleet quantity should be reconfirmed",
+      "fundingStatus": null,
+      "evidence": [
+        {
+          "date": "2025-09-02",
+          "type": "AOC",
+          "detail": "Gürcistan Sivil Havacılık Ajansı AOC No.101'i OneClick Airways adına yayımladı; mevcut resmî listede yolcu ve kargo operasyon yetkisi doğrulanıyor.",
+          "sourceUrl": "https://gcaa.ge/aoc-holders/"
+        },
+        {
+          "date": "2025-11-26",
+          "type": "International regulatory registration",
+          "detail": "EASA TCO durum raporunda OneClick Airways, Gürcistan AOC 101 ve TCO kodu GEO-0014 ile listelendi.",
+          "sourceUrl": "https://www.easa.europa.eu/download/tco-lists/TCO%20Status%20Report.pdf"
+        },
+        {
+          "date": "2026-07-09",
+          "type": "Scheduled commercial operation",
+          "detail": "Taşıyıcı Tiflis–Tel Aviv tarifeli uçuşunu başlattı; Tiflis ve Batum'dan haftada iki frekanslı satış açtı.",
+          "sourceUrl": "https://oneclick.aero/en/news/2024567/"
+        },
+        {
+          "type": "Commercial technology readiness",
+          "detail": "Resmî kanal canlı IBE, rezervasyon yönetimi, ancillary satışı ve online check-in sunuyor; PSS/DCS sağlayıcısı açıklanmıyor.",
+          "sourceUrl": "https://oneclick.aero/en/"
+        },
+        {
+          "date": "2026-09",
+          "type": "Technology hiring signal",
+          "detail": "E-commerce Manager ilanında PSS sağlayıcısı ve diğer teknoloji ortaklarıyla entegrasyon, yeni özellik ve optimizasyon koordinasyonu açık görev olarak tanımlandı.",
+          "sourceUrl": "https://www.hr.ge/en/announcement/484714/E-commerce-Manager"
         }
       ]
     }
