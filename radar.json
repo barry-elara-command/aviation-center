@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-26T07:50:17Z",
-  "sourcesScanned": 153,
+  "lastScan": "2026-09-26T13:28:00Z",
+  "sourcesScanned": 166,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1400,6 +1400,64 @@
           "type": "Technology hiring signal",
           "detail": "E-commerce Manager ilanında PSS sağlayıcısı ve diğer teknoloji ortaklarıyla entegrasyon, yeni özellik ve optimizasyon koordinasyonu açık görev olarak tanımlandı.",
           "sourceUrl": "https://www.hr.ge/en/announcement/484714/E-commerce-Manager"
+        }
+      ]
+    },
+    {
+      "id": "namibia-air-new-national-carrier-2026",
+      "title": "Namibia Air – New National Carrier",
+      "organization": "Namibia Air (Pty) Ltd",
+      "country": "Namibia",
+      "category": "Multi-product",
+      "publishedDate": "2026-08-06",
+      "deadline": null,
+      "detectedAt": "2026-09-26T13:28:00Z",
+      "relevance": "Medium",
+      "summary": "Namibya hükümetinin kurduğu yeni ulusal taşıyıcı Namibia Air, 8 Temmuz 2026 tarihli Government Gazette No. 8971'de iç, bölgesel ve uluslararası yolcu/kargo operasyonları için başvurusunu yayımladı; Transport Commission 6 Ağustos 2026'da tarifeli ve tarifesiz hava hizmeti lisanslarını beş yıl süreyle verdi. Aralık 2026 ticari başlangıç hedefleniyor ve iş planı dört Embraer 145 ile üç Embraer 170/175 öngörüyor; ancak AOC, uçak satın alma/kiralama sözleşmesi ve teslimatlar henüz doğrulanmadı. Kamuya açıklanmış PSS/DCS sağlayıcısı bulunmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için P2 pre-RFP fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Namibia Government Gazette; Transport Commission of Namibia; Namibia Civil Aviation Authority; Namibian government and local aviation press",
+      "url": "https://namiblii.org/gazettes/na/2026",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "qualificationNotes": "Hava hizmeti lisanslarının verilmesi, devlet tarafından kurulan tüzel yapı, yayımlanmış ağ/fiyat başvurusu ve Aralık 2026 hedefi güçlü erken sinyallerdir. Ancak AOC henüz verilmemiştir; yedi uçaklık plan için bağlayıcı satın alma/kiralama ve teslimat kanıtı bulunmamaktadır. Ethiopian Airlines ve yerel operatörlerle görüşmeler keşif aşamasındadır ve bağlayıcı ortaklık açıklanmamıştır. İlk temas AOC programı, launch-fleet finansmanı, satışa açılış takvimi, PSS/DCS/IBE/W&B seçim yöntemi, dağıtım, ödeme ve government messaging gereksinimlerini doğrulamaya odaklanmalıdır.",
+      "startupStage": "Air service licences granted; pre-AOC and pre-launch preparation",
+      "targetLaunchDate": "2026-12",
+      "aocStatus": "Air service licences granted on 6 August 2026; AOC not yet publicly confirmed",
+      "fleetPlan": "Business plan proposes four Embraer 145 and three Embraer 170/175 aircraft; acquisition/lease contracts and deliveries not yet verified",
+      "fundingStatus": "State-backed project; NAD20 million feasibility-study allocation reported. Proposed fleet investment of approximately NAD594–600 million is public, but final funding approval and aircraft contracts are not verified.",
+      "evidence": [
+        {
+          "date": "2026-07-08",
+          "type": "Official air-service application",
+          "detail": "Government Gazette No. 8971 published Namibia Air's applications for scheduled and charter passenger/cargo services on domestic, regional and international routes.",
+          "sourceUrl": "https://namiblii.org/gazettes/na/2026"
+        },
+        {
+          "date": "2026-08-06",
+          "type": "Operating licence milestone",
+          "detail": "Transport Commission of Namibia granted five-year scheduled and non-scheduled air service licences, clearing the first major regulatory stage before AOC certification.",
+          "sourceUrl": "https://www.ch-aviation.com/news/170446-namibia-air-reaches-licensing-milestone"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "Fleet and operating plan",
+          "detail": "Published business plan targets seven Embraer aircraft and 160 weekly flights in year one; aircraft contracts and deliveries remain unverified.",
+          "sourceUrl": "https://www.tourismupdatenamibia.com/namibia-air-will-initially-fly-with-7-aircraft/"
+        },
+        {
+          "date": "2026-08",
+          "type": "Launch and certification preparation",
+          "detail": "Government and regulatory reporting set December 2026 as the intended launch window, with AOC certification and aircraft acquisition identified as outstanding milestones.",
+          "sourceUrl": "https://travelnews.africa/news-single.html?id=18135"
         }
       ]
     }
