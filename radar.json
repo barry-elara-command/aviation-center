@@ -1117,6 +1117,59 @@
           "sourceUrl": "https://play.google.com/store/apps/details?id=com.airborneo.app"
         }
       ]
+    },
+    {
+      "id": "skyway-airlines-philippines-cargo-scaleup-2026",
+      "title": "Skyway Airlines – Philippine Cargo Startup and Regional Scale-up",
+      "organization": "Skyway Airlines Inc.",
+      "country": "Philippines",
+      "category": "Cargo",
+      "publishedDate": "2026-09-01",
+      "deadline": null,
+      "detectedAt": "2026-09-26T02:09:40Z",
+      "relevance": "High",
+      "summary": "2022'de kurulan Skyway Airlines, Ağustos 2024'te Filipinler AOC'sini aldı ve B737-400F ile yurt içi ve uluslararası kargo operasyonuna geçti. Şirketin canlı AWB takip kanalı faal; 2026'da Çin operasyonu, 1 Eylül'de yeni KTI istasyonu ve Kamboçya için GSA/GSSA EOI çağrısı bölgesel ölçeklenmeyi doğruluyor. Kamuya açıklanmış cargo management/reservation platformu sağlayıcısı bulunmadığından Crane CGO için zaman-kritik discovery fırsatı vardır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services"
+      ],
+      "sourceName": "Skyway Airlines; CAPA; Founders Launchpad",
+      "url": "https://www.skywayair.ph/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "qualificationNotes": "Taşıyıcı tek B737-400F ile faal ve resmî sitesinde canlı AWB takibi sunuyor; ancak kullanılan cargo platformunun sahibi, sözleşme durumu, rezervasyon/kapasite yönetimi, e-AWB, warehouse, accounting ve GSSA entegrasyonları açıklanmamıştır. İlk temas; teknoloji karar vericisi, mevcut sistem mimarisi, 2026 bölgesel istasyon/GSSA genişlemesi ve filo büyüme takvimini doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC granted; domestic and international cargo operations active; regional network scale-up",
+      "targetLaunchDate": null,
+      "aocStatus": "Philippine AOC granted in August 2024",
+      "fleetPlan": "Bir Boeing 737-400 freighter operasyonu doğrulandı; ek filo büyüme niyeti açıklandı ancak kesin uçak adedi ve teslimat takvimi kamuya açıklanmadı",
+      "fundingStatus": "Founders Launchpad portföy yatırımı ve charter müşterisi desteği doğrulandı; yatırım tutarı kamuya açıklanmadı",
+      "evidence": [
+        {
+          "date": "2024-08-01",
+          "type": "AOC",
+          "detail": "Skyway Airlines'ın Filipinler AOC'sini Ağustos 2024'te aldığı ve ticari/charter kargo hizmeti sunduğu doğrulandı.",
+          "sourceUrl": "https://centreforaviation.com/data/profiles/airlines/skyway-airlines-sr"
+        },
+        {
+          "type": "Fleet and funding",
+          "detail": "Founders Launchpad, taşıyıcının B737-400 saf kargo uçağı işlettiğini, yatırım portföyünde olduğunu ve maliyet artı marj garantili charter sözleşmesini açıkladı.",
+          "sourceUrl": "https://www.founderslaunchpad.vc/portfolio/skyway"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "Network expansion",
+          "detail": "Skyway Airlines yeni KTI istasyonunu açtığını ve Kamboçya kargo pazarı için GSA/GSSA adaylarına EOI/RFP çağrısı yaptığını duyurdu.",
+          "sourceUrl": "https://www.linkedin.com/company/skyway-airlines-inc/"
+        },
+        {
+          "type": "Commercial and technology readiness",
+          "detail": "Resmî web sitesi canlı AWB durum, rota ve olay geçmişi takibi sunuyor; cargo yazılım sağlayıcısı kamuya açıklanmıyor.",
+          "sourceUrl": "https://www.skywayair.ph/tracking"
+        }
+      ]
     }
   ]
 }
