@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-26T16:25:00Z",
-  "sourcesScanned": 182,
+  "lastScan": "2026-09-27T03:21:00Z",
+  "sourcesScanned": 190,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1554,6 +1554,63 @@
           "type": "Official procurement plan",
           "detail": "AIBD S.A. 2026 planında kayıt/check-in sistemi (CUTE) alımını kısıtlı talep yöntemiyle listeledi; ihale takvimi ve teknik şartname henüz yayımlanmadı.",
           "sourceUrl": "https://marchesdusenegal.com/tenders/ppm-f-aibd-020-acquisition-syst-me-d-enregistrement-syst-mes-D_020"
+        }
+      ]
+    },
+    {
+      "id": "basra-airlines-iraq-new-aoc-2026",
+      "title": "Basra Airlines – New Iraqi Full-Service Carrier Launch",
+      "organization": "Basra Airlines",
+      "country": "Iraq",
+      "category": "Multi-product",
+      "publishedDate": "2025-12-30",
+      "deadline": null,
+      "detectedAt": "2026-09-27T03:21:00Z",
+      "relevance": "High",
+      "summary": "Irak'ın yeni tam hizmet taşıyıcısı Basra Airlines, Aralık 2025'te AOC aldı; Jetcraft Commercial iki CRJ1000 teslimatını doğruladı ve taşıyıcı 23 Nisan 2026'da iç hat ticari operasyonuna başladı. Canlı web satış/rezervasyon altyapısı bulunuyor ancak PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor. İlk sistem seçimi yapılmış göründüğünden kısa vadeli satıştan çok incumbent, sözleşme süresi, filo büyümesi ve uluslararası/kargo genişlemesi öncesindeki yenileme penceresi araştırılmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Basra Airlines; Jetcraft Commercial; Iraqi aviation reporting",
+      "url": "https://www.basraairlines.com/en",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P1",
+      "recommendation": "Monitor",
+      "incumbent": "PSS/DCS/IBE provider not publicly disclosed; live booking stack is operational",
+      "qualificationNotes": "AOC, iki uçak teslimatı, canlı satış kanalı ve fiilî ticari operasyon birlikte doğrulanmıştır. Ancak kamuya açık bir RFP veya teknoloji tedarik çağrısı yoktur ve operasyon başladığı için ilk PSS/DCS/IBE seçiminin tamamlandığı kabul edilmelidir. Discovery; mevcut sağlayıcı, sözleşme süresi, dağıtım ve ödeme mimarisi, online check-in/DCS kapsamı, W&B, uluslararası uçuş ve planlanan kargo operasyonu için sistem yol haritasına odaklanmalıdır.",
+      "startupStage": "AOC granted; fleet delivered; commercial domestic operations launched",
+      "targetLaunchDate": "2026-04-23",
+      "aocStatus": "Iraqi AOC reported granted on 30 December 2025",
+      "fleetPlan": "Two Bombardier CRJ1000 aircraft delivered; airline roadmap references later B737-800 and A330 freighter expansion, but those additions are not independently verified",
+      "evidence": [
+        {
+          "date": "2025-12-30",
+          "type": "AOC milestone",
+          "detail": "Basra Airlines'ın Irak Sivil Havacılık Otoritesi AOC'sini aldığı sektör ve yerel haber kaynaklarında bildirildi.",
+          "sourceUrl": "https://www.iraq-businessnews.com/2025/12/30/basra-airlines-receives-air-operator-certificate/"
+        },
+        {
+          "date": "2026-01-27",
+          "type": "Aircraft delivery",
+          "detail": "Jetcraft Commercial, yeni taşıyıcıya iki Bombardier CRJ1000 teslim edildiğini ve operasyon hazırlığını açıkladı.",
+          "sourceUrl": "https://www.jetcraft.com/jetstream/2026/01/jetcraft-commercial-delivers-two-crj-1000s-to-newly-launched-basra-airlines/"
+        },
+        {
+          "date": "2026-04-23",
+          "type": "Commercial launch",
+          "detail": "Taşıyıcı ilk ticari iç hat uçuşunu başlattı; operasyon başlangıcı yerel havacılık/haber kaynaklarınca doğrulandı.",
+          "sourceUrl": "https://www.iraqinews.com/iraq/basra-airlines-maiden-flight-2026/"
+        },
+        {
+          "date": "2026-09-27",
+          "type": "Commercial technology readiness",
+          "detail": "Resmî web sitesi canlı uçuş arama, ücret tutma, rezervasyon yönetimi ve satış özellikleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
+          "sourceUrl": "https://www.basraairlines.com/en"
         }
       ]
     }
