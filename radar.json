@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-27T03:21:00Z",
-  "sourcesScanned": 190,
+  "lastScan": "2026-09-27T08:29:00Z",
+  "sourcesScanned": 211,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1611,6 +1611,57 @@
           "type": "Commercial technology readiness",
           "detail": "Resmî web sitesi canlı uçuş arama, ücret tutma, rezervasyon yönetimi ve satış özellikleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
           "sourceUrl": "https://www.basraairlines.com/en"
+        }
+      ]
+    },
+    {
+      "id": "amazone-airlines-benin-new-aoc-2026",
+      "title": "Amazone Airlines – Benin National Carrier Launch",
+      "organization": "Amazone Airlines",
+      "country": "Benin",
+      "category": "Multi-product",
+      "publishedDate": "2026-02-13",
+      "deadline": null,
+      "detectedAt": "2026-09-27T08:29:00Z",
+      "relevance": "High",
+      "summary": "Benin'in yeni ulusal taşıyıcısı Amazone Airlines, ANAC Benin'in 109 iş günü süren beş aşamalı sertifikasyonunun ardından 13 Şubat 2026'da resmî işletme sertifikasını aldı ve 23 Mart 2026'da Cotonou–Parakou tarifeli iç hat operasyonuna başladı. Taşıyıcı, Bénin Airlines ile Cronos Airlines Bénin'in birleşmesinden doğdu; DHC-6-400 operasyonu ve canlı web rezervasyon kanalı doğrulanıyor. İlk teknoloji seçimi yapılmış göründüğünden kısa vadeli tekliften çok mevcut PSS/IBE/DCS sağlayıcısı, sözleşme süresi ve bölgesel büyüme öncesindeki yenileme penceresi araştırılmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "ANAC Benin; Government of Benin; Amazone Airlines",
+      "url": "https://www.flyamazoneair.bj/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P1",
+      "recommendation": "Monitor",
+      "incumbent": "Operational stack likely inherited or adapted from Bénin Airlines/Cronos Airlines Bénin; PSS/DCS/IBE provider not publicly disclosed",
+      "qualificationNotes": "Resmî işletme sertifikası, doğrulanmış DHC-6-400 operasyonu, canlı rezervasyon kanalı ve fiilî tarifeli uçuş birlikte P1 startup sinyali oluşturur. Ancak birleşme yoluyla kurulduğu ve satışa geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık RFP yoktur. Discovery; mevcut PSS/DCS/IBE sağlayıcısı ve sözleşme süresi, Cronos altyapısından ayrışma, online check-in, acente/GDS dağıtımı, ödeme altyapısı, W&B, Lagos ve diğer bölgesel hatlar için ölçekleme planına odaklanmalıdır.",
+      "startupStage": "Operating certificate granted; scheduled domestic operations and online sales active",
+      "targetLaunchDate": "2026-03-23",
+      "aocStatus": "ANAC Benin issued the Permis d’Exploitation Aérienne on 13 February 2026 after completing five certification phases",
+      "fleetPlan": "Domestic launch uses a Twin Otter DHC-6-400 inherited through the Bénin Airlines/Cronos Airlines Bénin combination; additional fleet plan not publicly verified",
+      "evidence": [
+        {
+          "date": "2026-02-13",
+          "type": "AOC / operating certification",
+          "detail": "ANAC Benin, 19 Eylül 2025'te başlayan ve beş aşamada tamamlanan sertifikasyonun ardından Amazone Airlines'a resmî Permis d’Exploitation Aérienne verdi.",
+          "sourceUrl": "https://anac.bj/la-compagnie-nationale-amazone-airlines-obtient-son-permis-dexploitation-aerienne-pea"
+        },
+        {
+          "date": "2026-03-23",
+          "type": "Commercial launch and fleet",
+          "detail": "Taşıyıcı Cotonou–Parakou tarifeli hattında ticari operasyona başladı; DHC-6-400 operasyonu ve Bénin Airlines/Cronos Airlines Bénin birleşmesi bağımsız havacılık/ekonomi kaynaklarınca doğrulandı.",
+          "sourceUrl": "https://www.ecofinagency.com/news-services/2303-54007-benin-reopens-domestic-air-travel-as-amazone-airlines-launches-first-flight"
+        },
+        {
+          "date": "2026-09-27",
+          "type": "Commercial technology readiness",
+          "detail": "Resmî web sitesi canlı uçuş arama ve rezervasyon kanalı sunuyor; PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor.",
+          "sourceUrl": "https://www.flyamazoneair.bj/"
         }
       ]
     }
