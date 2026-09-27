@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-09-27T08:29:00Z",
+  "lastScan": "2026-09-27T15:58:00Z",
   "sourcesScanned": 211,
   "opportunities": [
     {
@@ -935,8 +935,8 @@
       "publishedDate": "2026-05-14",
       "deadline": null,
       "detectedAt": "2026-09-25T20:30:06Z",
-      "relevance": "High",
-      "summary": "Fransız Polinezyası'nın ilk özel inter-island kargo havayolu Motu Link, 14 Mayıs 2026'da Fransız DGAC'den AOC aldı; daha önce hava taşıma işletme lisansını edinmiş, 380 milyon XPF (yaklaşık 3,18 milyon avro) sermaye toplamış ve ATR 72-500F F-OHEI'yi filosuna katmıştı. Haziran 2026'da altı noktaya tarifeli gelir uçuşlarına başladı. Tek uçağın yer hizmetleri sırasında hasar görmesi üzerine operasyon Temmuz'da geçici olarak durdu; resmî web sitesi bugün rezervasyon, beş ada istasyonu ve gerçek zamanlı gönderi takibi sunuyor. Açıklanmış bir cargo management yazılım sağlayıcısı yoktur. Üç kargo ATR'sine 2027'ye kadar büyüme hedefi, Crane CGO için acil discovery ve ölçekleme fırsatı yaratıyor; ancak mevcut rezervasyon/takip çözümünün sahibi ve operasyonun fiilî yeniden başlama durumu doğrulanmalıdır.",
+      "relevance": "Low",
+      "summary": "Fransız Polinezyası'nın ilk özel inter-island kargo havayolu Motu Link, 14 Mayıs 2026'da Fransız DGAC'den AOC aldı; daha önce hava taşıma işletme lisansını edinmiş, 380 milyon XPF (yaklaşık 3,18 milyon avro) sermaye toplamış ve ATR 72-500F F-OHEI'yi filosuna katmıştı. Haziran 2026'da altı noktaya tarifeli gelir uçuşlarına başladı. Tek uçağın yer hizmetleri sırasında hasar görmesi üzerine operasyon Temmuz'da geçici olarak durdu; resmî web sitesi bugün rezervasyon, beş ada istasyonu ve gerçek zamanlı gönderi takibi sunuyor. Açıklanmış bir cargo management yazılım sağlayıcısı yoktur. Üç kargo ATR'sine 2027'ye kadar büyüme hedefi, Crane CGO için acil discovery ve ölçekleme fırsatı yaratıyor; ancak mevcut rezervasyon/takip çözümünün sahibi ve operasyonun fiilî yeniden başlama durumu doğrulanmalıdır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane CGO - Reservation & Cargo Services"
       ],
@@ -945,10 +945,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline",
-      "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
       "incumbent": null,
-      "qualificationNotes": "AOC, işletme lisansı, finansman, uçak ve gelir operasyonu doğrulanmıştır. Havayolu canlı web sitesinde çevrim içi rezervasyon ve gerçek zamanlı gönderi takibi sunduğundan bir mevcut veya geçici çözüm bulunduğu açıktır; sağlayıcı kamuya açıklanmamıştır. İlk uçak Haziran sonundaki yer olayı sonrası geçici olarak yerde kaldı. İlk temas; yeniden başlama durumu, mevcut cargo platformunun mimarisi/sözleşmesi, e-AWB/warehouse/accounting entegrasyonları ve 2027'de üç uçaklık filo hedefi üzerinde yoğunlaşmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari kargo operasyonuna başlamış ve canlı rezervasyon/AWB takip kanalı kullanmaktadır; çalışan bir cargo yönetim/rezervasyon altyapısı bulunduğu kabul edilir. Mevcut sağlayıcı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC, işletme lisansı, finansman, uçak ve gelir operasyonu doğrulanmıştır. Havayolu canlı web sitesinde çevrim içi rezervasyon ve gerçek zamanlı gönderi takibi sunduğundan bir mevcut veya geçici çözüm bulunduğu açıktır; sağlayıcı kamuya açıklanmamıştır. İlk uçak Haziran sonundaki yer olayı sonrası geçici olarak yerde kaldı. İlk temas; yeniden başlama durumu, mevcut cargo platformunun mimarisi/sözleşmesi, e-AWB/warehouse/accounting entegrasyonları ve 2027'de üç uçaklık filo hedefi üzerinde yoğunlaşmalıdır.",
       "startupStage": "AOC granted and revenue operations launched; scale-up/restart phase after temporary single-aircraft grounding",
       "targetLaunchDate": "2026-06-01",
       "aocStatus": "French DGAC AOC granted on 14 May 2026",
@@ -990,7 +990,10 @@
           "detail": "Tek ATR, yer hizmetleri sırasında burun iniş takımı hasarı nedeniyle geçici olarak yerde kaldı; operasyon yeniden başlatma durumu satış yeterlilik görüşmesinde doğrulanmalıdır.",
           "sourceUrl": "https://www.ch-aviation.com/news/169866-french-polynesias-motu-link-grounds-sole-atr72-500f"
         }
-      ]
+      ],
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "chingis-airlines-unity-mongolia-startup-2026",
@@ -1001,8 +1004,8 @@
       "publishedDate": "2026-09-16",
       "deadline": null,
       "detectedAt": "2026-09-25T21:43:50Z",
-      "relevance": "High",
-      "summary": "NOMIN Group'a ait yeni bölgesel taşıyıcı Chingis Airlines Unity, 2026 ilkbaharında Moğolistan AOC'sini ve ilk kiralık ATR 72-600'ünü aldı; 16 Eylül 2026'da Ulaanbaatar–Khovd hattında ilk yurt içi uçuşunu gerçekleştirdi. Lessor ACIA ve üretici ATR, şirketi Moğolistan'ın yeni havayolu ve yeni ATR operatörü olarak doğruluyor. Taşıyıcı iç hatlarda uzak ve madencilik bölgelerine erişim sağladıktan sonra uluslararası hatlara açılmayı planlıyor. Kamuya açık ayrı rezervasyon/IBE kanalı veya açıklanmış PSS/DCS sağlayıcısı bulunmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik erken satış fırsatı vardır.",
+      "relevance": "Low",
+      "summary": "NOMIN Group'a ait yeni bölgesel taşıyıcı Chingis Airlines Unity, 2026 ilkbaharında Moğolistan AOC'sini ve ilk kiralık ATR 72-600'ünü aldı; 16 Eylül 2026'da Ulaanbaatar–Khovd hattında ilk yurt içi uçuşunu gerçekleştirdi. Lessor ACIA ve üretici ATR, şirketi Moğolistan'ın yeni havayolu ve yeni ATR operatörü olarak doğruluyor. Taşıyıcı iç hatlarda uzak ve madencilik bölgelerine erişim sağladıktan sonra uluslararası hatlara açılmayı planlıyor. Kamuya açık ayrı rezervasyon/IBE kanalı veya açıklanmış PSS/DCS sağlayıcısı bulunmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik erken satış fırsatı vardır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1014,10 +1017,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline",
-      "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
       "incumbent": null,
-      "qualificationNotes": "AOC, ilk ATR 72-600 JU-1234 ve 16 Eylül 2026'daki ilk Ulaanbaatar–Khovd operasyonu doğrulandı. İkinci uçağın Haziran 2026'da eklenmesi planlanmıştı fakat teslimatı kamuya açık kaynaklarda doğrulanmadı. Bağımsız satış sitesi, PSS/DCS tedarikçisi, dağıtım modeli ve DCS/W&B operasyon yapısı açıklanmamıştır. İlk temas; NOMIN Group havacılık/IT karar vericileri, satış kanalının mevcut durumu, domestic charter versus scheduled model ve uluslararası büyüme yol haritasına odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC, ilk ATR 72-600 JU-1234 ve 16 Eylül 2026'daki ilk Ulaanbaatar–Khovd operasyonu doğrulandı. İkinci uçağın Haziran 2026'da eklenmesi planlanmıştı fakat teslimatı kamuya açık kaynaklarda doğrulanmadı. Bağımsız satış sitesi, PSS/DCS tedarikçisi, dağıtım modeli ve DCS/W&B operasyon yapısı açıklanmamıştır. İlk temas; NOMIN Group havacılık/IT karar vericileri, satış kanalının mevcut durumu, domestic charter versus scheduled model ve uluslararası büyüme yol haritasına odaklanmalıdır.",
       "startupStage": "AOC granted; first domestic revenue/launch flight completed",
       "targetLaunchDate": "2026-09-16",
       "aocStatus": "Mongolian AOC granted in 2026 before commercial launch",
@@ -1052,7 +1055,12 @@
           "detail": "Kamuya açık araştırmada bağımsız rezervasyon/IBE sitesi veya açıklanmış PSS/DCS sağlayıcısı bulunamadı.",
           "sourceUrl": "https://www.nomin.co/en/newsroom"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "airborneo-malaysia-relaunch-scaleup-2026",
@@ -1063,8 +1071,8 @@
       "publishedDate": "2026-02-03",
       "deadline": null,
       "detectedAt": "2026-09-26T00:41:55Z",
-      "relevance": "Medium",
-      "summary": "Sarawak hükümetinin Malaysia Aviation Group'dan devraldığı MASwings, AirBorneo adıyla ayrı bir eyalet havayolu olarak yeniden markalandı ve 14 Ocak 2026'da ticari operasyona geçti. Taşıyıcı 20'den fazla destinasyonda çevrim içi satış ve mobil uygulama sunuyor; 4 Mart 2026 itibarıyla ATR hatlarında çevrim içi check-in, koltuk seçimi ve elektronik boarding pass devreye alındı. Şubat 2026'da beş ATR 72-600 ve üç ATR 42-600 için kesin sipariş verildi; teslimatlar 2027–2029 döneminde planlanıyor. Çalışır durumdaki rezervasyon/DCS altyapısının sağlayıcısı ve MASwings/MAG sistemlerinden ne ölçüde ayrıştığı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB açısından büyüme ve olası platform ayrıştırma fırsatı bulunuyor; önce incumbent ve sözleşme durumu doğrulanmalıdır.",
+      "relevance": "Low",
+      "summary": "Sarawak hükümetinin Malaysia Aviation Group'dan devraldığı MASwings, AirBorneo adıyla ayrı bir eyalet havayolu olarak yeniden markalandı ve 14 Ocak 2026'da ticari operasyona geçti. Taşıyıcı 20'den fazla destinasyonda çevrim içi satış ve mobil uygulama sunuyor; 4 Mart 2026 itibarıyla ATR hatlarında çevrim içi check-in, koltuk seçimi ve elektronik boarding pass devreye alındı. Şubat 2026'da beş ATR 72-600 ve üç ATR 42-600 için kesin sipariş verildi; teslimatlar 2027–2029 döneminde planlanıyor. Çalışır durumdaki rezervasyon/DCS altyapısının sağlayıcısı ve MASwings/MAG sistemlerinden ne ölçüde ayrıştığı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB açısından büyüme ve olası platform ayrıştırma fırsatı bulunuyor; önce incumbent ve sözleşme durumu doğrulanmalıdır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1076,10 +1084,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Airline Relaunch",
-      "commercialPriority": "P2",
+      "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
       "incumbent": null,
-      "qualificationNotes": "AirBorneo ticari olarak faal olduğundan rezervasyon, mobil ve check-in çözümleri hâlihazırda kullanılmaktadır; sağlayıcı kamuya açıklanmamıştır. İlk yeterlilik çalışması MASwings/Malaysia Aviation Group'dan devralınan PSS/DCS sözleşmelerini, yeni tüzel/operasyonel yapının sistem ayrışmasını, 2027–2029 ATR filo geçişini ve gelecekteki jet/uluslararası büyüme planını doğrulamalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AirBorneo ticari olarak faal olduğundan rezervasyon, mobil ve check-in çözümleri hâlihazırda kullanılmaktadır; sağlayıcı kamuya açıklanmamıştır. İlk yeterlilik çalışması MASwings/Malaysia Aviation Group'dan devralınan PSS/DCS sözleşmelerini, yeni tüzel/operasyonel yapının sistem ayrışmasını, 2027–2029 ATR filo geçişini ve gelecekteki jet/uluslararası büyüme planını doğrulamalıdır.",
       "startupStage": "Relaunched and operating; fleet modernisation and independent-platform scale-up phase",
       "targetLaunchDate": "2026-01-14",
       "aocStatus": "Commercial operations active under AirBorneo; public sources reviewed do not separately disclose the certificate identifier",
@@ -1116,7 +1124,12 @@
           "detail": "AirBorneo mobil uygulaması 20'den fazla destinasyonda uçuş arama, rezervasyon ve check-in/boarding pass işlevleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
           "sourceUrl": "https://play.google.com/store/apps/details?id=com.airborneo.app"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "skyway-airlines-philippines-cargo-scaleup-2026",
@@ -1127,8 +1140,8 @@
       "publishedDate": "2026-09-01",
       "deadline": null,
       "detectedAt": "2026-09-26T02:09:40Z",
-      "relevance": "High",
-      "summary": "2022'de kurulan Skyway Airlines, Ağustos 2024'te Filipinler AOC'sini aldı ve B737-400F ile yurt içi ve uluslararası kargo operasyonuna geçti. Şirketin canlı AWB takip kanalı faal; 2026'da Çin operasyonu, 1 Eylül'de yeni KTI istasyonu ve Kamboçya için GSA/GSSA EOI çağrısı bölgesel ölçeklenmeyi doğruluyor. Kamuya açıklanmış cargo management/reservation platformu sağlayıcısı bulunmadığından Crane CGO için zaman-kritik discovery fırsatı vardır.",
+      "relevance": "Low",
+      "summary": "2022'de kurulan Skyway Airlines, Ağustos 2024'te Filipinler AOC'sini aldı ve B737-400F ile yurt içi ve uluslararası kargo operasyonuna geçti. Şirketin canlı AWB takip kanalı faal; 2026'da Çin operasyonu, 1 Eylül'de yeni KTI istasyonu ve Kamboçya için GSA/GSSA EOI çağrısı bölgesel ölçeklenmeyi doğruluyor. Kamuya açıklanmış cargo management/reservation platformu sağlayıcısı bulunmadığından Crane CGO için zaman-kritik discovery fırsatı vardır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane CGO - Reservation & Cargo Services"
       ],
@@ -1137,10 +1150,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline",
-      "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
       "incumbent": null,
-      "qualificationNotes": "Taşıyıcı tek B737-400F ile faal ve resmî sitesinde canlı AWB takibi sunuyor; ancak kullanılan cargo platformunun sahibi, sözleşme durumu, rezervasyon/kapasite yönetimi, e-AWB, warehouse, accounting ve GSSA entegrasyonları açıklanmamıştır. İlk temas; teknoloji karar vericisi, mevcut sistem mimarisi, 2026 bölgesel istasyon/GSSA genişlemesi ve filo büyüme takvimini doğrulamaya odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari kargo operasyonuna başlamış ve canlı rezervasyon/AWB takip kanalı kullanmaktadır; çalışan bir cargo yönetim/rezervasyon altyapısı bulunduğu kabul edilir. Mevcut sağlayıcı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. Taşıyıcı tek B737-400F ile faal ve resmî sitesinde canlı AWB takibi sunuyor; ancak kullanılan cargo platformunun sahibi, sözleşme durumu, rezervasyon/kapasite yönetimi, e-AWB, warehouse, accounting ve GSSA entegrasyonları açıklanmamıştır. İlk temas; teknoloji karar vericisi, mevcut sistem mimarisi, 2026 bölgesel istasyon/GSSA genişlemesi ve filo büyüme takvimini doğrulamaya odaklanmalıdır.",
       "startupStage": "AOC granted; domestic and international cargo operations active; regional network scale-up",
       "targetLaunchDate": null,
       "aocStatus": "Philippine AOC granted in August 2024",
@@ -1169,7 +1182,10 @@
           "detail": "Resmî web sitesi canlı AWB durum, rota ve olay geçmişi takibi sunuyor; cargo yazılım sağlayıcısı kamuya açıklanmıyor.",
           "sourceUrl": "https://www.skywayair.ph/tracking"
         }
-      ]
+      ],
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "sum-air-south-korea-startup-2026",
@@ -1180,8 +1196,8 @@
       "publishedDate": "2026-04-03",
       "deadline": null,
       "detectedAt": "2026-09-26T02:48:43Z",
-      "relevance": "High",
-      "summary": "MAAF iştiraki SUM Air, 10 Mart 2026'da Güney Kore AOC'sini aldı; kiralık yeni ATR 72-600 ile 12 Mart'ta ticari, 31 Mart'ta Gimpo–Sacheon tarifeli operasyonuna başladı. Resmî satış kanalı rezervasyon, check-in/boarding pass, mobil kiosk ve SUM Air Pay işlevleri sunuyor. Taşıyıcı dört kesin ATR 72-600 siparişi ve dört satın alma hakkıyla 2028'den itibaren filosunu büyütüp ada havalimanları ile Japonya/Çin kısa hatlarına açılmayı planlıyor. PSS/DCS sağlayıcısı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır.",
+      "relevance": "Low",
+      "summary": "MAAF iştiraki SUM Air, 10 Mart 2026'da Güney Kore AOC'sini aldı; kiralık yeni ATR 72-600 ile 12 Mart'ta ticari, 31 Mart'ta Gimpo–Sacheon tarifeli operasyonuna başladı. Resmî satış kanalı rezervasyon, check-in/boarding pass, mobil kiosk ve SUM Air Pay işlevleri sunuyor. Taşıyıcı dört kesin ATR 72-600 siparişi ve dört satın alma hakkıyla 2028'den itibaren filosunu büyütüp ada havalimanları ile Japonya/Çin kısa hatlarına açılmayı planlıyor. PSS/DCS sağlayıcısı kamuya açıklanmadığından Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1193,10 +1209,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline",
-      "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
       "incumbent": "AMOS (maintenance/MRO only); PSS/DCS provider not publicly disclosed",
-      "qualificationNotes": "SUM Air faal rezervasyon, ödeme, check-in/boarding pass ve mobil kiosk kanallarına sahip olduğundan mevcut PSS/DCS altyapısı vardır; sağlayıcı ve sözleşme süresi kamuya açıklanmamıştır. AMOS yalnız bakım ve mühendislik sistemi olarak doğrulanmıştır. İlk temas; PSS/IBE/DCS/W&B karar vericilerini, mevcut sağlayıcıyı, IATA/GDS/interline planını, yerel ödeme gereksinimlerini ve 2028 ATR büyüme programını doğrulamaya odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. SUM Air faal rezervasyon, ödeme, check-in/boarding pass ve mobil kiosk kanallarına sahip olduğundan mevcut PSS/DCS altyapısı vardır; sağlayıcı ve sözleşme süresi kamuya açıklanmamıştır. AMOS yalnız bakım ve mühendislik sistemi olarak doğrulanmıştır. İlk temas; PSS/IBE/DCS/W&B karar vericilerini, mevcut sağlayıcıyı, IATA/GDS/interline planını, yerel ödeme gereksinimlerini ve 2028 ATR büyüme programını doğrulamaya odaklanmalıdır.",
       "startupStage": "AOC granted; commercial and scheduled operations active; fleet scale-up phase",
       "targetLaunchDate": "2026-03-12",
       "aocStatus": "South Korean AOC granted by MOLIT on 10 March 2026",
@@ -1226,7 +1242,12 @@
           "detail": "Swiss AviationSoftware, SUM Air'ın bakım ve mühendislik için AMOS'u canlıya aldığını doğruladı; PSS/DCS sağlayıcısı açıklanmadı.",
           "sourceUrl": "https://www.swiss-as.com/news/amos-supports-sum-airs-first-aircraft-delivery"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "shohin-airlines-tajikistan-startup-2026",
@@ -1349,8 +1370,8 @@
       "publishedDate": "2026-07-04",
       "deadline": null,
       "detectedAt": "2026-09-26T07:50:17Z",
-      "relevance": "High",
-      "summary": "2024'te kurulan OneClick Airways, 2 Eylül 2025'te Gürcistan AOC No.101'i aldı ve Boeing 737-800 filosuyla charter operasyonuna başladı. Taşıyıcı Temmuz 2026'da Tiflis/Batum–Tel Aviv tarifeli hatlarını açarak kendi IBE'si, rezervasyon yönetimi ve online check-in kanallarını devreye aldı. Kamuya açık PSS/DCS sağlayıcısı bulunmadığından, tarifeli LCC ölçeklenmesi öncesinde Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır.",
+      "relevance": "Low",
+      "summary": "2024'te kurulan OneClick Airways, 2 Eylül 2025'te Gürcistan AOC No.101'i aldı ve Boeing 737-800 filosuyla charter operasyonuna başladı. Taşıyıcı Temmuz 2026'da Tiflis/Batum–Tel Aviv tarifeli hatlarını açarak kendi IBE'si, rezervasyon yönetimi ve online check-in kanallarını devreye aldı. Kamuya açık PSS/DCS sağlayıcısı bulunmadığından, tarifeli LCC ölçeklenmesi öncesinde Crane PAX, Crane IBE, Crane DCS ve Crane WB için zaman-kritik discovery fırsatı bulunmaktadır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1362,10 +1383,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline",
-      "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
       "incumbent": "PSS/DCS provider not publicly disclosed",
-      "qualificationNotes": "AOC, uçak filosu, aktif tarifeli operasyon, canlı doğrudan satış/rezervasyon yönetimi ve online check-in doğrulanmıştır. Mevcut PSS/DCS sözleşmesi bulunduğu açıktır ancak sağlayıcı, sözleşme süresi ve teknoloji yol haritası açıklanmamıştır. İlk temas; incumbent ve yenileme penceresi, 4L dağıtım/GDS planı, interline/codeshare hedefi, DCS istasyon kapsamı, W&B mimarisi ve büyüme rotalarını doğrulamaya odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC, uçak filosu, aktif tarifeli operasyon, canlı doğrudan satış/rezervasyon yönetimi ve online check-in doğrulanmıştır. Mevcut PSS/DCS sözleşmesi bulunduğu açıktır ancak sağlayıcı, sözleşme süresi ve teknoloji yol haritası açıklanmamıştır. İlk temas; incumbent ve yenileme penceresi, 4L dağıtım/GDS planı, interline/codeshare hedefi, DCS istasyon kapsamı, W&B mimarisi ve büyüme rotalarını doğrulamaya odaklanmalıdır.",
       "startupStage": "AOC granted; charter operations active since 2025; scheduled international operations launched in July 2026",
       "targetLaunchDate": "2025-10",
       "aocStatus": "Georgian AOC No.101 granted on 2 September 2025; current GCAA AOC-holder list confirms passenger and cargo authority",
@@ -1401,7 +1422,12 @@
           "detail": "E-commerce Manager ilanında PSS sağlayıcısı ve diğer teknoloji ortaklarıyla entegrasyon, yeni özellik ve optimizasyon koordinasyonu açık görev olarak tanımlandı.",
           "sourceUrl": "https://www.hr.ge/en/announcement/484714/E-commerce-Manager"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "namibia-air-new-national-carrier-2026",
@@ -1470,8 +1496,8 @@
       "publishedDate": "2025-12-24",
       "deadline": null,
       "detectedAt": "2026-09-26T14:29:00Z",
-      "relevance": "High",
-      "summary": "Cabo Verde'nin tamamı kamuya ait yeni iç hat taşıyıcısı Linhas Aéreas de Cabo Verde, CVSky markasıyla AAC operasyon sertifikalarını aldı; Şubat 2026'da doğrudan ve acente satışını açtı ve 25 Eylül 2026'da iki ATR ile adalar arası ticari operasyona geçti. 2026 bütçe direktifleri üç uçak yatırımı öngörüyor. Canlı IBE/PSS/DCS bulunduğu açık olmakla birlikte sağlayıcı kamuya açıklanmadığından, kısa vadeli değiştirme ihtimalinden çok incumbent keşfi, ölçekleme ve yenileme penceresi için P1 satış sinyalidir.",
+      "relevance": "Low",
+      "summary": "Cabo Verde'nin tamamı kamuya ait yeni iç hat taşıyıcısı Linhas Aéreas de Cabo Verde, CVSky markasıyla AAC operasyon sertifikalarını aldı; Şubat 2026'da doğrudan ve acente satışını açtı ve 25 Eylül 2026'da iki ATR ile adalar arası ticari operasyona geçti. 2026 bütçe direktifleri üç uçak yatırımı öngörüyor. Canlı IBE/PSS/DCS bulunduğu açık olmakla birlikte sağlayıcı kamuya açıklanmadığından, kısa vadeli değiştirme ihtimalinden çok incumbent keşfi, ölçekleme ve yenileme penceresi için P1 satış sinyalidir. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1483,10 +1509,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline / New AOC",
-      "commercialPriority": "P1",
+      "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
       "incumbent": "PSS/DCS/IBE provider not publicly disclosed; live booking stack is already operational",
-      "qualificationNotes": "AOC/operasyon sertifikası, kamu finansmanı, ATR filosu, canlı satış kanalı ve fiilî gelir operasyonu birlikte doğrulanmıştır. Ancak taşıyıcı ticari faaliyete geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık bir RFP veya sağlayıcı adı bulunmamaktadır. İlk temas mevcut PSS/DCS/IBE sözleşmesini, sözleşme süresini, sistem performansını, acente/GDS dağıtımını, ödeme altyapısını, online check-in'i, W&B mimarisini, üçüncü uçak planını ve yenileme/değişim penceresini doğrulamaya odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC/operasyon sertifikası, kamu finansmanı, ATR filosu, canlı satış kanalı ve fiilî gelir operasyonu birlikte doğrulanmıştır. Ancak taşıyıcı ticari faaliyete geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık bir RFP veya sağlayıcı adı bulunmamaktadır. İlk temas mevcut PSS/DCS/IBE sözleşmesini, sözleşme süresini, sistem performansını, acente/GDS dağıtımını, ödeme altyapısını, online check-in'i, W&B mimarisini, üçüncü uçak planını ve yenileme/değişim penceresini doğrulamaya odaklanmalıdır.",
       "startupStage": "AOC/operating certificates granted; direct sales active; commercial domestic operations launched",
       "targetLaunchDate": "2026-09-25",
       "aocStatus": "AAC operating certificates granted in December 2025",
@@ -1523,7 +1549,12 @@
           "detail": "Cabo Verde 2026 bütçe direktifleri LACV iç hat operasyonları için üç uçak yatırımını öngörüyor.",
           "sourceUrl": "https://www.mf.gov.cv/documents/198414/5793427/DIRECTIVAS_OE_2026.pdf/d8e5f774-88ce-e6aa-2e06-b1b8a6008b28?download=true&t=1757418516896&version=1.0"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "aibd-cute-registration-system-procurement-plan-2026",
@@ -1566,8 +1597,8 @@
       "publishedDate": "2025-12-30",
       "deadline": null,
       "detectedAt": "2026-09-27T03:21:00Z",
-      "relevance": "High",
-      "summary": "Irak'ın yeni tam hizmet taşıyıcısı Basra Airlines, Aralık 2025'te AOC aldı; Jetcraft Commercial iki CRJ1000 teslimatını doğruladı ve taşıyıcı 23 Nisan 2026'da iç hat ticari operasyonuna başladı. Canlı web satış/rezervasyon altyapısı bulunuyor ancak PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor. İlk sistem seçimi yapılmış göründüğünden kısa vadeli satıştan çok incumbent, sözleşme süresi, filo büyümesi ve uluslararası/kargo genişlemesi öncesindeki yenileme penceresi araştırılmalıdır.",
+      "relevance": "Low",
+      "summary": "Irak'ın yeni tam hizmet taşıyıcısı Basra Airlines, Aralık 2025'te AOC aldı; Jetcraft Commercial iki CRJ1000 teslimatını doğruladı ve taşıyıcı 23 Nisan 2026'da iç hat ticari operasyonuna başladı. Canlı web satış/rezervasyon altyapısı bulunuyor ancak PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor. İlk sistem seçimi yapılmış göründüğünden kısa vadeli satıştan çok incumbent, sözleşme süresi, filo büyümesi ve uluslararası/kargo genişlemesi öncesindeki yenileme penceresi araştırılmalıdır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1579,10 +1610,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline / New AOC",
-      "commercialPriority": "P1",
+      "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
       "incumbent": "PSS/DCS/IBE provider not publicly disclosed; live booking stack is operational",
-      "qualificationNotes": "AOC, iki uçak teslimatı, canlı satış kanalı ve fiilî ticari operasyon birlikte doğrulanmıştır. Ancak kamuya açık bir RFP veya teknoloji tedarik çağrısı yoktur ve operasyon başladığı için ilk PSS/DCS/IBE seçiminin tamamlandığı kabul edilmelidir. Discovery; mevcut sağlayıcı, sözleşme süresi, dağıtım ve ödeme mimarisi, online check-in/DCS kapsamı, W&B, uluslararası uçuş ve planlanan kargo operasyonu için sistem yol haritasına odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC, iki uçak teslimatı, canlı satış kanalı ve fiilî ticari operasyon birlikte doğrulanmıştır. Ancak kamuya açık bir RFP veya teknoloji tedarik çağrısı yoktur ve operasyon başladığı için ilk PSS/DCS/IBE seçiminin tamamlandığı kabul edilmelidir. Discovery; mevcut sağlayıcı, sözleşme süresi, dağıtım ve ödeme mimarisi, online check-in/DCS kapsamı, W&B, uluslararası uçuş ve planlanan kargo operasyonu için sistem yol haritasına odaklanmalıdır.",
       "startupStage": "AOC granted; fleet delivered; commercial domestic operations launched",
       "targetLaunchDate": "2026-04-23",
       "aocStatus": "Iraqi AOC reported granted on 30 December 2025",
@@ -1612,7 +1643,12 @@
           "detail": "Resmî web sitesi canlı uçuş arama, ücret tutma, rezervasyon yönetimi ve satış özellikleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
           "sourceUrl": "https://www.basraairlines.com/en"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     },
     {
       "id": "amazone-airlines-benin-new-aoc-2026",
@@ -1623,8 +1659,8 @@
       "publishedDate": "2026-02-13",
       "deadline": null,
       "detectedAt": "2026-09-27T08:29:00Z",
-      "relevance": "High",
-      "summary": "Benin'in yeni ulusal taşıyıcısı Amazone Airlines, ANAC Benin'in 109 iş günü süren beş aşamalı sertifikasyonunun ardından 13 Şubat 2026'da resmî işletme sertifikasını aldı ve 23 Mart 2026'da Cotonou–Parakou tarifeli iç hat operasyonuna başladı. Taşıyıcı, Bénin Airlines ile Cronos Airlines Bénin'in birleşmesinden doğdu; DHC-6-400 operasyonu ve canlı web rezervasyon kanalı doğrulanıyor. İlk teknoloji seçimi yapılmış göründüğünden kısa vadeli tekliften çok mevcut PSS/IBE/DCS sağlayıcısı, sözleşme süresi ve bölgesel büyüme öncesindeki yenileme penceresi araştırılmalıdır.",
+      "relevance": "Low",
+      "summary": "Benin'in yeni ulusal taşıyıcısı Amazone Airlines, ANAC Benin'in 109 iş günü süren beş aşamalı sertifikasyonunun ardından 13 Şubat 2026'da resmî işletme sertifikasını aldı ve 23 Mart 2026'da Cotonou–Parakou tarifeli iç hat operasyonuna başladı. Taşıyıcı, Bénin Airlines ile Cronos Airlines Bénin'in birleşmesinden doğdu; DHC-6-400 operasyonu ve canlı web rezervasyon kanalı doğrulanıyor. İlk teknoloji seçimi yapılmış göründüğünden kısa vadeli tekliften çok mevcut PSS/IBE/DCS sağlayıcısı, sözleşme süresi ve bölgesel büyüme öncesindeki yenileme penceresi araştırılmalıdır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1636,10 +1672,10 @@
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline / New AOC",
-      "commercialPriority": "P1",
+      "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
       "incumbent": "Operational stack likely inherited or adapted from Bénin Airlines/Cronos Airlines Bénin; PSS/DCS/IBE provider not publicly disclosed",
-      "qualificationNotes": "Resmî işletme sertifikası, doğrulanmış DHC-6-400 operasyonu, canlı rezervasyon kanalı ve fiilî tarifeli uçuş birlikte P1 startup sinyali oluşturur. Ancak birleşme yoluyla kurulduğu ve satışa geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık RFP yoktur. Discovery; mevcut PSS/DCS/IBE sağlayıcısı ve sözleşme süresi, Cronos altyapısından ayrışma, online check-in, acente/GDS dağıtımı, ödeme altyapısı, W&B, Lagos ve diğer bölgesel hatlar için ölçekleme planına odaklanmalıdır.",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. Resmî işletme sertifikası, doğrulanmış DHC-6-400 operasyonu, canlı rezervasyon kanalı ve fiilî tarifeli uçuş birlikte P1 startup sinyali oluşturur. Ancak birleşme yoluyla kurulduğu ve satışa geçtiği için ilk sistem seçiminin tamamlandığı kabul edilmelidir; kamuya açık RFP yoktur. Discovery; mevcut PSS/DCS/IBE sağlayıcısı ve sözleşme süresi, Cronos altyapısından ayrışma, online check-in, acente/GDS dağıtımı, ödeme altyapısı, W&B, Lagos ve diğer bölgesel hatlar için ölçekleme planına odaklanmalıdır.",
       "startupStage": "Operating certificate granted; scheduled domestic operations and online sales active",
       "targetLaunchDate": "2026-03-23",
       "aocStatus": "ANAC Benin issued the Permis d’Exploitation Aérienne on 13 February 2026 after completing five certification phases",
@@ -1663,7 +1699,12 @@
           "detail": "Resmî web sitesi canlı uçuş arama ve rezervasyon kanalı sunuyor; PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor.",
           "sourceUrl": "https://www.flyamazoneair.bj/"
         }
-      ]
+      ],
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "None verified"
     }
   ]
 }
