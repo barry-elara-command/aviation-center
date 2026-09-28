@@ -1598,22 +1598,22 @@
       "deadline": null,
       "detectedAt": "2026-09-27T03:21:00Z",
       "relevance": "Low",
-      "summary": "Irak'ın yeni tam hizmet taşıyıcısı Basra Airlines, Aralık 2025'te AOC aldı; Jetcraft Commercial iki CRJ1000 teslimatını doğruladı ve taşıyıcı 23 Nisan 2026'da iç hat ticari operasyonuna başladı. Canlı web satış/rezervasyon altyapısı bulunuyor ancak PSS, IBE ve DCS sağlayıcısı kamuya açıklanmıyor. İlk sistem seçimi yapılmış göründüğünden kısa vadeli satıştan çok incumbent, sözleşme süresi, filo büyümesi ve uluslararası/kargo genişlemesi öncesindeki yenileme penceresi araştırılmalıdır. Güncel değerlendirme: Taşıyıcı operasyona/satışa başladığından ve 24 ay içinde doğrulanmış sözleşme bitişi veya yenileme/değişim sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
+      "summary": "Irak'ın yeni tam hizmet taşıyıcısı Basra Airlines, Aralık 2025'te AOC aldı; Jetcraft Commercial iki CRJ1000 teslimatını doğruladı ve taşıyıcı 23 Nisan 2026'da iç hat ticari operasyonuna başladı. Hitit'in 25 Mart 2026 tarihli resmî açıklaması, Basra Airlines'ın Crane PAX ve Crane IBE'yi seçtiğini ve başarılı sistem geçişinin ardından yeni platformda operasyona başladığını doğruluyor. DCS sağlayıcısı ve sözleşme bitişi açıklanmadı. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, procurement, migration veya replatform sinyali bulunmadığından aktif satış fırsatı değil, Watchlist/Monitor kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
         "Crane DCS - Departure Control System",
         "Crane WB - Weight & Balance"
       ],
-      "sourceName": "Basra Airlines; Jetcraft Commercial; Iraqi aviation reporting",
+      "sourceName": "Basra Airlines; Hitit; Jetcraft Commercial; Iraqi aviation reporting",
       "url": "https://www.basraairlines.com/en",
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline / New AOC",
       "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
-      "incumbent": "PSS/DCS/IBE provider not publicly disclosed; live booking stack is operational",
-      "qualificationNotes": "Taşıyıcı ticari operasyona ve/veya bilet satışına başlamıştır; çalışan bir PSS/DCS altyapısı bulunduğu kabul edilir. Mevcut PSS/DCS sağlayıcısı ve sözleşme bitişi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; incumbent ve sözleşme yenileme penceresi için Watchlist/Monitor kaydıdır. AOC, iki uçak teslimatı, canlı satış kanalı ve fiilî ticari operasyon birlikte doğrulanmıştır. Ancak kamuya açık bir RFP veya teknoloji tedarik çağrısı yoktur ve operasyon başladığı için ilk PSS/DCS/IBE seçiminin tamamlandığı kabul edilmelidir. Discovery; mevcut sağlayıcı, sözleşme süresi, dağıtım ve ödeme mimarisi, online check-in/DCS kapsamı, W&B, uluslararası uçuş ve planlanan kargo operasyonu için sistem yol haritasına odaklanmalıdır.",
+      "incumbent": "Hitit Crane PAX and Crane IBE confirmed; DCS provider not publicly disclosed",
+      "qualificationNotes": "Taşıyıcı ticari operasyona ve bilet satışına başlamıştır. Hitit'in 25 Mart 2026 tarihli resmî açıklaması Crane PAX ve Crane IBE seçimini ve başarılı migrasyonu doğrulamaktadır; incumbent güven seviyesi bu iki ürün için Confirmed'dır. DCS sağlayıcısı ve sözleşme başlangıç/bitiş tarihi kamuya açık kaynaklarda doğrulanmamıştır. Arama tarihinden itibaren 24 ay içinde doğrulanmış expiry/renewal, resmî procurement, yeni migration veya replatform sinyali bulunmadığından aktif High/Medium satış fırsatı değildir; Watchlist/Monitor olarak tutulmalıdır. İzleme; sözleşme süresi, DCS/W&B kapsamı, uluslararası uçuş ve planlanan kargo operasyonu için sistem yol haritasına odaklanmalıdır.",
       "startupStage": "AOC granted; fleet delivered; commercial domestic operations launched",
       "targetLaunchDate": "2026-04-23",
       "aocStatus": "Iraqi AOC reported granted on 30 December 2025",
@@ -1642,13 +1642,23 @@
           "type": "Commercial technology readiness",
           "detail": "Resmî web sitesi canlı uçuş arama, ücret tutma, rezervasyon yönetimi ve satış özellikleri sunuyor; teknoloji sağlayıcısı açıklanmıyor.",
           "sourceUrl": "https://www.basraairlines.com/en"
+        },
+        {
+          "date": "2026-03-25",
+          "type": "PSS and IBE incumbent confirmation",
+          "detail": "Hitit, Basra Airlines'ın Crane PAX ve Crane IBE'yi seçtiğini ve başarılı sistem geçişinin ardından yeni platformda operasyona başladığını resmî olarak açıkladı.",
+          "sourceUrl": "https://hitit.com/news-updates/hitit-talks/welcome-onboard-flygabon-and-basra-airlines"
         }
       ],
-      "incumbentPss": "Unknown",
+      "incumbentPss": "Hitit Crane PAX",
       "incumbentDcs": "Unknown",
-      "incumbentConfidence": "Unknown",
+      "incumbentConfidence": "Confirmed",
       "contractEndBasis": "Unknown",
-      "renewalSignal": "None verified"
+      "renewalSignal": "None verified",
+      "sourceEvidence": [
+        "Hitit official announcement dated 25 March 2026 confirms Crane PAX and Crane IBE selection and completed migration.",
+        "No public contract duration or expiry date was found."
+      ]
     },
     {
       "id": "amazone-airlines-benin-new-aoc-2026",
