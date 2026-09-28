@@ -339,10 +339,10 @@
       "country": "India",
       "category": "PSS",
       "publishedDate": "2026-08-05",
-      "deadline": "2026-09-11",
+      "deadline": "2026-09-21",
       "detectedAt": "2026-08-05T13:33:16Z",
       "relevance": "High",
-      "summary": "Alliance Air, barındırılan ASP modeliyle kapsamlı bir Yolcu Hizmetleri Sistemi tedarik ediyor. Ana kapsam rezervasyon, envanter, internet rezervasyon motoru, mobil uygulama, DCS, check-in/boarding, yük kontrolü, bagaj mutabakat entegrasyonu, yan hizmet dağıtımı ve iletişim kanallarını; opsiyonel kapsam ise schedule/slot yönetimi, OCC ve rota kârlılığı raporlamasını içeriyor. Sözleşme veri sayfasında 3 yıl ve karşılıklı mutabakatla 2 yıl uzatma olarak belirtiliyor; dokümanın başka bir maddesindeki 5+2 yıl ifadesi netleştirilmelidir. Ön yeterlilikte en az iki tarifeli yolcu havayolu müşterisi ve bunlardan birinin 2025'te en az 2 milyon yolcu taşımış olması şartı bulunuyor. Alliance Air'ın 25 Ağustos 2026 tarihli resmî corrigendum'u teklif son tarihini 11 Eylül 2026'ya uzatmıştır. Resmî ihale sayfasındaki 14 Eylül tarihi PSS ihalesine değil, ayrı bir vergi danışmanlığı ihalesine aittir. Teklif süresi 11 Eylül 2026 tarihinde dolmuş; kamuya açık resmî kaynaklarda yeni bir uzatma doğrulanamamıştır.",
+      "summary": "Alliance Air, barındırılan ASP modeliyle kapsamlı bir Yolcu Hizmetleri Sistemi tedarik ediyor. Ana kapsam rezervasyon, envanter, internet rezervasyon motoru, mobil uygulama, DCS, check-in/boarding, yük kontrolü, bagaj mutabakat entegrasyonu, yan hizmet dağıtımı ve iletişim kanallarını; opsiyonel kapsam ise schedule/slot yönetimi, OCC ve rota kârlılığı raporlamasını içeriyor. Sözleşme veri sayfasında 3 yıl ve karşılıklı mutabakatla 2 yıl uzatma olarak belirtiliyor; dokümanın başka bir maddesindeki 5+2 yıl ifadesi netleştirilmelidir. Ön yeterlilikte en az iki tarifeli yolcu havayolu müşterisi ve bunlardan birinin 2025'te en az 2 milyon yolcu taşımış olması şartı bulunuyor. Alliance Air'ın 10 Eylül 2026 tarihli ikinci resmî corrigendum'u teklif son tarihini 21 Eylül 2026 saat 15.00'e ve teknik teklif açılışını aynı gün 15.30'a uzatmıştır. Teklif süresi dolmuştur; kamuya açık resmî kaynaklarda yeni uzatma veya award doğrulanamadığından ihale sonrası durum teyidi gereklidir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -355,16 +355,16 @@
         "Crane OCC - Operations Control Center",
         "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "Alliance Air Aviation Limited Resmî Corrigendum",
-      "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/pss-corrigendum-25-08-2026.pdf",
+      "sourceName": "Alliance Air Aviation Limited Resmî Corrigendum-2",
+      "url": "https://plone.allianceair.in/allianceair/en/assets/tenders/pss-corrigendum-10-09-2026.pdf",
       "official": true,
       "status": "Expired",
       "procurementType": "RFP",
       "commercialPriority": "P1",
-      "recommendation": "Pursue",
+      "recommendation": "Monitor",
       "clarificationDate": "2026-08-19",
       "preBidDate": "2026-08-14",
-      "qualificationNotes": "En az iki tarifeli yolcu havayoluna PSS/DCS hizmeti; müşterilerden en az birinin 2025 takvim yılında en az 2 milyon yolcu taşımış olması gerekiyor. Teklif fiziksel, üç zarflı sistemle Yeni Delhi'de teslim ediliyor."
+      "qualificationNotes": "En az iki tarifeli yolcu havayoluna PSS/DCS hizmeti; müşterilerden en az birinin 2025 takvim yılında en az 2 milyon yolcu taşımış olması gerekiyor. PSS/DCS hizmetlerinden son iki mali yılda yıllık en az INR 5 crore ciro, en az üç yıllık PSS ve DCS deneyimi, ISO 27001 sertifikalı veri merkezi ve MeitY sertifikalı bulut altyapısı aranıyor. Konsorsiyum/JV yoluyla henüz kurulacak tüzel yapılar uygun değil. Teklif fiziksel, üç zarflı sistemle Yeni Delhi'de teslim ediliyor. Son tarih 21 Eylül 2026'da doldu; award/iptal/yeni uzatma için Alliance Air ile doğrudan durum teyidi yapılmalı."
     },
     {
       "id": "south-african-airways-uld-management-rfi-gsm-001-2026",
