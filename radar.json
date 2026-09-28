@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-27T15:58:00Z",
-  "sourcesScanned": 211,
+  "lastScan": "2026-09-28T20:44:00Z",
+  "sourcesScanned": 223,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1715,6 +1715,63 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
       "renewalSignal": "None verified"
+    },
+    {
+      "id": "flynas-syria-new-aoc-2026",
+      "title": "flynas Syria – Joint-Venture Airline and New AOC Preparation",
+      "organization": "flynas Syria",
+      "country": "Syria",
+      "category": "Multi-product",
+      "publishedDate": "2026-02-07",
+      "deadline": null,
+      "detectedAt": "2026-09-28T20:44:00Z",
+      "relevance": "Medium",
+      "summary": "flynas ile Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Otoritesi, yüzde 51 Suriye tarafı ve yüzde 49 flynas ortaklığıyla ayrı bir ticari havayolu kurmak üzere resmî anlaşma imzaladı. Operasyon başlangıcı 2026'nın dördüncü çeyreği olarak açıklandı; flynas'ın resmî LinkedIn paylaşımlarında flynas Syria için kokpit ve kabin ekibi alımı başlatıldı. AOC verilmesi, filo tahsisi ve PSS/DCS seçimi henüz kamuya açık kaynaklarda doğrulanmadı. Ayrı AOC ve ticari operasyon hazırlığı nedeniyle Crane PAX, IBE, DCS ve WB açısından erken temas sinyali vardır; ancak flynas'ın mevcut platformunun yeniden kullanılması olasıdır ve Suriye bağlantılı yaptırım/ihracat kontrolü incelemesi zorunludur.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "flynas resmî açıklaması / Saudi Press Agency / flynas LinkedIn",
+      "url": "https://www.flynas.com/en-eu/media-center/news-updates/flynas-and-syrian-civil-aviation-authority-partner-to-launch-flynas-syria",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "Resmî JV anlaşması, Q4 2026 operasyon hedefi ve kokpit/kabin işe alımı üç somut hazırlık sinyali oluşturuyor. Bununla birlikte AOC, uçak teslimi/kiralaması, satış açılışı ve bağımsız teknoloji tedarik süreci doğrulanmadı. Ana ortak flynas'ın mevcut PSS/DCS altyapısının yeni AOC'ye genişletilmesi kuvvetli bir olasılıktır; karar verici ve teknoloji mimarisi keşfi yapılmadan Pursue seviyesine yükseltilmemelidir. Herhangi bir temas öncesinde güncel Suriye yaptırımları, ihracat kontrolü, ödeme ve sözleşme uygulanabilirliği hukuk/uyum ekiplerince değerlendirilmelidir.",
+      "startupStage": "Joint venture established; recruitment active; AOC and commercial sales not publicly confirmed",
+      "targetLaunchDate": "2026-Q4",
+      "aocStatus": "New Syrian AOC preparation announced; AOC grant not publicly confirmed",
+      "fleetPlan": null,
+      "fundingStatus": "Strategic Saudi-Syrian investment agreement confirmed; airline-specific committed capital not disclosed",
+      "incumbentPss": "Unknown; reuse of flynas group platform requires verification",
+      "incumbentDcs": "Unknown; reuse of flynas group platform requires verification",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch new AOC",
+      "evidence": [
+        {
+          "date": "2026-02-07",
+          "type": "Official joint-venture and launch announcement",
+          "detail": "flynas and the Syrian civil aviation authority signed an agreement to establish flynas Syria, with operations targeted for Q4 2026.",
+          "sourceUrl": "https://www.flynas.com/en-eu/media-center/news-updates/flynas-and-syrian-civil-aviation-authority-partner-to-launch-flynas-syria"
+        },
+        {
+          "date": "2026-02-07",
+          "type": "Independent official confirmation",
+          "detail": "Saudi Press Agency confirmed the airline establishment agreement and Q4 2026 operational target.",
+          "sourceUrl": "https://www.spa.gov.sa/en/N2506977"
+        },
+        {
+          "date": "2026-06",
+          "type": "Operational recruitment",
+          "detail": "flynas opened public recruitment for flynas Syria cockpit and cabin crew through its official LinkedIn page.",
+          "sourceUrl": "https://www.linkedin.com/company/flynas-syria"
+        }
+      ]
     }
   ]
 }
