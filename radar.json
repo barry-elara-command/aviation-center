@@ -1839,6 +1839,65 @@
           "sourceUrl": "https://www.skyexpress.gr/en/company/careers"
         }
       ]
+    },
+    {
+      "id": "siam-wings-airlines-thailand-new-aoc-2026",
+      "title": "Siam Wings Airlines – New AOC / Pre-launch Widebody Carrier",
+      "organization": "Siam Wings Airlines Co., Ltd.",
+      "country": "Thailand",
+      "category": "Multi-product",
+      "publishedDate": "2026-07-28",
+      "deadline": null,
+      "detectedAt": "2026-09-29T10:20:00Z",
+      "relevance": "Medium",
+      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Siam Wings Airlines'ın AOC başvurusunu “On Process” olarak listeliyor. U-Tapao Rayong–Pattaya Uluslararası Havalimanı, taşıyıcının Airbus A330-200 uçağının 28 Temmuz 2026'da Antalya'dan U-Tapao'ya ilk gelişini resmî olarak duyurdu. SHE ICAO kodu ve kabin ekibi işe alım sinyalleri operasyon hazırlığını destekliyor. Bilet satışı/ticari başlangıç ve PSS/DCS sağlayıcısı kamuya açık kaynaklarda doğrulanmadığından kayıt P2 pre-launch fırsatı olarak değerlendirildi.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Civil Aviation Authority of Thailand (CAAT); U-Tapao Rayong–Pattaya International Airport; FAA ICAO designator records",
+      "url": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "qualificationNotes": "AOC süreci resmî CAAT kaydında devam ediyor; Airbus A330-200'ün U-Tapao'ya gelişi havalimanının resmî duyurusuyla doğrulandı. ICAO SHE kodu ve işe alım faaliyetleri ek operasyon hazırlığı sinyalleri sağlıyor. Ancak AOC henüz verilmedi, ticari uçuş/satış başlangıç tarihi ve teknoloji tedarik modeli açıklanmadı. İlk temas AOC takvimi, uçağın lease/tescil statüsü, charter/scheduled iş modeli, PSS-DCS-IBE-W&B seçim yöntemi, hedef go-live ve government messaging gereksinimlerini doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC certification in process; aircraft positioned; pre-launch",
+      "aocStatus": "CAAT lists Siam Wings Airlines as AOC On Process",
+      "fleetPlan": "Airbus A330-200 positioned at U-Tapao; broader fleet plan not publicly verified",
+      "evidence": [
+        {
+          "date": "2026-09-28",
+          "type": "Official AOC register",
+          "detail": "CAAT public certificate-status register lists Siam Wings Airlines Company Limited as AOC On Process.",
+          "sourceUrl": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "Official airport / aircraft milestone",
+          "detail": "U-Tapao International Airport officially welcomed Siam Wings Airlines management and the carrier's Airbus A330-200 on its first arrival from Antalya.",
+          "sourceUrl": "https://www.utapao.com/th/news/news280769"
+        },
+        {
+          "date": "2026-03-19",
+          "type": "ICAO designator",
+          "detail": "FAA JO 7340.2P records Siam Wings Airlines with ICAO designator SHE and telephony SIAM WINGS.",
+          "sourceUrl": "https://www.faa.gov/documentLibrary/media/Order/7340.2P_Bsc_w_Chg_1_and_2_dtd_3-19-26.pdf"
+        },
+        {
+          "date": "2026-06",
+          "type": "Recruitment signal",
+          "detail": "Public recruitment notices advertised cabin-crew hiring for Siam Wings Airlines; used as supporting rather than primary evidence.",
+          "sourceUrl": "https://cpathailand.co.th/news-amp-events/siam-wings-airlines/"
+        }
+      ]
     }
   ]
 }
