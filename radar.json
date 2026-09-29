@@ -1784,6 +1784,61 @@
           "sourceUrl": "https://www.linkedin.com/company/flynas-syria"
         }
       ]
+    },
+    {
+      "id": "sky-express-greece-pss-dcs-transformation-2026",
+      "title": "SKY express – Next-generation PSS and DCS Transformation",
+      "organization": "SKY express",
+      "country": "Greece",
+      "category": "Passenger Service Systems",
+      "publishedDate": "2026-09-25",
+      "deadline": null,
+      "detectedAt": "2026-09-29T04:48:46Z",
+      "relevance": "Medium",
+      "summary": "SKY express, yeni nesil PSS ve DCS platformunun implementasyon ve migrasyonunu yönetecek program yöneticisi ile go-live sonrasında PSS ekosisteminin iş sahipliğini üstlenecek PSS yöneticisi arıyor. İlanlar; vendor koordinasyonu, migration, test, eğitim, cutover, deployment ve post-go-live stabilizasyonunu açıkça kapsıyor. Bu, doğrulanmış bir PSS/DCS replatform programıdır; ancak yeni sağlayıcının büyük olasılıkla seçilmiş olması nedeniyle çekirdek PSS satışı için geç aşama, entegrasyon ve tamamlayıcı ürünler için ise discovery fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane DCS - Departure Control System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane APP - Mobile Application"
+      ],
+      "sourceName": "SKY express Careers; SKY express LinkedIn Jobs",
+      "url": "https://gr.linkedin.com/jobs/view/programme-manager-%E2%80%93-passenger-service-systems-transformation-at-sky-express-4465967708",
+      "official": true,
+      "status": "Early Signal",
+      "procurementType": "PSS/DCS Replacement / Migration",
+      "commercialPriority": "P1",
+      "recommendation": "Monitor",
+      "incumbent": "Current and selected next-generation PSS/DCS providers not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractStartDate": null,
+      "contractEndDate": null,
+      "contractEndBasis": "Unknown",
+      "monthsToExpiry": null,
+      "renewalSignal": "Official recruitment confirms implementation and migration of a next-generation PSS and DCS, including cutover and post-go-live stabilisation.",
+      "qualificationNotes": "Resmî kariyer sayfası iki ilgili pozisyonu listeliyor; ayrıntılı şirket LinkedIn ilanları yeni nesil PSS/DCS implementasyonu, external vendor coordination, migration, testing, training, cutover, deployment ve post-go-live stabilizasyonunu doğruluyor. Bu dil, vendor seçiminin veya en azından ileri aşama short-listing'in tamamlanmış olabileceğini düşündürüyor. Sağlayıcı adı, go-live tarihi, sözleşme süresi ve açık RFP bulunamadı. Çekirdek replacement için doğrudan teklif yerine karar vericiler ve seçilmiş vendor doğrulanmalı; açık entegrasyon, IBE/mobil, ancillary, disruption ve W&B boşlukları araştırılmalıdır.",
+      "sourceEvidence": [
+        {
+          "date": "2026-09-25",
+          "type": "Official transformation recruitment",
+          "detail": "SKY express seeks a Programme Manager to lead end-to-end implementation and migration of its next-generation PSS and DCS, including vendors, testing, training, cutover, deployment and post-go-live stabilisation.",
+          "sourceUrl": "https://gr.linkedin.com/jobs/view/programme-manager-%E2%80%93-passenger-service-systems-transformation-at-sky-express-4465967708"
+        },
+        {
+          "date": "2026-09",
+          "type": "Official PSS ownership recruitment",
+          "detail": "SKY express seeks a Business Process Lead & PSS Administrator to lead implementation, operational readiness and post-go-live administration of the new PSS ecosystem.",
+          "sourceUrl": "https://gr.linkedin.com/jobs/view/business-process-lead-pss-administrator-at-sky-express-4465970654"
+        },
+        {
+          "date": "2026-09-29",
+          "type": "Corporate careers confirmation",
+          "detail": "SKY express corporate careers page lists the Business Process Lead & PSS Administrator vacancy.",
+          "sourceUrl": "https://www.skyexpress.gr/en/company/careers"
+        }
+      ]
     }
   ]
 }
