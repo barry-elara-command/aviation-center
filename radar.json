@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-09-28T20:44:00Z",
-  "sourcesScanned": 223,
+  "lastScan": "2026-09-30T00:00:00Z",
+  "sourcesScanned": 226,
   "opportunities": [
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
@@ -1896,6 +1896,59 @@
           "type": "Recruitment signal",
           "detail": "Public recruitment notices advertised cabin-crew hiring for Siam Wings Airlines; used as supporting rather than primary evidence.",
           "sourceUrl": "https://cpathailand.co.th/news-amp-events/siam-wings-airlines/"
+        }
+      ]
+    },
+    {
+      "id": "balkan-skyways-bulgaria-new-aoc-2026",
+      "title": "Balkan Skyways – New AOC / Pre-launch Airline",
+      "organization": "Balkan Skyways EOOD",
+      "country": "Bulgaria",
+      "category": "Multi-product",
+      "publishedDate": "2026-08-27",
+      "deadline": null,
+      "detectedAt": "2026-09-30T00:00:00Z",
+      "relevance": "Low",
+      "summary": "Balkan Skyways, Bulgaristan'da 20 Ağustos 2025'te tescil edilmiş aktif bir şirkettir ve Plovdiv/Krumovo merkezli tarifeli uçuş planlarını kamuoyuna açıklamıştır. Bulgaristan Ulaştırma Bakanlığı ve Sivil Havacılık İdaresi'nin bilgi edinme yanıtlarına dayanan güncel doğrulamaya göre şirket 8 Eylül 2026'da AOC ilk sürecini başlatma niyetini bildirmiştir; ancak 17 Eylül 2026 itibarıyla resmî sertifikasyon başvurusu, işletme ruhsatı başvurusu, doğrulanmış uçak sahipliği/lease kaydı veya başka bir AOC sahibiyle operasyon anlaşması bulunmamaktadır. Mart 2027 başlangıç ve Airbus A320-200 planı bu nedenle teyit edilmiş operasyon takvimi kabul edilmemiştir. PSS/DCS sağlayıcısı açıklanmadığından kayıt, kilometre taşlarına bağlı P3 erken sinyal olarak izlenmektedir.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Bulgarian Registry Agency; Bulgarian National Radio; Ministry/DG CAA access-to-information responses",
+      "url": "https://portal.registryagency.bg/CR/Reports/ActiveConditionTabResult?uic=208447877",
+      "official": true,
+      "status": "Early Signal",
+      "procurementType": "Startup Airline / New AOC",
+      "commercialPriority": "P3",
+      "recommendation": "Monitor",
+      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "qualificationNotes": "Kayıt, aktif şirket tescili ve DG CAA'ya yapılan ön bildirim nedeniyle gerçek bir erken sinyal olarak tutuluyor; ancak henüz resmî AOC başvurusu kabul edilmiş değil. P2'ye yükseltme için resmî başvuru kabulü, uçak LOI/lease/tescil kaydı, doğrulanabilir finansman veya ekip, teknoloji tedariki/işe alım ya da bilet satış altyapısı gibi en az bir ek somut kilometre taşı aranmalıdır. İlk temas yalnızca karar verici ekip, finansman, AOC takvimi ve PSS-DCS-IBE-W&B seçim sürecini doğrulamaya odaklanmalıdır.",
+      "startupStage": "Pre-application intent notified; no formal AOC application verified",
+      "aocStatus": "Intent to start initial AOC procedure notified on 8 September 2026; no formal application as of 17 September 2026",
+      "fleetPlan": "Airbus A320-200 publicly announced, but no ownership, lease or Bulgarian registration evidence verified as of 17 September 2026",
+      "evidence": [
+        {
+          "date": "2025-08-20",
+          "type": "Official company registry",
+          "detail": "Bulgarian Registry Agency records Balkan Skyways EOOD (UIC 208447877) as an active company registered at Plovdiv Airport/Krumovo.",
+          "sourceUrl": "https://portal.registryagency.bg/CR/Reports/ActiveConditionTabResult?uic=208447877"
+        },
+        {
+          "date": "2026-08-27",
+          "type": "Airport executive announcement",
+          "detail": "Bulgarian National Radio reported Plovdiv Airport management's statement that Balkan Skyways intended to begin services in 2027; this is treated as an announcement, not a regulator-confirmed launch date.",
+          "sourceUrl": "https://bnrnews.bg/plovdiv/post/520956/nova-kompaniya-planira-redovni-poleti-ot-letishte-plovdiv"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Regulatory status via access-to-information responses",
+          "detail": "Reporting based on Ministry of Transport, DG CAA and Plovdiv Airport responses states that, as of 17 September 2026, the airline had only notified pre-application intent and had no formal AOC or operating-licence application or verified aircraft registration/lease.",
+          "sourceUrl": "https://plovdivonline.bg/news/mts-balkan-skaiueis-e-bez-licenz-i-samolet-za-letishte-plovdiv-2971news.html"
         }
       ]
     }
