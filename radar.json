@@ -1,8 +1,58 @@
 {
   "version": 1,
-  "lastScan": "2026-09-30T00:00:00Z",
+  "lastScan": "2026-10-03T00:00:00Z",
   "sourcesScanned": 226,
   "opportunities": [
+    {
+      "id": "air-bissau-guinea-bissau-relaunch-2026",
+      "title": "Air Bissau – Guinea-Bissau National Carrier Relaunch",
+      "organization": "Air Bissau JV / Government of Guinea-Bissau / United Nigeria Airlines",
+      "country": "Guinea-Bissau",
+      "category": "Passenger Service Systems",
+      "publishedDate": "2026-06-18",
+      "deadline": null,
+      "detectedAt": "2026-10-02T12:35:00Z",
+      "relevance": "Medium",
+      "summary": "Guinea-Bissau Hükümeti ile United Nigeria Airlines, Air Bissau markasıyla ülkenin ulusal taşıyıcısını kurmak üzere mutabakat imzaladı. Anlaşmaya göre United Nigeria çoğunluk yatırımı, uçak, operasyonel uzmanlık ve yönetim desteği sağlayacak; Bissau ana üs olarak planlanıyor. Hükümetin trafik hakları ve sertifikasyon/lisans kolaylaştırması taahhüdü bulunuyor. AOC, kesin operasyon başlangıç tarihi, bilet satışı ve PSS/DCS seçimi doğrulanmadığından bu kayıt P2 erken sinyal olarak tutulmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "ch-aviation; TAP (yerel/bölgesel haber kaynakları)",
+      "url": "https://www.ch-aviation.com/news/168383-united-nigeria-inks-air-bissau-relaunch-with-guinea-bissau",
+      "official": false,
+      "status": "Early Signal",
+      "procurementType": "Airline Relaunch",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Unknown – newly proposed joint-venture airline; United Nigeria group-platform reuse must be qualified",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "qualificationNotes": "İki bağımsız havacılık/bölgesel kaynak, hükümetle imzalanan MoU, finansman, uçak ve operasyonel destek taahhütlerini doğruluyor. Ancak birincil hükümet veya United Nigeria duyurusu henüz bağımsız olarak doğrulanamadığından kaynak resmî işaretlenmedi. AOC verilmesi, kesin lansman tarihi, rezervasyon kanalı veya tedarikçi daveti açıklanmadı. İlk temas, JV tüzel kişiliği ve AOC başvuru sahibi, uçak tahsisi, planlanan satış başlangıcı, United Nigeria'nın mevcut PSS/DCS platformunun yeniden kullanılıp kullanılmayacağı ve ayrı procurement yetkisi üzerine yapılmalıdır.",
+      "startupStage": "Government-backed JV/MoU signed; certification and airline set-up pending",
+      "targetLaunchDate": "Not publicly confirmed",
+      "aocStatus": "Government committed to facilitate certification and licensing; AOC application/grant not publicly confirmed",
+      "fleetPlan": "United Nigeria committed to provide aircraft; aircraft type and allocation not formally confirmed",
+      "fundingStatus": "United Nigeria committed majority investment under the MoU; transaction amount not disclosed",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch airline relaunch",
+      "evidence": [
+        {
+          "date": "2026-06-18",
+          "type": "Independent aviation verification",
+          "detail": "ch-aviation reports the JV will operate the revived carrier from Bissau, with United Nigeria supplying investment, aircraft and management; government support includes designation, traffic rights and certification facilitation.",
+          "sourceUrl": "https://www.ch-aviation.com/news/168383-united-nigeria-inks-air-bissau-relaunch-with-guinea-bissau"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Local-language regional reporting",
+          "detail": "TAP reported that Guinea-Bissau was preparing to launch the new Air Bissau national carrier.",
+          "sourceUrl": "https://www.tap.info.tn/fr/Portail-Monde/20303817-la-guin%C3%A9e-bissau"
+        }
+      ]
+    },
     {
       "id": "srilankan-airline-network-planning-cpit-icb-10-25",
       "title": "Airline Network Planning Solution – CPIT/ICB/10/25",
@@ -1259,7 +1309,7 @@
       "deadline": null,
       "detectedAt": "2026-09-26T06:01:04Z",
       "relevance": "Medium",
-      "summary": "Haziran 2025'te tescil edilen Shohin Airlines, Tacikistan Sivil Havacılık Ajansı tarafından yeni özel taşıyıcı olarak doğrulandı. CFC ile beş yıllık 200 milyon ABD dolarını aşan yatırım programı açıklandı ve Airbus iki A320neo ile iki A321neo için kesin siparişi doğruladı. Eylül 2026'da ilk kabin ekibi Turkish Aviation Academy eğitimine gönderildi; ayrıca resmî teknoloji işe alımında web ve mobil kanalların PSS, DCS, ödeme, CRM ve ERP ile entegrasyonu açıkça tanımlandı. AOC ve ticari satış başlangıcı henüz doğrulanmadı; PSS/DCS sağlayıcısı da açıklanmadı. Bu nedenle Crane PAX, Crane IBE, Crane DCS ve Crane WB için teknoloji seçimi devam eden P2 pre-RFP fırsatıdır.",
+      "summary": "Haziran 2025'te tescil edilen Shohin Airlines, Tacikistan Sivil Havacılık Ajansı tarafından yeni özel taşıyıcı olarak doğrulandı. CFC ile beş yıllık 200 milyon ABD dolarını aşan yatırım programı açıklandı ve Airbus iki A320neo ile iki A321neo için kesin siparişi doğruladı. İlk 19 koltuklu L-410NG 25 Eylül 2026'da Duşanbe'ye ulaştı; 26 Eylül'de proving flight, 27 Eylül'de Cumhurbaşkanı'nı taşıyan ilk yolcu uçuşu yapıldı ve uçak 2 Ekim'de resmen tanıtıldı. Resmî teknoloji işe alımında web ve mobil kanalların PSS, DCS, ödeme, CRM ve ERP ile entegrasyonu açıkça tanımlandı. Buna karşın kamuya açık AOC kaydı, genel bilet satışı/canlı rezervasyon kanalı ve PSS/DCS sağlayıcısı doğrulanmadı. Bu nedenle Crane PAX, Crane IBE, Crane DCS ve Crane WB için launch-geçiş aşamasındaki P2 fırsat olarak izlenmelidir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -1274,11 +1324,11 @@
       "commercialPriority": "P2",
       "recommendation": "Pursue",
       "incumbent": "PSS/DCS provider not publicly disclosed",
-      "qualificationNotes": "Şirket tescili, düzenleyici makam açıklaması, 200 milyon ABD dolarını aşan yatırım programı ve dört uçaklık kesin Airbus siparişi girişimin gerçekliğini güçlendiriyor. Eylül 2026 tarihli resmî LinkedIn paylaşımları ilk kabin ekibinin uluslararası eğitime gönderildiğini ve web/mobil kanallar için PSS, DCS, ödeme, CRM ve ERP entegrasyon tecrübesi arandığını gösteriyor. Bu, launch hazırlığının ve teknoloji mimarisi çalışmalarının aktif olduğuna dair somut sinyaldir; ancak resmî RFP, AOC aşaması, ticari başlangıç tarihi ve seçilmiş sağlayıcı açıklanmadı. Temas; karar vericileri, PSS/DCS/IBE/W&B seçim takvimini, build-vs-buy yaklaşımını, yerel ödeme ve government messaging gereksinimlerini hızla doğrulamaya odaklanmalıdır.",
-      "startupStage": "Company registered; funded; firm fleet order placed; cabin crew training and passenger digital-channel integration preparation underway; pre-AOC/pre-launch",
+      "qualificationNotes": "Şirket tescili, düzenleyici makam açıklaması, 200 milyon ABD dolarını aşan yatırım programı, dört uçaklık kesin Airbus siparişi ve teslim alınan ilk L-410NG girişimin gerçekliğini güçlendiriyor. Eylül 2026 tarihli resmî LinkedIn paylaşımları ilk kabin ekibinin uluslararası eğitime gönderildiğini ve web/mobil kanallar için PSS, DCS, ödeme, CRM ve ERP entegrasyon tecrübesi arandığını gösteriyor. L-410NG ile proving flight ve Cumhurbaşkanı'nı taşıyan ilk yolcu uçuşu operasyonel hazırlığın ileri aşamaya geçtiğini gösterse de genel bilet satışı/canlı rezervasyon kanalı doğrulanmadı. Resmî RFP, AOC kaydı ve seçilmiş sağlayıcı açıklanmadı. Temas; ilk tarifeli satış tarihi ile PSS/DCS/IBE/W&B seçim takvimini, build-vs-buy yaklaşımını, yerel ödeme ve government messaging gereksinimlerini acilen doğrulamaya odaklanmalıdır.",
+      "startupStage": "Company registered; funded; first L-410NG delivered and proving/official passenger flights completed; digital-channel integration preparation underway; launch transition",
       "targetLaunchDate": null,
       "aocStatus": "AOC grant not publicly confirmed; company registration and Civil Aviation Agency engagement verified",
-      "fleetPlan": "İki A320neo ve iki A321neo kesin Airbus siparişi; ayrıca L-410/başlangıç filosu planı düzenleyici makam açıklamalarında yer aldı ancak teslimat ve operasyon durumu doğrulanmadı",
+      "fleetPlan": "İlk 19 koltuklu L-410NG 25 Eylül 2026'da teslim edildi ve iç hat operasyonları için kullanıma hazırlanıyor; ayrıca iki A320neo ve iki A321neo için kesin Airbus siparişi bulunuyor",
       "fundingStatus": "CFC ile beş yıllık, 200 milyon ABD dolarını aşan planlı yatırım programı açıklandı",
       "evidence": [
         {
@@ -1316,6 +1366,18 @@
           "type": "Technology procurement signal",
           "detail": "Resmî iş ilanı; web sitesi ve mobil uygulamaların PSS, DCS, airline API'leri, ödeme ağ geçitleri, CRM ve ERP ile entegrasyonunu, yazılım tedarikçileriyle çalışmayı ve yeni dijital projelerin devreye alınmasını açıkça görev kapsamına aldı. Sağlayıcı adı açıklanmadı.",
           "sourceUrl": "https://www.linkedin.com/company/shohin-airlines"
+        },
+        {
+          "date": "2026-09-25",
+          "type": "First aircraft delivery and operational validation",
+          "detail": "İlk 19 koltuklu L-410NG doğrudan üreticiden Duşanbe'ye ulaştı; 26 Eylül'de Duşanbe-Khorog proving flight ve 27 Eylül'de Cumhurbaşkanı'nı taşıyan ilk yolcu uçuşu gerçekleştirildi. Bu uçuşlar operasyonel hazırlığı doğruluyor; genel satış ve düzenli ticari tarife kamuya açık kaynaklarda henüz teyit edilmedi.",
+          "sourceUrl": "https://centralasiaplus.aero/2026/09/28/shohin-airlines-takes-delivery-of-its-first-aircraft/"
+        },
+        {
+          "date": "2026-10-02",
+          "type": "Official aircraft presentation",
+          "detail": "Tacikistan devlet haber ajansı Khovar, Sivil Havacılık Ajansı Başkanı'nın katıldığı tanıtımda L-410NG'nin Shohin'in ilk sabit kanatlı uçağı olduğunu ve iç hat yolcu taşımacılığını geliştirmek üzere hizmete alındığını bildirdi.",
+          "sourceUrl": "https://khovar.tj/rus/2026/10/shohin-ejrlajnz-predstavila-svoj-pervyj-samolyot-l-410-ng/"
         }
       ]
     },
