@@ -1,8 +1,62 @@
 {
   "version": 1,
-  "lastScan": "2026-10-03T00:00:00Z",
+  "lastScan": "2026-10-05T00:00:00Z",
   "sourcesScanned": 226,
   "opportunities": [
+    {
+      "id": "e-smart-avia-clearsky-electric-cargo-prelaunch-2027",
+      "title": "e-Smart Avia / ClearSky Airlines – Electric Cargo Airline Launch",
+      "organization": "e-Smart Avia (ClearSky Airlines)",
+      "country": "Netherlands",
+      "category": "Air Cargo",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-05T07:15:00Z",
+      "relevance": "Medium",
+      "summary": "e-Smart Avia, Schiphol çıkışlı tam elektrikli bölgesel kargo havayolu operasyonunu 2027 dördüncü çeyrekte başlatmayı hedeflediğini açıklıyor. Plan; BETA ALIA CX300 ile başlangıçta beş uçak, 2–3 yüksek talep rotası ve tarifeli/kontratlı kısa menzil kargo hizmetlerinden oluşuyor. Schiphol, şirketin ilk ticari kargo operasyonlarını 2027 sonuna hedeflediğini; bunun izinler, altyapı ve uçak bulunurluğuna bağlı olduğunu doğruluyor. Canlı ticari hava kargo operasyonu henüz başlamadığından, PSS veya cargo platformu açıklanmamış bu hazırlık Crane CGO ve Crane OCC için P2 pre-RFP fırsatıdır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane OCC - Operations Control Center",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "e-Smart Avia Resmî Web Sitesi; Royal Schiphol Group",
+      "url": "https://e-smartavia.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new cargo airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Cargo, OCC and commercial systems provider not publicly disclosed",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new airline and new commercial cargo operation",
+      "qualificationNotes": "Bu kayıt yalnız gelecekteki Q4 2027 ticari operasyon hedefi nedeniyle oluşturuldu; Mayıs 2026 demo uçuşları tek başına fırsat olarak değerlendirilmedi. Lansman, BETA ALIA CX300 sertifikasyonu, operasyonel izinler, altyapı ve uçak kullanılabilirliğine bağlıdır. İlk görüşmede AOC/EASA yol haritası, filo finansmanı ve teslim planı, cargo booking/waybill, müşteri entegrasyonları, dispatch/OCC modeli, gümrük ve teknolojik karar sahibi doğrulanmalıdır.",
+      "startupStage": "Pre-launch electric cargo airline; commercial operation not yet started",
+      "targetLaunchDate": "Q4 2027 (company target; subject to certification, permits, infrastructure and aircraft availability)",
+      "aocStatus": "AOC status not publicly confirmed; commercial operation remains subject to required regulatory approvals",
+      "fleetPlan": "Five BETA ALIA CX300 aircraft planned for launch; fleet availability remains conditional",
+      "fundingStatus": "Project-specific funding not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-10-05",
+          "type": "Official future launch roadmap",
+          "detail": "e-Smart Avia states a Q4 2027 target for commercial cargo operations, with five aircraft and phased initial deployment on 2–3 high-demand routes.",
+          "sourceUrl": "https://e-smartavia.com/"
+        },
+        {
+          "date": "2026-06-04",
+          "type": "Independent airport confirmation",
+          "detail": "Royal Schiphol Group says e-Smart Avia aims to start first commercial cargo operations by the end of 2027, conditional on permits, infrastructure and aircraft availability.",
+          "sourceUrl": "https://www.schiphol.nl/en/sustainability/blog/schiphol-takes-part-in-electric-cargo-plane-test/"
+        },
+        {
+          "date": "2026-05-28",
+          "type": "Official operational preparation",
+          "detail": "e-Smart Avia's official release describes Netherlands demonstration flights as support for its ambition to commence commercial operations from 2027.",
+          "sourceUrl": "https://e-smartavia.com/press/"
+        }
+      ]
+    },
     {
       "id": "air-bissau-guinea-bissau-relaunch-2026",
       "title": "Air Bissau – Guinea-Bissau National Carrier Relaunch",
