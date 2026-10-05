@@ -2067,6 +2067,62 @@
           "sourceUrl": "https://plovdivonline.bg/news/mts-balkan-skaiueis-e-bez-licenz-i-samolet-za-letishte-plovdiv-2971news.html"
         }
       ]
+    },
+    {
+      "id": "northeast-airlines-travel-us-cargo-aoc-2027",
+      "title": "Northeast Airlines and Travel – Part 121 Cargo Airline Certification",
+      "organization": "Northeast Airlines and Travel, Inc.",
+      "country": "United States",
+      "category": "Air Cargo",
+      "publishedDate": "2026-08-04",
+      "deadline": null,
+      "detectedAt": "2026-10-05T12:30:00Z",
+      "relevance": "Medium",
+      "summary": "Northeast Airlines and Travel, Chicago merkezli yeni bir kargo taşıyıcısı olarak FAA Part 121 Air Carrier Certificate başvuru sürecine girdiğini ve Boeing 737-800F ile uzmanlaşmış tarifeli kargo operasyonları için sertifikasyonu 2027 üçüncü çeyreğinde tamamlamayı hedeflediğini açıkladı. Şirket, operasyon el kitapları, SMS protokolleri ve eğitim müfredatını hazırlayan ayrı bir geçiş ekibi kurduğunu belirtiyor. Ticari kargo uçuşu henüz başlamadığı, AOC/OpSpecs henüz verilmediği ve cargo ticari sistemi kamuya açıklanmadığı için bu kayıt yalnızca gelecekteki 2027 karar ve uygulama penceresine dayanır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane OCC - Operations Control Center",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Northeast Airlines and Travel Şirket Duyurusu (PRLog)",
+      "url": "https://www.prlog.org/13162634-northeast-airlines-and-travel-inc-initiates-faa-part-121-certification-for-boeing-737-800-freighter-cargo-operations.html",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / FAA Part 121 certification",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Cargo, OCC and commercial systems provider not publicly disclosed",
+      "incumbentPss": "Not applicable – cargo startup",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new cargo airline",
+      "qualificationNotes": "Şirketin kendi 4 Ağustos 2026 duyurusu FAA Part 121 başvurusunu, B737-800F başlangıç filosunu, Q3 2027 sertifikasyon hedefini ve kurulan operasyonel geçiş ekibini doğruluyor. FAA tarafından AOC/OpSpecs verildiğine dair bağımsız kamu kaydı henüz bulunmadı; rota, müşteri, uçak sahipliği/kiralaması ve cargo booking/air-waybill teknoloji sağlayıcısı da açıklanmadı. İlk temas; sertifikasyon fazı, kargo satış ve waybill modeli, gümrük/partner entegrasyonları, dispatch/OCC mimarisi ile teknoloji karar sahibini doğrulamaya odaklanmalıdır.",
+      "startupStage": "Pre-launch cargo airline; FAA Part 121 certification process announced",
+      "targetLaunchDate": "Q3 2027 certification-completion target; commercial launch date not separately announced",
+      "aocStatus": "FAA Part 121 Air Carrier Certificate application announced; certificate and Cargo OpSpecs not yet publicly confirmed",
+      "fleetPlan": "Initial Boeing 737-800 Freighter fleet announced; aircraft acquisition/lease details not publicly disclosed",
+      "fundingStatus": "Not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-08-04",
+          "type": "Company certification and launch roadmap",
+          "detail": "Northeast Airlines and Travel announced entry into the FAA Part 121 Air Carrier Certificate application process for Boeing 737-800 Freighter cargo operations, with certification completion targeted for Q3 2027.",
+          "sourceUrl": "https://www.prlog.org/13162634-northeast-airlines-and-travel-inc-initiates-faa-part-121-certification-for-boeing-737-800-freighter-cargo-operations.html"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "Operational preparation",
+          "detail": "The company states that a transition team is preparing operational manuals, SMS protocols and training curricula for the multi-phase FAA process.",
+          "sourceUrl": "https://www.prlog.org/13162634-northeast-airlines-and-travel-inc-initiates-faa-part-121-certification-for-boeing-737-800-freighter-cargo-operations.html"
+        },
+        {
+          "date": "2026-07-08",
+          "type": "Leadership readiness",
+          "detail": "The company announced the appointment of a COO to support formation and establishment of the new airline business.",
+          "sourceUrl": "https://www.prlog.org/13157100-northeast-airlines-appoints-new-chief-operating-officer.html"
+        }
+      ]
     }
   ]
 }
