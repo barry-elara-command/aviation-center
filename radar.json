@@ -2129,6 +2129,60 @@
           "sourceUrl": "https://www.prlog.org/13157100-northeast-airlines-appoints-new-chief-operating-officer.html"
         }
       ]
+    },
+    {
+      "id": "avi8-airways-southeast-asia-acmi-cargo-prelaunch-2027",
+      "title": "AVi8 Airways – Southeast Asia ACMI, Cargo and Passenger Pre-launch",
+      "organization": "AVi8 Airways",
+      "country": "Cambodia (şirket sayfası konumu; operasyon/AOC yargı alanı kamuya açık olarak kesinleşmedi)",
+      "category": "Airline Startup / ACMI / Air Cargo",
+      "publishedDate": "2026-09-08",
+      "deadline": null,
+      "detectedAt": "2026-10-07T23:01:20Z",
+      "relevance": "Medium",
+      "summary": "AVi8 Airways, Güneydoğu Asya odaklı yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak ticari operasyonlara Mayıs 2027’de başlamayı hedeflediğini duyurdu. Şirketin doğrulanmış LinkedIn sayfası operasyon tarihini açıklarken, Southern Vision Investment’ın 8 Eylül 2026’da duyurulan stratejik yatırımı sertifikasyon ve ilk ticari operasyon hazırlıkları için finansman sağlıyor. A320 ailesi yolcu/charter; A321F ve A330F ise kargo için planlanıyor. Ticari operasyon, AOC ve teknoloji sağlayıcıları henüz açıklanmadığından, kayıt yalnız geleceğe dönük sertifikasyon ve sistem-seçim penceresine dayanır.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane OCC - Operations Control Center",
+        "Crane Crew Management",
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "AVi8 Airways doğrulanmış LinkedIn şirket sayfası; Aviation News Online",
+      "url": "https://www.linkedin.com/posts/avi8-airways_avi8airways-edwegel-aviation-activity-7491933180724133888-fhR2",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new ACMI, cargo and passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, DCS, cargo ve OCC sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Kayıt iki bağımsız somut sinyale dayanır: AVi8’in doğrulanmış şirket sayfası Mayıs 2027 operasyon başlangıç hedefini açıklar; bağımsız sektör kaynağı 8 Eylül 2026’da SVI stratejik yatırımının sertifikasyon ve 2027 ticari hazırlıkları için sağlandığını doğrular. AOC başvurusu/tescili, kesin operasyon ülkesi, uçak teslim/kiralama sözleşmeleri, müşteri taahhütleri ve teknoloji kararı henüz kamuya açıklanmadı. İlk temas, AOC yargı alanı ve takvimi, cargo-first fazının rezervasyon/waybill ihtiyaçları, ardından planlanan yolcu PSS/IBE/DCS kapsamı, ACMI partner entegrasyonları ve karar sahibi üzerinde olmalıdır.",
+      "startupStage": "Pre-launch airline; commercial operations not yet started",
+      "targetLaunchDate": "May 2027 (company target; regulatory approval dependent)",
+      "aocStatus": "AOC application, certificate or operating specifications not publicly confirmed",
+      "fleetPlan": "Planned Airbus A320-family passenger/charter fleet plus A321F and A330F freighters; committed aircraft, delivery and lease details not publicly disclosed",
+      "fundingStatus": "Southern Vision Investment strategic investment announced 8 September 2026; amount and terms not disclosed",
+      "evidence": [
+        {
+          "date": "2026-09-08",
+          "type": "Official company future operations target",
+          "detail": "AVi8 Airways' verified LinkedIn company page states that the new Southeast Asia-based carrier targets the start of operations in May 2027 and plans ACMI, charter, cargo and scheduled passenger services.",
+          "sourceUrl": "https://www.linkedin.com/posts/avi8-airways_avi8airways-edwegel-aviation-activity-7491933180724133888-fhR2"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "Independent strategic-financing confirmation",
+          "detail": "Aviation News Online reports SVI's strategic investment to support the startup's 2027 commercial launch, with A320-family passenger aircraft and A321F/A330F freighter plans.",
+          "sourceUrl": "https://www.aviationnews-online.com/public/index.php/article/southern-vision-investment-takes-strategic-stake-in-avi8-airways"
+        }
+      ]
     }
   ]
 }
