@@ -13,14 +13,14 @@
       "deadline": null,
       "detectedAt": "2026-10-05T07:15:00Z",
       "relevance": "Medium",
-      "summary": "e-Smart Avia, Schiphol çıkışlı tam elektrikli bölgesel kargo havayolu operasyonunu 2027 dördüncü çeyrekte başlatmayı hedeflediğini açıklıyor. Plan; BETA ALIA CX300 ile başlangıçta beş uçak, 2–3 yüksek talep rotası ve tarifeli/kontratlı kısa menzil kargo hizmetlerinden oluşuyor. Schiphol, şirketin ilk ticari kargo operasyonlarını 2027 sonuna hedeflediğini; bunun izinler, altyapı ve uçak bulunurluğuna bağlı olduğunu doğruluyor. Canlı ticari hava kargo operasyonu henüz başlamadığından, PSS veya cargo platformu açıklanmamış bu hazırlık Crane CGO ve Crane OCC için P2 pre-RFP fırsatıdır.",
+      "summary": "e-Smart Avia, ClearSky Airlines markasıyla Hollanda merkezli tam elektrikli bölgesel kargo operasyonlarını 2027 üçüncü çeyreğinde başlatmayı hedefliyor. Şirket, beş BETA ALIA CTOL uçağından oluşan ilk filo için SLI ile varlık finansmanı ortaklığı bulunduğunu; 2027 içinde AOC sertifikasyonu, ilk müşteri taahhütleri ve yönetim ekibinin kurulumu üzerinde çalıştığını açıkladı. Planlanan hizmet; Schiphol merkezli, 500 kg’a kadar zaman kritik gönderiler için tarifeli lojistik-partner hizmetleri ile premium charter kargoyu kapsıyor. Canlı ticari kargo operasyonu ve AOC henüz başlamadığından, bu doğrulanmış finansman ve sertifikasyon hazırlığı Crane CGO/OCC için güncellenmiş P2 pre-RFP fırsatıdır.",
       "products": [
         "Crane CGO - Reservation & Cargo Services",
         "Crane OCC - Operations Control Center",
         "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "e-Smart Avia Resmî Web Sitesi; Royal Schiphol Group",
-      "url": "https://e-smartavia.com/",
+      "sourceName": "e-Smart Avia / e-Smart Logistics Resmî Basın Bülteni; Royal Schiphol Group",
+      "url": "https://www.e-smartlogistics.com/news/first-european-fully-electric-all-cargo-airline-clearsky",
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Pre-launch / new cargo airline",
@@ -30,13 +30,19 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – new airline and new commercial cargo operation",
-      "qualificationNotes": "Bu kayıt yalnız gelecekteki Q4 2027 ticari operasyon hedefi nedeniyle oluşturuldu; Mayıs 2026 demo uçuşları tek başına fırsat olarak değerlendirilmedi. Lansman, BETA ALIA CX300 sertifikasyonu, operasyonel izinler, altyapı ve uçak kullanılabilirliğine bağlıdır. İlk görüşmede AOC/EASA yol haritası, filo finansmanı ve teslim planı, cargo booking/waybill, müşteri entegrasyonları, dispatch/OCC modeli, gümrük ve teknolojik karar sahibi doğrulanmalıdır.",
+      "qualificationNotes": "Kayıt yalnız gelecekteki Q3 2027 ticari operasyon hedefi nedeniyle tutuluyor. e-Smart Avia'nın 21 Temmuz 2026 tarihli resmî duyurusu; beş uçaklık ilk filo için SLI varlık finansmanı ortaklığını, 2027 AOC sertifikasyon hedefini, launch-customer taahhütlerini ve yönetim ekibi kurulumunu doğruluyor. Lansman yine sertifikasyon, izinler, altyapı ve uçak kullanılabilirliğine bağlıdır. İlk görüşmede AOC/EASA yol haritası, SLI finansmanının uçak teslim takvimine etkisi, cargo booking/waybill ve müşteri entegrasyonları, dispatch/OCC modeli, Schiphol operasyon izni ve teknoloji karar sahibi doğrulanmalıdır.",
       "startupStage": "Pre-launch electric cargo airline; commercial operation not yet started",
-      "targetLaunchDate": "Q4 2027 (company target; subject to certification, permits, infrastructure and aircraft availability)",
-      "aocStatus": "AOC status not publicly confirmed; commercial operation remains subject to required regulatory approvals",
-      "fleetPlan": "Five BETA ALIA CX300 aircraft planned for launch; fleet availability remains conditional",
-      "fundingStatus": "Project-specific funding not publicly disclosed",
+      "targetLaunchDate": "Q3 2027 (company target; subject to regulatory approvals)",
+      "aocStatus": "AOC application progressing; company objective is certification during 2027, but grant is not yet publicly confirmed",
+      "fleetPlan": "Five BETA Technologies ALIA CTOL aircraft planned for launch; SLI asset-financing partnership announced for the initial fleet",
+      "fundingStatus": "SLI aerospace-leasing partnership announced to provide asset financing for the initial fleet; transaction value and aircraft delivery schedule not disclosed",
       "evidence": [
+        {
+          "date": "2026-07-21",
+          "type": "Official financing, AOC and launch update",
+          "detail": "e-Smart Avia announced ClearSky Airlines' Q3 2027 commercial-operations target, SLI asset financing for the initial five-aircraft fleet, a 2027 AOC-certification objective and launch-customer commitments under development.",
+          "sourceUrl": "https://www.e-smartlogistics.com/news/first-european-fully-electric-all-cargo-airline-clearsky"
+        },
         {
           "date": "2026-10-05",
           "type": "Official future launch roadmap",
