@@ -1,8 +1,69 @@
 {
   "version": 1,
-  "lastScan": "2026-10-05T00:00:00Z",
+  "lastScan": "2026-10-08T01:18:43Z",
   "sourcesScanned": 226,
   "opportunities": [
+    {
+      "id": "cruzair-bolivia-passenger-cargo-prelaunch-2027",
+      "title": "Cruzair – Bolivia Passenger Airline Pre-launch 2027",
+      "organization": "Cruzair",
+      "country": "Bolivia",
+      "category": "Airline Startup / Passenger & Future Air Cargo",
+      "publishedDate": "2026-10-06",
+      "deadline": null,
+      "detectedAt": "2026-10-08T01:18:43Z",
+      "relevance": "Medium",
+      "summary": "Cruzair, Santa Cruz de la Sierra (VVI) merkezli yeni Bolivya havayolu olarak ilk ticari uçuşlarını Şubat–Nisan 2027 arasında başlatmayı hedefliyor. Şirketin resmi sitesi 2027 'kurucu yolcu' ön kaydını açtı. Kurucu Humberto Roca'nın yerel röportajına dayanan bağımsız sektör kaynağı; şirketin kurulduğunu, DGAC sertifikasyon sürecinde beş aşamanın ikincisine geçtiğini, ilk üç Airbus A320'nin leasing ile planlandığını ve 15 milyon ABD doları yatırım öngörüldüğünü bildiriyor. Satış, AOC ve operasyon henüz başlamadı; PSS/DCS/IBE sağlayıcısı kamuya açıklanmadığı için gerçek ve yakın vadeli bir sistem-seçim penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Cruzair resmi sitesi; Aviacionline (Asuntos Centrales kurucu röportajı)",
+      "url": "https://flycruzair.com/origen",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "İki somut sinyal vardır: Cruzair'in resmi sitesi 2027 kurucu-yolcu ön kaydını açmıştır; 6 Ekim 2026 tarihli bağımsız sektör haberi, kurucuyla yapılan yerel röportaja dayanarak DGAC sertifikasyonunun ikinci aşamasını, Şubat–Nisan 2027 hedefini, üç kiralık A320 planını ve 15 milyon ABD doları yatırım öngörüsünü bildirir. DGAC tarafından yayımlanmış başvuru/AOC belgesi, imzalı uçak kira sözleşmesi, fonların kapanışı ve teknoloji tedarikçisi henüz kamuya açık biçimde doğrulanmamıştır. Kurucunun 'sistemas propios' ifadesinin şirket içi teknoloji mi yoksa kendi seçtiği ticari sistemler mi olduğu netleştirilmelidir. İlk temas; PSS/IBE/DCS karar sahibi, sertifikasyon takvimi, dağıtım/GDS ve ödeme gereksinimleri, dört tarife katmanının kural/ancillary tasarımı ve 2027 sonu planlanan kargo uçağı için CGO fazlaması üzerine olmalıdır.",
+      "startupStage": "Pre-launch airline; company says it is in phase 2 of 5 of DGAC certification",
+      "targetLaunchDate": "February–April 2027 (founder target; aircraft delivery and regulatory approval dependent)",
+      "aocStatus": "Founder reports DGAC certification phase 2 of 5; no DGAC-issued AOC or public regulator document located",
+      "fleetPlan": "Three leased Airbus A320 aircraft with 170 seats planned at launch; seven aircraft by end-2027 including one freighter planned for Miami, per founder interview",
+      "fundingStatus": "USD 15 million planned investment stated by founder; four Bolivian partners plus founder's son identified, but funding close/terms not independently published",
+      "evidence": [
+        {
+          "date": "2026-09-21",
+          "type": "Official future passenger-sales preparation",
+          "detail": "Cruzair's official website opened pre-registration for 2,027 'Founding Passengers' for 2027 and identifies Santa Cruz de la Sierra (VVI) as its hub.",
+          "sourceUrl": "https://flycruzair.com/origen"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "Independent certification, fleet and launch confirmation",
+          "detail": "Aviacionline, citing founder Humberto Roca's interview with Bolivia's Asuntos Centrales, reports company incorporation, DGAC certification phase 2 of 5, a February–April 2027 launch target, three leased A320s and planned USD 15 million investment.",
+          "sourceUrl": "https://www.aviacionline.com/espanol/aviacion-comercial/latinoamerica-y-el-caribe/bolivia/nueva-aerolinea-boliviana-cruzair-espera-volar-a-argentina-brasil-chile-y-paraguay-a-principios-de-2027_a6ac509676b27e8e08eb2d7cc"
+        }
+      ]
+    },
     {
       "id": "e-smart-avia-clearsky-electric-cargo-prelaunch-2027",
       "title": "e-Smart Avia / ClearSky Airlines – Electric Cargo Airline Launch",
