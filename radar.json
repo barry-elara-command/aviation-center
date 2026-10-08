@@ -2379,6 +2379,66 @@
           "sourceUrl": "https://www.aviationnews-online.com/public/index.php/article/southern-vision-investment-takes-strategic-stake-in-avi8-airways"
         }
       ]
+    },
+    {
+      "id": "fly-beirut-lebanon-low-cost-prelaunch-2027",
+      "title": "Fly Beirut – Lebanon Low-Cost Airline Pre-launch 2027",
+      "organization": "Fly Beirut (Middle East Airlines subsidiary)",
+      "country": "Lebanon",
+      "category": "Airline Startup / Low-Cost Carrier",
+      "publishedDate": "2026-06-09",
+      "deadline": null,
+      "detectedAt": "2026-10-08T18:19:51Z",
+      "relevance": "Medium",
+      "summary": "Middle East Airlines’in (MEA) düşük maliyetli iştiraki Fly Beirut’un Haziran 2027’de operasyona başlaması resmî Cumhurbaşkanlığı açıklamasıyla doğrulandı. Açıklamaya göre şirket için üç uçak getirildi, üç uçak daha hazırlanıyor; MEA Başkanı ayrıca Haziran 2027 başlangıcını teyit etti. Fly Beirut henüz satışa veya operasyona başlamadı ve PSS, IBE, mobil, DCS ya da operasyon sistem sağlayıcısı kamuya açıklanmadı. Bu nedenle 2027 öncesinde gerçek bir sistem-seçim ve dijital kanal tasarım penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Lübnan Cumhurbaşkanlığı; Aviation Week",
+      "url": "https://www.presidency.gov.lb/media/news/1443",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new low-cost airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Fly Beirut için PSS, IBE, mobil, DCS ve OCC sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "İki bağımsız somut sinyal vardır: Lübnan Cumhurbaşkanlığı, MEA Genel Müdürü’nün Haziran 2027 başlangıç hazırlıkları kapsamında üç uçağın getirildiğini ve üç uçağın daha hazırlandığını Başkan’a aktardığını yayımladı; Aviation Week, MEA Başkanı’nın IATA AGM’de Haziran 2027 hedefini ve altı uçağa kadar başlangıç filosunu teyit ettiğini bildirdi. Fly Beirut’un MEA’nın mevcut PSS/DCS altyapısını kullanıp kullanmayacağı veya ayrı bir LCC teknolojisi seçeceği açıklanmadı. İlk temasta karar sahibi, tüzel/AOC yapısı, satış açılış tarihi, doğrudan dağıtım–GDS, ödeme, mobil kanal, DCS/yer hizmetleri, ancillary ve operasyonel kontrol kapsamı doğrulanmalıdır.",
+      "startupStage": "MEA low-cost subsidiary; pre-launch",
+      "targetLaunchDate": "June 2027",
+      "aocStatus": "Fly Beirut için kamuya açık ayrı AOC durumu bulunamadı; MEA ve Lübnan Cumhurbaşkanlığı launch hazırlığını doğruluyor",
+      "fleetPlan": "Lübnan Cumhurbaşkanlığı, Fly Beirut için üç uçağın getirildiğini ve üç uçağın daha hazırlandığını bildiriyor; MEA Başkanı Aviation Week’e başlangıç filosunun altı uçağa kadar çıkacağını söyledi.",
+      "fundingStatus": "Middle East Airlines desteğiyle hazırlanıyor; ayrı finansman yapısı kamuya açıklanmadı",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "type": "Official launch preparation and fleet confirmation",
+          "detail": "Lübnan Cumhurbaşkanlığı, MEA Genel Müdürü Mohamad El-Hout’un Fly Beirut’un Haziran 2027’de başlamasına yönelik hazırlıkları, üç uçağın getirildiğini ve üç uçağın daha hazırlandığını Cumhurbaşkanı’na aktardığını yayımladı.",
+          "sourceUrl": "https://www.presidency.gov.lb/media/news/1443"
+        },
+        {
+          "date": "2026-06-09",
+          "type": "Independent launch confirmation",
+          "detail": "Aviation Week, MEA Başkanı ve CEO’sunun Fly Beirut’un Haziran 2027’de altı uçağa kadar başlangıç filosuyla faaliyete geçeceğini teyit ettiğini bildirdi.",
+          "sourceUrl": "https://aviationweek.com/air-transport/airlines-lessors/mea-presses-ahead-fly-beirut-launch-2027"
+        }
+      ]
     }
   ]
 }
