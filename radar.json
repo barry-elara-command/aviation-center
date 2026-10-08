@@ -2506,6 +2506,72 @@
           "sourceUrl": "https://www.onepacificair.com/"
         }
       ]
+    },
+    {
+      "id": "united-aviation-services-guinea-prelaunch-2027",
+      "title": "United Aviation Services – Guinea Private Airline Pre-launch 2027",
+      "organization": "United Aviation Services",
+      "country": "Guinea",
+      "category": "Airline Startup / Regional Passenger Carrier",
+      "publishedDate": "2026-07-25",
+      "deadline": null,
+      "detectedAt": "2026-10-08T20:26:34Z",
+      "relevance": "Medium",
+      "summary": "Gine Ulaştırma Bakanı Ousmane Gaoual Diallo, sivil havacılık otoritesi üzerinden United Aviation Services adlı özel Gine havayolunun kuruluşuna ilişkin sözleşmenin imzalandığını ve taşıyıcının yaklaşık 10 uçakla en geç 2027’nin ilk yarısı sonunda faaliyete geçmesinin planlandığını açıkladı. İlk aşamada Gine iç hatlarının, ardından Batı Afrika bölgesel hatlarının hedeflendiği bildiriliyor. AOC, uçak tipi/teslim sözleşmeleri, finansman kapanışı, satış açılışı ve teknoloji sağlayıcıları kamuya açıklanmadığından PSS–IBE–DCS ve operasyon sistemleri için ileriye dönük bir seçim penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Le Dénonciateur 224; Horonya Finance; Ecofin Agency",
+      "url": "https://ledenonciateur224.com/index.php/simandou-2040-une-nouvelle-compagnie-aerienne-guineenne-bientot-lancee-plusieurs-aeroports-regionaux-en-pleine-transformation/",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new private passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "İki bağımsız yerel ekonomi/haber kaynağı, Ulaştırma Bakanı Ousmane Gaoual Diallo’nun 25 Temmuz 2026 tarihli Simandou 2040 etkinliğinde yaptığı açıklamayı aktararak sivil havacılık otoritesi üzerinden kuruluş sözleşmesinin imzalandığını, yaklaşık 10 uçaklık başlangıç filosunu ve 2027 ilk yarı sonu hedefini doğrular. Ancak bakanlık veya Gine sivil havacılık otoritesinin çevrimiçi birincil sözleşme/AOC belgesi bulunamadığı için kayıt official=false tutulmuştur. AOC başvuru sahibi, şirket ortaklığı, fonlama kapanışı, uçak tipi ve imzalı lease/satın alma, satış açılışı ve teknoloji karar sahibi doğrulanmalıdır.",
+      "startupStage": "Government-announced private airline; formation convention reported signed, certification and commercial launch pending",
+      "targetLaunchDate": "By end of first half 2027 (Transport Minister target)",
+      "aocStatus": "Not publicly confirmed; no regulator-issued AOC or application document located",
+      "fleetPlan": "Approximately 10 aircraft planned at launch according to the Transport Minister; aircraft type, ownership and delivery contracts not disclosed",
+      "fundingStatus": "Not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-07-25",
+          "type": "Ministerial formation, fleet and launch statement",
+          "detail": "Le Dénonciateur 224 quotes Guinea’s Transport Minister saying the ministry, through civil aviation, signed a convention to create United Aviation Services, with about 10 aircraft planned at launch and operations by the end of H1 2027.",
+          "sourceUrl": "https://ledenonciateur224.com/index.php/simandou-2040-une-nouvelle-compagnie-aerienne-guineenne-bientot-lancee-plusieurs-aeroports-regionaux-en-pleine-transformation/"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "Independent local economic cross-check",
+          "detail": "Horonya Finance independently reports the ministerial announcement, H1 2027 launch target, initial domestic network and later West African expansion.",
+          "sourceUrl": "https://www.horonyafinance.com/guinee-united-aviation-services-une-nouvelle-compagnie-aerienne-attendue-en-2027/"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "Independent regional aviation/economy cross-check",
+          "detail": "Ecofin Agency reports Guinea’s plan to launch United Aviation Services by the end of H1 2027 with an initial fleet of about 10 aircraft.",
+          "sourceUrl": "https://www.ecofinagency.com/news-infrastructures/2807-57793-guinea-bets-on-regional-aviation-to-support-simandou-growth"
+        }
+      ]
     }
   ]
 }
