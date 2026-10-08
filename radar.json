@@ -1,8 +1,74 @@
 {
   "version": 1,
-  "lastScan": "2026-10-08T01:18:43Z",
+  "lastScan": "2026-10-08T04:51:56Z",
   "sourcesScanned": 226,
   "opportunities": [
+    {
+      "id": "ocera-dp-aviation-sri-lanka-international-prelaunch-2027",
+      "title": "OCERA Airlines / DP Aviation – Sri Lanka International Passenger Launch",
+      "organization": "DP Aviation (planned brand: OCERA Airlines)",
+      "country": "Sri Lanka",
+      "category": "Airline Startup / International Passenger Expansion",
+      "publishedDate": "2026-10-06",
+      "deadline": null,
+      "detectedAt": "2026-10-08T04:51:56Z",
+      "relevance": "Medium",
+      "summary": "Sri Lanka Sivil Havacılık Otoritesi (CAASL), mevcut Yerel Hava İşletme Sertifikası sahibi DP Aviation'ın yatırım ortağıyla birlikte OCERA Airlines adı altında uluslararası tarifeli yolcu operasyonlarına hazırlanmasını resmen açıkladı. CAASL değerlendirmesi ve gerekli düzenleyici onaylar devam ediyor; şirket yeni Airbus A220 filosu ve 2030'a kadar 10 uçak planlıyor. OCERA'nın resmî sitesi 20'den fazla destinasyon, Colombo merkezli ağ, çevrim içi rezervasyon/check-in ve A220-300 operasyonunu 'Launching Soon' olarak tanıtıyor. Ticari uluslararası satış/operasyon başlamadığı ve PSS/DCS/IBE sağlayıcısı açıklanmadığı için 2027 hedefli, gerçek bir sistem-seçim penceresidir.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Civil Aviation Authority of Sri Lanka (CAASL); OCERA resmî sitesi; Aviation Voice",
+      "url": "https://www.caa.lk/en/news/696-a-giant-leap-in-strengthening-sri-lanka-s-international-air-connectivity",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / domestic-AOC-to-international-airline transformation",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "DP Aviation'ın mevcut yerel operasyon sistemleri ile OCERA'nın planlanan PSS, IBE ve DCS sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new international scheduled passenger operation",
+      "qualificationNotes": "Birincil düzenleyici kanıt 6 Ekim 2026 tarihli CAASL duyurusudur: DP Aviation mevcut bir Yerel AOC sahibidir; yatırım ortağıyla uluslararası genişleme görüşmesi yapılmış, OCERA markası ve A220/10 uçak planı açıklanmış, uluslararası başlangıcın devam eden CAASL değerlendirmesi ve onaylara bağlı olduğu belirtilmiştir. Şirket sitesi satışa açık gerçek uçuş sunmadan 'Launching Soon' ve 20+ destinasyon gösterir; bu nedenle henüz ticari satış başlamış sayılmamıştır. Kesin launch ayı/günü, uluslararası AOC yetkisi, imzalı A220 sipariş/kira sözleşmeleri, yatırım işleminin kapanışı ve teknoloji sağlayıcıları açıklanmamıştır. İlk temas; DP Aviation mevcut sistemlerinin yeniden kullanımı, OCERA tüzel/marka yapısı, PSS/IBE/DCS seçim takvimi, 20+ destinasyonun fazlanması, interline/GDS, yerel ödeme yöntemleri ve A220 WB/OCC gereksinimleri üzerine olmalıdır.",
+      "startupStage": "Existing domestic AOC holder preparing new international scheduled airline brand; regulatory evaluation ongoing",
+      "targetLaunchDate": "2027 (company target; exact date not announced and subject to CAASL approvals)",
+      "aocStatus": "DP Aviation holds a domestic AOC; international operations under OCERA remain under CAASL evaluation and require regulatory approvals",
+      "fleetPlan": "Brand-new Airbus A220 fleet planned; company site references A220-300 and 10+ aircraft, while CAASL states a 10-aircraft fleet target by 2030; binding delivery/lease contracts not publicly confirmed",
+      "fundingStatus": "Prospective investment partner met CAASL; CEO says backing for the next phase is secured, but investor identity, transaction close and terms are not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "type": "Official regulator confirmation",
+          "detail": "CAASL confirms that domestic AOC holder DP Aviation and its prospective investment partner are preparing international expansion under the OCERA Airlines name, with an A220 fleet plan and commencement subject to ongoing regulatory evaluation and approvals.",
+          "sourceUrl": "https://www.caa.lk/en/news/696-a-giant-leap-in-strengthening-sri-lanka-s-international-air-connectivity"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "Official commercial and digital preparation",
+          "detail": "OCERA's official website displays a 'Launching Soon' international passenger proposition, Colombo hub, 20+ planned destinations, A220-300 fleet, online booking, ancillary selection and online check-in journeys without live flight sales.",
+          "sourceUrl": "https://flyocera.com/"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "Independent future launch and financing signal",
+          "detail": "Aviation Voice reports the CEO's 2027 launch target, secured backing for the next development phase, and ongoing work across regulatory preparation, operational systems, recruitment and technology.",
+          "sourceUrl": "https://aviationvoice.lk/ocera-targets-2027-launch-as-new-sri-lankan-airline-takes-shape/"
+        }
+      ]
+    },
     {
       "id": "cruzair-bolivia-passenger-cargo-prelaunch-2027",
       "title": "Cruzair – Bolivia Passenger Airline Pre-launch 2027",
