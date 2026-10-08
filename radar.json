@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-08T07:34:16Z",
+  "lastScan": "2026-10-08T22:17:54Z",
   "sourcesScanned": 233,
   "opportunities": [
     {
@@ -2570,6 +2570,71 @@
           "type": "Independent regional aviation/economy cross-check",
           "detail": "Ecofin Agency reports Guinea’s plan to launch United Aviation Services by the end of H1 2027 with an initial fleet of about 10 aircraft.",
           "sourceUrl": "https://www.ecofinagency.com/news-infrastructures/2807-57793-guinea-bets-on-regional-aviation-to-support-simandou-growth"
+        }
+      ]
+    },
+    {
+      "id": "danfe-airlines-nepal-prelaunch-2026",
+      "title": "Danfe Airlines – Nepal Domestic Airline Pre-launch 2026",
+      "organization": "Danfe Airlines (Danphe Airlines spelling variant; restructured from Makalu Air)",
+      "country": "Nepal",
+      "category": "Airline Startup / Domestic Passenger Carrier",
+      "publishedDate": "2026-03-13",
+      "deadline": null,
+      "detectedAt": "2026-10-08T22:17:54Z",
+      "relevance": "Medium",
+      "summary": "Nepal’de Danfe Airlines, CAAN’den uçak ithalatı ve sertifikasyon sürecine ilerlemeyi sağlayan NOC aldı; şirketin AOC süreci, uçak edinimi ve demonstrasyon uçuşları henüz tamamlanmadı. Şirket yöneticisi üç ATR 72-600 ile Ekim–Kasım 2026 civarında ticari iç hat operasyonuna başlamayı hedeflediğini, yerel kaynaklar ise üç Jetstream uçağı için de edinim görüşmeleri yürütüldüğünü bildiriyor. Satış kanalı ile PSS, IBE, DCS, W&B ve operasyon sistem sağlayıcısı açıklanmadığından, AOC ve uçak teslimine bağlı yakın vadeli sistem-seçim penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Tourism Info Nepal; Clickmandu; Fiscal Nepal",
+      "url": "https://english.clickmandu.com/2026/05/8725/",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new scheduled domestic passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, W&B ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Somut eşik iki ayrı sinyalle karşılanıyor: CAAN Bilgi Yetkilisi NOC verildiğini ve sıradaki adımların uçak edinimi ile demonstrasyon uçuşları olduğunu doğruladı; şirket yöneticisi ATR 72-600 ediniminin son aşamada olduğunu ve Kartik 2083 (Ekim–Kasım 2026) civarında ticari başlangıç hedefini açıkladı. Clickmandu ayrıca CAAN ithalat izni ile üç Jetstream uçağının edinimi için görüşmelerin ilerlediğini bildirdi. Ancak AOC henüz yayımlanmadı, doğrulanmış uçak tescili/teslimi ve satış açılışı bulunamadı; geçmiş Dashain hedefinin gerçekleştiği de doğrulanamadı. İlk temasta AOC takvimi, kesin başlangıç filosu, Pokhara üs/rota planı, finansman, satış açılışı ve teknoloji karar sahibi doğrulanmalıdır.",
+      "startupStage": "Pre-launch; NOC obtained, AOC and aircraft induction pending",
+      "targetLaunchDate": "October–November 2026 target (Kartik 2083; not confirmed and dependent on AOC and aircraft induction)",
+      "aocStatus": "AOC process pending; CAAN NOC reported issued, aircraft acquisition and demonstration flights remain prerequisites",
+      "fleetPlan": "Initial plan reported as three ATR 72-600 aircraft; separate local reporting says negotiations for three ex-Guna Airlines Jetstream aircraft were also progressing. No delivered or registered launch aircraft independently confirmed.",
+      "fundingStatus": "Not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-03-13",
+          "type": "CAAN-attributed certification milestone",
+          "detail": "Tourism Info Nepal quotes CAAN Information Officer Gyanendra Bhul confirming that Danfe Airlines received its NOC and must next acquire aircraft and complete demonstration flights before commercial operations.",
+          "sourceUrl": "https://tourisminfonepal.com/danfe-airlines-receive-noc-to-launch-flights/"
+        },
+        {
+          "date": "2026-05-12",
+          "type": "Aircraft-import approval and acquisition preparation",
+          "detail": "Clickmandu reports CAAN approval to import aircraft and ongoing talks to acquire three Jetstream aircraft from grounded Guna Airlines, while remaining operational-certification steps were still pending.",
+          "sourceUrl": "https://english.clickmandu.com/2026/05/8725/"
+        },
+        {
+          "date": "2026-07-26",
+          "type": "Direct fleet and future launch target",
+          "detail": "Fiscal Nepal quotes CEO Abhishek Man Shrestha saying three ATR 72-600 aircraft were in the final selection/acquisition stage and commercial launch was targeted for Kartik 2083, approximately October–November 2026.",
+          "sourceUrl": "https://www.fiscalnepal.com/2026/07/26/27155/danfe-airlines-set-to-begin-atr-72-600-operations-by-dashain-tihar/"
         }
       ]
     }
