@@ -2439,6 +2439,73 @@
           "sourceUrl": "https://aviationweek.com/air-transport/airlines-lessors/mea-presses-ahead-fly-beirut-launch-2027"
         }
       ]
+    },
+    {
+      "id": "one-pacific-airways-micronesia-prelaunch-2026",
+      "title": "One Pacific Airways – Micronesia Pre-launch and Airline Systems Cooperation",
+      "organization": "One Pacific Airways / South Pacific Airways Ltd.",
+      "country": "Federated States of Micronesia",
+      "category": "Airline Startup / Regional Passenger & Cargo",
+      "publishedDate": "2026-08-14",
+      "deadline": null,
+      "detectedAt": "2026-10-08T18:49:02Z",
+      "relevance": "Medium",
+      "summary": "Mikronezya merkezli One Pacific Airways, 2026 sonundan önce tarifeli yolcu ve kargo operasyonu başlatmayı hedefliyor. Şirketin resmî sitesi ERJ-145LR filosu ile Pohnpei, Chuuk, Kosrae, Yap, Majuro ve Palau ağına yönelik ticari hazırlığı gösteriyor. Nauru Hükümeti’nin 14 Ağustos 2026 tarihli resmî açıklaması, One Pacific ile Naoero Airlines arasındaki görüşmelerde uçuş planlama, yolcu bağlantıları, ticketing ve web sistemleri, kargo ve operasyonel destek başlıklarının açıkça ele alındığını doğruluyor. Satış henüz açık değil, AOC durumu net değil ve teknoloji sağlayıcısı açıklanmadı; bu nedenle doğrudan sistem-seçimi/ortak platform penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "One Pacific Airways resmî sitesi; Nauru Hükümeti Government Information Office; Aero South Pacific",
+      "url": "https://naoero.gov.nr/government-information-office/media-release/media-release-one-pacific-airways-and-naoero-airlines-explore-opportunities_14aug2026.aspx",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / airline systems partnership exploration",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, web/ticketing ve cargo sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Resmî Nauru Hükümeti açıklaması South Pacific Airways Ltd.’yi One Pacific Airways markasıyla tanımlar ve Naoero Airlines ile görüşmelerin ticketing ve web systems dahil somut ticari/operasyonel sistem alanlarını kapsadığını doğrular. Şirketin canlı sitesi ERJ-145LR ve altı destinasyonlu çekirdek ağı gösterirken, şirket sözcüsü 2026 sonundan önce launch hedefini ve E145LR planını bağımsız sektör kaynağına aktarmıştır. Buna karşılık FSM Division of Civil Aviation tarafından yayımlanmış AOC/işletme lisansı, doğrulanmış uçak tescili/teslimi ve kesin satış açılış tarihi bulunamamıştır. İlk temas; AOC aşaması, uçak sözleşmesi/tescili, hukuki işletici, Naoero ortaklık modeli, PSS/IBE/DCS sahibi, interline/ticketing yapısı, ödeme/GDS, APIS ve cargo kapsamını doğrulamalıdır.",
+      "startupStage": "Pre-launch; commercial and operational partnership discussions underway",
+      "targetLaunchDate": "Before end-2026 (company spokesperson target; regulatory and fleet readiness dependent)",
+      "aocStatus": "Unknown; no public FSM AOC or operating-licence document located",
+      "fleetPlan": "Company website presents ERJ-145LR as planned core aircraft; aircraft ownership, registration and delivery have not been independently verified",
+      "fundingStatus": "Corporate backer identified in regional reporting, but committed funding amount and close are not publicly verified",
+      "evidence": [
+        {
+          "date": "2026-08-14",
+          "type": "Official airline-systems cooperation signal",
+          "detail": "Nauru Government Information Office confirms One Pacific Airways and Naoero Airlines discussions covering flight scheduling, passenger connections, ticketing and web systems, cargo, maintenance and operational support.",
+          "sourceUrl": "https://naoero.gov.nr/government-information-office/media-release/media-release-one-pacific-airways-and-naoero-airlines-explore-opportunities_14aug2026.aspx"
+        },
+        {
+          "date": "2026-08-20",
+          "type": "Direct launch and fleet statement",
+          "detail": "Aero South Pacific quotes a One Pacific Airways spokesperson targeting launch before end-2026 with E145LR aircraft and phased Micronesian/regional service; the source notes aircraft origin and certification remained unconfirmed.",
+          "sourceUrl": "https://aerosouthpacific.com/blogs/news/one-pacific-airways-nauru-airlines-partnership/"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "Official digital and network readiness",
+          "detail": "One Pacific Airways’ official website displays a flight-search interface, an ERJ-145LR aircraft page and planned destinations including Pohnpei, Chuuk, Kosrae, Yap, Majuro and Palau; no flights are shown as commercially on sale.",
+          "sourceUrl": "https://www.onepacificair.com/"
+        }
+      ]
     }
   ]
 }
