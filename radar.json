@@ -33,13 +33,13 @@
       "procurementType": "Pre-launch / new regional passenger airline",
       "commercialPriority": "P2",
       "recommendation": "Pursue",
-      "incumbent": "PSS, IBE, DCS ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbent": "Şirket kendi dijital yol haritasında NetworkEngine, ControlTower ve OpsCalendar adlarını kullanıyor; bunların şirket içi ürün, kavramsal tasarım veya üçüncü taraf platform olup olmadığı ve PSS/DCS sağlayıcısı kamuya açıklanmadı",
       "incumbentPss": "Unknown",
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – pre-launch carrier",
-      "qualificationNotes": "Geleceğe dönük pencere şirketin resmî sitesindeki Ocak 2027 rezervasyon açılışı ve tarifeli ticari operasyon planıyla doğrulanmıştır. Resmî şirket sicili AIR INTER REGION (SIREN 101 262 178) tüzel kişiliğinin aktif olduğunu; şirket LinkedIn sayfası ise operasyon üsleri, ticari uçuş altyapısı, IFR pist ve C208EX hangarı için pazar hazırlığını gösterir. Bununla birlikte CTA/AOC başvurusu veya verilmesi, kesin ilk uçuş tarihi, kapanmış finansman, uçak satın alma/kira sözleşmesi ve teknoloji tedarikçisi kamuya açık değildir. İlk temas; CTA/AOC takvimi, Ocak 2027 satış açılışına yetişecek PSS/IBE seçimi, B2B kurumsal satış modeli, ince hat envanter/yield yapısı, C208EX DCS/WB gereksinimleri ve operasyon üslerinin fazlandırılması üzerine yapılmalıdır.",
+      "qualificationNotes": "Geleceğe dönük pencere şirketin resmî sitesindeki Ocak 2027 rezervasyon açılışı ve tarifeli ticari operasyon planıyla doğrulanmıştır. Resmî şirket sicili AIR INTER REGION (SIREN 101 262 178) tüzel kişiliğinin aktif olduğunu; şirket LinkedIn sayfası ise operasyon üsleri, ticari uçuş altyapısı, IFR pist ve C208EX hangarı için pazar hazırlığını gösterir. Şirket ayrıca müşteri talebinden dağıtım, planlama, doluluk, yolcu takibi, uçuş manifestosu ve operasyonlara uzanan; NetworkEngine, ControlTower ve OpsCalendar adlarını kullanan bir dijital omurga tasvir ediyor. Bunun şirket içi geliştirme mi, kavramsal mimari mi veya üçüncü taraf bileşenler mi olduğu belirsizdir. CTA/AOC başvurusu veya verilmesi, kesin ilk uçuş tarihi, kapanmış finansman, uçak satın alma/kira sözleşmesi ve teknoloji tedarikçisi kamuya açık değildir. İlk temas; build-vs-buy kararı, CTA/AOC takvimi, Ocak 2027 satış açılışına yetişecek PSS/IBE/DCS seçimi, B2B kurumsal satış modeli, ince hat envanter/yield yapısı ve C208EX DCS/WB gereksinimleri üzerine yapılmalıdır.",
       "startupStage": "Active legal entity; booking launch announced and operational-base preparation under way; commercial sales and flights not started",
       "targetLaunchDate": "Booking opening announced for January 2027; exact first-flight date not announced",
       "aocStatus": "CTA/AOC application or grant not publicly confirmed",
@@ -53,9 +53,15 @@
           "sourceUrl": "https://www.airinterregion.fr/"
         },
         {
-          "date": "2026-09-08",
+          "date": null,
           "type": "Official operational-base preparation",
           "detail": "The verified company LinkedIn page called for airport/base options capable of commercial flights, IFR operations, Jet A-1/SAF supply and hangar facilities suitable for Cessna Grand Caravan EX or comparable aircraft.",
+          "sourceUrl": "https://www.linkedin.com/company/air-inter-region/"
+        },
+        {
+          "date": null,
+          "type": "Official digital-platform and technology-selection signal",
+          "detail": "The verified company LinkedIn page describes an integrated digital journey spanning customer acquisition, distribution, planning, load factor, passenger follow-up, operations and flight manifest generation, using the names NetworkEngine, ControlTower and OpsCalendar; whether these are in-house products, concepts or third-party components is not disclosed.",
           "sourceUrl": "https://www.linkedin.com/company/air-inter-region/"
         },
         {
