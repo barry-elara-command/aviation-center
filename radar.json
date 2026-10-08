@@ -1,8 +1,71 @@
 {
   "version": 1,
-  "lastScan": "2026-10-08T04:51:56Z",
-  "sourcesScanned": 226,
+  "lastScan": "2026-10-08T07:34:16Z",
+  "sourcesScanned": 233,
   "opportunities": [
+    {
+      "id": "air-inter-region-france-regional-passenger-prelaunch-2027",
+      "title": "Air Inter Région – France Regional Passenger Airline Launch",
+      "organization": "Air Inter Région (AIR)",
+      "country": "France",
+      "category": "Airline Startup / Regional Passenger Services",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-08T07:34:16Z",
+      "relevance": "Medium",
+      "summary": "Air Inter Région, Fransa'nın Manche–Atlantique hattında Lille'den Biarritz'e düşük kapasiteli tarifeli ticari yolcu uçuşları başlatmaya hazırlanıyor. Şirketin resmî sitesi rezervasyonların Ocak 2027'de açılacağını ve Cessna Grand Caravan EX ile doğrudan bölgesel hatlar planlandığını duyuruyor. Fransa resmî şirket sicilinde 4 Şubat 2026'da kurulan aktif SAS olarak doğrulanan taşıyıcı, doğrulanmış LinkedIn sayfasında operasyon üsleri için ticari uçuş, IFR pist, Jet A-1/SAF ve C208EX hangar altyapısı aradığını açıkladı. Canlı satış, CTA/AOC ve teknoloji sağlayıcısı henüz kamuya açıklanmadığından önümüzdeki aylarda PSS/IBE/DCS/OCC seçimi gerektiren ileriye dönük bir fırsattır.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Air Inter Région resmî sitesi ve doğrulanmış LinkedIn sayfası; L’Annuaire des Entreprises (Fransa)",
+      "url": "https://www.airinterregion.fr/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new regional passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Geleceğe dönük pencere şirketin resmî sitesindeki Ocak 2027 rezervasyon açılışı ve tarifeli ticari operasyon planıyla doğrulanmıştır. Resmî şirket sicili AIR INTER REGION (SIREN 101 262 178) tüzel kişiliğinin aktif olduğunu; şirket LinkedIn sayfası ise operasyon üsleri, ticari uçuş altyapısı, IFR pist ve C208EX hangarı için pazar hazırlığını gösterir. Bununla birlikte CTA/AOC başvurusu veya verilmesi, kesin ilk uçuş tarihi, kapanmış finansman, uçak satın alma/kira sözleşmesi ve teknoloji tedarikçisi kamuya açık değildir. İlk temas; CTA/AOC takvimi, Ocak 2027 satış açılışına yetişecek PSS/IBE seçimi, B2B kurumsal satış modeli, ince hat envanter/yield yapısı, C208EX DCS/WB gereksinimleri ve operasyon üslerinin fazlandırılması üzerine yapılmalıdır.",
+      "startupStage": "Active legal entity; booking launch announced and operational-base preparation under way; commercial sales and flights not started",
+      "targetLaunchDate": "Booking opening announced for January 2027; exact first-flight date not announced",
+      "aocStatus": "CTA/AOC application or grant not publicly confirmed",
+      "fleetPlan": "Cessna Grand Caravan EX or comparable low-capacity aircraft planned; binding aircraft acquisition/lease and delivery dates not publicly confirmed",
+      "fundingStatus": "A EUR 10 million fundraising plan has been reported publicly, but financing close and binding commitments are not publicly confirmed",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "type": "Official future sales and operating-plan signal",
+          "detail": "The official airline website states that booking will open in January 2027 and describes scheduled commercial regional flights along France's western corridor using Cessna Grand Caravan EX aircraft.",
+          "sourceUrl": "https://www.airinterregion.fr/"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "Official operational-base preparation",
+          "detail": "The verified company LinkedIn page called for airport/base options capable of commercial flights, IFR operations, Jet A-1/SAF supply and hangar facilities suitable for Cessna Grand Caravan EX or comparable aircraft.",
+          "sourceUrl": "https://www.linkedin.com/company/air-inter-region/"
+        },
+        {
+          "date": "2026-02-04",
+          "type": "Official legal-entity confirmation",
+          "detail": "France's official company directory lists AIR INTER REGION (SIREN 101 262 178) as an active SAS created on 4 February 2026.",
+          "sourceUrl": "https://annuaire-entreprises.data.gouv.fr/etablissement/10126217800011"
+        }
+      ]
+    },
     {
       "id": "ocera-dp-aviation-sri-lanka-international-prelaunch-2027",
       "title": "OCERA Airlines / DP Aviation – Sri Lanka International Passenger Launch",
