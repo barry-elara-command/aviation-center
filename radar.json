@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-09T00:33:42Z",
-  "sourcesScanned": 245,
+  "lastScan": "2026-10-09T01:30:01Z",
+  "sourcesScanned": 255,
   "opportunities": [
     {
       "id": "air-inter-region-france-regional-passenger-prelaunch-2027",
@@ -2696,6 +2696,61 @@
           "type": "Mandatory qualification",
           "detail": "Teklif sahibinin IATA NDC API sertifikası v19.2 veya üzeri olmalı; kanıt, teknik teklif ve demo/olası POC yükümlülükleriyle birlikte sunulmalı.",
           "sourceUrl": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf"
+        }
+      ]
+    },
+    {
+      "id": "uzbekistan-airways-group-pss-dcs-replatforming-strategy-rfp-2026",
+      "title": "Group Transformation RFP – PSS/DCS Replatforming Decision Gate",
+      "organization": "Uzbekistan Airways JSC",
+      "country": "Uzbekistan",
+      "category": "PSS/DCS Transformation / Pre-RFP / Group Strategy",
+      "publishedDate": "2026-10-02",
+      "deadline": "2026-10-30",
+      "detectedAt": "2026-10-09T01:30:01Z",
+      "relevance": "Medium",
+      "summary": "Uzbekistan Airways, Uzbekistan Airways Express ve Silk Avia’yı kapsayan resmî grup dönüşüm RFP’si, uluslararası danışmanın mevcut IT mimarisi, sistemler, veri ve entegrasyon kabiliyetini incelemesini; PSS/DCS platformu için karar seviyesinde değerlendirme ve yakın vadeli olası yeniden platformlama kararlarını hazırlamasını zorunlu kılıyor. Phase 1 çıktısı, varsa önemli PSS/DCS replatforming kararı ile gerekli yakın vadeli aksiyonları yönetime ve denetim kuruluna sunacak. Bu ihale doğrudan sistem sağlayıcısı seçimi değildir; ancak 2027 baz yılıyla hazırlanacak dönüşüm programı öncesinde doğrulanmış bir PSS/DCS pre-RFP karar penceresidir.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Uzbekistan Airways Resmî Kurumsal RFP Dokümanı",
+      "url": "https://corp.uzairways.com/sites/default/files/inline-files/RFP__TZ.pdf",
+      "official": true,
+      "status": "Open / Pre-RFP",
+      "procurementType": "Invited transformation consulting RFP / PSS-DCS replatforming decision gate",
+      "commercialPriority": "P2",
+      "recommendation": "Partner",
+      "incumbent": "İhale dokümanı mevcut PSS/DCS sağlayıcısını kesin olarak tanımlamıyor; Amadeus Altéa, Sabre veya diğer platformlar değerlendirme örnekleri olarak anılıyor",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Resmî RFP, karar seviyesinde PSS/DCS incelemesini, yakın vadeli olası replatforming kararlarını ve bunlara ilişkin gerekli aksiyonları zorunlu Phase 1 çıktısı olarak tanımlıyor.",
+      "expectedDecisionDate": "Danışmanlık teklif son tarihi 30 Ekim 2026; PSS/DCS karar ve olası sistem ihale tarihi açıklanmadı",
+      "futureRationale": "RFP 2 Ekim 2026’da davetli danışmanlara dağıtıldı; 30 Ekim teklif, 5–6 Kasım sunum ve 16–17 Kasım kısa liste sunumları takvimiyle geleceğe dönük. Danışman mobilizasyonu sözleşme imzasından iki hafta sonra başlayacak.",
+      "qualificationNotes": "Bu aşamada teklif davetli, uluslararası havayolu dönüşüm danışmanlarına yöneliktir; doğrudan PSS/DCS ürün ihalesi değildir. Hitit için en uygun yol, davetli danışman ekosistemi ve Uzbekistan Airways IT/procurement karar sahipleriyle erken partner/account mapping yaparak Crane PAX ve Crane DCS’nin karar kriterlerine girmesini sağlamaktır. Mevcut PSS/DCS, sözleşme bitişi, karar takvimi ve ileride ayrı bir vendor RFP açılıp açılmayacağı ayrıca doğrulanmalıdır.",
+      "evidence": [
+        {
+          "date": "2026-10-02",
+          "type": "Official transformation RFP issued",
+          "detail": "Uzbekistan Airways resmî RFP’si, grup çapında tanı, strateji, beş yıllık iş planı ve dönüşüm programı için davetli uluslararası danışmanlardan teklif istiyor.",
+          "sourceUrl": "https://corp.uzairways.com/sites/default/files/inline-files/RFP__TZ.pdf"
+        },
+        {
+          "date": "2026-10-30",
+          "type": "Official PSS/DCS replatforming decision scope",
+          "detail": "Şartname, PSS/DCS platformuna ilişkin karar seviyesinde değerlendirme ile önemli yakın vadeli replatforming kararlarını ve gerekli aksiyonları Phase 1 çıktısı olarak zorunlu tutuyor.",
+          "sourceUrl": "https://corp.uzairways.com/sites/default/files/inline-files/RFP__TZ.pdf"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "Official forward procurement timetable",
+          "detail": "Teklif son tarihi 30 Ekim 2026; ilk sunumlar 5–6 Kasım, kısa liste sunumları 16–17 Kasım 2026. Mobilizasyon sözleşme imzasından iki hafta sonra başlayacak.",
+          "sourceUrl": "https://corp.uzairways.com/sites/default/files/inline-files/RFP__TZ.pdf"
         }
       ]
     }
