@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-09T01:30:01Z",
-  "sourcesScanned": 255,
+  "lastScan": "2026-10-09T02:28:17Z",
+  "sourcesScanned": 267,
   "opportunities": [
     {
       "id": "air-inter-region-france-regional-passenger-prelaunch-2027",
@@ -2751,6 +2751,71 @@
           "type": "Official forward procurement timetable",
           "detail": "Teklif son tarihi 30 Ekim 2026; ilk sunumlar 5–6 Kasım, kısa liste sunumları 16–17 Kasım 2026. Mobilizasyon sözleşme imzasından iki hafta sonra başlayacak.",
           "sourceUrl": "https://corp.uzairways.com/sites/default/files/inline-files/RFP__TZ.pdf"
+        }
+      ]
+    },
+    {
+      "id": "go-airline-bolivia-potosi-prelaunch-2026",
+      "title": "Go Airline – Bolivia Domestic Passenger Airline Pre-launch",
+      "organization": "Go Airline (Potosina Go Fly Airline spelling variant)",
+      "country": "Bolivia",
+      "category": "Airline Startup / Domestic Passenger Carrier",
+      "publishedDate": "2026-08-24",
+      "deadline": null,
+      "detectedAt": "2026-10-09T02:28:17Z",
+      "relevance": "Medium",
+      "summary": "Bolivya merkezli Go Airline, Potosí odaklı tarifeli yolcu operasyonu için DGAC lisans ve sertifikasyon sürecini sürdürüyor. Bayındırlık Bakanlığı ilk 90 koltuklu uçağın El Alto’ya ulaştığını ve şirketin izin sürecinin hükümetçe takip edildiğini açıkladı; yerel kaynaklar uçağın Cochabamba’ya teknik testler için taşındığını ve dört uçaklık filo planlandığını doğruluyor. Ticari başlangıç ve satış tarihi açıklanmadı; AOC henüz verilmedi ve PSS/IBE/DCS sağlayıcısı kamuya açıklanmadı. İlk uçağın ülkede bulunması ve teknik testlerin başlaması, sistem seçimi için ileriye dönük somut bir pre-launch penceresi oluşturuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Bolivya Bayındırlık, Hizmetler ve Konut Bakanlığı; Red Uno; La Patria",
+      "url": "https://www.facebook.com/mopsv.bolivia/videos/1745351333211257/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new domestic passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, W&B ve operasyon sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Somut eşik iki bağımsız unsurla karşılanıyor: resmî bakanlık açıklaması şirketin DGAC izin sürecini ve ilk uçağın Bolivya’da bulunduğunu teyit ediyor; yerel medya uçağın teknik testlere geçtiğini ve dört uçaklık filo planını aktarıyor. Bununla birlikte DGAC tarafından yayımlanmış AOC/sertifikasyon aşaması, doğrulanmış ticari başlangıç tarihi, uçak tescili ve mülkiyet/lease statüsü, finansman, satış kanalı ve teknoloji tedarikçisi bulunamadı. İlk temasta yasal şirket/AOC başvuru kimliği, Avro RJ100 operasyon planı, kesin filo, Potosí üs/rota programı ve PSS–DCS karar sahibi doğrulanmalıdır.",
+      "startupStage": "Pre-launch; first aircraft in Bolivia and technical testing reported, licensing/certification pending",
+      "targetLaunchDate": "Tarih açıklanmadı; ticari başlangıç DGAC sertifikasyon ve izinlerinin tamamlanmasına bağlı",
+      "aocStatus": "DGAC licensing/certification process in progress according to the Ministry; no issued AOC located",
+      "fleetPlan": "Four passenger aircraft planned; first aircraft in Bolivia has about 90 seats and is locally identified as an Avro RJ100, but registration and lease/ownership terms are not publicly confirmed",
+      "fundingStatus": "Private investment led by Potosí mining entrepreneur Edgar Copa is reported; amount and funding close are not publicly disclosed",
+      "evidence": [
+        {
+          "date": "2026-07-23",
+          "type": "Official government confirmation of aircraft and authorization process",
+          "detail": "Bolivya Bayındırlık, Hizmetler ve Konut Bakanlığı, Go Airline’ın ilk yolcu uçağıyla operasyon hazırlığı yaptığını ve gerekli izin süreçlerinin sürdüğünü açıkladı.",
+          "sourceUrl": "https://www.facebook.com/mopsv.bolivia/videos/1745351333211257/"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "Independent local cross-check of fleet and certification status",
+          "detail": "La Patria, bakanlık bilgilerine dayanarak ilk yaklaşık 90 koltuklu uçağın El Alto’da olduğunu, dört uçaklık filo planını ve DGAC yetkilendirmesinin henüz tamamlanmadığını bildirdi.",
+          "sourceUrl": "https://lapatria.bo/enfoque-nacional/gestion/go-airline-avanza-autorizacion-operar-bolivia/"
+        },
+        {
+          "date": "2026-09-18",
+          "type": "Aircraft technical testing and pre-launch readiness",
+          "detail": "Red Uno, ilk uçağın Cochabamba’ya teknik testler için taşındığını ve şirketin ticari uçuşlardan önce sertifikasyon ile izinleri tamamlaması gerektiğini bildirdi.",
+          "sourceUrl": "https://www.reduno.com.bo/nacional/mas-opciones-para-viajar-go-airline-acelera-sus-tramites-y-ya-prueba-su-primera-aeronave-2026918114032"
         }
       ]
     }
