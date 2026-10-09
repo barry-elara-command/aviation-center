@@ -1,8 +1,75 @@
 {
   "version": 1,
-  "lastScan": "2026-10-09T04:25:40Z",
-  "sourcesScanned": 275,
+  "lastScan": "2026-10-09T05:11:22Z",
+  "sourcesScanned": 284,
   "opportunities": [
+    {
+      "id": "mister-air-romania-b757-cargo-operations-launch-2026",
+      "title": "Mister Air – B757-200PCF ile Kendi Kargo Operasyonlarının Lansmanı",
+      "organization": "Mister Air Transport S.R.L.",
+      "country": "Romania (operational base: Łódź, Poland)",
+      "category": "Airline Startup / Dedicated Air Cargo Operations",
+      "publishedDate": "2026-10-06",
+      "deadline": null,
+      "detectedAt": "2026-10-09T05:11:22Z",
+      "relevance": "High",
+      "summary": "Romanya merkezli Mister Air Transport, AerSale'den kiraladığı Boeing 757-200PCF ile daha önce üçüncü taraflardan kiraladığı kapasite modelinden kendi AOC'si ve kendi ekipleriyle doğrudan kargo uçuşlarına geçiyor. AerSale'in resmî açıklamasına göre uçak Ekim 2026'da gelir operasyonuna girecek; Łódź merkezli ağ Orta ve Doğu Avrupa üretim/e-ticaret merkezleri, paket programları ve küresel özel kargo görevlerini hedefliyor. Canlı gelir operasyonunun başladığı henüz doğrulanmadı ve cargo reservation/OCC/WB sağlayıcıları açıklanmadı; bu nedenle çok yakın vadeli bir Crane CGO ve operasyon sistemleri fırsatıdır.",
+      "products": [
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "AerSale Corporation resmî yatırımcı duyurusu; Mister Air resmî sitesi; Romanian Civil Aeronautical Authority kayıtları; yerel Profit.ro",
+      "url": "https://ir.aersale.com/news-releases/news-release-details/aersaler-leases-757-200pcf-freighter-mister-air-its-specialized",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / own-AOC cargo operations and airline-system setup",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": "AerCommerce operasyonları yönetiyor ve mevcut kargo müşteri tabanını sağlıyor; Mister Air'in cargo reservation, capacity/rate management, OCC, crew ve Weight & Balance sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Not applicable – cargo-only operation; cargo reservation platform unknown",
+      "incumbentDcs": "Not applicable / Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – launch of own flight operations",
+      "qualificationNotes": "Birincil karşı taraf AerSale, Mister Air'e bir B757-200PCF kiralandığını, taşıyıcının Romanya AOC'si ve kendi ekipleriyle üçüncü taraf kapasite kiralama modelinden kendi uçuş operasyonuna geçtiğini ve uçağın Ekim 2026'da gelir hizmetine girmesinin beklendiğini doğruluyor. Mister Air'in resmî sitesi tüzel kimliği ve AerCommerce ile charter temasını gösteriyor; yerel Romanya kaynağı şirketin AACR tarafından Mart 2024'te sertifikalandığını ve ilk 757'nin Romanya tesciline alındığını bildiriyor. Kesin ilk gelir uçuşu günü, rotalar/schedule, ikinci uçak takvimi ve teknoloji sağlayıcıları açıklanmadı. Operasyon çok yakın olduğundan kararın ilerlemiş olma riski yüksektir; CEO Ireneusz Dylczyk ve AerCommerce operasyon ekibine acil temasla CGO build-vs-buy durumu, AWB/rate/capacity yönetimi, charter-scheduled iş modeli, müşteri/forwarder portalı, mesajlaşma, WB, OCC ve crew ihtiyaçları doğrulanmalıdır.",
+      "startupStage": "AOC-certified cargo carrier transitioning from chartered third-party capacity to own-aircraft operations; first revenue service not yet publicly confirmed",
+      "targetLaunchDate": "October 2026 (official lessor expectation; exact date not announced)",
+      "aocStatus": "Romanian AOC confirmed by AerSale and local certification reporting; exact AOC number and current operations specifications not located in a directly accessible regulator record",
+      "fleetPlan": "One leased Boeing 757-200PCF, registration reported as YR-AEA, to enter revenue service in October 2026; additional medium-haul freighters planned without disclosed delivery dates",
+      "fundingStatus": "Aircraft lease confirmed by AerSale; AerCommerce identified as significant shareholder and operating manager, but investment and financing terms are not public",
+      "futureRationale": "Own-aircraft revenue service is expected later in October 2026 and has not yet been publicly confirmed as commenced; technology providers for the new operating model remain undisclosed.",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "type": "Official aircraft lease and future revenue-service confirmation",
+          "detail": "AerSale announced the lease of a Boeing 757-200PCF to Mister Air and stated that the aircraft is expected to enter revenue service in October 2026.",
+          "sourceUrl": "https://ir.aersale.com/news-releases/news-release-details/aersaler-leases-757-200pcf-freighter-mister-air-its-specialized"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "Official AOC and operating-model confirmation",
+          "detail": "AerSale states that the aircraft will launch Mister Air's own operations under its Romanian AOC and own crews, replacing reliance on chartered capacity.",
+          "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/06/3375575/0/en/aersale-leases-757-200pcf-freighter-to-mister-air-for-its-specialized-cargo-network.html"
+        },
+        {
+          "date": null,
+          "type": "Official company identity and commercial-channel confirmation",
+          "detail": "Mister Air's official site identifies Mister Air Transport S.R.L. at the OTP Cargo Terminal and directs charter requests to AerCommerce.",
+          "sourceUrl": "https://www.misterair.ro/"
+        },
+        {
+          "date": "2026-10-09",
+          "type": "Independent local certification and aircraft-registration confirmation",
+          "detail": "Romanian business press reports that Mister Air was certified by the Romanian Civil Aeronautical Authority in March 2024 and is preparing to launch with Romania's first registered Boeing 757 freighter.",
+          "sourceUrl": "https://www.profit.ro/povesti-cu-profit/auto-transporturi/foto-noua-companie-aeriana-in-romania-primul-boeing-757-inmatriculat-in-romania-de-mister-air-transport-care-pregateste-lansarea-operatiunilor-22810244"
+        }
+      ]
+    },
     {
       "id": "magnifica-air-us-premium-passenger-prelaunch-2027",
       "title": "Magnifica Air – ABD Premium Tarifeli Yolcu Havayolu Lansmanı",
