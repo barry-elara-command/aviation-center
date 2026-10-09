@@ -4,6 +4,70 @@
   "sourcesScanned": 284,
   "opportunities": [
     {
+      "id": "jcas-airways-japan-regional-launch-2027",
+      "title": "JCAS Airways – Japonya Bölgesel Havayolu Lansmanı",
+      "organization": "JCAS Airways Co., Ltd. (株式会社ジェイキャスエアウェイズ)",
+      "country": "Japan",
+      "category": "Airline Startup / Regional Passenger Airline",
+      "publishedDate": "2026-06-19",
+      "deadline": null,
+      "detectedAt": "2026-10-09T19:00:00Z",
+      "relevance": "Medium",
+      "summary": "JCAS Airways, ilk tarifeli uçuş planını sürdürülebilir ve güvenli operasyon yapısını tamamlamak amacıyla 2027’ye ertelediğini resmî olarak açıkladı. ATR72-600 için leasing niyet anlaşması ve açıklanmış finansman somut hazırlığı destekliyor. Taşıyıcı henüz satışa veya ticari operasyona başlamadı; PSS, IBE, DCS, Weight & Balance, OCC ve Crew sağlayıcıları kamuya açıklanmadı. Bu nedenle 2027 hazırlığı Crane için somut bir erken sistem-seçim penceresidir.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "JCAS Airways; ATR ve Avation; JCAS yatırım duyurusu",
+      "url": "https://www.jcas.co.jp/%E5%B0%B1%E8%88%AA%E4%BA%88%E5%AE%9A%E6%99%82%E6%9C%9F%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / regional airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, DCS, IBE, OCC and Weight & Balance providers not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new airline launch",
+      "qualificationNotes": "Resmî duyuru 2027 operasyon hedefini doğruluyor; kesin ay/gün açıklanmadı. ATR/Avation duyurusu ATR72-600 leasing niyet anlaşmasını, JCAS duyurusu finansman hazırlığını gösteriyor. AOC/işletme ruhsatının verildiğine dair erişilebilir resmî Japon otorite kaydı bulunamadı. İlk temasta sertifikasyon ve ilk-hat takvimi, uçak teslimi, satış/distribution modeli, DCS/WB/OCC gereksinimleri ve teknoloji karar sahibi teyit edilmelidir.",
+      "startupStage": "Pre-launch regional passenger airline; launch postponed to 2027",
+      "targetLaunchDate": "2027 (specific date not announced)",
+      "aocStatus": "Application/preparation status not publicly confirmed",
+      "fleetPlan": "ATR72-600 lease letter of intent announced; delivery and final lease execution not publicly disclosed",
+      "fundingStatus": "JPY 300 million Pre-Series A first-close financing announced",
+      "futureRationale": "First commercial service is officially deferred to 2027; sales and operations have not begun and core airline technology suppliers are not publicly disclosed.",
+      "evidence": [
+        {
+          "date": "2026-06-19",
+          "type": "Official future-launch confirmation",
+          "detail": "JCAS changed its planned first service from autumn 2026 to 2027; no specific 2027 start date was announced.",
+          "sourceUrl": "https://www.jcas.co.jp/%E5%B0%B1%E8%88%AA%E4%BA%88%E5%AE%9A%E6%99%82%E6%9C%9F%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "Fleet preparation",
+          "detail": "ATR and Avation announced a letter of intent to lease ATR72-600 aircraft to JCAS; KIX–Toyama and KIX–Yonago were identified as planned initial routes.",
+          "sourceUrl": "https://www.atr-aircraft.com/wp-content/uploads/2024/07/2024.07.25-ATR-Avation-JCAS-EN.pdf"
+        },
+        {
+          "date": "2024-07-18",
+          "type": "Funding and certification preparation",
+          "detail": "JCAS announced JPY 300 million Pre-Series A first-close funding and said aircraft procurement and authority discussions toward business approval were advancing.",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000139566.html"
+        }
+      ]
+    },
+    {
       "id": "mister-air-romania-b757-cargo-operations-launch-2026",
       "title": "Mister Air – B757-200PCF ile Kendi Kargo Operasyonlarının Lansmanı",
       "organization": "Mister Air Transport S.R.L.",
