@@ -1,8 +1,81 @@
 {
   "version": 1,
-  "lastScan": "2026-10-09T02:28:17Z",
-  "sourcesScanned": 267,
+  "lastScan": "2026-10-09T04:25:40Z",
+  "sourcesScanned": 275,
   "opportunities": [
+    {
+      "id": "magnifica-air-us-premium-passenger-prelaunch-2027",
+      "title": "Magnifica Air – ABD Premium Tarifeli Yolcu Havayolu Lansmanı",
+      "organization": "Magnifica Air",
+      "country": "United States",
+      "category": "Airline Startup / Premium Scheduled Passenger Services",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-09T04:25:40Z",
+      "relevance": "Medium",
+      "summary": "Magnifica Air, ABD'de FAA Part 121 kapsamında premium tarifeli yolcu operasyonlarını 2027'de başlatmaya hazırlanıyor. Şirket ve Air Lease, dört A220-300 ile iki A321neo için uzun vadeli kira sözleşmelerini ve 2027 teslimatlarını doğruluyor; ilk ACJ321neo iç donanım tamamlamasında. Güncel şirket işe alımları ticari lansman kapsamında rezervasyon sistemi uygulamasını, PSS, loyalty, müşteri web/mobil, uçuş operasyonu, dispatch, crew scheduling/rostering ve gelir muhasebesi entegrasyonlarını açıkça tanımlıyor. Canlı satış ve ticari operasyon başlamadı; teknoloji sağlayıcıları açıklanmadığından somut ve ileriye dönük sistem-seçim fırsatıdır.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Magnifica Air resmî sitesi ve kariyer portalı; Air Lease resmî filo duyurusu; Private Jet Card Comparisons",
+      "url": "https://magnifica-air.oasisrecruit.com/job/1048557/airline-project-manager",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / airline technology implementation",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, DCS, IBE, loyalty, OCC ve crew sağlayıcıları kamuya açıklanmadı; şirket üçüncü taraf rezervasyon ve operasyon sistemlerinin uygulamasını yürütmek üzere teknoloji/proje kadrosu kuruyor",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Fırsat iki güçlü somut katmanla doğrulanmıştır: (1) Magnifica Air ve Air Lease, altı yeni Airbus uçağı için uzun vadeli kira sözleşmelerini ve 2027 teslimatlarını duyurmuştur; şirket ayrıca CIG Companies desteğini açıklamıştır. (2) Şirketin güncel işe alımları rezervasyon sistemi uygulaması ile PSS, loyalty, web/mobil, uçuş operasyonu, dispatch, crew scheduling/rostering ve gelir muhasebesi/ticketing entegrasyonlarını lansman hazırlığının açık iş paketleri olarak tanımlar. 8 Ekim 2026 tarihli bağımsız güncelleme ilk ACJ321neo'nun hâlen iç donanım/operasyonel hazırlık aşamasında olduğunu doğrular. FAA Part 121 sertifikasının güncel aşaması, kesin ilk satış ve uçuş tarihi, tedarik sürecinin biçimi ve seçilmiş teknoloji sağlayıcıları açıklanmamıştır. İlk temas Head of Technology–Commercial, Technology Lead Analyst ve Airline Project Manager karar hattına; PSS/DCS seçimi, ultra-premium üyelik/fiyatlama modeli, özel terminal süreçleri, web/mobil kişiselleştirme, disruption recovery ve A220/A321neo WB/OCC kapsamına yönelmelidir.",
+      "startupStage": "Pre-launch; aircraft, certification, operational-readiness and airline-system implementation work under way; commercial sales and scheduled flights not started",
+      "targetLaunchDate": "2027 (official company target; exact sales opening and first-flight date not announced)",
+      "aocStatus": "FAA Part 121 operating model and certification work are stated; Air Carrier Certificate grant not publicly confirmed",
+      "fleetPlan": "Six new Airbus aircraft under long-term Air Lease agreements—four A220-300s and two A321-200neos scheduled for 2027 delivery; first ACJ321neo reported in interior completion",
+      "fundingStatus": "Company states backing from CIG Companies; long-term aircraft lease agreements confirmed, but financing terms and funding close are not publicly disclosed",
+      "futureRationale": "2027 launch remains ahead; commercial sales and scheduled operations have not started, while current official recruitment explicitly covers reservation-system and broader airline-platform implementation.",
+      "evidence": [
+        {
+          "date": "2025-10-14",
+          "type": "Official fleet and future-launch commitment",
+          "detail": "Magnifica Air and Air Lease announced long-term leases for four A220-300s and two A321-200neos, with deliveries and airline launch planned for 2027.",
+          "sourceUrl": "https://magnificaair.com/air-lease-announces-lease-placement-of-six-new-airbus-aircraft-with-magnifica-air-2/"
+        },
+        {
+          "date": null,
+          "type": "Official reservation-system implementation signal",
+          "detail": "The current Airline Project Manager vacancy assigns responsibility for commercial-launch readiness, vendor contractual delivery and reservation-system implementation.",
+          "sourceUrl": "https://magnifica-air.oasisrecruit.com/job/1048557/airline-project-manager"
+        },
+        {
+          "date": null,
+          "type": "Official airline-platform implementation signal",
+          "detail": "The current Technology Lead Analyst vacancy covers PSS, flight operations and dispatch, crew scheduling and rostering, revenue-accounting/ticketing integrations, loyalty, customer web and mobile apps, and external-vendor implementations.",
+          "sourceUrl": "https://magnifica-air.oasisrecruit.com/job/999443/technology-lead-analyst"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "Independent current operational-readiness confirmation",
+          "detail": "A current industry update reports that the first ACJ321neo remains in interior completion and that the company still has substantial pre-launch work ahead.",
+          "sourceUrl": "https://privatejetcardcomparisons.com/2026/10/08/magnifica-air-celebrates-first-anniversary-after-opening-for-business/"
+        }
+      ]
+    },
     {
       "id": "air-inter-region-france-regional-passenger-prelaunch-2027",
       "title": "Air Inter Région – France Regional Passenger Airline Launch",
