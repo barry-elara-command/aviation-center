@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-08T22:17:54Z",
-  "sourcesScanned": 233,
+  "lastScan": "2026-10-09T00:33:42Z",
+  "sourcesScanned": 245,
   "opportunities": [
     {
       "id": "air-inter-region-france-regional-passenger-prelaunch-2027",
@@ -2635,6 +2635,67 @@
           "type": "Direct fleet and future launch target",
           "detail": "Fiscal Nepal quotes CEO Abhishek Man Shrestha saying three ATR 72-600 aircraft were in the final selection/acquisition stage and commercial launch was targeted for Kartik 2083, approximately October–November 2026.",
           "sourceUrl": "https://www.fiscalnepal.com/2026/07/26/27155/danfe-airlines-set-to-begin-atr-72-600-operations-by-dashain-tihar/"
+        }
+      ]
+    },
+    {
+      "id": "srilankan-ndc-offer-order-pss-transition-cpit-icb-05-25",
+      "title": "New Distribution Capability (NDC) Service Provider – CPIT/ICB/05/25",
+      "organization": "SriLankan Airlines",
+      "country": "Sri Lanka",
+      "category": "Airline Distribution / NDC / Offer & Order / PSS Transition",
+      "publishedDate": null,
+      "deadline": "2026-12-07",
+      "detectedAt": "2026-10-09T00:33:42Z",
+      "relevance": "High",
+      "summary": "SriLankan Airlines, beş yıllık New Distribution Capability (NDC) hizmeti için resmî uluslararası rekabetçi ihale açtı. Kapsam; NDC API ve shopping çözümü, B2T acente rezervasyon/servis portalı, teklif-fiyatlama-merchandising kontrolü, sürekli fiyatlama, değişiklik/iptal/iade ve ancillary servisi, loyalty entegrasyonu ile acente performans analitiğini içeriyor. Çözümün mevcut PSS’ye acil yükseltme olmadan bağlanması ve sözleşme süresinde farklı bir PSS’ye veya yeni Offer–Order Management System yapısına kesintisiz geçişi desteklemesi zorunlu. Bu ifade doğrulanmış bir PSS/Offer–Order dönüşüm sinyali ve Crane PAX–IBE–LL–CCL–BPI için ileriye dönük giriş penceresidir; PSS değişim tarihi açıklanmadı.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "SriLankan Airlines Resmî İhale Dokümanı",
+      "url": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf",
+      "official": true,
+      "status": "Open",
+      "procurementType": "International Competitive Bidding (ICB) / NDC and future Offer–Order/PSS transition",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": "Mevcut PSS sağlayıcısı ihale dokümanında açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Resmî şartname, beş yıllık hizmet döneminde farklı bir PSS’ye veya yeni Offer–Order Management System yapısına kesintisiz geçiş desteğini açıkça zorunlu kılıyor; PSS değişim tarihi ve ayrı PSS ihalesi henüz açıklanmadı.",
+      "expectedDecisionDate": "Teklif son tarihi 2026-12-07; ihale kararı ve uygulama başlangıç tarihi açıklanmadı",
+      "futureRationale": "12 Ekim 2026 teklif katılım teyidi/NDA, 15 Ekim 2026 pre-bid toplantısı, 2 Aralık 2026 soru son tarihi ve 7 Aralık 2026 nihai teklif son tarihi gelecekteki somut aksiyon penceresini doğruluyor.",
+      "qualificationNotes": "İlk kapı çok yakın: imzalı teklif katılım formu ve NDA 12 Ekim 2026 saat 10:00’a kadar gönderilmeli. Pre-bid toplantısı 15 Ekim 2026 13:30’da, açıklama soruları 2 Aralık 2026’ya kadar, teknik ve mali teklifler 7 Aralık 2026 saat 10:00’a kadar sunulmalı (Sri Lanka saati). Geçerli IATA NDC API sertifikası v19.2 veya üzeri zorunlu; teknik teklif T2RL ProcureIT üzerinden veriliyor. SriLankan tesisinde ürün demosu ve teklif sahibi maliyetine POC istenebilir. Hitit’in güncel NDC sertifikası, kapsam uyumu ve gerekirse partner modeli teklif katılımından önce iç teyide bağlanmalıdır.",
+      "evidence": [
+        {
+          "date": "2026-10-12",
+          "type": "Official bid-entry milestone",
+          "detail": "Resmî ihale dokümanı, teklif katılım teyidi ve imzalı NDA için 12 Ekim 2026 saat 10:00 son tarihini; 15 Ekim 2026 için çevrimiçi pre-bid toplantısını belirliyor.",
+          "sourceUrl": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf"
+        },
+        {
+          "date": "2026-12-07",
+          "type": "Official final proposal deadline and scope",
+          "detail": "Teknik ve mali tekliflerin son tarihi 7 Aralık 2026 saat 10:00. Kapsam NDC API/shopping, B2T acente portalı, merchandising, sürekli fiyatlama, tam servis ve loyalty entegrasyonunu içeriyor.",
+          "sourceUrl": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf"
+        },
+        {
+          "date": "2026-12-07",
+          "type": "Official future PSS/Offer–Order transition signal",
+          "detail": "Şartname, çözümün mevcut PSS’ye acil yükseltme olmadan bağlanmasını ve beş yıllık dönemde farklı bir PSS’ye veya yeni Offer–Order Management System yapısına kesintisiz geçişi desteklemesini zorunlu tutuyor.",
+          "sourceUrl": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf"
+        },
+        {
+          "date": "2026-12-07",
+          "type": "Mandatory qualification",
+          "detail": "Teklif sahibinin IATA NDC API sertifikası v19.2 veya üzeri olmalı; kanıt, teknik teklif ve demo/olası POC yükümlülükleriyle birlikte sunulmalı.",
+          "sourceUrl": "https://www.srilankan.com/download/tender/TN-Tenderfortheselectio-20260928094319383.pdf"
         }
       ]
     }
