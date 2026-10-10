@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-09T05:11:22Z",
-  "sourcesScanned": 284,
+  "lastScan": "2026-10-10T02:46:54Z",
+  "sourcesScanned": 292,
   "opportunities": [
     {
       "id": "jcas-airways-japan-regional-launch-2027",
@@ -2540,13 +2540,11 @@
       "deadline": null,
       "detectedAt": "2026-10-07T23:01:20Z",
       "relevance": "Medium",
-      "summary": "AVi8 Airways, Güneydoğu Asya odaklı yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak ticari operasyonlara Mayıs 2027’de başlamayı hedeflediğini duyurdu. Şirketin doğrulanmış LinkedIn sayfası operasyon tarihini açıklarken, Southern Vision Investment’ın 8 Eylül 2026’da duyurulan stratejik yatırımı sertifikasyon ve ilk ticari operasyon hazırlıkları için finansman sağlıyor. A320 ailesi yolcu/charter; A321F ve A330F ise kargo için planlanıyor. Ticari operasyon, AOC ve teknoloji sağlayıcıları henüz açıklanmadığından, kayıt yalnız geleceğe dönük sertifikasyon ve sistem-seçim penceresine dayanır.",
+      "summary": "AVi8 Airways, Güneydoğu Asya odaklı yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak 2027’de ticari operasyona başlamayı hedefliyor; şirketin daha önce verdiği Mayıs 2027 hedefi düzenleyici onaya bağlı. Southern Vision Investment yatırımı filo ve AOC hazırlığını destekliyor. Şirket ayrıca GeoSpatios ile, Air-OS tabanlı Thayer AI:OS operasyon platformunu seçtiğini açıkladı; kapsam dispatch/rota planlama, crew scheduling, kestirimci bakım, IROPs recovery ve hava durumu zekâsını içeriyor. Bu nedenle OCC, Crew ve Schedule Planning artık açık Crane fırsatı sayılmıyor; PSS/IBE/DCS, kargo rezervasyon ve iş performansı sağlayıcıları ise kamuya açıklanmadığı için ileriye dönük seçim alanı sürüyor.",
       "products": [
         "Crane PAX - Passenger Services System",
         "Crane IBE - Internet Booking Engine",
         "Crane DCS - Departure Control System",
-        "Crane OCC - Operations Control Center",
-        "Crane Crew Management",
         "Crane CGO - Reservation & Cargo Services",
         "Crane BPI - Business Performance Index"
       ],
@@ -2557,13 +2555,13 @@
       "procurementType": "Pre-launch / new ACMI, cargo and passenger airline",
       "commercialPriority": "P2",
       "recommendation": "Pursue",
-      "incumbent": "PSS, DCS, cargo ve OCC sağlayıcıları kamuya açıklanmadı",
+      "incumbent": "GeoSpatios / Thayer AI:OS (Air-OS tabanlı; dispatch ve rota planlama, crew scheduling, predictive maintenance, IROPs recovery ve weather intelligence için resmen açıklandı). PSS, IBE, DCS ve cargo rezervasyon sağlayıcıları kamuya açıklanmadı.",
       "incumbentPss": "Unknown",
       "incumbentDcs": "Unknown",
-      "incumbentConfidence": "Unknown",
+      "incumbentConfidence": "Confirmed for operations/crew/dispatch stack; Unknown for PSS, IBE, DCS and cargo reservations",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – pre-launch carrier",
-      "qualificationNotes": "Kayıt iki bağımsız somut sinyale dayanır: AVi8’in doğrulanmış şirket sayfası Mayıs 2027 operasyon başlangıç hedefini açıklar; bağımsız sektör kaynağı 8 Eylül 2026’da SVI stratejik yatırımının sertifikasyon ve 2027 ticari hazırlıkları için sağlandığını doğrular. AOC başvurusu/tescili, kesin operasyon ülkesi, uçak teslim/kiralama sözleşmeleri, müşteri taahhütleri ve teknoloji kararı henüz kamuya açıklanmadı. İlk temas, AOC yargı alanı ve takvimi, cargo-first fazının rezervasyon/waybill ihtiyaçları, ardından planlanan yolcu PSS/IBE/DCS kapsamı, ACMI partner entegrasyonları ve karar sahibi üzerinde olmalıdır.",
+      "qualificationNotes": "Kayıt geleceğe dönük 2027 ticari lansmanına, AOC ve filo hazırlıklarını destekleyen stratejik yatırıma dayanır. AVi8’in resmî LinkedIn sayfası GeoSpatios ile Air-OS tabanlı Thayer AI:OS operasyon platformunu seçtiğini de açıklamaktadır; dispatch/rota planlama, crew scheduling, predictive maintenance, IROPs recovery ve weather intelligence bu sağlayıcı kapsamında olduğundan Crane OCC, Crew ve Schedule Planning bu kayıttan çıkarılmıştır. PSS/IBE/DCS ve cargo rezervasyon sağlayıcıları hâlâ açıklanmadı. İlk temas, AOC ve kesin lansman takvimiyle birlikte cargo-first fazının rezervasyon/waybill ihtiyacı ve sonraki yolcu PSS/IBE/DCS kapsamına odaklanmalıdır.",
       "startupStage": "Pre-launch airline; commercial operations not yet started",
       "targetLaunchDate": "May 2027 (company target; regulatory approval dependent)",
       "aocStatus": "AOC application, certificate or operating specifications not publicly confirmed",
@@ -2581,6 +2579,12 @@
           "type": "Independent strategic-financing confirmation",
           "detail": "Aviation News Online reports SVI's strategic investment to support the startup's 2027 commercial launch, with A320-family passenger aircraft and A321F/A330F freighter plans.",
           "sourceUrl": "https://www.aviationnews-online.com/public/index.php/article/southern-vision-investment-takes-strategic-stake-in-avi8-airways"
+        },
+        {
+          "date": "2026-09 (gün açıklanmadı)",
+          "type": "Official technology supplier selection",
+          "detail": "AVi8 Airways, GeoSpatios ile Air-OS tabanlı Thayer AI:OS platformunu geliştirdiğini açıkladı; kapsam dispatch ve rota planlama, crew scheduling, predictive maintenance, IROPs recovery ve weather intelligence içeriyor.",
+          "sourceUrl": "https://www.linkedin.com/company/avi8-airways"
         }
       ]
     },
