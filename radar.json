@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T02:46:54Z",
-  "sourcesScanned": 292,
+  "lastScan": "2026-10-10T09:29:26Z",
+  "sourcesScanned": 300,
   "opportunities": [
     {
       "id": "jcas-airways-japan-regional-launch-2027",
@@ -2364,7 +2364,7 @@
     },
     {
       "id": "siam-wings-airlines-thailand-new-aoc-2026",
-      "title": "Siam Wings Airlines – New AOC / Pre-launch Widebody Carrier",
+      "title": "Siam Wings Airlines – Aktif AOC / Ticari Lansman Öncesi",
       "organization": "Siam Wings Airlines Co., Ltd.",
       "country": "Thailand",
       "category": "Multi-product",
@@ -2372,7 +2372,7 @@
       "deadline": null,
       "detectedAt": "2026-09-29T10:20:00Z",
       "relevance": "Medium",
-      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Siam Wings Airlines'ın AOC başvurusunu “On Process” olarak listeliyor. U-Tapao Rayong–Pattaya Uluslararası Havalimanı, taşıyıcının Airbus A330-200 uçağının 28 Temmuz 2026'da Antalya'dan U-Tapao'ya ilk gelişini resmî olarak duyurdu. SHE ICAO kodu ve kabin ekibi işe alım sinyalleri operasyon hazırlığını destekliyor. Bilet satışı/ticari başlangıç ve PSS/DCS sağlayıcısı kamuya açık kaynaklarda doğrulanmadığından kayıt P2 pre-launch fırsatı olarak değerlendirildi.",
+      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Siam Wings Airlines'a AOC.0038 numaralı işletme sertifikasını 24 Eylül 2026'da verdi; sertifika 23 Eylül 2031'e kadar aktif. Airbus A330-200'ün U-Tapao'ya konumlandırılması, ICAO SHE kodu ve kabin ekibi işe alımı operasyon hazırlığını destekliyor. Ancak bilet satışı/ticari başlangıç ve PSS/DCS sağlayıcısı kamuya açık kaynaklarda doğrulanmadı; bu nedenle kayıt lansman öncesi P2 fırsat olarak korunuyor.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -2383,22 +2383,22 @@
       "url": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/",
       "official": true,
       "status": "Pre-RFP",
-      "procurementType": "Startup Airline / New AOC",
+      "procurementType": "Startup Airline / AOC Issued / Pre-launch",
       "commercialPriority": "P2",
       "recommendation": "Pursue",
       "incumbent": "PSS/DCS provider not publicly disclosed",
       "incumbentPss": "Unknown",
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
-      "qualificationNotes": "AOC süreci resmî CAAT kaydında devam ediyor; Airbus A330-200'ün U-Tapao'ya gelişi havalimanının resmî duyurusuyla doğrulandı. ICAO SHE kodu ve işe alım faaliyetleri ek operasyon hazırlığı sinyalleri sağlıyor. Ancak AOC henüz verilmedi, ticari uçuş/satış başlangıç tarihi ve teknoloji tedarik modeli açıklanmadı. İlk temas AOC takvimi, uçağın lease/tescil statüsü, charter/scheduled iş modeli, PSS-DCS-IBE-W&B seçim yöntemi, hedef go-live ve government messaging gereksinimlerini doğrulamaya odaklanmalıdır.",
-      "startupStage": "AOC certification in process; aircraft positioned; pre-launch",
-      "aocStatus": "CAAT lists Siam Wings Airlines as AOC On Process",
+      "qualificationNotes": "CAAT resmî sicili AOC.0038'in 24 Eylül 2026'da verildiğini ve 23 Eylül 2031'e kadar aktif olduğunu doğruluyor. Airbus A330-200 U-Tapao'ya konumlandırılmış, ICAO SHE kodu atanmış ve işe alım yapılmış durumda. Buna karşın ticari uçuş veya bilet satış başlangıcı ile PSS-DCS-IBE-W&B sağlayıcısı açıklanmadı. İlk temas kesin go-live, charter/scheduled iş modeli, uçağın lease/tescil durumu, dağıtım kanalları ve sistem seçim takvimini doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC issued and active; aircraft positioned; commercial launch not yet verified",
+      "aocStatus": "CAAT AOC.0038 active; issued 24 Sep 2026; valid until 23 Sep 2031",
       "fleetPlan": "Airbus A330-200 positioned at U-Tapao; broader fleet plan not publicly verified",
       "evidence": [
         {
-          "date": "2026-09-28",
+          "date": "2026-09-24",
           "type": "Official AOC register",
-          "detail": "CAAT public certificate-status register lists Siam Wings Airlines Company Limited as AOC On Process.",
+          "detail": "CAAT public certificate-status register lists Siam Wings Airlines Company Limited as Active under AOC.0038, issued 24 September 2026 and valid until 23 September 2031.",
           "sourceUrl": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/"
         },
         {
