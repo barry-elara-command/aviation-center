@@ -1,8 +1,68 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T11:07:40Z",
-  "sourcesScanned": 313,
+  "lastScan": "2026-10-10T12:07:44Z",
+  "sourcesScanned": 317,
   "opportunities": [
+    {
+      "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
+      "title": "Air Inter Transport / Asia Line Cargo – AOC Yeniden Aktivasyon ve Kargo Relaunch",
+      "organization": "Air Inter Transport Company Limited (Budget Lines / Asia Line Cargo)",
+      "country": "Thailand",
+      "category": "Airline Relaunch / All-cargo Airline",
+      "publishedDate": "2026-08-13",
+      "deadline": null,
+      "detectedAt": "2026-10-10T12:07:44Z",
+      "relevance": "Medium",
+      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Air Inter Transport Company Limited'i AOC.0028 altında “On Process resume to Active” statüsünde listeliyor; taşıyıcı henüz aktif operatör sicilinde değil. Ağustos 2026 tarihli işe alım ilanı, Asia Line Cargo markası altında Boeing 737 kargo operasyonu için kaptan ve yardımcı pilot arandığını ve bölgesel ağ genişleme planını gösteriyor. Kesin yeniden lansman tarihi ile CGO, OCC, Weight & Balance, Crew ve Schedule Planning sağlayıcıları kamuya açıklanmadı.",
+      "products": [
+        "Crane CGO - Cargo Management System",
+        "Crane OCC - Operations Control Center",
+        "Crane WB - Weight & Balance",
+        "Crane CREW - Crew Management",
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Civil Aviation Authority of Thailand (CAAT); Air Inter Transport; Asia Line Cargo recruitment notice",
+      "url": "https://www.airintertransport.com/route",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Relaunch / AOC reactivation / Cargo airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Cargo management, OCC, Weight & Balance, Crew and Schedule Planning providers not publicly disclosed",
+      "incumbentPss": "Not applicable / cargo-only operation",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – inactive carrier preparing to resume operations",
+      "qualificationNotes": "CAAT'ın güncel resmî sicili AOC.0028'i aktif operatörler arasında değil, “On Process resume to Active” aşamasında gösteriyor. Ağustos 2026 pilot alımı, kargo operasyonunun yeniden kurulmasına ilişkin somut hazırlık sinyalidir. Şirket siteleri mevcut hizmet ve rota kabiliyetlerini tanıtsa da CAAT statüsü fiilî aktif AOC operasyonunu doğrulamıyor. Kesin yeniden başlama tarihi, başlangıç uçak tipi ve tescili, ilk gelir uçuşu, satış/rezervasyon modeli ve teknoloji karar takvimi açıklanmadı; işe alım kaynaklarında B737-400SF ve B737-800 ifadeleri çeliştiğinden filo tipi doğrulanmadan kullanılmamalıdır.",
+      "startupStage": "AOC reactivation in process; cargo relaunch preparation and pilot recruitment",
+      "targetLaunchDate": "Tarih açıklanmadı",
+      "aocStatus": "CAAT lists AOC.0028 as On Process resume to Active; not listed as Active",
+      "fleetPlan": "Boeing 737 freighter pilot recruitment is public; exact variant, aircraft registration, delivery/induction date and quantity are not consistently confirmed",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "CAAT taşıyıcıyı aktif değil, aktif statüye dönüş sürecinde gösteriyor; 2026 pilot alımı da operasyonun gelecekte yeniden başlatılması için hazırlık yapıldığını doğruluyor. Temel kargo ve operasyon sistemi sağlayıcıları açıklanmadı.",
+      "evidence": [
+        {
+          "date": "2026-10-10",
+          "type": "Official AOC reactivation status",
+          "detail": "CAAT public certificate-status register lists Air Inter Transport Company Limited, AOC.0028, under On Process with status “On Process resume to Active”; it is not listed under Active operators.",
+          "sourceUrl": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/"
+        },
+        {
+          "date": "2026-08-13",
+          "type": "Relaunch staffing preparation",
+          "detail": "A Thai aviation recruitment notice states that Asia Line Cargo, a brand of Air Inter Transport, was recruiting Boeing 737 freighter captains and first officers for regional cargo operations and planned network expansion.",
+          "sourceUrl": "https://www.thaiaviationcareers.com/2026/08/asia-line-cargo.html"
+        },
+        {
+          "date": "2026-10-10",
+          "type": "Official route and operating model",
+          "detail": "Air Inter Transport's official route page presents planned cargo coverage across Thailand hubs, ASEAN, China and South Asia; the page does not provide a confirmed restart date.",
+          "sourceUrl": "https://www.airintertransport.com/route"
+        }
+      ]
+    },
     {
       "id": "thai-cargo-airlines-aoc-commercial-launch-2027",
       "title": "Thai Cargo Airlines – Yeni AOC ve 2027 Kargo Operasyonu",
