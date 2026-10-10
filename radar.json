@@ -1,8 +1,68 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T10:43:28Z",
-  "sourcesScanned": 307,
+  "lastScan": "2026-10-10T11:07:40Z",
+  "sourcesScanned": 313,
   "opportunities": [
+    {
+      "id": "thai-cargo-airlines-aoc-commercial-launch-2027",
+      "title": "Thai Cargo Airlines – Yeni AOC ve 2027 Kargo Operasyonu",
+      "organization": "Thai Cargo Airlines Co., Ltd. (Triple i Logistics PCL iştiraki)",
+      "country": "Thailand",
+      "category": "Airline Startup / All-cargo Airline",
+      "publishedDate": "2026-05-15",
+      "deadline": null,
+      "detectedAt": "2026-10-10T11:07:40Z",
+      "relevance": "Medium",
+      "summary": "Triple i Logistics'in %100 iştiraki Thai Cargo Airlines, CAAT'ın güncel sicilinde AOC Application aşamasında bulunuyor. Ana şirket, 2026 sonuna kadar işletme ruhsatı almayı, onaylar planlandığı gibi ilerlerse yıl sonuna kadar test uçuşlarına başlamayı ve 2027'de tam ticari kargo operasyonuna geçmeyi hedeflediğini resmen açıkladı. Sermaye 200 milyon THB'ye çıkarıldı ve uçakların öncelikle leasing yoluyla temin edilmesi planlanıyor. CGO, OCC, Weight & Balance, Crew, Schedule Planning ve analitik sağlayıcıları açıklanmadı.",
+      "products": [
+        "Crane CGO - Cargo Management System",
+        "Crane OCC - Operations Control Center",
+        "Crane WB - Weight & Balance",
+        "Crane CREW - Crew Management",
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Triple i Logistics Public Company Limited; Civil Aviation Authority of Thailand (CAAT)",
+      "url": "https://www.iii-logistics.com/web/wp-content/uploads/2026/05/MINUTES-OF-THE-2026-ANNUAL-GENERAL-MEETING-OF-SHAREHOLDERS.pdf",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / New AOC / Cargo airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Cargo management, OCC, Weight & Balance, Crew and Schedule Planning providers not publicly disclosed",
+      "incumbentPss": "Not applicable / cargo-only operation",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new cargo airline launch",
+      "qualificationNotes": "Ana şirketin 2026 Genel Kurul tutanağı, 2026 sonuna kadar işletme ruhsatı, yıl sonuna kadar test uçuşu ve 2027'de tam ticari operasyon hedefini doğruluyor. CAAT güncel sicili AOC başvurusunu açık gösteriyor. Proje sermayesi 3 milyon THB'den 200 milyon THB'ye çıkarıldı; filo için leasing önceliği açıklandı. Kesin uçak tipi, teslimat tarihi, ilk hatlar ve teknoloji seçim takvimi kamuya açıklanmadı. İlk temas CGO/OCC/WB mimarisi, ULD/warehouse ve accounting entegrasyonları, leasing filosu ve go-live planını doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC application in process; funded; test-flight and commercial-launch plan announced",
+      "targetLaunchDate": "2027 tam ticari operasyon; kesin tarih açıklanmadı",
+      "aocStatus": "CAAT lists Thai Cargo Airlines Company Limited as AOC Application / On Process",
+      "fleetPlan": "Aircraft to be procured primarily through leasing; type, quantity and delivery dates not publicly disclosed",
+      "fundingStatus": "Registered capital increased from THB 3 million to THB 200 million; wholly owned by Triple i Logistics PCL",
+      "futureRationale": "2026 sonuna kadar ruhsat ve test uçuşu, 2027'de tam ticari operasyon hedefi resmen açıklanmıştır; AOC başvurusu devam etmekte ve temel kargo/operasyon sistemi sağlayıcıları açıklanmamıştır.",
+      "evidence": [
+        {
+          "date": "2026-05-15",
+          "type": "Official future-launch plan",
+          "detail": "Triple i Logistics' 2026 AGM minutes state that the company anticipates receiving the operating licence by end-2026, expects test flights by year-end and full commercial cargo operations in 2027 if approvals proceed as scheduled.",
+          "sourceUrl": "https://www.iii-logistics.com/web/wp-content/uploads/2026/05/MINUTES-OF-THE-2026-ANNUAL-GENERAL-MEETING-OF-SHAREHOLDERS.pdf"
+        },
+        {
+          "date": "2026-10-10",
+          "type": "Official AOC register",
+          "detail": "CAAT public certificate-status register lists Thai Cargo Airlines Company Limited under On Process with status AOC Application.",
+          "sourceUrl": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/"
+        },
+        {
+          "date": "2026-05-15",
+          "type": "Official funding and fleet preparation",
+          "detail": "The parent disclosed a capital increase from THB 3 million to THB 200 million for cargo-airline preparation and said aircraft would primarily be sourced through leasing.",
+          "sourceUrl": "https://www.iii-logistics.com/web/wp-content/uploads/2026/05/MINUTES-OF-THE-2026-ANNUAL-GENERAL-MEETING-OF-SHAREHOLDERS.pdf"
+        }
+      ]
+    },
     {
       "id": "fly-intira-thailand-aoc-application-prelaunch",
       "title": "FLY INTIRA – Tayland AOC Başvurusu ve Yolcu Havayolu Lansmanı",
