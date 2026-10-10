@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T12:07:44Z",
-  "sourcesScanned": 317,
+  "lastScan": "2026-10-10T16:33:00Z",
+  "sourcesScanned": 323,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -1523,51 +1523,68 @@
     },
     {
       "id": "flydar-syria-aoc-startup-2026",
-      "title": "Flydar – Syrian Private Airline AOC and Pre-launch Readiness",
-      "organization": "Flydar Aviation",
+      "title": "Fly Dar Aviation – Suriye AOC Sonrası Yolcu Havayolu Lansmanı",
+      "organization": "Fly Dar Aviation",
       "country": "Syria",
-      "category": "Multi-product",
+      "category": "Airline Startup / Low-cost Passenger Airline",
       "publishedDate": "2026-09-24",
       "deadline": null,
       "detectedAt": "2026-09-25T17:52:27Z",
       "relevance": "Medium",
-      "summary": "Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Otoritesi, 24 Eylül 2026'da Flydar'a Hava İşletme Sertifikası/CTA verdi; Flydar böylece yeni yönetim döneminde sertifika alan ilk özel Suriye havayolu oldu. Girişimin daha önce sahip olduğu Boeing 737-500'ü Syrian Airlines'a kiralayarak fiilî operasyonel hazırlık göstermesi, AOC kaydını destekleyen ikinci somut kanıttır. Kamuya açıklanmış PSS/DCS sağlayıcısı veya kesin tarifeli uçuş başlangıcı bulunmadığından Crane PAX, Crane DCS ve Crane WB için erken aşama fırsat vardır. Bununla birlikte Suriye bağlantılı satış, ödeme, ihracat kontrolü ve yaptırım uyumu teklif öncesinde hukuk/uyum ekiplerince doğrulanmalıdır.",
+      "summary": "Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Kurumu, Fly Dar Aviation'a 24 Eylül 2026'da Hava Operatör Sertifikası (AOC) verdi. Şirket yönetimi uçuşların başlamak üzere olduğunu ve Şam dışındaki Halep, Lazkiye, Deyrizor ve Kamışlı'yı da kapsayan bir ağ planladığını resmî SANA açıklamasında bildirdi. Fly Dar'ın kendi sitesi, şirketin düşük maliyetli yolcu havayoluna dönüştüğünü gösteriyor; ancak doğrulanmış tarifeli satış/ilk gelir uçuşu, kesin lansman tarihi, filo ve PSS/IBE/DCS sağlayıcısı kamuya açıklanmadı.",
       "products": [
-        "Crane PAX - Reservation & Ticketing",
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
         "Crane DCS - Departure Control System",
-        "Crane WB - Weight & Balance"
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane LL - Loyalty Layer",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "SANA – Suriye Arap Haber Ajansı / Sivil Havacılık Otoritesi açıklaması",
-      "url": "https://sana.sy/fr/uncategorized/2331426/",
+      "sourceName": "Syrian Arab News Agency (SANA); Fly Dar Aviation",
+      "url": "https://flydar.aero/about-us",
       "official": true,
       "status": "Pre-RFP",
-      "procurementType": "Startup Airline",
+      "procurementType": "Pre-launch / New AOC / Passenger airline-system selection",
       "commercialPriority": "P2",
       "recommendation": "Monitor",
-      "incumbent": null,
-      "qualificationNotes": "AOC/CTA verilmesi ve en az bir Boeing 737-500 sahipliği/önceki operasyonel kullanımı doğrulanmıştır. Kesin lansman tarihi, tarifeli yolcu modeli, satış kanalları, filo büyüme planı ve sistem tedarik yöntemi açıklanmamıştır. Herhangi bir ticari temas öncesinde Suriye ile ilgili güncel yaptırım, ihracat kontrolü, ödeme ve sözleşme uygulanabilirliği incelemesi zorunludur.",
-      "startupStage": "AOC granted; commercial launch and distribution readiness not publicly confirmed",
-      "targetLaunchDate": null,
-      "aocStatus": "AOC/CTA granted by the Syrian civil aviation authority on 24 September 2026",
-      "fleetPlan": "En az bir Boeing 737-500 sahipliği doğrulanıyor; daha geniş filo planı kamuya açık resmî kaynakta doğrulanmadı",
-      "fundingStatus": null,
+      "incumbent": "PSS, IBE, DCS, Weight & Balance, OCC and Crew providers not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new scheduled passenger airline launch",
+      "qualificationNotes": "Resmî SANA kaynağı AOC'nin 24 Eylül 2026'da verildiğini, şirket başkanının uçuşların başlamak üzere olduğunu ve planlanan iç hat ağını doğruluyor. Şirket sitesi düşük maliyetli havayoluna dönüşümü ve yolcu satış/servis işlevleri için hazırlanan dijital yüzeyi gösteriyor; 'Book flights' bağlantısı aynı tanıtım sayfasına dönüyor ve kamuya açık doğrulanmış tarife veya satış envanteri bulunamadı. Kesin ilk gelir uçuşu, uçak tipi/tescili/teslimi, ilk dış hatlar, finansman ve teknoloji karar takvimi açıklanmadı. Herhangi bir ticari temas öncesinde Suriye ile ilgili güncel yaptırım, ihracat kontrolü, ödeme ve sözleşme uygulanabilirliği hukuk/uyum ekiplerince doğrulanmalıdır.",
+      "startupStage": "AOC issued; scheduled passenger launch preparation; commercial start not yet confirmed",
+      "targetLaunchDate": "Tarih açıklanmadı; şirket yönetimi 24 Eylül 2026'da uçuşların başlamak üzere olduğunu açıkladı",
+      "aocStatus": "AOC issued by the Syrian General Authority of Civil Aviation and Air Transport on 2026-09-24",
+      "fleetPlan": "Uçak tipi, miktarı, tescili ve filoya giriş tarihleri kamuya açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "AOC yeni verilmiş olup şirket yönetimi tarifeli uçuşların yakında başlayacağını açıkladı; 10 Ekim 2026 itibarıyla doğrulanmış ilk gelir uçuşu veya satışa açılmış tarife bulunamadı ve temel yolcu/operasyon sistemi sağlayıcıları açıklanmadı.",
       "evidence": [
         {
           "date": "2026-09-24",
-          "type": "AOC/CTA grant",
-          "detail": "Suriye Sivil Havacılık ve Hava Taşımacılığı Genel Otoritesi, Flydar'a Hava İşletme Sertifikası verdiğini açıkladı.",
-          "sourceUrl": "https://sana.sy/fr/uncategorized/2331426/"
-        },
-        {
-          "type": "Aircraft and operational preparation",
-          "detail": "Flydar'ın sahip olduğu Boeing 737-500, Syrian Airlines tarafından işletildi; bu, girişimin doğrulanabilir uçak varlığı ve operasyonel hazırlık geçmişini gösteriyor.",
-          "sourceUrl": "https://www.linkedin.com/posts/nadineitani_safety-quality-turbulence-activity-7280871314498719746-9alM"
+          "type": "Official AOC and imminent-launch confirmation",
+          "detail": "SANA reports that the Syrian civil aviation authority issued Fly Dar's AOC and quotes the chairman saying the certificate formally confirms that flights are about to begin.",
+          "sourceUrl": "https://sana.sy/en/syria/2345741/"
         },
         {
           "date": "2026-09-24",
-          "type": "Independent AOC confirmation",
-          "detail": "Arap-Brezilya Ticaret Odası haber servisi, Flydar'ın Suriye'de yeni yönetim döneminde AOC alan ilk özel havayolu olduğunu bildirdi.",
-          "sourceUrl": "https://anba.com.br/en/syria-authorizes-private-airline-to-operate/"
+          "type": "Official planned network",
+          "detail": "The chairman told SANA that the planned network would extend beyond Damascus and connect Aleppo, Latakia, Deir ez-Zor and Qamishli; no exact first-flight date was announced.",
+          "sourceUrl": "https://sana.sy/tr/syria/2324908/"
+        },
+        {
+          "date": "2026-10-10",
+          "type": "Official airline business-model and sales-readiness signal",
+          "detail": "Fly Dar's official site says the company is transforming into a low-cost passenger airline and exposes booking, manage-booking, ancillary and membership navigation, but no public schedule or confirmed ticket inventory was located.",
+          "sourceUrl": "https://flydar.aero/about-us"
         }
       ]
     },
