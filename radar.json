@@ -1,8 +1,78 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T09:29:26Z",
-  "sourcesScanned": 300,
+  "lastScan": "2026-10-10T10:43:28Z",
+  "sourcesScanned": 307,
   "opportunities": [
+    {
+      "id": "fly-intira-thailand-aoc-application-prelaunch",
+      "title": "FLY INTIRA – Tayland AOC Başvurusu ve Yolcu Havayolu Lansmanı",
+      "organization": "Intira (2009) Air Company Limited (FLY INTIRA)",
+      "country": "Thailand",
+      "category": "Airline Startup / Passenger Airline",
+      "publishedDate": "2025-09-10",
+      "deadline": null,
+      "detectedAt": "2026-10-10T10:43:28Z",
+      "relevance": "Medium",
+      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Intira (2009) Air Company Limited / FLY INTIRA'yı güncel sicilinde hâlen “AOC Application” aşamasında listeliyor. Şirket kendi sitesinde Tayland iç hatlarında ve Asya'da tarifeli/tarifesiz yolcu operasyonu hedefini, işletme ruhsatı hazırlığını ve kabin ekibi işe alımını açıklıyor. Ticari uçuş ve bilet satışı henüz doğrulanmadı; PSS/DCS/IBE sağlayıcısı kamuya açıklanmadı. Kesin lansman tarihi açıklanmadığından kayıt P2 erken sistem-seçim fırsatı olarak değerlendirildi.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Civil Aviation Authority of Thailand (CAAT); FLY INTIRA; U.S. FAA / ICAO designator notice",
+      "url": "https://www.flyintira.com/about-us",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / New AOC / Passenger airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, Weight & Balance, OCC and Crew providers not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new airline launch",
+      "qualificationNotes": "CAAT'ın güncel resmî AOC sicili başvurunun devam ettiğini doğruluyor. Şirketin resmî sitesi iç hat ve Asya'da tarifeli/tarifesiz yolcu operasyonu hedefini, 201 milyon THB kayıtlı sermayeyi, işletme ruhsatı faaliyetini ve kabin ekibi işe alımını gösteriyor. FAA/ICAO kaydı ITR üç harfli kodu ile FLYINTIRA çağrı adını doğruluyor. Kesin AOC sonuç tarihi, ilk uçuş tarihi, filo tipi/teslimatı ve teknoloji seçim takvimi açıklanmadı. İlk temas bu dört başlığı ve satış/dağıtım modelini doğrulamaya odaklanmalıdır.",
+      "startupStage": "AOC application in process; operating licence obtained; pre-launch",
+      "targetLaunchDate": "Tarih açıklanmadı",
+      "aocStatus": "CAAT lists Intira (2009) Air Company Limited as AOC Application / On Process",
+      "fleetPlan": "Tarih ve uçak tipi kamuya açıklanmadı",
+      "fundingStatus": "Company states registered capital of THB 201 million",
+      "futureRationale": "CAAT başvuruyu hâlen açık gösteriyor; şirket ticari yolcu taşımacılığına başlamadan önce sertifikasyon ve operasyon hazırlığı yürütüyor. Satış/operasyon başlangıcı ile temel havayolu sistem sağlayıcıları açıklanmadı.",
+      "evidence": [
+        {
+          "date": "2026-10-10",
+          "type": "Official AOC register",
+          "detail": "CAAT public certificate-status register lists Intira (2009) Air Company Limited under On Process with status AOC Application.",
+          "sourceUrl": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/"
+        },
+        {
+          "date": "2025",
+          "type": "Official airline business and operating plan",
+          "detail": "FLY INTIRA's official site states plans for domestic and Asia international scheduled and non-scheduled passenger services and shows operating-licence and cabin-crew preparation activities.",
+          "sourceUrl": "https://www.flyintira.com/about-us"
+        },
+        {
+          "date": "2025-06-01",
+          "type": "ICAO designator / operational preparation",
+          "detail": "FAA notice sourced from ICAO Doc 8585 records Intira (2009) Air Company Limited with 3LTD ITR and telephony FLYINTIRA.",
+          "sourceUrl": "https://www.faa.gov/documentLibrary/media/Notice/N7340.848_foreign_ICAO_3LTD_additions_mods_(9_Jun_2025)_signed_V2.pdf"
+        },
+        {
+          "date": "2025-09-10",
+          "type": "Operating licence and AOC application corroboration",
+          "detail": "Industry report citing CAAT records says FLY INTIRA obtained its Operating Licence in April 2025 and subsequently applied for an AOC.",
+          "sourceUrl": "https://www.linkedin.com/posts/ch-aviation_chaviation-aviationnews-flyintira-activity-7375982222929113088-0YCs"
+        }
+      ]
+    },
     {
       "id": "jcas-airways-japan-regional-launch-2027",
       "title": "JCAS Airways – Japonya Bölgesel Havayolu Lansmanı",
