@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-10T16:33:00Z",
-  "sourcesScanned": 323,
+  "lastScan": "2026-10-13T22:45:04.823Z",
+  "sourcesScanned": 328,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3231,6 +3231,79 @@
           "type": "Aircraft technical testing and pre-launch readiness",
           "detail": "Red Uno, ilk uçağın Cochabamba’ya teknik testler için taşındığını ve şirketin ticari uçuşlardan önce sertifikasyon ile izinleri tamamlaması gerektiğini bildirdi.",
           "sourceUrl": "https://www.reduno.com.bo/nacional/mas-opciones-para-viajar-go-airline-acelera-sus-tramites-y-ya-prueba-su-primera-aeronave-2026918114032"
+        }
+      ]
+    },
+    {
+      "id": "tus-il-israel-aoc-proving-flights-nov-2026",
+      "title": "TUS IL Airways – İsrail AOC ve Kasım 2026 Proving Uçuşları",
+      "organization": "TUS IL Airways",
+      "country": "Israel",
+      "category": "Airline Startup / Scheduled Passenger Carrier",
+      "publishedDate": "2026-09-22",
+      "deadline": null,
+      "detectedAt": "2026-10-13T22:45:04.823Z",
+      "relevance": "Medium",
+      "summary": "Holiday Lines Group, TUS IL markası altında İsrail lisanslı yeni bir yolcu havayolu kurmak için bir Airbus A320’yi Kıbrıs sicilinden İsrail siciline geçirmeye ve Kasım 2026 başında İsrail Sivil Havacılık Otoritesi müfettişleri eşliğinde yolcusuz proving uçuşlarına başlamaya hazırlanıyor. AOC ve ticari satış başlangıcı henüz açıklanmadı. Grup hâlihazırda TUS Airways ve Blue Bird Airways’i işlettiğinden mevcut teknoloji yığınının yeniden kullanılması olasıdır; TUS IL için bağımsız PSS/IBE/DCS/W&B ve operasyon sistemi seçimi kamuya açıklanmadığından yakın vadeli bir doğrulama ve erken temas penceresi bulunuyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane BRI - Baggage Reconciliation Itinerary",
+        "Crane CCL - Customer Care Layer",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "PassportNews; TUS IL Airways LinkedIn",
+      "url": "https://passportnews.co.il/article/210023",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new Israeli scheduled passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Qualify",
+      "incumbent": "TUS IL için PSS, IBE, DCS, W&B ve operasyon sistem sağlayıcıları kamuya açıklanmadı; grup şirketlerinin mevcut teknoloji yığınının yeniden kullanılıp kullanılmayacağı doğrulanmalı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "expectedDecisionDate": "AOC proving uçuşları Kasım 2026 başında planlanıyor; teknoloji seçimi ve ticari başlangıç tarihi açıklanmadı",
+      "qualificationNotes": "PassportNews’in 22 Eylül 2026 tarihli yerel sektör haberi, bir A320’nin haftalar içinde İsrail siciline geçirilmesini, Kasım başında sivil havacılık otoritesi gözetiminde yolcusuz proving uçuşlarını ve sertifikasyon sonrası ikinci uçağın filoya alınmasını bildiriyor. Şirket LinkedIn sayfası AOC sürecini ve A320 pilot alımını doğruluyor. Ancak TUS IL, TUS Airways ve Blue Bird Airways’i kontrol eden Holiday Lines Group’a bağlıdır; grup platformlarının yeniden kullanılması ciddi bir incumbent riskidir. İlk temasta ayrı tüzel AOC kapsamı, ticari launch/satış tarihi, PSS/DCS/W&B mimarisi, grup ortak platform kararı ve teknoloji karar sahibi doğrulanmalıdır.",
+      "startupStage": "Pre-launch; aircraft re-registration and proving-flight preparation underway, AOC pending",
+      "targetLaunchDate": "Tarih açıklanmadı; proving uçuşları Kasım 2026 başında planlanıyor ve ticari başlangıç AOC’ye bağlı",
+      "aocStatus": "Israeli AOC pending; non-revenue proving flights with civil-aviation inspectors planned for early November 2026",
+      "fleetPlan": "One group-owned Airbus A320 planned for transfer from Cypriot to Israeli registration; a second aircraft is intended after certification via purchase or lease",
+      "fundingStatus": "Backed by Holiday Lines Group; project-specific funding amount not publicly disclosed",
+      "futureRationale": "A320 sicil dönüşümü ve Kasım 2026 başındaki proving uçuşları henüz tamamlanmamış, doğrudan AOC öncesi adımlardır. Ticari operasyon ve satış başlamadığı için teknoloji mimarisinin doğrulanması ve varsa bağımsız seçim sürecine girilmesi için geleceğe dönük kısa bir pencere bulunmaktadır.",
+      "evidence": [
+        {
+          "date": "2026-09-22",
+          "type": "Aircraft registration and AOC preparation",
+          "detail": "PassportNews reports that Holiday Lines Group expects to transfer an owned Airbus A320 from Cypriot to full Israeli registration within weeks as a key milestone toward TUS IL’s Israeli AOC.",
+          "sourceUrl": "https://passportnews.co.il/article/210023"
+        },
+        {
+          "date": "2026-11",
+          "type": "Planned proving flights",
+          "detail": "The same report states that non-passenger proving flights with Israeli civil-aviation inspectors are planned for early November 2026, subject to readiness.",
+          "sourceUrl": "https://passportnews.co.il/article/210023"
+        },
+        {
+          "date": "2026-09-22",
+          "type": "Fleet expansion after certification",
+          "detail": "Management intends to add a second aircraft by purchase or lease after the licensing process is completed.",
+          "sourceUrl": "https://passportnews.co.il/article/210023"
+        },
+        {
+          "date": "2026",
+          "type": "Company AOC and staffing confirmation",
+          "detail": "TUS IL’s company LinkedIn page describes the carrier as pre-launch, in the AOC process, and recruiting A320 pilots for commercial operations.",
+          "sourceUrl": "https://www.linkedin.com/company/tus-il"
         }
       ]
     }
