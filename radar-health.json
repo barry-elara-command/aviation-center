@@ -12,5 +12,7 @@
   "lastErrorAt": null,
   "lastErrorMessage": null,
   "radarFile": "radar.json",
-  "notes": "Bootstrap record. lastSuccessfulScan and lastSuccessfulRadarCommit reflect previously verified data. No automated scan has been verified since bootstrap."
+  "notes": "Bootstrap record. lastSuccessfulScan and lastSuccessfulRadarCommit reflect previously verified data. No automated scan has been verified since bootstrap.",
+  "writePathVerified": true,
+  "writePathVerificationNote": "GitHub fetch_file, create_file and update_file manually verified. This is not an automated radar scan."
 }
