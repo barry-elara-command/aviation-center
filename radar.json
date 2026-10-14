@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-13T22:45:04.823Z",
-  "sourcesScanned": 328,
+  "lastScan": "2026-10-14T13:48:38.276Z",
+  "sourcesScanned": 329,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3304,6 +3304,59 @@
           "type": "Company AOC and staffing confirmation",
           "detail": "TUS IL’s company LinkedIn page describes the carrier as pre-launch, in the AOC process, and recruiting A320 pilots for commercial operations.",
           "sourceUrl": "https://www.linkedin.com/company/tus-il"
+        }
+      ]
+    },
+    {
+      "id": "commonwealth-airways-us-prelaunch-2027-commercial-systems",
+      "title": "Commonwealth Airways – 2027 Uçuş Lansmanı ve Ticari Sistem Hazırlığı",
+      "organization": "Commonwealth Airways",
+      "country": "United States",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-14T13:48:38.276Z",
+      "relevance": "Medium",
+      "summary": "Commonwealth Airways, resmî sitesinde 2027’de uçuşa başlamayı planladığını ve ilk rotalarını 2027 başında açıklayacağını bildiriyor. Henüz satışa/operasyona başlamamış taşıyıcının bilet, FlyPass geçişleri, UnCommon Rewards sadakat programı ve yerel-havalimanı odaklı operasyon modeli; rezervasyon-biletleme, IBE, mobil kanal, sadakat ve kalkış kontrolü için geleceğe dönük kurulum ihtiyacına işaret ediyor. AOC başvurusu, filo, kesin launch tarihi ve teknoloji sağlayıcıları kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane LL - Loyalty Layer",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Commonwealth Airways resmî web sitesi",
+      "url": "https://iflycca.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup commercial systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Ticari sistem sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "2027 ticari uçuş ve ilk rota duyurusu planı",
+      "qualificationNotes": "Şirketin resmî sayfası taşıyıcının yeni olduğunu, 2027’de uçmayı planladığını ve ilk rotaları 2027 başında duyuracağını açıkça belirtiyor. Sayfa; bilet, FlyPass ve UnCommon Rewards ürünlerini de tanımlıyor. AOC başvurusu/kararı, filo siparişi, satış açılış tarihi, teknoloji RFP’si ve sağlayıcı seçimi kamuya açıklanmadığından bunlar varsayılmamalıdır.",
+      "startupStage": "Pre-launch; 2027 ticari uçuş ve ilk rota duyurusu planı",
+      "targetLaunchDate": "2027 (ay/gün açıklanmadı)",
+      "aocStatus": "Kamuya açıklanmadı",
+      "fleetPlan": "Kamuya açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "Resmî şirket sitesi, taşıyıcının henüz yeni olduğunu ve 2027’de uçuşa başlamayı planladığını doğruluyor; ilk rotalar da 2027 başında açıklanacak. Bilet, geçiş paketi ve sadakat programı tasarımları gelecekte kurulacak yolcu satış, dağıtım, sadakat ve havalimanı işlem sistemleri için somut ticari hazırlık sinyalleridir.",
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "type": "Official launch and route-planning statement",
+          "detail": "Commonwealth Airways’in resmî FAQ sayfası, taşıyıcının “brand new airline” olduğunu, 2027’de uçmayı planladığını ve ilk rotaların 2027 başında duyurulacağını bildirir.",
+          "sourceUrl": "https://iflycca.com/"
+        },
+        {
+          "date": "2026-10-14",
+          "type": "Commercial-product preparation",
+          "detail": "Resmî site bilet ürünleri, FlyPass haftalık/aylık/yıllık geçişleri ve UnCommon Rewards sadakat programını tanımlar; teknoloji sağlayıcısı açıklanmaz.",
+          "sourceUrl": "https://iflycca.com/"
         }
       ]
     }
