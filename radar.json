@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-14T13:48:38.276Z",
-  "sourcesScanned": 329,
+  "lastScan": "2026-10-14T15:43:06.307Z",
+  "sourcesScanned": 330,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3357,6 +3357,57 @@
           "type": "Commercial-product preparation",
           "detail": "Resmî site bilet ürünleri, FlyPass haftalık/aylık/yıllık geçişleri ve UnCommon Rewards sadakat programını tanımlar; teknoloji sağlayıcısı açıklanmaz.",
           "sourceUrl": "https://iflycca.com/"
+        }
+      ]
+    },
+    {
+      "id": "volantis-air-uk-aoc-charter-launch-2027",
+      "title": "Volantis Air – Birleşik Krallık AOC Başvurusu ve 2027 Charter Lansmanı",
+      "organization": "Volantis Air Ltd.",
+      "country": "United Kingdom",
+      "category": "Airline Startup / Passenger charter operator",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-14T15:43:06.307Z",
+      "relevance": "Medium",
+      "summary": "Volantis Air, Birleşik Krallık CAA nezdinde tam AOC başvurusu hazırladığını; operasyon altyapısı, emniyet yönetimi, operasyon el kitabı, ekip eğitimi ve bakım ortaklıklarını geliştirdiğini açıklıyor. Resmî zaman çizelgesi, 2026–27 AOC başvuru/sertifikasyon sürecinin ardından 2027’de ilk filo ile Birleşik Krallık ve Avrupa pazarında ticari yolcu charter operasyonu hedefliyor. OCC, Crew ve müşteri iletişimi sağlayıcıları açıklanmadı.",
+      "products": [
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane CM - Customer Management"
+      ],
+      "sourceName": "Volantis Air resmî web sitesi",
+      "url": "https://www.volantisair.co.uk/about.html",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup charter-operation systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Operasyon kontrolü, ekip yönetimi ve müşteri iletişimi sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Not publicly disclosed / charter model",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch operator",
+      "renewalSignal": "AOC altyapısı, operasyon kontrolü, ekip eğitimi ve müşteri edinimi hazırlığı",
+      "qualificationNotes": "Resmî şirket sitesi, AOC başvurusunun hazırlıkta olduğunu ve 2026–27 arasında başvuru/CAA denetimi planlandığını; 2027’de ilk filo ile ticari operasyon hedefini açıkça bildiriyor. Şirket charter yolcu operatörü olarak konumlanıyor. Uçak tipi/adedı, kesin lansman tarihi ve teknoloji sağlayıcısı kamuya açıklanmadı.",
+      "startupStage": "AOC pre-application and operational infrastructure development",
+      "targetLaunchDate": "2027 (ay/gün açıklanmadı)",
+      "aocStatus": "Full UK AOC application in preparation; formal submission and CAA audit programme planned for 2026–27",
+      "fleetPlan": "İlk filo ile 2027 operasyon başlangıcı hedefleniyor; uçak tipi ve adet kamuya açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "Taşıyıcı henüz yolcu taşımıyor. Resmî AOC hazırlığı, operasyon kontrolü, ekip eğitim programları ve ilk filo ile 2027 ticari lansman zaman çizelgesi; gelecekte OCC, Crew ve müşteri iletişimi sistemleri için satın alma/entegrasyon penceresi oluşturuyor.",
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "type": "Official AOC application and operational preparation",
+          "detail": "Volantis Air, UK CAA için tam AOC başvurusunun hazırlıkta olduğunu; operasyon altyapısı, SMS, operasyon el kitapları, ekip eğitimi ve bakım ortaklıklarının geliştirildiğini açıklar.",
+          "sourceUrl": "https://www.volantisair.co.uk/about.html"
+        },
+        {
+          "date": "2026-10-14",
+          "type": "Official launch plan",
+          "detail": "Şirketin zaman çizelgesi, 2026–27 AOC başvuru/sertifikasyon sürecinden sonra 2027’de ilk filo ile Birleşik Krallık ve Avrupa’da ticari charter operasyonu hedefler.",
+          "sourceUrl": "https://www.volantisair.co.uk/about.html"
         }
       ]
     }
