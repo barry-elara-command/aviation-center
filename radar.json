@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-15T17:43:02.667Z",
+  "lastScan": "2026-10-15T21:49:13.163Z",
   "sourcesScanned": 330,
   "opportunities": [
     {
@@ -3468,6 +3468,57 @@
           "type": "Forward launch target",
           "detail": "TRT Afrika’nın Bakanlık açıklamasına dayanan haberi, ilk operasyonların 2027’nin ilk çeyreğinden geç olmamak üzere hedeflendiğini; teknoloji RFP’si veya sağlayıcılarının açıklanmadığını bildirir.",
           "sourceUrl": "https://www.trtafrika.com/english/article/5a480d51deb6"
+        }
+      ]
+    },
+    {
+      "id": "koala-airlines-australia-prelaunch-2027",
+      "title": "Koala Airlines – Avustralya Tarifeli Yolcu Operasyonu Lansmanı",
+      "organization": "Koala Airlines",
+      "country": "Australia",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-15T21:49:13.163Z",
+      "relevance": "Medium",
+      "summary": "Koala Airlines, mevcut AOC kapsamının B737-8 ile planlanan büyük jet yolcu operasyonu için yeterli olmadığını ve CASA tarafından gerekli kriterlerin onaylanması gerektiğini resmî sitesinde açıklıyor. Şirketin kendi kanallarında operasyon başlangıcı hedefi yer alırken, doğrulanabilir yerel basında AOC başvuru dokümantasyonunun tamamlanması sonrası 2027’de faaliyete geçme hedefi bildirildi. Ticari satışa/operasyona henüz başlamadığı için PSS, IBE ve DCS seçimi açısından pre-RFP takip fırsatıdır; teknoloji sağlayıcısı ve seçim takvimi açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Koala Airlines; The Australian",
+      "url": "https://koalaair.com.au/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "None verified; launch readiness and AOC approval remain pending",
+      "qualificationNotes": "Resmî şirket açıklaması, mevcut AOC altında B737-8 operasyonunun CASA kriterleri tamamlanana kadar yapılamayacağını belirtiyor. Bağımsız yerel haber, AOC dokümantasyonunun hazırlık aşamasında olduğunu ve operasyon hedefinin 2027’ye kaydığını bildiriyor. Açık RFP, teknoloji sağlayıcısı, satış açılış tarihi veya kesin ilk uçuş tarihi açıklanmadı.",
+      "startupStage": "Pre-launch; AOC/operating-approval requirements pending for proposed B737-8 passenger operations",
+      "targetLaunchDate": "2027 (independent local-media target; exact date not announced)",
+      "aocStatus": "Existing AOC does not yet permit proposed B737-8 operations until CASA criteria are met and approved",
+      "fleetPlan": "Three Boeing 737 MAX aircraft reported under lease/expected delivery; exact delivery and entry-into-service dates not officially confirmed",
+      "fundingStatus": "Not publicly disclosed",
+      "futureRationale": "Ticari yolcu operasyonu henüz başlamadı; CASA onayı, filo hazırlığı ve lansman öncesi müşteri/operasyon platformu kararları gerekecek. Bu nedenle PSS, IBE ve DCS için erken pre-RFP etkileşim penceresi vardır.",
+      "evidence": [
+        {
+          "date": "2026-08-07",
+          "type": "Official operational-readiness statement",
+          "detail": "Koala Airlines, önceki AOC faaliyetlerinin B737-8 operasyonundan farklı olduğunu; CASA kriterleri karşılanıp onaylanana dek bu AOC altında operasyon yapamayacağını açıkladı.",
+          "sourceUrl": "https://koalaair.com.au/"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "Local-media launch/AOC update",
+          "detail": "The Australian, kurucunun AOC başvurusu için doküman toplama sürecinde olduğunu ve taşıyıcının 2027 ortasında faaliyete geçmeyi hedeflediğini bildirdi.",
+          "sourceUrl": "https://www.theaustralian.com.au/business/aviation/vietjet-leads-race-to-launch-new-airline-and-trigger-australian-fare-war/news-story/d11fd794a2dee6bc2413671f9221edba"
         }
       ]
     }
