@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-14T15:43:06.307Z",
+  "lastScan": "2026-10-15T06:52:39.980Z",
   "sourcesScanned": 330,
   "opportunities": [
     {
@@ -3408,6 +3408,60 @@
           "type": "Official launch plan",
           "detail": "Şirketin zaman çizelgesi, 2026–27 AOC başvuru/sertifikasyon sürecinden sonra 2027’de ilk filo ile Birleşik Krallık ve Avrupa’da ticari charter operasyonu hedefler.",
           "sourceUrl": "https://www.volantisair.co.uk/about.html"
+        }
+      ]
+    },
+    {
+      "id": "ghana-national-carrier-market-sounding-q1-2027",
+      "title": "Ghana – Yeni Ulusal Taşıyıcı İçin Stratejik Ortak Market Sounding’i",
+      "organization": "Ghana yeni ulusal taşıyıcı projesi (Ulaştırma Bakanlığı)",
+      "country": "Ghana",
+      "category": "Airline Startup / Passenger and cargo carrier",
+      "publishedDate": "2026-04-29",
+      "deadline": "Tarih açıklanmadı",
+      "detectedAt": "2026-10-15T06:52:39.980Z",
+      "relevance": "Medium",
+      "summary": "Ghana Ulaştırma Bakanlığı, yeni ulusal taşıyıcıyı kurmak üzere nitelikli havayolu işletmecileri veya havacılık yatırımcıları için market sounding süreci başlattığını açıkladı. Accra merkezli, yolcu ve kargo hizmeti verecek taşıyıcı için stratejik ortak seçimi hedefleniyor; ilk operasyonların 2027’nin ilk çeyreğinden geç olmamak üzere başlatılması bekleniyor. Teknoloji RFP’si ve sağlayıcıları kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane CGO - Cargo Management"
+      ],
+      "sourceName": "Reuters (Ghana Ulaştırma Bakanlığı açıklaması)",
+      "url": "https://www.reuters.com/world/africa/ghana-seeks-majority-private-investor-new-national-carrier-2026-04-29/",
+      "official": false,
+      "status": "Market sounding / Pre-RFP",
+      "procurementType": "Strategic-partner market sounding; startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch national carrier",
+      "renewalSignal": "Yeni taşıyıcı için stratejik ortak seçimine yönelik market sounding ve 2027 ilk çeyrek operasyon hedefi",
+      "qualificationNotes": "Reuters, Bakanlığın nitelikli havayolu işletmecileri veya havacılık yatırımcılarını bulmak için market sounding başlattığını bildiriyor. Proje henüz işletmeye/satışa başlamamış yeni bir ulusal taşıyıcıdır. Ayrı bir teknoloji ihalesi, kesin ihale takvimi, filo planı, AOC durumu ve teknoloji sağlayıcıları açıklanmadığından bunlar varsayılmamalıdır.",
+      "startupStage": "Strategic-partner market sounding; pre-launch national carrier",
+      "targetLaunchDate": "2027 ilk çeyreği veya öncesi",
+      "aocStatus": "Kamuya açıklanmadı",
+      "fleetPlan": "Kısa vadede işletme ekipmanı edinimi veya konuşlandırması bekleniyor; uçak tipi ve adet kamuya açıklanmadı",
+      "fundingStatus": "Çoğunluk paylı stratejik özel yatırımcı aranıyor",
+      "futureRationale": "Bakanlığın market sounding’i, henüz kurulmakta olan taşıyıcının işletmeci/yatırımcı modelini ve operasyon altyapısını seçme penceresinin açık olduğunu gösterir. Yolcu ve kargo hub modeli ile 2027 ilk çeyrek hedefi; rezervasyon-biletleme, IBE, DCS, OCC, ekip ve kargo yönetimi için geleceğe dönük entegrasyon/tedarik ihtiyacına işaret eder; sağlayıcı seçimi açıklanmamıştır.",
+      "evidence": [
+        {
+          "date": "2026-04-29",
+          "type": "Government-announced market sounding",
+          "detail": "Reuters, Ghana Ulaştırma Bakanlığı’nın nitelikli havayolu işletmecileri veya havacılık yatırımcıları arasından stratejik ortak seçmek için market sounding başlattığını; planlanan taşıyıcının Accra merkezli yolcu ve kargo hub’ı olacağını bildirir.",
+          "sourceUrl": "https://www.reuters.com/world/africa/ghana-seeks-majority-private-investor-new-national-carrier-2026-04-29/"
+        },
+        {
+          "date": "2026-04-29",
+          "type": "Forward launch target",
+          "detail": "TRT Afrika’nın Bakanlık açıklamasına dayanan haberi, ilk operasyonların 2027’nin ilk çeyreğinden geç olmamak üzere hedeflendiğini; teknoloji RFP’si veya sağlayıcılarının açıklanmadığını bildirir.",
+          "sourceUrl": "https://www.trtafrika.com/english/article/5a480d51deb6"
         }
       ]
     }
