@@ -3521,6 +3521,57 @@
           "sourceUrl": "https://www.theaustralian.com.au/business/aviation/vietjet-leads-race-to-launch-new-airline-and-trigger-australian-fare-war/news-story/d11fd794a2dee6bc2413671f9221edba"
         }
       ]
+    },
+    {
+      "id": "sky-alps-europe-slovakia-aoc-prelaunch",
+      "title": "Sky Alps Europe – Slovakya AOC ve Bölgesel Yolcu Operasyonu Hazırlığı",
+      "organization": "Sky Alps Europe s.r.o.",
+      "country": "Slovakia",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-16T04:47:39.167Z",
+      "relevance": "Medium",
+      "summary": "Sky Alps Europe, Slovakya’da ayrı bir AOC ile bölgesel yolcu operasyonu hazırlıyor. Ekim 2026’da ilk DHC-8-Q400 uçağı Bratislava’ya getirildi ve AOC sürecine yönelik proving uçuşları yapıldı; sektör haberi AOC başvurusunun hâlen sürdüğünü bildiriyor. Ticari yolcu operasyonu henüz doğrulanmadı ve başlangıç tarihi açıklanmadı. Bu nedenle PSS, IBE ve DCS için lansman öncesi pre-RFP takip fırsatıdır; teknoloji sağlayıcısı veya sistem seçim takvimi kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Aviation.Direct; planes.cz",
+      "url": "https://aviation.direct/en/sky-alps-europe-uebernimmt-erstes-turboprop-flugzeug-fuer-slowakischen-flugbetrieb",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "None verified; AOC process and fleet/proving-flight preparation are ongoing",
+      "qualificationNotes": "Sektör basını, Slovak Sivil Havacılık Otoritesinden AOC ve işletme ruhsatı için hazırlığı ve iki Q400 ile başlangıç planını bildirdi. 9 Ekim 2026 tarihli fotoğraf/haber kaydı, ilk uçağın Bratislava’ya ulaştığını, proving uçuşları yaptığını ve şirketin Slovak AOC için çalıştığını gösteriyor. Açık RFP, teknoloji sağlayıcısı, satış açılış tarihi veya kesin ilk ticari uçuş tarihi açıklanmadı.",
+      "startupStage": "Pre-launch; Slovak AOC application and proving-flight activity ongoing",
+      "targetLaunchDate": "Tarih açıklanmadı",
+      "aocStatus": "Slovak AOC başvurusu sürüyor; Ekim 2026 kaynağı şirketin hâlen AOC almaya çalıştığını bildiriyor",
+      "fleetPlan": "İlk aşamada grup envanterinden iki DHC-8-Q400 planlandı; ilk uçak OM-TOM Ekim 2026’da Bratislava’ya getirildi ve proving uçuşları yaptı",
+      "fundingStatus": "Not publicly disclosed",
+      "futureRationale": "Ticari yolcu operasyonu henüz doğrulanmadı. AOC sertifikasyonu, filo hazırlığı ve proving faaliyetleri tamamlanmadan önce yolcu satış ve havaalanı süreçleri için PSS, IBE ve DCS seçimine ihtiyaç duyulacaktır.",
+      "evidence": [
+        {
+          "date": "2026-10-09",
+          "type": "Fleet delivery and proving-flight evidence",
+          "detail": "OM-TOM tescilli ilk DHC-8-Q400 Bratislava’ya geldi; yeni Sky Alps Europe biriminin Slovak AOC için çalıştığı ve Košice’ye proving uçuşu yaptığı bildirildi.",
+          "sourceUrl": "https://www.planes.cz/en/photo/1272005/dhc8q-402-om-tom-sky-alps-europe-bratislava-bts-lzib"
+        },
+        {
+          "date": "Tarih açıklanmadı",
+          "type": "AOC and initial-fleet plan",
+          "detail": "Şirket sözcüsüne dayandırılan sektör haberi, Slovak AOC/işletme ruhsatı hazırlığını ve ilk aşamada iki DHC-8-Q400 ile başlama planını aktardı.",
+          "sourceUrl": "https://aviation.direct/en/sky-alps-europe-expects-to-launch-with-two-dash-8-400s/"
+        }
+      ]
     }
   ]
 }
