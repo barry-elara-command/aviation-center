@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-15T21:49:13.163Z",
+  "lastScan": "2026-10-16T08:41:57.882Z",
   "sourcesScanned": 330,
   "opportunities": [
     {
@@ -3570,6 +3570,55 @@
           "type": "AOC and initial-fleet plan",
           "detail": "Şirket sözcüsüne dayandırılan sektör haberi, Slovak AOC/işletme ruhsatı hazırlığını ve ilk aşamada iki DHC-8-Q400 ile başlama planını aktardı.",
           "sourceUrl": "https://aviation.direct/en/sky-alps-europe-expects-to-launch-with-two-dash-8-400s/"
+        }
+      ]
+    },
+    {
+      "id": "south-african-airways-aws-digital-mobile-migration-rfq-gsm080-2026",
+      "title": "South African Airways – AWS Dijital ve Mobil Uygulama Migrasyonu RFQ’su",
+      "organization": "South African Airways (Pty) Limited",
+      "country": "South Africa",
+      "category": "Airline Technology / Digital and Mobile Platform Migration",
+      "publishedDate": "2026-10-14",
+      "deadline": "2026-10-22 16:00 (ihale ilanında belirtilen saat)",
+      "detectedAt": "2026-10-16T08:41:57.881Z",
+      "relevance": "Medium",
+      "summary": "South African Airways (SAA), mevcut on-premises sistem ve uygulamalarını çalışır halde tutarken yeni AWS altyapısına geçirmek için açık RFQ yayımladı. İhale; Lead Airline Digital Solutions Architect, AWS Cloud-Native Java/EKS Engineer ve Senior Mobile and Digital Applications Developer kaynaklarını kapsıyor. Resmî iş tanımı, müşteri odaklı ve operasyonel dijital platformların mimarisini ve mobil uygulama geliştirmesini kapsıyor. PSS veya IBE değişimi açıkça ilan edilmediğinden kayıt yalnızca Crane MA ve entegrasyon konumlandırması için takip fırsatıdır.",
+      "products": [
+        "Crane MA - Mobile Application"
+      ],
+      "sourceName": "South African Government eTenders; South African Airways",
+      "url": "https://www.etenders.gov.za/home/Download/?blobName=bfaca77f-7957-46d1-92e0-5b6a424facf5.pdf&downloadedFileName=RFQ+GSM080-2026++-IT+resources+to+enable+the+migration+to+new+AWS+stack.pdf",
+      "official": true,
+      "status": "Open RFQ",
+      "procurementType": "AWS migration / customer-facing digital and mobile-platform delivery resources",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Existing on-premises systems and applications; underlying suppliers not publicly disclosed",
+      "incumbentPss": "Not disclosed; RFQ does not state a PSS replacement",
+      "incumbentDcs": "Not disclosed; RFQ does not state a DCS replacement",
+      "incumbentConfidence": "Low",
+      "contractEndBasis": "Not applicable – open technology-migration RFQ, not a renewal notice",
+      "renewalSignal": "SAA issued an open RFQ for resources to migrate backend systems and applications to a new AWS stack while maintaining current on-premises systems",
+      "qualificationNotes": "Bu RFQ, bir PSS/DCS/IBE tedariki değildir; müşteri odaklı ve operasyonel dijital platformlar ile mobil uygulama geliştirmesi için uzman kaynak alımını kapsar. Bu nedenle fırsat yalnızca Crane MA ve olası API/entegrasyon konumlandırmasıyla sınırlı tutuldu. PSS, DCS, IBE sağlayıcısı veya değiştirme takvimi ilan edilmedi.",
+      "startupStage": "Active airline – open digital-platform migration procurement",
+      "targetLaunchDate": "İş başlangıç tarihi kamuya açıklanmadı",
+      "aocStatus": "Active airline",
+      "fleetPlan": "Not relevant to this technology RFQ",
+      "fundingStatus": "Not publicly disclosed",
+      "futureRationale": "22 Ekim 2026’ya kadar açık RFQ, SAA’nın müşteri odaklı dijital platformlarını ve mobil uygulamalarını AWS üzerinde modernize etme yönünde belgelenmiş, geleceğe dönük bir satın alma adımıdır. Mobil uygulama kapsamı Crane MA için doğrudan eşleşir; PSS/DCS değişimi teyit edilmemiştir.",
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "type": "Official open RFQ",
+          "detail": "South African Government eTenders üzerinden yayımlanan RFQ GSM080/2026, SAA’nın yeni AWS stack’e geçişi için teklif istediğini; kapanışın 22 Ekim 2026 saat 16:00 olduğunu belirtir.",
+          "sourceUrl": "https://www.etenders.gov.za/home/Download/?blobName=bfaca77f-7957-46d1-92e0-5b6a424facf5.pdf&downloadedFileName=RFQ+GSM080-2026++-IT+resources+to+enable+the+migration+to+new+AWS+stack.pdf"
+        },
+        {
+          "date": "2026-10-14",
+          "type": "Official role scope",
+          "detail": "Resmî iş tanımı, Lead Airline Digital Solutions Architect rolunun SAA’nın müşteri odaklı ve operasyonel dijital platformları için uçtan uca mimari sorumluluk taşıdığını; RFQ’nun ayrıca AWS cloud-native ve senior mobile/digital application geliştirme kaynaklarını içerdiğini gösterir.",
+          "sourceUrl": "https://www.etenders.gov.za/home/Download/?blobName=f6c593ad-ee53-4e5c-ad65-3e17da81fdc7.pdf&downloadedFileName=Job+Descrptions+for+the+Roles+in+Scope+of+Work.pdf"
         }
       ]
     }
