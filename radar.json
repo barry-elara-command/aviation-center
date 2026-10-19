@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-16T08:41:57.882Z",
+  "lastScan": "2026-10-19T08:18:33.610Z",
   "sourcesScanned": 330,
   "opportunities": [
     {
@@ -3619,6 +3619,57 @@
           "type": "Official role scope",
           "detail": "Resmî iş tanımı, Lead Airline Digital Solutions Architect rolunun SAA’nın müşteri odaklı ve operasyonel dijital platformları için uçtan uca mimari sorumluluk taşıdığını; RFQ’nun ayrıca AWS cloud-native ve senior mobile/digital application geliştirme kaynaklarını içerdiğini gösterir.",
           "sourceUrl": "https://www.etenders.gov.za/home/Download/?blobName=f6c593ad-ee53-4e5c-ad65-3e17da81fdc7.pdf&downloadedFileName=Job+Descrptions+for+the+Roles+in+Scope+of+Work.pdf"
+        }
+      ]
+    },
+    {
+      "id": "vlindair-netherlands-electric-passenger-prelaunch-2027",
+      "title": "Vlindair – Hollanda Elektrikli Bölgesel Yolcu Havayolu Pre-Launch Hazırlığı",
+      "organization": "Vlindair",
+      "country": "Netherlands",
+      "category": "Airline Startup / Electric scheduled passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-19T08:18:33.610Z",
+      "relevance": "Medium",
+      "summary": "Vlindair, Avrupa’da 500 km altındaki bölgesel hatlarda tamamen elektrikli tarifeli yolcu havayolu kurma hedefini açıklıyor. Şirketin resmî yol haritası yaklaşık 2027 döneminde ilk uçuşa yönelik operasyonel ölçeklenme, AOC/işletme ruhsatı alma, ilk rota ağını kurma; buna paralel olarak uçak üreticileriyle filo güvence çalışması, iniş hakları ve düzenleyici hazırlıkları belirtir. Açık sistem ihalesi veya teknoloji sağlayıcısı açıklanmadı. Bu nedenle PSS, IBE ve DCS için yalnızca lansman öncesi pre-RFP takip fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Vlindair resmi web sitesi",
+      "url": "https://www.vlindair.eu/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "None verified; official roadmap states AOC, fleet, route-network and first-flight preparation",
+      "qualificationNotes": "Kaynak açık PSS/DCS/IBE ihalesi, ürün sağlayıcısı veya satış açılış tarihi bildirmiyor. Kayıt, yalnızca şirketin kendi web sitesindeki AOC/işletme ruhsatı, filo, iniş hakkı ve ilk uçuş hazırlığına dayanır.",
+      "startupStage": "Pre-launch; official roadmap cites fleet, regulatory, landing-right and AOC preparation",
+      "targetLaunchDate": "2027 civarı (şirket yol haritası; kesin tarih açıklanmadı)",
+      "aocStatus": "AOC/işletme ruhsatı alma hedefi şirketin 2027 operasyonel ölçeklenme yol haritasında yer alıyor",
+      "fleetPlan": "Şirket, uçak üreticileriyle filo güvence çalışması yürüttüğünü belirtir; uçak tipi ve adetleri açıklanmadı",
+      "fundingStatus": "Series A fonlaması hazırlığı şirket yol haritasında belirtiliyor; tutar açıklanmadı",
+      "futureRationale": "Henüz ticari uçuşa başlamamış tarifeli yolcu havayolunun, ilk uçuş ve rota ağı hazırlığı tamamlanmadan önce rezervasyon, internetten satış ve yolcu işlem süreçlerini kurması gerekecektir. Kaynak, belirli bir teknoloji tedarikini doğrulamadığından fırsat pre-RFP aşamasında tutulur.",
+      "evidence": [
+        {
+          "date": "2027 civarı",
+          "type": "Official pre-launch roadmap",
+          "detail": "Şirket, operasyonel ölçeklenme kapsamında ilk uçuş, ilk rota ağının kurulması ve AOC/işletme ruhsatı alma hedeflerini belirtir; kesin tarih yayımlanmamıştır.",
+          "sourceUrl": "https://www.vlindair.eu/"
+        },
+        {
+          "date": "Tarih açıklanmadı",
+          "type": "Official fleet and regulatory preparation",
+          "detail": "Resmî sayfa, uçak üreticileriyle filo güvence çalışması, iniş hakları için hazırlık ve düzenleyici altyapı geliştirilmesini bildirir.",
+          "sourceUrl": "https://www.vlindair.eu/"
         }
       ]
     }
