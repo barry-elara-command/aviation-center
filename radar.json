@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-19T08:18:33.610Z",
+  "lastScan": "2026-10-20T03:49:03.497Z",
   "sourcesScanned": 330,
   "opportunities": [
     {
@@ -3670,6 +3670,96 @@
           "type": "Official fleet and regulatory preparation",
           "detail": "Resmî sayfa, uçak üreticileriyle filo güvence çalışması, iniş hakları için hazırlık ve düzenleyici altyapı geliştirilmesini bildirir.",
           "sourceUrl": "https://www.vlindair.eu/"
+        }
+      ]
+    },
+    {
+      "id": "palyra-sri-lanka-aoc-preapplication-prelaunch-2026",
+      "title": "Palyra – Sri Lanka AOC Ön Başvuru Aşamasındaki Yolcu Havayolu",
+      "organization": "Palyra",
+      "summary": "Sri Lanka Sivil Havacılık Otoritesi (CAASL), Palyra'nın ülkedeki planlı iç/dış hat havacılık pazarına girmesi için AOC alma sürecinde Pre-Application Phase'de olduğunu açıkladı. 7 Ekim 2026 tarihli düzenleyici toplantıda iş planı, filo düzenlemeleri, operasyonel sistemler ve uyum gereksinimleri ele alındı. Ticari uçuş/satış başlangıcı, sistem sağlayıcısı ve kesin lansman tarihi kamuya açıklanmadı; bu nedenle PSS/IBE/DCS için pre-RFP takip fırsatıdır.",
+      "country": "Sri Lanka",
+      "category": "Airline Startup / AOC pre-application",
+      "publishedDate": "2026-10-19",
+      "deadline": null,
+      "detectedAt": "2026-10-20T03:49:03.497Z",
+      "relevance": "Medium",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Civil Aviation Authority of Sri Lanka (CAASL)",
+      "url": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/IBE/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Not applicable – carrier is in AOC pre-application",
+      "qualificationNotes": "Birincil düzenleyici kaynak 19 Ekim 2026 tarihli CAASL duyurusudur. CAASL, şirketin AOC alma sürecinde Pre-Application Phase'de olduğunu; iş planı, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü doğrular. Açık PSS/IBE/DCS ihalesi, sağlayıcısı, filo tipi/adedi, kesin lansman tarihi ve satış başlangıcı duyurulmamıştır.",
+      "startupStage": "AOC Pre-Application Phase",
+      "targetLaunchDate": "Açıklanmadı",
+      "aocStatus": "CAASL AOC sürecinin Pre-Application Phase aşamasında",
+      "fleetPlan": "CAASL toplantısında fleet arrangements ele alındı; uçak tipi, adet ve teslim tarihi açıklanmadı",
+      "fundingStatus": "Açıklanmadı",
+      "futureRationale": "Henüz AOC ön başvuru aşamasındaki planlı yolcu havayolunun, ticari uçuş ve satış başlamadan önce rezervasyon, internetten satış ve yolcu işlem altyapısını seçmesi gerekecektir. Kaynak, belirli bir teknoloji tedarikini doğrulamadığından kayıt yalnızca pre-RFP takip fırsatıdır.",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "type": "Official regulator confirmation",
+          "detail": "CAASL, Palyra ve We Air temsilcileriyle yapılan toplantıda iki planlı havayolunun AOC sürecinde Pre-Application Phase'de bulunduğunu; iş planları, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü bildirir.",
+          "sourceUrl": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka"
+        }
+      ]
+    },
+    {
+      "id": "we-air-sri-lanka-aoc-preapplication-prelaunch-2026",
+      "title": "We Air – Sri Lanka AOC Ön Başvuru Aşamasındaki Yolcu Havayolu",
+      "organization": "We Air",
+      "summary": "Sri Lanka Sivil Havacılık Otoritesi (CAASL), We Air'in ülkedeki planlı iç/dış hat havacılık pazarına girmesi için AOC alma sürecinde Pre-Application Phase'de olduğunu açıkladı. 7 Ekim 2026 tarihli düzenleyici toplantıda iş planı, filo düzenlemeleri, operasyonel sistemler ve uyum gereksinimleri ele alındı. Ticari uçuş/satış başlangıcı, sistem sağlayıcısı ve kesin lansman tarihi kamuya açıklanmadı; bu nedenle PSS/IBE/DCS için pre-RFP takip fırsatıdır.",
+      "country": "Sri Lanka",
+      "category": "Airline Startup / AOC pre-application",
+      "publishedDate": "2026-10-19",
+      "deadline": null,
+      "detectedAt": "2026-10-20T03:49:03.497Z",
+      "relevance": "Medium",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Civil Aviation Authority of Sri Lanka (CAASL)",
+      "url": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/IBE/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Not applicable – carrier is in AOC pre-application",
+      "qualificationNotes": "Birincil düzenleyici kaynak 19 Ekim 2026 tarihli CAASL duyurusudur. CAASL, şirketin AOC alma sürecinde Pre-Application Phase'de olduğunu; iş planı, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü doğrular. Açık PSS/IBE/DCS ihalesi, sağlayıcısı, filo tipi/adedi, kesin lansman tarihi ve satış başlangıcı duyurulmamıştır.",
+      "startupStage": "AOC Pre-Application Phase",
+      "targetLaunchDate": "Açıklanmadı",
+      "aocStatus": "CAASL AOC sürecinin Pre-Application Phase aşamasında",
+      "fleetPlan": "CAASL toplantısında fleet arrangements ele alındı; uçak tipi, adet ve teslim tarihi açıklanmadı",
+      "fundingStatus": "Açıklanmadı",
+      "futureRationale": "Henüz AOC ön başvuru aşamasındaki planlı yolcu havayolunun, ticari uçuş ve satış başlamadan önce rezervasyon, internetten satış ve yolcu işlem altyapısını seçmesi gerekecektir. Kaynak, belirli bir teknoloji tedarikini doğrulamadığından kayıt yalnızca pre-RFP takip fırsatıdır.",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "type": "Official regulator confirmation",
+          "detail": "CAASL, Palyra ve We Air temsilcileriyle yapılan toplantıda iki planlı havayolunun AOC sürecinde Pre-Application Phase'de bulunduğunu; iş planları, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü bildirir.",
+          "sourceUrl": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka"
         }
       ]
     }
