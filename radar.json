@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-20T03:49:03.497Z",
-  "sourcesScanned": 330,
+  "lastScan": "2026-10-21T04:40:32.447Z",
+  "sourcesScanned": 334,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3760,6 +3760,65 @@
           "type": "Official regulator confirmation",
           "detail": "CAASL, Palyra ve We Air temsilcileriyle yapılan toplantıda iki planlı havayolunun AOC sürecinde Pre-Application Phase'de bulunduğunu; iş planları, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü bildirir.",
           "sourceUrl": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka"
+        }
+      ]
+    },
+    {
+      "id": "oad-airlines-canada-prelaunch-aoc-technology-2026",
+      "title": "OAD Airlines – Edmonton merkezli E175 startup ve AOC hazırlığı",
+      "organization": "OAD Airlines Inc.",
+      "country": "Canada",
+      "category": "Multi-product",
+      "publishedDate": "2026-06",
+      "deadline": null,
+      "detectedAt": "2026-10-21T04:40:32.447Z",
+      "relevance": "Medium",
+      "summary": "Edmonton merkezli OAD Airlines, henüz ticari uçuş yapmayan ve bilet satmayan federal olarak kurulmuş bir Kanada startup havayoludur. Şirketin resmî yol haritası, aktif pre-seed finansman ve kurucu operasyon ekibi oluşturma aşamasını; ardından Transport Canada AOC başvurusu, Embraer E175 kiralamasının ve yer hizmetleri anlaşmalarının tamamlanmasını öngörüyor. İlk ticari rotalar YEG–YYZ ve YEG–YVR olarak, başlangıç filosu ise 80 koltuklu E175 olarak açıklanmıştır. Resmî teknoloji planında dinamik fiyatlama ve talep tahmini, ekip planlama optimizasyonu, gerçek zamanlı operasyon kontrolü, CRM tabanlı kişiselleştirme ve müşteri hizmetleri otomasyonu yer alıyor. Bu nedenle PSS/IBE/DCS ile OCC, Crew ve analitik ürünleri için erken aşama greenfield satış fırsatıdır; ancak finansman kapanışı ve AOC başvurusunun fiilen yapılması henüz doğrulanmadığından takip seviyesinde tutulmalıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane OCC - Operations Control Center",
+        "Crane Crew - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "OAD Airlines resmî web sitesi",
+      "url": "https://www.oadairlines.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Greenfield / New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "Resmî sitede federal kuruluş, YEG ana üs, iki ilk rota, 80 koltuklu E175 planı, AOC hazırlık yol haritası ve belirgin teknoloji gereksinimleri doğrulanmıştır. Bununla birlikte şirket Haziran 2026 itibarıyla pre-seed aşamasındadır; AOC başvurusunun sunulduğu, finansmanın kapandığı, uçak kiralamasının imzalandığı veya teknoloji RFP'sinin başladığı doğrulanmamıştır. Finansman kapanışı, kurucu operasyon/IT ekibi ve Transport Canada AOC başvurusu teyit edilmeden Pursue seviyesine yükseltilmemelidir.",
+      "startupStage": "Pre-seed; founding operations team recruitment and AOC groundwork",
+      "targetLaunchDate": null,
+      "aocStatus": "Transport Canada AOC filing planned; application submission not yet confirmed",
+      "fleetPlan": "80 koltuklu Embraer E175; uçak kiralamasının AOC filing aşamasında tamamlanması planlanıyor",
+      "fundingStatus": "Aktif pre-seed finansman turu; kapanış doğrulanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – greenfield pre-launch airline",
+      "renewalSignal": "Not applicable – new platform procurement expected before launch",
+      "evidence": [
+        {
+          "date": "2026-06",
+          "type": "Official corporate and certification roadmap",
+          "detail": "OAD Airlines, federal kuruluşunu ve aktif pre-seed aşamasını; sonraki adımlar olarak Transport Canada AOC başvurusu, E175 kiralaması ve yer hizmetleri anlaşmalarını açıklıyor.",
+          "sourceUrl": "https://www.oadairlines.com/"
+        },
+        {
+          "date": "2026-06",
+          "type": "Official fleet, route and commercial launch plan",
+          "detail": "Şirket, YEG ana üssünden YEG–YYZ ve YEG–YVR ilk rotalarını 80 koltuklu Embraer E175 ile başlatmayı planlıyor; henüz ticari uçuş veya satış yapmadığını açıkça belirtiyor.",
+          "sourceUrl": "https://www.oadairlines.com/"
+        },
+        {
+          "date": "2026-06",
+          "type": "Official technology roadmap",
+          "detail": "Dinamik fiyatlama, talep tahmini, ekip planlama optimizasyonu, gerçek zamanlı operasyon kontrolü, CRM kişiselleştirme ve müşteri hizmetleri otomasyonu planları açıklanmıştır.",
+          "sourceUrl": "https://www.oadairlines.com/"
         }
       ]
     }
