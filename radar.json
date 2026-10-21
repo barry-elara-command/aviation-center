@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-21T04:40:32.447Z",
-  "sourcesScanned": 334,
+  "lastScan": "2026-10-21T12:50:02.167Z",
+  "sourcesScanned": 339,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3819,6 +3819,58 @@
           "type": "Official technology roadmap",
           "detail": "Dinamik fiyatlama, talep tahmini, ekip planlama optimizasyonu, gerçek zamanlı operasyon kontrolü, CRM kişiselleştirme ve müşteri hizmetleri otomasyonu planları açıklanmıştır.",
           "sourceUrl": "https://www.oadairlines.com/"
+        }
+      ]
+    },
+    {
+      "id": "fly-atlantic-belfast-transatlantic-launch-2027",
+      "title": "Fly Atlantic – Belfast Merkezli Transatlantik Havayolu Lansmanı",
+      "organization": "Fly Atlantic",
+      "country": "United Kingdom",
+      "category": "Airline Startup / Low-cost Passenger Airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-21T12:50:02.167Z",
+      "relevance": "Medium",
+      "summary": "Fly Atlantic, resmî sitesinde Belfast International Airport merkezli düşük maliyetli transatlantik havayolu olarak 2027 ilkbaharında faaliyete başlamayı planladığını ve Avrupa ile Kuzey Amerika şehirlerini Belfast üzerinden bağlayacağını açıklıyor. Site henüz rezervasyon veya bilet satış akışı sunmuyor; PSS, IBE, DCS, Weight & Balance, OCC ve Crew sağlayıcıları kamuya açıklanmadı. Bu nedenle kayıt, lansman öncesi doğrulama gerektiren P2 sistem-seçim fırsatı olarak değerlendirildi.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "Fly Atlantic",
+      "url": "https://flyatlantic.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / passenger airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, Weight & Balance, OCC and Crew providers not publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new airline launch",
+      "qualificationNotes": "Fly Atlantic'in güncel resmî sitesi, 2027 ilkbaharı lansman hedefini ve Belfast International Airport merkezli Avrupa-Kuzey Amerika bağlantı modelini doğruluyor. Kamuya açık resmî CAA kaynağında AOC aşaması, kesin filo tipi/teslimatı, ilk hatlar, satış başlangıcı ve teknoloji seçim takvimi doğrulanmadı. İlk temas bu başlıkları ve finansman durumunu teyit etmeye odaklanmalıdır.",
+      "startupStage": "Pre-launch passenger airline; official Spring 2027 launch plan",
+      "targetLaunchDate": "2027 ilkbaharı",
+      "aocStatus": "Kamuya açık resmî CAA kaynağında doğrulanmadı",
+      "fleetPlan": "Resmî güncel sayfada uçak tipi, adet veya teslimat tarihi açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "Taşıyıcının resmî sitesi ilk ticari lansmanı 2027 ilkbaharı için planlıyor; satış kanalı ve temel yolcu/operasyon sistem sağlayıcıları kamuya açıklanmadı.",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "type": "Official future-launch confirmation",
+          "detail": "Fly Atlantic's official website states that the new low-fare airline plans to launch in Spring 2027 and connect European and North American cities through a Belfast International Airport hub.",
+          "sourceUrl": "https://flyatlantic.com/"
         }
       ]
     }
