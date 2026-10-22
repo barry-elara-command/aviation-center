@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastScan": "2026-10-21T12:50:02.167Z",
-  "sourcesScanned": 339,
+  "lastScan": "2026-10-22T13:48:17.897Z",
+  "sourcesScanned": 340,
   "opportunities": [
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
@@ -3720,45 +3720,49 @@
     },
     {
       "id": "we-air-sri-lanka-aoc-preapplication-prelaunch-2026",
-      "title": "We Air – Sri Lanka AOC Ön Başvuru Aşamasındaki Yolcu Havayolu",
+      "title": "We Air – Sri Lanka AOC Ön Başvuru Aşamasındaki Kargo Havayolu",
       "organization": "We Air",
-      "summary": "Sri Lanka Sivil Havacılık Otoritesi (CAASL), We Air'in ülkedeki planlı iç/dış hat havacılık pazarına girmesi için AOC alma sürecinde Pre-Application Phase'de olduğunu açıkladı. 7 Ekim 2026 tarihli düzenleyici toplantıda iş planı, filo düzenlemeleri, operasyonel sistemler ve uyum gereksinimleri ele alındı. Ticari uçuş/satış başlangıcı, sistem sağlayıcısı ve kesin lansman tarihi kamuya açıklanmadı; bu nedenle PSS/IBE/DCS için pre-RFP takip fırsatıdır.",
+      "summary": "Sri Lanka Sivil Havacılık Otoritesi (CAASL), We Air'in AOC alma sürecinde Pre-Application Phase aşamasında olduğunu ve Boeing 737-800 uçaklarıyla Asya-Pasifik bölgesinde yalnız uluslararası kargo operasyonu planladığını açıkladı. Ticari operasyon başlangıcı, kesin lansman tarihi ve CGO/OCC/Weight & Balance/Crew/Schedule Planning sağlayıcıları kamuya açıklanmadı; bu nedenle kayıt kargo sistemleri için pre-RFP takip fırsatıdır.",
       "country": "Sri Lanka",
-      "category": "Airline Startup / AOC pre-application",
+      "category": "Airline Startup / Cargo Airline / AOC pre-application",
       "publishedDate": "2026-10-19",
       "deadline": null,
       "detectedAt": "2026-10-20T03:49:03.497Z",
       "relevance": "Medium",
       "products": [
-        "Crane PAX - Passenger Services System",
-        "Crane IBE - Internet Booking Engine",
-        "Crane DCS - Departure Control System"
+        "Crane CGO - Cargo Management System",
+        "Crane OCC - Operations Control Center",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
       ],
       "sourceName": "Civil Aviation Authority of Sri Lanka (CAASL)",
       "url": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka",
       "official": true,
       "status": "Pre-RFP",
-      "procurementType": "Startup airline systems selection",
+      "procurementType": "Startup cargo airline systems selection",
       "commercialPriority": "P2",
       "recommendation": "Pursue",
-      "incumbent": "No passenger PSS/IBE/DCS provider publicly disclosed",
-      "incumbentPss": "Unknown",
-      "incumbentDcs": "Unknown",
+      "incumbent": "No cargo management, OCC, Weight & Balance, Crew or Schedule Planning provider publicly disclosed",
+      "incumbentPss": "Not applicable / cargo-only operation",
+      "incumbentDcs": "Not applicable / cargo-only operation",
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Not applicable – pre-launch carrier",
       "renewalSignal": "Not applicable – carrier is in AOC pre-application",
-      "qualificationNotes": "Birincil düzenleyici kaynak 19 Ekim 2026 tarihli CAASL duyurusudur. CAASL, şirketin AOC alma sürecinde Pre-Application Phase'de olduğunu; iş planı, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü doğrular. Açık PSS/IBE/DCS ihalesi, sağlayıcısı, filo tipi/adedi, kesin lansman tarihi ve satış başlangıcı duyurulmamıştır.",
+      "qualificationNotes": "Birincil düzenleyici kaynak CAASL duyurusudur. CAASL, We Air'in AOC sürecinde Pre-Application Phase'de olduğunu; Boeing 737-800 ile Asya-Pasifik bölgesinde yalnız uluslararası kargo uçuşları planladığını ve iş planı, filo düzenlemeleri, operasyonel sistemler ile mevzuat uyumunun görüşüldüğünü doğrular. Açık CGO/OCC/WB/Crew/SP ihalesi, sağlayıcısı, uçak adedi/teslim tarihi, kesin lansman tarihi ve teknoloji karar takvimi duyurulmamıştır.",
       "startupStage": "AOC Pre-Application Phase",
       "targetLaunchDate": "Açıklanmadı",
       "aocStatus": "CAASL AOC sürecinin Pre-Application Phase aşamasında",
-      "fleetPlan": "CAASL toplantısında fleet arrangements ele alındı; uçak tipi, adet ve teslim tarihi açıklanmadı",
+      "fleetPlan": "Boeing 737-800 ile uluslararası kargo operasyonu planı; uçak adedi ve teslim tarihi açıklanmadı",
       "fundingStatus": "Açıklanmadı",
-      "futureRationale": "Henüz AOC ön başvuru aşamasındaki planlı yolcu havayolunun, ticari uçuş ve satış başlamadan önce rezervasyon, internetten satış ve yolcu işlem altyapısını seçmesi gerekecektir. Kaynak, belirli bir teknoloji tedarikini doğrulamadığından kayıt yalnızca pre-RFP takip fırsatıdır.",
+      "futureRationale": "Henüz AOC ön başvuru aşamasındaki kargo havayolunun ticari operasyon başlamadan önce cargo management, operasyon kontrol, ağırlık-denge, ekip ve tarife planlama altyapısını seçmesi gerekecektir. Belirli bir teknoloji tedariki doğrulanmadığından kayıt pre-RFP aşamasında tutulur.",
       "evidence": [
         {
           "date": "2026-10-07",
           "type": "Official regulator confirmation",
-          "detail": "CAASL, Palyra ve We Air temsilcileriyle yapılan toplantıda iki planlı havayolunun AOC sürecinde Pre-Application Phase'de bulunduğunu; iş planları, filo düzenlemeleri, operasyonel sistemler ve mevzuat uyumunun görüşüldüğünü bildirir.",
+          "detail": "CAASL, We Air'in AOC sürecinde Pre-Application Phase'de olduğunu ve Boeing 737-800 uçaklarıyla Asya-Pasifik bölgesinde yalnız uluslararası kargo operasyonu planladığını bildirir.",
           "sourceUrl": "https://caa.lk/en/news/705-two-new-airlines-advance-plans-to-commence-operations-in-sri-lanka"
         }
       ]
