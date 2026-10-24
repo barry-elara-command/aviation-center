@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-23T15:44:48.086Z",
+  "lastScan": "2026-10-24T01:49:16.570Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -3539,14 +3539,14 @@
       "deadline": null,
       "detectedAt": "2026-10-16T04:47:39.167Z",
       "relevance": "Medium",
-      "summary": "Sky Alps Europe, Slovakya’da ayrı bir AOC ile bölgesel yolcu operasyonu hazırlıyor. Ekim 2026’da ilk DHC-8-Q400 uçağı Bratislava’ya getirildi ve AOC sürecine yönelik proving uçuşları yapıldı; sektör haberi AOC başvurusunun hâlen sürdüğünü bildiriyor. Ticari yolcu operasyonu henüz doğrulanmadı ve başlangıç tarihi açıklanmadı. Bu nedenle PSS, IBE ve DCS için lansman öncesi pre-RFP takip fırsatıdır; teknoloji sağlayıcısı veya sistem seçim takvimi kamuya açıklanmadı.",
+      "summary": "Sky Alps Europe, Slovakya’da ayrı bir AOC ve işletme ruhsatı ile bölgesel yolcu operasyonu hazırlığını bir üst aşamaya taşıdı. Sektör kaynakları 20 Ekim 2026’da Slovak Sivil Havacılık Otoritesinin AOC ve işletme ruhsatını verdiğini bildirdi. İlk iki DHC-8-Q400 için filo/proving hazırlığı daha önce doğrulanmıştı. İlk ticari rota, satış açılışı ve başlangıç tarihi hâlen kamuya açıklanmadığından PSS, IBE ve DCS için pre-RFP takip fırsatı sürmektedir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
         "Crane DCS - Departure Control System"
       ],
-      "sourceName": "Aviation.Direct; planes.cz",
-      "url": "https://aviation.direct/en/sky-alps-europe-uebernimmt-erstes-turboprop-flugzeug-fuer-slowakischen-flugbetrieb",
+      "sourceName": "ch-aviation; Aviation.Direct",
+      "url": "https://aviation.direct/en/category/international",
       "official": false,
       "status": "Pre-RFP",
       "procurementType": "Startup airline systems selection",
@@ -3557,14 +3557,14 @@
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Not applicable – pre-launch carrier",
-      "renewalSignal": "None verified; AOC process and fleet/proving-flight preparation are ongoing",
-      "qualificationNotes": "Sektör basını, Slovak Sivil Havacılık Otoritesinden AOC ve işletme ruhsatı için hazırlığı ve iki Q400 ile başlangıç planını bildirdi. 9 Ekim 2026 tarihli fotoğraf/haber kaydı, ilk uçağın Bratislava’ya ulaştığını, proving uçuşları yaptığını ve şirketin Slovak AOC için çalıştığını gösteriyor. Açık RFP, teknoloji sağlayıcısı, satış açılış tarihi veya kesin ilk ticari uçuş tarihi açıklanmadı.",
-      "startupStage": "Pre-launch; Slovak AOC application and proving-flight activity ongoing",
+      "renewalSignal": "20 Ekim 2026’da Slovak AOC ve işletme ruhsatının verildiği bildirildi; ticari başlangıç öncesi sistem devreye alma ihtiyacı devam ediyor",
+      "qualificationNotes": "Sektör kaynakları, 20 Ekim 2026’da Slovak Sivil Havacılık Otoritesinin AOC ve işletme ruhsatını verdiğini bildirdi. İlk ticari rota, bilet satış açılışı, teknoloji sağlayıcısı veya kesin ilk ticari uçuş tarihi kamuya açıklanmadı.",
+      "startupStage": "Pre-launch; Slovak AOC ve işletme ruhsatı alındı, ticari rota/satış başlangıcı açıklanmadı",
       "targetLaunchDate": "Tarih açıklanmadı",
-      "aocStatus": "Slovak AOC başvurusu sürüyor; Ekim 2026 kaynağı şirketin hâlen AOC almaya çalıştığını bildiriyor",
+      "aocStatus": "Slovak AOC ve işletme ruhsatı 20 Ekim 2026’da verildiği sektör kaynaklarınca bildirildi",
       "fleetPlan": "İlk aşamada grup envanterinden iki DHC-8-Q400 planlandı; ilk uçak OM-TOM Ekim 2026’da Bratislava’ya getirildi ve proving uçuşları yaptı",
       "fundingStatus": "Not publicly disclosed",
-      "futureRationale": "Ticari yolcu operasyonu henüz doğrulanmadı. AOC sertifikasyonu, filo hazırlığı ve proving faaliyetleri tamamlanmadan önce yolcu satış ve havaalanı süreçleri için PSS, IBE ve DCS seçimine ihtiyaç duyulacaktır.",
+      "futureRationale": "AOC ve işletme ruhsatı sonrası, ticari yolcu operasyonu için rezervasyon, online satış ve havaalanı süreçlerinin devreye alınması gerekecektir. Kamuya açıklanmış sistem seçimi veya RFP yoktur.",
       "evidence": [
         {
           "date": "2026-10-09",
@@ -3577,6 +3577,12 @@
           "type": "AOC and initial-fleet plan",
           "detail": "Şirket sözcüsüne dayandırılan sektör haberi, Slovak AOC/işletme ruhsatı hazırlığını ve ilk aşamada iki DHC-8-Q400 ile başlama planını aktardı.",
           "sourceUrl": "https://aviation.direct/en/sky-alps-europe-expects-to-launch-with-two-dash-8-400s/"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "AOC and operating licence approval",
+          "detail": "Sektör haber akışı, Sky Alps Europe’un Slovak Sivil Havacılık Otoritesinden AOC ve işletme ruhsatı aldığını bildirdi; ticari rota veya satış başlangıcı açıklanmadı.",
+          "sourceUrl": "https://aviation.direct/en/category/international"
         }
       ]
     },
