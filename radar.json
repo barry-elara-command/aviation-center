@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-24T01:49:16.570Z",
+  "lastScan": "2026-10-24T18:43:53.509Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -2753,7 +2753,7 @@
       "deadline": null,
       "detectedAt": "2026-10-07T23:01:20Z",
       "relevance": "Medium",
-      "summary": "AVi8 Airways, Kamboçya merkezli yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak Mayıs 2027 ticari operasyon hedefiyle AOC sertifikasyon sürecini yürütüyor. Şirketin resmî sitesi, hedef lansman öncesinde iki A321-200(P2F) kargo uçağı ve üç A320-200 yolcu uçağı planını doğruluyor. Southern Vision Investment yatırımı AOC ve filo hazırlığını destekliyor. GeoSpatios ile geliştirilen Thayer AI:OS; dispatch/rota planlama, crew scheduling, kestirimci bakım, IROPs recovery ve hava durumu zekâsını kapsadığından OCC, Crew ve Schedule Planning açık Crane alanı değildir. PSS/IBE/DCS, kargo rezervasyon ve iş performansı sağlayıcıları açıklanmadı.",
+      "summary": "AVi8 Airways, Kamboçya merkezli yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak Mayıs 2027 ticari operasyon hedefiyle AOC sertifikasyon sürecini yürütüyor. Şirket, 22 Ekim 2026’da Kamboçya Devlet Sivil Havacılık Sekreterliği (SSCA) ile görüşmesinin ardından proje için ilke desteği aldığını ve resmî onay/AOC için çalıştığını duyurdu. Şirketin resmî sitesi, hedef lansman öncesinde iki A321-200(P2F) kargo uçağı ve üç A320-200 yolcu uçağı planını doğruluyor. GeoSpatios/Thayer AI:OS; dispatch/rota planlama, crew scheduling, kestirimci bakım, IROPs recovery ve hava durumu zekâsını kapsadığından OCC, Crew ve Schedule Planning açık Crane alanı değildir. PSS/IBE/DCS, kargo rezervasyon ve iş performansı sağlayıcıları açıklanmadı.",
       "products": [
         "Crane PAX - Passenger Services System",
         "Crane IBE - Internet Booking Engine",
@@ -2774,10 +2774,10 @@
       "incumbentConfidence": "Confirmed for operations/crew/dispatch stack; Unknown for PSS, IBE, DCS and cargo reservations",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – pre-launch carrier",
-      "qualificationNotes": "Kayıt geleceğe dönük Mayıs 2027 ticari lansmanına, AOC sertifikasyon hazırlığına, stratejik yatırıma ve şirket sitesinin doğruladığı iki A321-200(P2F) freighter ile üç A320-200 yolcu uçağı planına dayanır. Thayer AI:OS kapsamında dispatch/rota planlama, crew scheduling, predictive maintenance, IROPs recovery ve weather intelligence için teknoloji seçimi açıklanmıştır; Crane OCC, Crew ve Schedule Planning bu nedenle açık alan değildir. PSS/IBE/DCS, cargo rezervasyon ve BPI sağlayıcıları açıklanmadı.",
+      "qualificationNotes": "Kayıt geleceğe dönük Mayıs 2027 ticari lansmanına, AOC sertifikasyon hazırlığına, 22 Ekim 2026 tarihli SSCA ilke desteğine, stratejik yatırıma ve şirket sitesinin doğruladığı iki A321-200(P2F) freighter ile üç A320-200 yolcu uçağı planına dayanır. Thayer AI:OS kapsamında dispatch/rota planlama, crew scheduling, predictive maintenance, IROPs recovery ve weather intelligence için teknoloji seçimi açıklanmıştır; Crane OCC, Crew ve Schedule Planning bu nedenle açık alan değildir. PSS/IBE/DCS, cargo rezervasyon ve BPI sağlayıcıları açıklanmadı.",
       "startupStage": "Pre-launch airline; commercial operations not yet started",
       "targetLaunchDate": "May 2027 (company target; regulatory approval dependent)",
-      "aocStatus": "AOC application, certificate or operating specifications not publicly confirmed",
+      "aocStatus": "Kamboçya SSCA’dan 22 Ekim 2026’da proje için ilke desteği açıklandı; şirket resmî onay ve AOC sertifikasyonu için çalıştığını bildiriyor. AOC henüz düzenleyici tarafından verilmiş olarak kamuya açıklanmadı.",
       "fleetPlan": "Şirketin resmî sitesi, hedeflenen Mayıs 2027 lansmanı öncesinde iki A321-200(P2F) freighter ve üç A320-200 yolcu uçağı planını yayımlıyor. Bağlayıcı teslim, kira ve tescil ayrıntıları kamuya açıklanmadı.",
       "fundingStatus": "Southern Vision Investment strategic investment announced 8 September 2026; amount and terms not disclosed",
       "evidence": [
@@ -2804,9 +2804,15 @@
           "type": "Official launch and fleet plan",
           "detail": "AVi8 Airways' official website states a targeted May 2027 commercial launch and plans for two A321-200(P2F) freighters and three A320-200 passenger aircraft.",
           "sourceUrl": "https://www.avi8airways.com/"
+        },
+        {
+          "date": "2026-10-22",
+          "type": "Official company regulatory-readiness update",
+          "detail": "AVi8 Airways, Cambodia State Secretariat of Civil Aviation (SSCA) ile 22 Ekim 2026’daki görüşmede proje için ilke desteği aldığını; Kamboçya bayraklı cargo/charter taşıyıcısı için resmî onay ve AOC sertifikasyonuna çalıştığını duyurdu. AOC’nin verildiğine dair düzenleyici açıklama henüz yok.",
+          "sourceUrl": "https://www.linkedin.com/company/avi8-airways/"
         }
       ],
-      "futureRationale": "Ticari operasyonun Mayıs 2027 için hedeflenmesi, AOC sertifikasyon hazırlığı ve beş uçaklık ilk filo planının resmî şirket sitesinde yayınlanması; PSS/IBE/DCS, cargo rezervasyon ve BPI seçimleri için geleceğe dönük ihtiyaç doğurur. Bu sağlayıcılar henüz açıklanmadı."
+      "futureRationale": "Ticari operasyonun Mayıs 2027 için hedeflenmesi, şirketin 22 Ekim 2026’da duyurduğu SSCA ilke desteği, devam eden resmî onay/AOC hazırlığı ve beş uçaklık ilk filo planı; PSS/IBE/DCS, cargo rezervasyon ve BPI seçimleri için geleceğe dönük ihtiyaç doğurur. Bu sağlayıcılar henüz açıklanmadı."
     },
     {
       "id": "fly-beirut-lebanon-low-cost-prelaunch-2027",
