@@ -1,8 +1,54 @@
 {
   "version": 1,
-  "lastScan": "2026-10-24T18:43:53.509Z",
+  "lastScan": "2026-10-26T01:50:00.223Z",
   "sourcesScanned": 340,
   "opportunities": [
+    {
+      "id": "mada-airways-lebanon-aoc-pending-prelaunch-2026",
+      "title": "Mada Airways – Lübnan’da AOC bekleyen yeni bölgesel havayolu",
+      "organization": "Mada Airways / IBEX Holding",
+      "country": "Lübnan",
+      "category": "Passenger Service Systems",
+      "publishedDate": "2026-06-11",
+      "deadline": null,
+      "detectedAt": "2026-10-26T01:49:59.633Z",
+      "relevance": "Medium",
+      "summary": "Mada Airways, René Moawad (Qleiaat) Havalimanı merkezli planlanan yeni Lübnan havayoludur. Şirket, AOC alındıktan ve havalimanı rehabilitasyonu tamamlandıktan sonra tarifeli yolcu uçuşuna başlamayı planlıyor. Açıklanan başlangıç filosu kiralık bir Embraer 170 ve bir Embraer 190’dır; hedef ağ olarak Mersin, Dubai, Atina, Cidde ve Kıbrıs anılmıştır. Ticari uçuşun başladığına ilişkin kanıt bulunmadığından, yeni taşıyıcının PSS, IBE, DCS ve WB hazırlığı için Pre-RFP izleme fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance"
+      ],
+      "sourceName": "Aviator; Enmaeya News",
+      "url": "https://aviator.aero/press/mada-airways-looks-to-launch-operations-from-northern-lebanon",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "11 Haziran 2026 tarihli Aviator haberi, tarifeli operasyonun AOC ve Qleiaat havalimanı rehabilitasyonuna bağlı olduğunu; filonun bir E170 ve bir E190 olarak planlandığını bildirir. 12 Haziran 2026 tarihli yerel haber de aynı koşulları, hedef hatları ve kiralık uçak planını teyit eder. PSS/DCS tedarik yöntemi, sözleşme takvimi, kesin başlangıç tarihi ve teknoloji sağlayıcısı açıklanmadı.",
+      "startupStage": "AOC ve havalimanı hazırlığı bekleniyor; ticari tarifeli uçuş başlamadı",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC bekleniyor; grant kamuya açıklanmadı",
+      "fleetPlan": "Bir kiralık Embraer 170 ve bir kiralık Embraer 190 ile başlangıç planı bildirildi",
+      "fundingStatus": "Kamuya açıklanmış ayrı finansman bilgisi bulunmuyor",
+      "evidence": [
+        {
+          "date": "2026-06-11",
+          "type": "AOC and fleet plan",
+          "detail": "Aviator, Mada Airways'in AOC ve René Moawad Havalimanı rehabilitasyonu tamamlanınca tarifeli uçuşa başlayacağını; başlangıçta bir E170 ve bir E190 planladığını bildirdi.",
+          "sourceUrl": "https://aviator.aero/press/mada-airways-looks-to-launch-operations-from-northern-lebanon"
+        },
+        {
+          "date": "2026-06-12",
+          "type": "Local launch-preparation confirmation",
+          "detail": "Yerel haber, AOC bekleme koşulunu, Qleiaat merkezini, iki kiralık Embraer uçağını ve hedef hatları teyit etti; ticari başlangıç tarihi açıklanmadı.",
+          "sourceUrl": "https://enmaeya.com/en/news/6a2bf6f1bb6d4744dd468b63"
+        }
+      ]
+    },
     {
       "id": "air-inter-transport-asia-line-cargo-resume-active-2026",
       "title": "Air Inter Transport / Asia Line Cargo – AOC Yeniden Aktivasyon ve Kargo Relaunch",
