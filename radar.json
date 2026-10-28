@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-28T21:25:49.396Z",
+  "lastScan": "2026-10-28T21:41:13.792Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -3958,6 +3958,51 @@
           "type": "Official future-launch confirmation",
           "detail": "Fly Atlantic's official website states that the new low-fare airline plans to launch in Spring 2027 and connect European and North American cities through a Belfast International Airport hub.",
           "sourceUrl": "https://flyatlantic.com/"
+        }
+      ]
+    },
+    {
+      "id": "fly-dar-syria-aoc-precommercial-passenger-systems-2026",
+      "title": "Fly Dar – Suriye AOC Almış Ticari Lansman Öncesi Havayolu",
+      "organization": "Fly Dar Airlines",
+      "country": "Syria",
+      "category": "Airline Startup / AOC granted / Pre-commercial",
+      "publishedDate": "2026-09-24",
+      "deadline": null,
+      "detectedAt": "2026-10-28T21:41:13.310Z",
+      "relevance": "Medium",
+      "summary": "Suriye Genel Sivil Havacılık ve Hava Taşımacılığı Otoritesi, Fly Dar Airlines’a 24 Eylül 2026’da AOC verildiğini ve sertifikanın havayolunu ülkenin düzenleyici çerçevesinde operasyonlara başlatmaya yetkilendirdiğini duyurdu. Kaynakta ticari uçuş veya bilet satışının başladığı, ilk rota, filo, lansman tarihi ya da mevcut teknoloji sağlayıcısı açıklanmıyor. Bu nedenle kayıt, ticari başlangıç öncesinde PSS, IBE ve DCS seçimi için orta öncelikli pre-RFP takip fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Syrian Arab News Agency (SANA) / Suriye sivil havacılık otoritesi duyurusu",
+      "url": "https://sana.sy/en/syria/2345741/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No PSS, IBE or DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – newly certified carrier; no incumbent contract disclosed",
+      "renewalSignal": "Not applicable – new AOC carrier requires pre-launch commercial and passenger-processing systems",
+      "qualificationNotes": "Birincil kamu kaynağı AOC verildiğini ve sertifikanın operasyonlara başlama yetkisi sağladığını doğrular. Ticari uçuş, bilet satışı, rota, filo, ilk uçuş tarihi ve teknoloji sağlayıcısı yayımlanmamıştır. Kayıt, teknoloji ihalesi olarak değil, AOC sonrası fakat ticari başlangıcı kaynakta doğrulanmamış greenfield pre-RFP fırsatı olarak tutulur.",
+      "startupStage": "AOC granted; commercial launch date not publicly disclosed",
+      "targetLaunchDate": "Açıklanmadı",
+      "aocStatus": "AOC, Suriye Genel Sivil Havacılık ve Hava Taşımacılığı Otoritesi tarafından 24 Eylül 2026’da verildi",
+      "fleetPlan": "Açıklanmadı",
+      "fundingStatus": "Açıklanmadı",
+      "futureRationale": "AOC verilmiş ancak ticari uçuş ve satış başlangıcı kamuya açıklanmamış yeni bir taşıyıcının, hizmete girmeden önce rezervasyon, internetten satış ve yolcu işlem altyapısını kurması gerekir. Kaynakta somut PSS/IBE/DCS satın alma takvimi veya tedarikçi bulunmadığından fırsat pre-RFP aşamasında ve Medium öncelikte tutulur.",
+      "evidence": [
+        {
+          "date": "2026-09-24",
+          "type": "Official AOC confirmation",
+          "detail": "SANA, Suriye Genel Sivil Havacılık ve Hava Taşımacılığı Otoritesi’nin Fly Dar Airlines’a AOC verdiğini ve belgenin havayolunu ülkenin düzenleyici çerçevesi altında operasyonlara başlatmaya yetkilendirdiğini bildirir.",
+          "sourceUrl": "https://sana.sy/en/syria/2345741/"
         }
       ]
     }
