@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-29T04:44:26.573Z",
+  "lastScan": "2026-10-29T11:41:35.663Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4017,6 +4017,62 @@
           "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/latin-america-and-caribbean/argentina/joy-airline-obtains-its-air-operator-certificate-and-prepares-to-launch-flights-from-jujuy-with-promotional-fares_a6ae244a8842b4728335d3ea2"
         }
       ]
+    },
+    {
+      "id": "bluestar-air-group-us-prelaunch-2027",
+      "title": "BlueStar Air Group – Florida Yolcu Havayolu Pre-launch",
+      "organization": "BlueStar Air Group Inc. (BlueStar Airlines)",
+      "country": "United States",
+      "category": "Airline Startup / Passenger",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-29T11:41:35.663Z",
+      "relevance": "Medium",
+      "summary": "BlueStar Air Group, Orlando Sanford merkezli yeni bir ABD yolcu havayolu olarak 1 Nisan 2027 için ilk uçuş hedefini açıkladı. Şirket, başlangıçta iki Airbus A320 ile operasyon planladığını ve bu uçakların tedarik/işletimi için GlobalX ile imzalı niyet mektubu bulunduğunu; kendi FAA havayolu sertifikasını da takip ettiğini bildiriyor. Ticari uçuş başlamadı; PSS, IBE, mobil kanal, DCS, WB ve operasyon/ekip sistemleri için kamuya açıklanmış bir sağlayıcı yok. Şirketin patent başvurusu yapılmış iç operasyon ve yolcu akışı yapay zekâsı, bu ürün alanlarında doğrulanmış bir kurulu sağlayıcı anlamına gelmiyor.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane Crew - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "BlueStar Air Group resmî yatırımcı sayfası",
+      "url": "https://bluestarairgroup.com/investors",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / new scheduled passenger airline",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Şirket, kendi geliştirdiği patent başvurulu havayolu operasyonları ve yolcu akışı yapay zekâsından söz ediyor. PSS, IBE, mobil satış, DCS, WB, OCC ve ekip sağlayıcıları açıklanmadı.",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown for PSS, IBE, DCS, WB, OCC and Crew",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch carrier",
+      "qualificationNotes": "Kayıt, şirketin resmî yatırımcı sayfasındaki 1 Nisan 2027 ilk uçuş hedefi, iki A320 ile başlangıç planı, GlobalX ile imzalı uçak tedarik/işletim niyet mektubu ve kendi FAA havayolu sertifikası arayışı beyanına dayanır. FAA tarafından sertifika verildiğini doğrulayan bir kaynak henüz bulunmadı. Şirketin Ağustos ve Eylül 2026 patent başvuruları operasyon/yolcu akışı yapay zekâsı içindir; PSS, IBE, DCS, WB, OCC veya Crew seçimi değildir. İlk temasta FAA sertifikasyon takvimi, GlobalX ACMI düzenlemesinin kapsamı, satış yetkisi/sertifika sahibi, PSS-IBE-DCS seçimi, A320 WB, OCC ve crew işletim modeli doğrulanmalıdır.",
+      "startupStage": "Pre-launch passenger airline; commercial operations not yet started",
+      "targetLaunchDate": "2027-04-01 (company target; subject to certification and operational readiness)",
+      "aocStatus": "Şirket kendi FAA havayolu sertifikasını takip ettiğini bildiriyor; sertifikanın verildiğine dair FAA veya düzenleyici açıklama bulunmadı.",
+      "fleetPlan": "İlk uçuşta Orlando Sanford’dan iki Airbus A320 planlanıyor. Şirket, uçak tedarik ve işletimi için GlobalX ile imzalı bir niyet mektubu bulunduğunu; üçüncü A320’nin 2027 sonu, beş uçaklık filonun 2028 hedefi olduğunu yayımlıyor. Bağlayıcı teslim/kira koşulları açıklanmadı.",
+      "fundingStatus": "Finansman tutarı ve yatırımın kapanış durumu kamuya açıklanmadı.",
+      "evidence": [
+        {
+          "date": "2026-08 / 2026-09",
+          "type": "Official technology-preparation disclosure",
+          "detail": "Şirket, havayolu operasyonları ve yolcu akışı için iki ABD patent başvurusu yaptığını; bunların Ağustos ve Eylül 2026'da dosyalandığını bildiriyor.",
+          "sourceUrl": "https://bluestarairgroup.com/investors"
+        },
+        {
+          "date": "2027-04-01 (target)",
+          "type": "Official launch, fleet and operating-partner disclosure",
+          "detail": "BlueStar Air Group, Orlando Sanford’dan iki Airbus A320 ile ilk uçuşu 1 Nisan 2027 için hedeflediğini, GlobalX ile ilk A320'leri tedarik edip işletmek üzere imzalı bir niyet mektubu bulunduğunu ve kendi FAA sertifikası için çalıştığını yayımlıyor.",
+          "sourceUrl": "https://bluestarairgroup.com/investors"
+        }
+      ],
+      "futureRationale": "Ticari uçuşun 1 Nisan 2027 için hedeflenmesi, iki A320 başlangıç planı, GlobalX ile açıklanan uçak işletim niyet mektubu ve devam eden FAA sertifikasyon hedefi; PSS/IBE/mobil satış, DCS/WB, OCC, Crew ve BPI kararları için geleceğe dönük bir sistem ihtiyacı oluşturur. Bu alanlardaki sağlayıcı seçimi kamuya açıklanmadı."
     }
   ]
 }
