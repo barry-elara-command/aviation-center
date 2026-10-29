@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-29T11:41:35.663Z",
+  "lastScan": "2026-10-29T19:47:40.008Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4073,6 +4073,63 @@
         }
       ],
       "futureRationale": "Ticari uçuşun 1 Nisan 2027 için hedeflenmesi, iki A320 başlangıç planı, GlobalX ile açıklanan uçak işletim niyet mektubu ve devam eden FAA sertifikasyon hedefi; PSS/IBE/mobil satış, DCS/WB, OCC, Crew ve BPI kararları için geleceğe dönük bir sistem ihtiyacı oluşturur. Bu alanlardaki sağlayıcı seçimi kamuya açıklanmadı."
+    },
+    {
+      "id": "mena-airline-jordan-peol-aoc-prelaunch",
+      "title": "MENA Airline – Ürdün’de PEOL Sonrası AOC Hazırlığındaki Bölgesel Taşıyıcı",
+      "organization": "MENA Airline",
+      "country": "Ürdün",
+      "category": "Airline Startup / Regional Passenger Airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-10-29T19:47:40.008Z",
+      "relevance": "Medium",
+      "summary": "MENA Airline, Aqaba merkezli planlanan bölgesel yolcu taşıyıcısıdır. Şirket, Jordan Civil Aviation Regulatory Commission (CARC) tarafından Preliminary Economic Operating Licence (PEOL) verildiğini, bunun AOC sertifikasyon aşamasına ilerleme imkânı sağladığını; AOC hazırlığı ve operasyonel gelişimin sürdüğünü bildiriyor. Ticari operasyon başlamadı. Şirketin yayımladığı filo stratejisi ATR 72-600’dür. PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları açıklanmadığından kayıt geleceğe dönük Pre-RFP fırsatı olarak tutulur.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane Crew - Crew Management",
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "MENA Airline resmî sitesi; MENA Airline LinkedIn duyurusu",
+      "url": "https://menaairline.com/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / AOC certification / passenger airline-system selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, Weight & Balance, OCC, Crew ve Schedule Planning sağlayıcıları kamuya açıklanmadı.",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new airline launch",
+      "qualificationNotes": "Resmî şirket sitesi, Aqaba birincil hubı, ATR 72-600 filo stratejisi, PEOL alındığı beyanı, AOC sertifikasyon hazırlığının sürdüğü ve ticari lansmanın gelecekte olduğunu gösterir. Şirketin LinkedIn duyurusu PEOL'un AOC olmadığını ve ticari faaliyetin başlamadığını açıkça belirtir. CARC'nin kamuya açık bir PEOL kararı bu taramada bulunamadığından lisans kilometre taşı şirket beyanı olarak sınıflandırılır. Kesin AOC tamamlanma tarihi, ilk uçuş tarihi, uçak kiralama/teslim takvimi ve teknoloji seçim takvimi açıklanmadı.",
+      "startupStage": "PEOL beyan edilmiş; AOC certification ve operational development in progress; commercial operations not started",
+      "targetLaunchDate": null,
+      "aocStatus": "AOC certification preparation in progress according to the airline; no granted AOC claimed",
+      "fleetPlan": "ATR 72-600 fleet strategy disclosed by the airline; aircraft quantity, lease/delivery timetable and registrations not disclosed",
+      "fundingStatus": "Kamuya açıklanmış finansman tutarı bulunmadı",
+      "futureRationale": "Şirket, PEOL sonrası AOC sertifikasyonu ve operasyonel hazırlığın sürdüğünü; ticari lansmanın henüz gelecekte olduğunu bildiriyor. Açıklanmış ATR 72-600 filo stratejisi, yolcu satış, yer hizmetleri, DCS/WB, OCC ve ekip sistemleri için lansman öncesi satın alma ihtiyacına işaret eder; sağlayıcılar açıklanmadı.",
+      "evidence": [
+        {
+          "date": null,
+          "type": "Official pre-launch and regulatory-progress disclosure",
+          "detail": "MENA Airline resmi sitesi, Aqaba merkezli ATR 72-600 stratejili bölgesel taşıyıcı için PEOL alındığını, AOC certification ve operational development'in sürdüğünü, commercial launch'ın gelecekte olduğunu yayımlıyor.",
+          "sourceUrl": "https://menaairline.com/"
+        },
+        {
+          "date": null,
+          "type": "Company confirmation of non-operating status",
+          "detail": "MENA Airline'ın şirket LinkedIn duyurusu, CARC'den PEOL alındığını; bunun AOC olmadığını ve ticari operasyonların henüz başlamadığını belirtiyor.",
+          "sourceUrl": "https://www.linkedin.com/company/mena-airline"
+        }
+      ]
     }
   ]
 }
