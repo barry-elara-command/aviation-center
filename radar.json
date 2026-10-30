@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-29T19:47:40.008Z",
+  "lastScan": "2026-10-30T12:46:03.547Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -3971,7 +3971,7 @@
       "deadline": null,
       "detectedAt": "2026-10-28T22:49:11.344Z",
       "relevance": "Medium",
-      "summary": "Arjantin Ulaştırma Bakanlığı, Buenos Aires International Airlines S.A. (JOY Airline) için Jujuy–Buenos Aires ve Jujuy–Córdoba hatlarında düzenli yolcu ve kargo taşımacılığı yetkisini 20 Ekim 2026’da yayımladı. Jujuy il yönetimi, tarifeli başlangıcın 16 Kasım 2026 olarak planlandığını ve bilet satışının şirketin rezervasyon sistemi üzerinden açıldığını bildirdi. Aviacionline’ın 28 Ekim 2026 tarihli haberi, ANAC’ın 27 Ekim’de CESA/AOC verdiğini; ikinci CRJ-200LR’ın Kasımda gelmesinin planlandığını aktarır. PSS, IBE veya DCS tedarikçisi kamuya açıklanmadığı için kayıt pre-RFP seviyesindedir.",
+      "summary": "Arjantin Ulaştırma Bakanlığı, Buenos Aires International Airlines S.A. (JOY Airline) için Jujuy–Buenos Aires ve Jujuy–Córdoba hatlarında düzenli yolcu ve kargo taşımacılığı yetkisini 20 Ekim 2026’da yayımladı. Aviacionline, ANAC’ın 27 Ekim’de CESA/AOC verdiğini ve ikinci CRJ-200LR’ın Kasımda gelmesinin planlandığını bildiriyor. Önceden açıklanan 16 Kasım 2026 tarifeli başlangıç ve satış planı ise şirketin ödeme platformunu ve tarifelerini yeniden düzenlemesi nedeniyle ertelendi; ilk gelir uçuşu için yeni bir tarih kamuya açıklanmadı. PSS, IBE veya DCS tedarikçisi kamuya açıklanmadığından kayıt pre-RFP seviyesindedir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -3990,13 +3990,13 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Not applicable – pre-commercial startup",
       "renewalSignal": "Not applicable – new scheduled carrier; public sources confirm booking-system use but not supplier or contract term",
-      "qualificationNotes": "Resmî kaynaklar rota yetkisini, 16 Kasım 2026 tarifeli başlangıç planını ve bilet satışının şirketin rezervasyon sistemi üzerinden açıldığını doğrular. Aviacionline, ANAC CESA/AOC’sinin 27 Ekim 2026’da alındığını ve ikinci CRJ-200LR planını bildirir; sertifika belgesinin kendisi kamuya açık doğrulanamadı. PSS/IBE/DCS sağlayıcısı, DCS kullanım modeli ve teknoloji tedarik takvimi açıklanmamıştır.",
-      "startupStage": "AOC/ CESA granted; scheduled launch planned for 16 November 2026; ticket sales enabled",
-      "targetLaunchDate": "2026-11-16 (Jujuy il yönetimi duyurusu)",
+      "qualificationNotes": "Resmî kaynaklar rota yetkisini, önceki 16 Kasım 2026 tarifeli başlangıç planını ve bilet satışının şirketin rezervasyon sistemi üzerinden açıldığını doğrular. Aviacionline, ANAC CESA/AOC’sinin 27 Ekim 2026’da alındığını ve ikinci CRJ-200LR planını bildirir; sertifika belgesinin kendisi kamuya açık doğrulanamadı. Aynı kaynak, şirketin başlangıçta 30 Eylül hedefiyle açtığı bilet satışını ödeme platformunu ve fiyatlarını düzenlemek üzere ertelediğini/suspend ettiğini bildirir; Jujuy duyurusundaki 16 Kasım başlangıcı artık kesin kabul edilmemelidir. PSS/IBE/DCS sağlayıcısı, DCS kullanım modeli ve teknoloji tedarik takvimi açıklanmamıştır.",
+      "startupStage": "AOC/ CESA granted; first scheduled launch date no longer confirmed; ticket sales previously opened then suspended for payment-platform and fare adjustments",
+      "targetLaunchDate": "Tarih açıklanmadı; 16 Kasım 2026 önceki Jujuy il yönetimi planıydı. Aviacionline 28 Ekim 2026 itibarıyla satışın/başlangıcın ödeme platformu ve tarife ayarı için ertelendiğini bildirdi.",
       "aocStatus": "Aviacionline’ın 28 Ekim 2026 tarihli haberi, ANAC’ın 27 Ekim 2026’da CESA/AOC verdiğini bildirir; resmî sertifika belgesi kamuya açık olarak bulunamadı",
       "fleetPlan": "Bir CRJ-200LR ile hazırlık; ikinci CRJ-200LR’ın Kasım 2026’da LV-JOE tesciliyle gelmesi planlanıyor (Aviacionline haberi)",
       "fundingStatus": "Açıklanmadı",
-      "futureRationale": "Tarifeli hizmetin 16 Kasım 2026’da başlaması planlanırken bilet satışının rezervasyon sistemi üzerinden açılması ve AOC/ CESA’nın alındığının bildirilmesi, satış ve yolcu işlem altyapısının kısa vadede işletimsel olarak kritik olduğunu gösterir. PSS/IBE/DCS tedarikçisi açıklanmadığından fırsat, pre-RFP sistem doğrulama ve ilişki kurma aşamasında tutulur.",
+      "futureRationale": "AOC/ CESA’nın alındığının bildirilmesi, rota yetkisi ve ikinci CRJ-200LR hazırlığı yolcu işlem altyapısı ihtiyacını sürdürür. Ancak ödeme platformu ve tarife ayarı için satışın/başlangıcın ertelenmesi, fırsatın zaman çizelgesi riskini yükseltir. PSS/IBE/DCS tedarikçisi açıklanmadığından pre-RFP sistem doğrulama ve ilişki kurma aşamasında tutulur.",
       "evidence": [
         {
           "date": "2026-10-20",
@@ -4014,6 +4014,12 @@
           "date": "2026-10-27",
           "type": "AOC/ CESA and fleet update",
           "detail": "Aviacionline, JOY Airline’ın ANAC’tan CESA/AOC aldığını; ikinci CRJ-200LR’ın Kasımda LV-JOE tesciliyle filoya katılmasının planlandığını bildirdi. Sertifika belgesinin kamuya açık aslına erişilemediği için bu kanıt doğrulanabilir yerel haber olarak sınıflandırıldı.",
+          "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/latin-america-and-caribbean/argentina/joy-airline-obtains-its-air-operator-certificate-and-prepares-to-launch-flights-from-jujuy-with-promotional-fares_a6ae244a8842b4728335d3ea2"
+        },
+        {
+          "date": "2026-10-28",
+          "type": "Launch-timing and ticketing-status update",
+          "detail": "Aviacionline, JOY'un ANAC AOC'si sonrası daha önce açılan bilet satışının ödeme platformu ve tarife düzenlemesi için geçici olarak durdurulduğunu; ilk uçuşun ertelendiğini ve yeni tarihin açıklanmadığını bildirdi.",
           "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/latin-america-and-caribbean/argentina/joy-airline-obtains-its-air-operator-certificate-and-prepares-to-launch-flights-from-jujuy-with-promotional-fares_a6ae244a8842b4728335d3ea2"
         }
       ]
