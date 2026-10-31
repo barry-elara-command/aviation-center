@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-30T12:46:03.547Z",
+  "lastScan": "2026-10-31T20:48:06.561Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4134,6 +4134,57 @@
           "type": "Company confirmation of non-operating status",
           "detail": "MENA Airline'ın şirket LinkedIn duyurusu, CARC'den PEOL alındığını; bunun AOC olmadığını ve ticari operasyonların henüz başlamadığını belirtiyor.",
           "sourceUrl": "https://www.linkedin.com/company/mena-airline"
+        }
+      ]
+    },
+    {
+      "id": "air-ayodhya-india-aoc-prelaunch-2026",
+      "title": "Air Ayodhya – Hindistan UDAN Bölgesel Havayolu AOC Hazırlığı",
+      "organization": "Megamax Aviation Private Limited / Air Ayodhya",
+      "country": "India",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": "2026-09-28",
+      "deadline": null,
+      "detectedAt": "2026-10-31T20:48:06.561Z",
+      "relevance": "Medium",
+      "summary": "Air Ayodhya, Megamax Aviation tarafından Hindistan’ın UDAN bölgesel bağlantı programı kapsamında planlanan yolcu havayoludur. Yerel haberlerde Hindistan Sivil Havacılık Bakanlığı’nın (MoCA) NOC verdiği, ardından DGCA nezdinde AOC sertifikasyonuna başlanacağı ve ticari operasyonların bu onaydan sonra başlayacağı bildirildi. İlk yeni Cessna Grand Caravan EX uçağının Aralık 2026’da teslim edilmesi planlanıyor. Ticari uçuş/satış ve teknoloji sağlayıcısı henüz açıklanmadığından Crane PAX, IBE ve DCS için pre-RFP takip fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Business Standard / ANI; ETTravelWorld",
+      "url": "https://www.business-standard.com/content/press-releases-ani/air-ayodhya-receives-noc-from-ministry-of-civil-aviation-set-to-connect-uttar-pradesh-s-underserved-towns-under-udan-126092800307_1.html",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/IBE/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "MoCA NOC sonrası DGCA AOC sertifikasyonu ve ilk uçak teslimi planı bildirildi",
+      "qualificationNotes": "28 Eylül 2026 tarihli yerel haber, MoCA NOC’sinin alındığını, AOC sürecinin DGCA’da başlayacağını ve ticari uçuşun AOC sonrası yapılacağını bildirir. İlk Cessna Grand Caravan EX teslimi Aralık 2026 için planlanmıştır. Açık PSS/IBE/DCS ihalesi, teknoloji sağlayıcısı, kesin ilk uçuş veya satış başlangıcı kamuya açıklanmadı.",
+      "startupStage": "MoCA NOC alındı; DGCA AOC sertifikasyonu başlayacak; ticari operasyon başlamadı",
+      "targetLaunchDate": null,
+      "aocStatus": "MoCA NOC alındığı bildirildi; DGCA AOC süreci henüz tamamlanmadı",
+      "fleetPlan": "Yeni Cessna Grand Caravan EX ile başlangıç; ilk teslim Aralık 2026 için planlandı",
+      "fundingStatus": "Kamuya açıklanmış ayrı finansman bilgisi bulunmuyor",
+      "futureRationale": "AOC sertifikasyonu ve ilk uçak teslimi sonrasında ticari yolcu hizmeti kurulacak; rezervasyon, online satış ve yolcu işlem altyapısı için erken karar penceresi bulunmaktadır.",
+      "evidence": [
+        {
+          "date": "2026-09-28",
+          "type": "MoCA NOC and AOC path",
+          "detail": "Business Standard/ANI, Megamax Aviation’ın Air Ayodhya için MoCA NOC aldığını; DGCA AOC sertifikasyonunun başlayacağını ve ticari uçuşun AOC sonrası başlayacağını bildirdi.",
+          "sourceUrl": "https://www.business-standard.com/content/press-releases-ani/air-ayodhya-receives-noc-from-ministry-of-civil-aviation-set-to-connect-uttar-pradesh-s-underserved-towns-under-udan-126092800307_1.html"
+        },
+        {
+          "date": "2026-12",
+          "type": "Initial fleet readiness",
+          "detail": "Yerel haber, ilk yeni Cessna Grand Caravan EX uçağının Aralık 2026’da teslim edilmesinin planlandığını bildirdi.",
+          "sourceUrl": "https://travel.economictimes.indiatimes.com/news/aviation/domestic/air-ayodhya-secures-civil-aviation-ministrys-noc-for-regional-flights-in-uttar-pradesh/134540676"
         }
       ]
     }
