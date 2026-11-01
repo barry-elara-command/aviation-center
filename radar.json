@@ -2817,7 +2817,7 @@
       "deadline": null,
       "detectedAt": "2026-10-07T23:01:20Z",
       "relevance": "Medium",
-      "summary": "AVi8 Airways, Kamboçya merkezli yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak Mayıs 2027 ticari operasyon hedefiyle AOC sertifikasyon sürecini yürütüyor. Şirket, 22 Ekim 2026’da Kamboçya Devlet Sivil Havacılık Sekreterliği (SSCA) ile görüşmesinin ardından proje için ilke desteği aldığını ve resmî onay/AOC için çalıştığını duyurdu. Şirketin resmî sitesi, hedef lansman öncesinde iki A321-200(P2F) kargo uçağı ve üç A320-200 yolcu uçağı planını doğruluyor. GeoSpatios/Thayer AI:OS; dispatch/rota planlama, crew scheduling, kestirimci bakım, IROPs recovery ve hava durumu zekâsını kapsadığından OCC, Crew ve Schedule Planning açık Crane alanı değildir. PSS/IBE/DCS, kargo rezervasyon ve iş performansı sağlayıcıları açıklanmadı.",
+      "summary": "AVi8 Airways, Kamboçya merkezli yeni ACMI, charter, kargo ve planlanan tarifeli yolcu taşıyıcısı olarak Mayıs 2027 ticari operasyon hedefiyle AOC sertifikasyon sürecini yürütüyor. Şirket, 22 Ekim 2026’da Kamboçya Devlet Sivil Havacılık Sekreterliği (SSCA) ile görüşmesinin ardından proje için ilke desteği aldığını ve resmî onay/AOC için çalıştığını duyurdu. Şirketin resmî sitesi, hedef lansman öncesinde iki A321-200(P2F) kargo uçağı ve üç A320-200 yolcu uçağı planını doğruluyor. GeoSpatios/Thayer AI:OS; dispatch/rota planlama, crew scheduling, kestirimci bakım, IROPs recovery ve hava durumu zekâsını kapsadığından OCC, Crew ve Schedule Planning açık Crane alanı değildir. 29 Ekim 2026’da Serene Air ile geniş gövdeli freighter kapasitesi stratejisi için MOU duyuruldu; uçak adedi/kiralama ve teslim bağlayıcılığı açıklanmadı. PSS/IBE/DCS, kargo rezervasyon ve iş performansı sağlayıcıları açıklanmadı.",
       "products": [
         "Crane PAX - Passenger Services System",
         "Crane IBE - Internet Booking Engine",
@@ -2842,7 +2842,7 @@
       "startupStage": "Pre-launch airline; commercial operations not yet started",
       "targetLaunchDate": "May 2027 (company target; regulatory approval dependent)",
       "aocStatus": "Kamboçya SSCA’dan 22 Ekim 2026’da proje için ilke desteği açıklandı; şirket resmî onay ve AOC sertifikasyonu için çalıştığını bildiriyor. AOC henüz düzenleyici tarafından verilmiş olarak kamuya açıklanmadı.",
-      "fleetPlan": "Şirketin resmî sitesi, hedeflenen Mayıs 2027 lansmanı öncesinde iki A321-200(P2F) freighter ve üç A320-200 yolcu uçağı planını yayımlıyor. Bağlayıcı teslim, kira ve tescil ayrıntıları kamuya açıklanmadı.",
+      "fleetPlan": "Şirketin resmî sitesi, hedeflenen Mayıs 2027 lansmanı öncesinde iki A321-200(P2F) freighter ve üç A320-200 yolcu uçağı planını yayımlıyor. Bağlayıcı teslim, kira ve tescil ayrıntıları kamuya açıklanmadı. 29 Ekim 2026’da Serene Air ile geniş gövdeli freighter kapasitesi stratejisi için MOU açıklandı; uçak tipi/adedi, kiralama ve teslim takvimi açıklanmadı.",
       "fundingStatus": "Southern Vision Investment strategic investment announced 8 September 2026; amount and terms not disclosed",
       "evidence": [
         {
@@ -2874,9 +2874,15 @@
           "type": "Official company regulatory-readiness update",
           "detail": "AVi8 Airways, Cambodia State Secretariat of Civil Aviation (SSCA) ile 22 Ekim 2026’daki görüşmede proje için ilke desteği aldığını; Kamboçya bayraklı cargo/charter taşıyıcısı için resmî onay ve AOC sertifikasyonuna çalıştığını duyurdu. AOC’nin verildiğine dair düzenleyici açıklama henüz yok.",
           "sourceUrl": "https://www.linkedin.com/company/avi8-airways/"
+        },
+        {
+          "date": "2026-10-29",
+          "type": "Official fleet-capacity readiness update",
+          "detail": "AVi8 Airways, Serene Air ile geniş gövdeli freighter kapasitesi stratejisini ilerletmek üzere bir MOU imzaladığını duyurdu. MOU, filo kiralaması/teslimatı veya uçak adedi için bağlayıcı teyit değildir.",
+          "sourceUrl": "https://kh.linkedin.com/company/avi8-airways"
         }
       ],
-      "futureRationale": "Ticari operasyonun Mayıs 2027 için hedeflenmesi, şirketin 22 Ekim 2026’da duyurduğu SSCA ilke desteği, devam eden resmî onay/AOC hazırlığı ve beş uçaklık ilk filo planı; PSS/IBE/DCS, cargo rezervasyon ve BPI seçimleri için geleceğe dönük ihtiyaç doğurur. Bu sağlayıcılar henüz açıklanmadı."
+      "futureRationale": "Ticari operasyonun Mayıs 2027 için hedeflenmesi, şirketin 22 Ekim 2026’da duyurduğu SSCA ilke desteği, devam eden resmî onay/AOC hazırlığı ve beş uçaklık ilk filo planı; PSS/IBE/DCS, cargo rezervasyon ve BPI seçimleri için geleceğe dönük ihtiyaç doğurur. Bu sağlayıcılar henüz açıklanmadı. Serene Air MOU’su, kargo kapasitesi hazırlığının sürdüğünü gösterir; PSS/IBE/DCS, cargo rezervasyon ve BPI sağlayıcıları için seçim kanıtı sunmaz."
     },
     {
       "id": "fly-beirut-lebanon-low-cost-prelaunch-2027",
