@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-10-31T20:48:06.561Z",
+  "lastScan": "2026-11-01T03:42:10.292Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4185,6 +4185,44 @@
           "type": "Initial fleet readiness",
           "detail": "Yerel haber, ilk yeni Cessna Grand Caravan EX uçağının Aralık 2026’da teslim edilmesinin planlandığını bildirdi.",
           "sourceUrl": "https://travel.economictimes.indiatimes.com/news/aviation/domestic/air-ayodhya-secures-civil-aviation-ministrys-noc-for-regional-flights-in-uttar-pradesh/134540676"
+        }
+      ]
+    },
+    {
+      "id": "royal-jordanian-passenger-settlement-solution-rfp-2026",
+      "title": "Airline Passenger Settlement Solution – Reconciliation, Accounting, Control & Reporting",
+      "organization": "Royal Jordanian Airlines",
+      "country": "Jordan",
+      "category": "Airline Finance / Passenger Settlement",
+      "publishedDate": null,
+      "deadline": "2026-11-18T15:28:00Z",
+      "detectedAt": "2026-11-01T03:42:10.292Z",
+      "relevance": "High",
+      "summary": "Royal Jordanian Airlines’in resmî tedarik portalında açık Sealed Offer olarak yayımlanan talep, yolcu mutabakatı, muhasebe, kontrol ve raporlama çözümünün güncellenmesini istiyor. Portal, soru son tarihini 10 Kasım 2026 ve teklif kapanışını 18 Kasım 2026 15:28 UTC olarak gösteriyor. Mevcut sağlayıcı veya sözleşme bitiş tarihi açıklanmadı.",
+      "products": [
+        "Crane PAX",
+        "Crane BPI"
+      ],
+      "sourceName": "Royal Jordanian Airlines Resmî Tedarik Portalı",
+      "url": "https://procurement.rj.com/",
+      "official": true,
+      "status": "Open",
+      "procurementType": "Sealed Offer",
+      "commercialPriority": "P1",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "incumbentPss": null,
+      "incumbentDcs": null,
+      "incumbentConfidence": "Bilinmiyor",
+      "contractEndBasis": "Açıklanmadı",
+      "renewalSignal": "Resmî portaldaki “Update” ibaresi mevcut yolcu settlement çözümünün güncellenmesi talebini gösteriyor.",
+      "qualificationNotes": "PSS/finans ekipleriyle Crane PAX yolcu verisi ve Crane BPI raporlama/mutabakat uyumu teyit edilmelidir; duyuruda ürün teknik gereksinimleri yayımlanmamıştır.",
+      "futureRationale": "Teklif kapanışı 18 Kasım 2026 olduğundan, doğrulanmış ve gelecek odaklı aktif satın alma fırsatıdır.",
+      "evidence": [
+        {
+          "date": "2026-11-01",
+          "statement": "Resmî portal talebi IT kategorisinde açık Sealed Offer olarak listeliyor; soru son tarihi 10 Kasım 2026, kapanış 18 Kasım 2026 15:28 UTC.",
+          "url": "https://procurement.rj.com/"
         }
       ]
     }
