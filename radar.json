@@ -245,11 +245,11 @@
       "organization": "JCAS Airways Co., Ltd. (株式会社ジェイキャスエアウェイズ)",
       "country": "Japan",
       "category": "Airline Startup / Regional Passenger Airline",
-      "publishedDate": "2026-06-19",
+      "publishedDate": "2026-11-02",
       "deadline": null,
       "detectedAt": "2026-10-09T19:00:00Z",
       "relevance": "Medium",
-      "summary": "JCAS Airways, ilk tarifeli uçuş planını sürdürülebilir ve güvenli operasyon yapısını tamamlamak amacıyla 2027’ye ertelediğini resmî olarak açıkladı. ATR72-600 için leasing niyet anlaşması ve açıklanmış finansman somut hazırlığı destekliyor. Taşıyıcı henüz satışa veya ticari operasyona başlamadı; PSS, IBE, DCS, Weight & Balance, OCC ve Crew sağlayıcıları kamuya açıklanmadı. Bu nedenle 2027 hazırlığı Crane için somut bir erken sistem-seçim penceresidir.",
+      "summary": "JCAS Airways, 30 Ekim 2026’da Japonya MLIT Osaka Havacılık Bürosuna hava taşımacılığı işletme izni için başvurduğunu açıkladı. İlk iki tarifeli hattın Kansai–Toyama ve Kansai–Yonago olması, her hatta haftada beş gidiş-dönüş uçuş yapılması ve operasyonun Mart 2028’de başlaması planlanıyor. Avation ile temel anlaşma kapsamındaki 72 koltuklu ATR72-600’ün Ağustos 2027’de teslimi; sonrasında ekip eğitim uçuşları ve operasyonel doğrulama öngörülüyor. Ticari satış/operasyon ile PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları henüz açıklanmadığından Pre-RFP takibi sürüyor.",
       "products": [
         "Crane PAX - Passenger Services System",
         "Crane IBE - Internet Booking Engine",
@@ -262,8 +262,8 @@
         "Crane CREW - Crew Management",
         "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "JCAS Airways; ATR ve Avation; JCAS yatırım duyurusu",
-      "url": "https://www.jcas.co.jp/%E5%B0%B1%E8%88%AA%E4%BA%88%E5%AE%9A%E6%99%82%E6%9C%9F%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "sourceName": "JCAS Airways basın duyurusu (PR Times); Aviation Wire",
+      "url": "https://prtimes.jp/main/html/rd/p/000000019.000139566.html",
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Pre-launch / regional airline-system selection",
@@ -275,13 +275,13 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – new airline launch",
-      "qualificationNotes": "Resmî duyuru 2027 operasyon hedefini doğruluyor; kesin ay/gün açıklanmadı. ATR/Avation duyurusu ATR72-600 leasing niyet anlaşmasını, JCAS duyurusu finansman hazırlığını gösteriyor. AOC/işletme ruhsatının verildiğine dair erişilebilir resmî Japon otorite kaydı bulunamadı. İlk temasta sertifikasyon ve ilk-hat takvimi, uçak teslimi, satış/distribution modeli, DCS/WB/OCC gereksinimleri ve teknoloji karar sahibi teyit edilmelidir.",
-      "startupStage": "Pre-launch regional passenger airline; launch postponed to 2027",
-      "targetLaunchDate": "2027 (specific date not announced)",
-      "aocStatus": "Application/preparation status not publicly confirmed",
-      "fleetPlan": "ATR72-600 lease letter of intent announced; delivery and final lease execution not publicly disclosed",
+      "qualificationNotes": "2 Kasım 2026 şirket duyurusu, 30 Ekim tarihli Osaka Havacılık Bürosu başvurusunu, Mart 2028 hedefini, iki başlangıç hattını ve tek ATR72-600 planını doğruluyor. AOC/işletme izni henüz verilmiş değil. PSS/DCS/IBE/WB/OCC/Crew sağlayıcısı, teknoloji satın alma yöntemi ve karar takvimi kamuya açıklanmadı. İlk temasta izin takvimi, satış/distribution modeli, sistem kapsamı, entegrasyonlar ve karar sahibi teyit edilmelidir.",
+      "startupStage": "İşletme izni başvurusu yapılmış; ATR teslimi, eğitim ve operasyonel doğrulama hazırlığı sürüyor; ticari operasyon başlamadı",
+      "targetLaunchDate": "2028-03",
+      "aocStatus": "30 Ekim 2026’da MLIT Osaka Havacılık Bürosuna hava taşımacılığı işletme izni başvurusu yapıldığı açıklandı; onay/grant kamuya açıklanmadı",
+      "fleetPlan": "Avation ile temel anlaşma kapsamındaki 72 koltuklu bir ATR72-600’ün Ağustos 2027’de teslimi planlanıyor; teslim sonrası eğitim uçuşu ve operasyonel doğrulama yapılacak",
       "fundingStatus": "JPY 300 million Pre-Series A first-close financing announced",
-      "futureRationale": "First commercial service is officially deferred to 2027; sales and operations have not begun and core airline technology suppliers are not publicly disclosed.",
+      "futureRationale": "Mart 2028’de planlanan ilk ticari operasyon öncesinde izin, filo teslimi, eğitim ve operasyonel doğrulama aşamaları sürüyor; çekirdek yolcu ve operasyon teknolojisi sağlayıcıları kamuya açıklanmadı.",
       "evidence": [
         {
           "date": "2026-06-19",
@@ -300,6 +300,12 @@
           "type": "Funding and certification preparation",
           "detail": "JCAS announced JPY 300 million Pre-Series A first-close funding and said aircraft procurement and authority discussions toward business approval were advancing.",
           "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000004.000139566.html"
+        },
+        {
+          "date": "2026-11-02",
+          "type": "Official permit, fleet and launch update",
+          "detail": "JCAS, 30 Ekim 2026’da Osaka Havacılık Bürosuna başvurduğunu; Kansai–Toyama ve Kansai–Yonago hatlarında Mart 2028 başlangıcını, Ağustos 2027 ATR72-600 teslimini ve bunu izleyecek eğitim/operasyonel doğrulamayı açıkladı.",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000019.000139566.html"
         }
       ]
     },
