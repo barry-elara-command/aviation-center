@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-01T03:42:10.292Z",
+  "lastScan": "2026-11-03T00:43:06.822Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4235,6 +4235,58 @@
           "date": "2026-11-01",
           "statement": "Resmî portal talebi IT kategorisinde açık Sealed Offer olarak listeliyor; soru son tarihi 10 Kasım 2026, kapanış 18 Kasım 2026 15:28 UTC.",
           "url": "https://procurement.rj.com/"
+        }
+      ]
+    },
+    {
+      "id": "shankh-air-india-aoc-prelaunch-fy2027",
+      "title": "Shankh Air – Hindistan Tarifeli Yolcu Havayolu AOC Hazırlığı",
+      "organization": "Shankh Aviation Private Limited / Shankh Air",
+      "country": "India",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": "2026-07-16",
+      "deadline": null,
+      "detectedAt": "2026-11-03T00:43:06.822Z",
+      "relevance": "Medium",
+      "summary": "Shankh Air, Hindistan’da MoCA’nın verdiği başlangıç NOC’siyle tarifeli yolcu hizmeti kurma sürecindeki bir girişimdir. Hindistan Parlamentosu’na verilen resmî yanıtta NOC’nin Shankh Aviation Private Limited’e verildiği teyit edildi. Temmuz 2026 tarihli doğrulanabilir yerel habere göre ticari lansman, uçak kiralama aksaklıkları nedeniyle ertelenmiş olup FY2027’nin dördüncü çeyreği için hedeflenmektedir. Ticari uçuş/satış, DGCA AOC ve teknoloji sağlayıcıları henüz açıklanmadı; bu nedenle PSS, IBE, DCS ve mobil satış altyapısı için pre-RFP takip fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System"
+      ],
+      "sourceName": "Hindistan Parlamentosu / MoCA; NDTV Profit",
+      "url": "https://sansad.in/getFile/annex/267/AU2569_iD4oS3.pdf?source=pqars",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "No passenger PSS/IBE/DCS provider publicly disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "MoCA NOC; DGCA AOC and first commercial launch still pending",
+      "qualificationNotes": "Hindistan Parlamentosu’na 24 Mart 2025’te verilen MoCA yanıtı, Shankh Aviation Private Limited için tarifeli yolcu hizmetine başlangıç NOC’sini teyit eder. 16 Temmuz 2026 tarihli NDTV Profit haberi, uçak kiralama arzındaki aksama nedeniyle lansmanın en az bir yıl ötelenerek FY2027 dördüncü çeyreğine hedeflendiğini bildirir. Aynı haberde ilk üç Airbus uçağı ile başlangıç planı belirtilse de kiralama sözleşmesi, uçak tescili/teslimi, AOC zaman çizelgesi, bilet satış açılışı ve teknoloji sağlayıcıları kamuya açık biçimde teyit edilmemiştir.",
+      "startupStage": "MoCA başlangıç NOC’si alındı; DGCA AOC, uçak kiralama/indüksiyon ve ticari satış başlangıcı beklemede",
+      "targetLaunchDate": "FY2027 dördüncü çeyreği hedefi (16 Temmuz 2026 tarihli habere göre; kesin tarih değil)",
+      "aocStatus": "MoCA başlangıç NOC’si resmî kayıtta teyitli; DGCA AOC verildiğine dair kamuya açık doğrulama bulunmuyor",
+      "fleetPlan": "İlk üç Airbus uçağıyla başlangıç planı bildirildi; kiralama aksaklığı nedeniyle teslim/tescil teyitsiz",
+      "fundingStatus": "Kamuya açık teyitli finansman ve kesin uçak kiralama sözleşmesi bulunmuyor",
+      "futureRationale": "Ticari yolcu operasyonu için AOC, ilk filosu ve satış açılışı henüz tamamlanmadı; bu aşamada PSS, IBE, mobil satış ve DCS seçim penceresi mümkündür.",
+      "evidence": [
+        {
+          "date": "2025-03-24",
+          "type": "MoCA initial NOC",
+          "detail": "Hindistan Parlamentosu’na verilen resmî MoCA yanıtı, Shankh Aviation Private Limited’e tarifeli yolcu hizmetlerinin başlatılması için başlangıç NOC verildiğini teyit eder.",
+          "sourceUrl": "https://sansad.in/getFile/annex/267/AU2569_iD4oS3.pdf?source=pqars"
+        },
+        {
+          "date": "2026-07-16",
+          "type": "Launch and fleet readiness update",
+          "detail": "NDTV Profit, uçak kiralama arzındaki aksama nedeniyle ticari lansmanın FY2027 dördüncü çeyreğine hedeflendiğini; önceki planın ilk üç Airbus uçağıyla başlangıç olduğunu bildirir.",
+          "sourceUrl": "https://www.ndtvprofit.com/business/upcoming-airlines-shankh-air-al-hind-delay-launch-as-west-asia-crisis-hits-plans-exclusive-11780355/amp/1"
         }
       ]
     }
