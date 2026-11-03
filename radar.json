@@ -4341,6 +4341,55 @@
           "sourceUrl": "https://ca.linkedin.com/jobs/view/project-manager-at-harbour-air-4457650204"
         }
       ]
+    },
+    {
+      "id": "air-indo-india-aoc-prelaunch-2026",
+      "title": "Air Indo – Hindistan Bölgesel Yolcu Havayolu AOC Hazırlığı",
+      "organization": "Air Indo Airlines Tech Private Limited / Air Indo",
+      "country": "India",
+      "category": "Airline Startup / Regional Passenger Airline",
+      "publishedDate": "2026-11-02",
+      "deadline": null,
+      "detectedAt": "2026-11-03T20:47:49.198Z",
+      "relevance": "Medium",
+      "summary": "Air Indo, Hindistan’da kuruluş ve ilk düzenleyici hazırlık aşamasındaki planlı bölgesel yolcu havayoludur. Doğrulanabilir yerel havacılık kaynağı, şirketin MoCA başlangıç NOC’si ile MHA güvenlik iznini aldığını; DGCA AOC, uçak ve operasyon hazırlıkları tamamlanmadan ticari uçuş veya bilet satışına başlayamayacağını bildiriyor. Şirket 15’ten fazla şehir ve ATR 72-600 odaklı ağ planı açıklasa da teknoloji sağlayıcısı duyurulmadı. Bu nedenle Crane PAX, IBE, DCS, WB, OCC, Crew ve SP için pre-RFP takip fırsatıdır.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane Crew - Crew Management",
+        "Crane SP - Schedule Planning"
+      ],
+      "sourceName": "Aviacionline (doğrulanabilir yerel havacılık haberi)",
+      "url": "https://www.aviacionline.com/english/commercial-aviation/asia-pacific/air-indo-targets-15-cities-with-the-atr-72-600-and-awaits-its-dgca-certificate_a6ae8bf729b2d9a633cfe5c0f",
+      "official": false,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "PSS, IBE, DCS, WB, OCC, Crew ve Schedule Planning sağlayıcıları kamuya açıklanmadı.",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "MoCA başlangıç NOC’si ve MHA güvenlik izni bildirildi; DGCA AOC ve ticari başlangıç beklemede",
+      "qualificationNotes": "2 Kasım 2026 tarihli doğrulanabilir yerel havacılık haberi, şirketin MoCA başlangıç NOC’si ve MHA güvenlik izni aldığını, ancak DGCA AOC olmadan uçuş veya bilet satışı yapamayacağını bildirir. Şirketin 15’ten fazla şehir ve ATR 72-600 odaklı planı açıklanmış olsa da kesin ilk uçuş tarihi, bağlayıcı uçak kira/satın alma anlaşması ve teknoloji seçim takvimi yayımlanmadı.",
+      "startupStage": "MoCA başlangıç NOC’si ve MHA güvenlik izni bildirilmiş; DGCA AOC, uçak ve operasyon hazırlığı beklemede; ticari uçuş/satış başlamadı",
+      "targetLaunchDate": null,
+      "aocStatus": "DGCA AOC henüz verilmiş olarak kamuya açıklanmadı",
+      "fleetPlan": "ATR 72-600 işletme planı ve 15’ten fazla şehir hedefi açıklandı; bağlayıcı uçak siparişi/kiralaması, teslim tarihi ve tesciller kamuya açıklanmadı",
+      "fundingStatus": "Şirketin lansman için stratejik yatırım aradığı bildirildi; tutar ve koşullar açıklanmadı",
+      "futureRationale": "AOC, uçak ve ticari satış hazırlığı tamamlanmadan operasyon başlayamayacağı için yolcu satış, online rezervasyon, check-in/DCS, ağırlık-denge, OCC ve ekip sistemleri için geleceğe dönük seçim penceresi bulunmaktadır. Sağlayıcılar kamuya açıklanmadı.",
+      "evidence": [
+        {
+          "date": "2026-11-02",
+          "type": "Regulatory and operational readiness",
+          "detail": "Aviacionline, Air Indo’nun MoCA başlangıç NOC’si ve MHA güvenlik izni aldığını; DGCA AOC’nin halen gerekli olduğunu, AOC olmadan bilet satışı veya uçuş yapılamayacağını; ATR 72-600 ve 15’ten fazla şehir için plan bulunduğunu bildirdi.",
+          "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/asia-pacific/air-indo-targets-15-cities-with-the-atr-72-600-and-awaits-its-dgca-certificate_a6ae8bf729b2d9a633cfe5c0f"
+        }
+      ]
     }
   ]
 }
