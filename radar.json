@@ -4289,6 +4289,50 @@
           "sourceUrl": "https://www.ndtvprofit.com/business/upcoming-airlines-shankh-air-al-hind-delay-launch-as-west-asia-crisis-hits-plans-exclusive-11780355/amp/1"
         }
       ]
+    },
+    {
+      "id": "harbour-air-canada-pss-replacement-q1-2027",
+      "title": "Harbour Air – PSS Değişimi ve 2027 Q1 Go-Live",
+      "organization": "Harbour Air",
+      "country": "Canada",
+      "category": "Passenger Service System (PSS) / Airline Technology Transformation",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-11-03T06:44:45.536Z",
+      "relevance": "Medium",
+      "summary": "Harbour Air, 2027’nin ilk çeyreğinde devreye alınacak Yolcu Hizmetleri Sistemi (PSS) değişimini resmî işe alım ilanında şirketin ilk dönüşüm projesi olarak doğruladı. İlan, ticari satış, müşteri hizmeti ve operasyon süreçlerini dönüştürecek projenin çoklu tedarikçi teslimatlarıyla go-live’a taşınacağını belirtiyor. Seçilen PSS tedarikçisi, mevcut sağlayıcı, ihale yöntemi ve kesin go-live tarihi açıklanmadı; bu nedenle Crane PAX için daralmış fakat doğrulanmış bir dönüşüm/uygulama takip penceresidir.",
+      "products": [
+        "Crane PAX - Passenger Services System"
+      ],
+      "sourceName": "Harbour Air resmî LinkedIn iş ilanı",
+      "url": "https://ca.linkedin.com/jobs/view/project-manager-at-harbour-air-4457650204",
+      "official": true,
+      "status": "Implementation / Monitor",
+      "procurementType": "Documented PSS replacement and Q1 2027 implementation",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": "Mevcut PSS ve seçilen yeni tedarikçi kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Şirketin Project Manager ilanı, ilk dönüşüm projesinin PSS değişimi olduğunu ve 2027 Q1 go-live hedeflediğini açıkça belirtir.",
+      "expectedDecisionDate": "Açıklanmadı; iş ilanı çoklu tedarikçi teslimatlarının go-live’a yönetileceğini belirtiyor.",
+      "futureRationale": "PSS değişimi 2027 Q1 için belgelenmiştir; kapsam, ticari satış, müşteri hizmeti ve operasyon süreçlerini dönüştürecek sistem uygulamasını içerir. Ancak ihale açık değildir ve tedarikçi seçiminin tamamlanmış olabileceğine işaret eden çoklu tedarikçi teslimatı ifadesi nedeniyle fırsat Monitor seviyesinde tutulur.",
+      "qualificationNotes": "Birincil kanıt, Harbour Air’in Project Manager – Transformation ilanıdır. İlan, şirketin satış, hizmet ve operasyon süreçlerini dönüştürecek projelerinin ilkini PSS değişimi olarak tanımlar; go-live’ın 2027 Q1’de hedeflendiğini ve proje yöneticisinin çoklu tedarikçi ile kurum içi ekipleri koordine edeceğini bildirir. Mevcut PSS, yeni tedarikçi(ler), sözleşme süresi, teknik modüller, açık RFP/RFI ve kesin tarih kamuya açıklanmadı. İlk temas, seçimin kapanıp kapanmadığı, PSS çekirdek/modül kapsamı, entegrasyon/back-office bağımlılıkları ve go-live destek ihtiyacı üzerine yapılmalıdır.",
+      "startupStage": "Not applicable – active airline",
+      "targetLaunchDate": "PSS go-live: 2027 Q1 (şirket iş ilanı; kesin gün açıklanmadı)",
+      "aocStatus": "Active carrier; yeni AOC fırsatı değil",
+      "fleetPlan": "Not applicable",
+      "fundingStatus": "Not applicable",
+      "evidence": [
+        {
+          "date": null,
+          "type": "Official future PSS replacement and implementation signal",
+          "detail": "Harbour Air’in Project Manager – Transformation ilanı, ilk dönüşüm projesinin PSS değişimi olduğunu; bunun 2027 Q1’de devreye alınacağını ve çoklu tedarikçi ile iç ekiplerin go-live’a taşınacağını belirtir.",
+          "sourceUrl": "https://ca.linkedin.com/jobs/view/project-manager-at-harbour-air-4457650204"
+        }
+      ]
     }
   ]
 }
