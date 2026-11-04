@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-04T08:40:56.913Z",
+  "lastScan": "2026-11-04T09:43:09.262Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4442,6 +4442,60 @@
           "type": "Operational infrastructure context",
           "detail": "Tecnam duyurusu, Capua’nın ENAC Servizi RAM havaalanı ağı içinde olduğunu; pist, terminal, park alanı ve hangar yatırımlarının sürdüğünü bildirir.",
           "sourceUrl": "https://tecnam.com/tecnam-outlines-vision-for-italian-regional-air-mobility-and-new-airline-initiatives-at-enac-event-in-rome/"
+        }
+      ]
+    },
+    {
+      "id": "great-ghana-airline-aoc-prelaunch-2027",
+      "title": "Great Ghana Airline – GCAA Sertifikasyon ve Q3 2027 Yolcu Lansmanı Hazırlığı",
+      "organization": "Great Ghana Airline",
+      "country": "Ghana",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-11-04T09:43:09.262Z",
+      "relevance": "Medium",
+      "summary": "Great Ghana Airline, resmî operasyon hazırlık sayfasında GCAA AOC sürecinin belge değerlendirme evresinde olduğunu, demonstrasyonların Q3 2026’da ve AOC ihracının Q4 2026’da hedeflendiğini bildiriyor. Şirket ayrıca ilk uçağın tesliminden 6–9 ay sonra, Q3 2027’de ticari yolcu operasyonuna başlama hedefi açıklıyor. PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları; filo tipi/adedi ve kesin satış başlangıcı kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "Great Ghana Airline resmî operasyon hazırlık sayfası",
+      "url": "https://greatghanaairline.com/operational/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Yolcu ticari ve operasyon sistemleri sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "GCAA AOC süreç takvimi, aktif ekip/operasyon hazırlığı ve Q3 2027 ticari lansman hedefi",
+      "qualificationNotes": "Şirketin resmî sayfası, GCAA sertifikasyonunun belge değerlendirme evresinde olduğunu; demonstrasyonların Q3 2026 ve AOC ihracının Q4 2026 hedeflendiğini belirtir. Aynı kaynak Q3 2027 ticari lansman hedefini bildirir. GCAA’nın kamu AOC listesinde sertifika teyidi, uçak tipi/adedi, finansman, rota, bilet satış tarihi ve teknoloji tedarikçileri açıklanmamıştır.",
+      "startupStage": "Pre-launch passenger airline; GCAA AOC document-evaluation stage reported by company",
+      "targetLaunchDate": "Q3 2027 (şirket hedefi)",
+      "aocStatus": "Şirket beyanına göre GCAA sertifikasyonunda belge değerlendirme evresi; demonstrasyon Q3 2026 ve AOC ihracı Q4 2026 hedefi",
+      "fleetPlan": "İlk uçak tesliminden 6–9 ay sonra lansman hedefleniyor; uçak tipi ve adet kamuya açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "Henüz ticari yolcu uçuşu veya satış başlangıcı duyurulmadı. AOC sertifikasyon, ekip seçimi/eğitimi ve Q3 2027 lansman planı; satış, havalimanı, operasyon ve ekip sistemleri için gelecek tedarik/entegrasyon penceresi oluşturabilir.",
+      "evidence": [
+        {
+          "date": "Tarih açıklanmadı",
+          "type": "Company AOC readiness roadmap",
+          "detail": "Great Ghana Airline, GCAA sürecinde belge değerlendirme evresinde olduğunu; demonstrasyonun Q3 2026’da, AOC ihracının ise Q4 2026’da hedeflendiğini bildirir.",
+          "sourceUrl": "https://greatghanaairline.com/operational/"
+        },
+        {
+          "date": "Tarih açıklanmadı",
+          "type": "Company commercial-launch target",
+          "detail": "Şirketin operasyon hazırlık sayfası Q3 2027 ticari lansman hedefini ve ilk uçak teslimi ile lansman arasında 6–9 aylık zamanlamayı bildirir.",
+          "sourceUrl": "https://greatghanaairline.com/operational/"
         }
       ]
     }
