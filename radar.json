@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-03T00:43:06.822Z",
+  "lastScan": "2026-11-04T08:40:56.913Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4388,6 +4388,60 @@
           "type": "Regulatory and operational readiness",
           "detail": "Aviacionline, Air Indo’nun MoCA başlangıç NOC’si ve MHA güvenlik izni aldığını; DGCA AOC’nin halen gerekli olduğunu, AOC olmadan bilet satışı veya uçuş yapılamayacağını; ATR 72-600 ve 15’ten fazla şehir için plan bulunduğunu bildirdi.",
           "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/asia-pacific/air-indo-targets-15-cities-with-the-atr-72-600-and-awaits-its-dgca-certificate_a6ae8bf729b2d9a633cfe5c0f"
+        }
+      ]
+    },
+    {
+      "id": "altair-italy-regional-airline-p2012-prelaunch-2026",
+      "title": "Altair – İtalya Bölgesel Yolcu Havayolu Hazırlığı",
+      "organization": "Altair Solutions",
+      "country": "Italy",
+      "category": "Airline Startup / Regional passenger airline",
+      "publishedDate": "2026-07-14",
+      "deadline": null,
+      "detectedAt": "2026-11-04T08:40:56.913Z",
+      "relevance": "Medium",
+      "summary": "Tecnam, bağımsız iştiraki Altair’in İtalya’daki Regional Air Mobility ağı için P2012 Traveller ile bölgesel bir havayolu başlatmayı hedeflediğini resmî olarak açıkladı. Altair hâlen bakım ve havacılık hizmetleri şirketi olarak konumlanıyor; Tecnam’ın duyurusu ticari yolcu operatörü hedefini, başlangıçta P2012 Traveller kullanımını ve Capua’daki altyapı hazırlığını doğruluyor. AOC durumu, rota, satış açılışı, kesin lansman tarihi ve PSS/IBE/DCS/WB/OCC/Crew sağlayıcıları açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "Tecnam resmî duyurusu",
+      "url": "https://tecnam.com/tecnam-outlines-vision-for-italian-regional-air-mobility-and-new-airline-initiatives-at-enac-event-in-rome/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup regional-airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Yolcu ticari ve operasyon sistemleri sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Tecnam’ın 14 Temmuz 2026 tarihli duyurusu, Altair’in P2012 Traveller ile bölgesel havayolu kurma hedefini ve Capua RAM altyapı gelişimini doğruluyor",
+      "qualificationNotes": "Tecnam’ın resmî 14 Temmuz 2026 duyurusu Altair’in mevcut bakım/havacılık hizmetleri işinden ticari bölgesel hava taşımacılığına genişleme niyetini, P2012 Traveller hedefini ve ENAC/ENAC Servizi RAM projesiyle bağlantısını doğrular. Duyuru AOC başvurusunu, rota veya bilet satışı başlangıcını teyit etmez; bu nedenle kayıt yalnız pre-RFP izleme içindir.",
+      "startupStage": "Pre-launch regional passenger-airline initiative; commercial operations not announced",
+      "targetLaunchDate": "Tarih açıklanmadı",
+      "aocStatus": "Kamuya açıklanmadı",
+      "fleetPlan": "Tecnam P2012 Traveller ile operasyon hedefi açıklandı; adet ve teslimat takvimi kamuya açıklanmadı",
+      "fundingStatus": "Kamuya açıklanmadı",
+      "futureRationale": "Ticari yolcu operasyonu henüz başlamadı. Açıklanan P2012 Traveller odaklı bölgesel havayolu hedefi, rezervasyon/satış, havaalanı yolcu işlemleri, ağırlık-denge, operasyon kontrolü ve ekip yönetimi sistemleri için geleceğe dönük ihtiyaç oluşturabilir.",
+      "evidence": [
+        {
+          "date": "2026-07-14",
+          "type": "Official airline initiative and fleet intent",
+          "detail": "Tecnam, Altair’in bağımsız bir iştiraki olarak İtalya kısa hat ağı için P2012 Traveller kullanacak bölgesel havayolu başlatma planını açıkladı.",
+          "sourceUrl": "https://tecnam.com/tecnam-outlines-vision-for-italian-regional-air-mobility-and-new-airline-initiatives-at-enac-event-in-rome/"
+        },
+        {
+          "date": "2026-07-14",
+          "type": "Operational infrastructure context",
+          "detail": "Tecnam duyurusu, Capua’nın ENAC Servizi RAM havaalanı ağı içinde olduğunu; pist, terminal, park alanı ve hangar yatırımlarının sürdüğünü bildirir.",
+          "sourceUrl": "https://tecnam.com/tecnam-outlines-vision-for-italian-regional-air-mobility-and-new-airline-initiatives-at-enac-event-in-rome/"
         }
       ]
     }
