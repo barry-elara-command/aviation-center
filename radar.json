@@ -4498,6 +4498,59 @@
           "sourceUrl": "https://greatghanaairline.com/operational/"
         }
       ]
+    },
+    {
+      "id": "air-arabia-dammam-national-lcc-aoc-2026",
+      "title": "Air Arabia Konsorsiyumu – Dammam Yeni Ulusal Düşük Maliyetli Taşıyıcı",
+      "organization": "Air Arabia Group / Nesma Group / KUN Holding Company",
+      "country": "Suudi Arabistan",
+      "category": "Multi-product",
+      "publishedDate": "2026-09-14",
+      "deadline": null,
+      "detectedAt": "2026-11-06T05:40:37.854Z",
+      "relevance": "Medium",
+      "summary": "GACA, Air Arabia liderliğindeki konsorsiyuma Dammam King Fahd Uluslararası Havalimanı merkezli yeni ulusal düşük maliyetli taşıyıcıyı başlatmak üzere AOC verdi. Resmî açıklama, düzenleyici ve operasyonel gerekliliklerin tamamlandığını; 24 iç hat ve 57 dış hat hedefini bildiriyor. Ticari uçuş/satış başlangıç tarihi ve teknoloji tedarikçileri açıklanmadı. Yeni bağımsız AOC ve ağ hedefi, Crane PAX, IBE, DCS, WB, OCC ve Crew için pre-RFP izleme gerekçesidir.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control",
+        "Crane Crew - Crew Management"
+      ],
+      "sourceName": "Air Arabia basın açıklaması / GACA AOC duyurusu",
+      "url": "https://press.airarabia.com/gaca-grants-aoc-to-the-consortium-led-by-air-arabia-to-launch-new-national-budget-carrier-in-dammam/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "New AOC",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": null,
+      "qualificationNotes": "14 Eylül 2026 tarihli resmî duyuru AOC, regülasyon/operasyon uygunluğu ve planlanan ağ ölçeğini doğruluyor. PSS/DCS/IBE tedariki, filo, satış açılışı ve ticari ilk uçuş tarihi açıklanmadığından doğrulanmış bir ihale değildir; teknoloji mimarisi ve grup sistemlerinin yeniden kullanımı keşfedilmelidir.",
+      "startupStage": "AOC granted; launch preparation documented; commercial start date not disclosed",
+      "targetLaunchDate": null,
+      "aocStatus": "GACA granted AOC on 14 September 2026 after regulatory and operational requirements were fulfilled",
+      "fleetPlan": null,
+      "fundingStatus": "GACA competition winner; consortium has majority Saudi ownership; carrier-specific committed capital not disclosed",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – new AOC",
+      "evidence": [
+        {
+          "date": "2026-09-14",
+          "type": "Official AOC grant and launch announcement",
+          "detail": "GACA granted an AOC to the Air Arabia-led consortium for a new national budget carrier based at King Fahd International Airport in Dammam; the statement cites completed regulatory and operational requirements and a 24-domestic/57-international destination plan.",
+          "sourceUrl": "https://press.airarabia.com/gaca-grants-aoc-to-the-consortium-led-by-air-arabia-to-launch-new-national-budget-carrier-in-dammam/"
+        },
+        {
+          "date": "2025-07",
+          "type": "Official procurement outcome",
+          "detail": "GACA had announced the consortium as winner of the competition to establish and operate the new national low-cost airline; the precise day is not stated in the source.",
+          "sourceUrl": "https://press.airarabia.com/gaca-grants-aoc-to-the-consortium-led-by-air-arabia-to-launch-new-national-budget-carrier-in-dammam/"
+        }
+      ]
     }
   ]
 }
