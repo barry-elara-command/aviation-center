@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-04T09:43:09.262Z",
+  "lastScan": "2026-11-07T06:48:48.359Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4501,15 +4501,15 @@
     },
     {
       "id": "air-arabia-dammam-national-lcc-aoc-2026",
-      "title": "Air Arabia Konsorsiyumu – Dammam Yeni Ulusal Düşük Maliyetli Taşıyıcı",
+      "title": "Air Arabia Konsorsiyumu – Dammam Ulusal Düşük Maliyetli Taşıyıcı (faal)",
       "organization": "Air Arabia Group / Nesma Group / KUN Holding Company",
       "country": "Suudi Arabistan",
       "category": "Multi-product",
       "publishedDate": "2026-09-14",
       "deadline": null,
       "detectedAt": "2026-11-06T05:40:37.854Z",
-      "relevance": "Medium",
-      "summary": "GACA, Air Arabia liderliğindeki konsorsiyuma Dammam King Fahd Uluslararası Havalimanı merkezli yeni ulusal düşük maliyetli taşıyıcıyı başlatmak üzere AOC verdi. Resmî açıklama, düzenleyici ve operasyonel gerekliliklerin tamamlandığını; 24 iç hat ve 57 dış hat hedefini bildiriyor. Ticari uçuş/satış başlangıç tarihi ve teknoloji tedarikçileri açıklanmadı. Yeni bağımsız AOC ve ağ hedefi, Crane PAX, IBE, DCS, WB, OCC ve Crew için pre-RFP izleme gerekçesidir.",
+      "relevance": "Low",
+      "summary": "Air Arabia liderliğindeki konsorsiyum, GACA AOC’si sonrasında Dammam King Fahd Uluslararası Havalimanı’ndan 20 Eylül 2026’da Riyad’a ilk uçuşunu gerçekleştirerek ticari operasyona başladı. Resmî satış kanalı Dammam’dan Riyad, Cidde ve Medine uçuşları için rezervasyon sunuyor. PSS/DCS/IBE sağlayıcısı açıklanmadı; ancak taşıyıcı faal olduğundan ve 24 ay içinde doğrulanmış yenileme, sistem değişimi veya yeni satın alma sinyali bulunmadığından aktif fırsat değildir; yalnızca izleme kaydıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -4521,22 +4521,22 @@
       "sourceName": "Air Arabia basın açıklaması / GACA AOC duyurusu",
       "url": "https://press.airarabia.com/gaca-grants-aoc-to-the-consortium-led-by-air-arabia-to-launch-new-national-budget-carrier-in-dammam/",
       "official": true,
-      "status": "Pre-RFP",
-      "procurementType": "New AOC",
-      "commercialPriority": "P2",
+      "status": "Closed – operating carrier",
+      "procurementType": "Startup Airline",
+      "commercialPriority": "Watchlist",
       "recommendation": "Monitor",
       "incumbent": null,
-      "qualificationNotes": "14 Eylül 2026 tarihli resmî duyuru AOC, regülasyon/operasyon uygunluğu ve planlanan ağ ölçeğini doğruluyor. PSS/DCS/IBE tedariki, filo, satış açılışı ve ticari ilk uçuş tarihi açıklanmadığından doğrulanmış bir ihale değildir; teknoloji mimarisi ve grup sistemlerinin yeniden kullanımı keşfedilmelidir.",
-      "startupStage": "AOC granted; launch preparation documented; commercial start date not disclosed",
-      "targetLaunchDate": null,
-      "aocStatus": "GACA granted AOC on 14 September 2026 after regulatory and operational requirements were fulfilled",
+      "qualificationNotes": "Air Arabia’nın resmî duyurusu, konsorsiyumun 20 Eylül 2026’da Dammam’dan Riyad’a ilk ticari uçuşla operasyona başladığını teyit eder. Resmî Air Arabia sayfası Dammam’dan Riyad, Cidde ve Medine için canlı rezervasyon sunar. PSS/DCS/IBE sağlayıcısı ve sözleşme bitişi açıklanmadığından, 24 ay içinde belgelenmiş yenileme, migration, RFP/RFI/EOI veya yeni satın alma planı yoktur. Bu nedenle aktif High/Medium satış fırsatı değildir; yalnızca incumbent ve gelecekteki yenileme sinyalleri için izlenmelidir.",
+      "startupStage": "Commercial operations and ticket sales active since 20 September 2026",
+      "targetLaunchDate": "2026-09-20 (ticari operasyon başladı)",
+      "aocStatus": "GACA granted AOC on 14 September 2026; commercial operations commenced on 20 September 2026",
       "fleetPlan": null,
       "fundingStatus": "GACA competition winner; consortium has majority Saudi ownership; carrier-specific committed capital not disclosed",
       "incumbentPss": "Unknown",
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
-      "renewalSignal": "Not applicable – new AOC",
+      "renewalSignal": "None verified",
       "evidence": [
         {
           "date": "2026-09-14",
@@ -4549,6 +4549,12 @@
           "type": "Official procurement outcome",
           "detail": "GACA had announced the consortium as winner of the competition to establish and operate the new national low-cost airline; the precise day is not stated in the source.",
           "sourceUrl": "https://press.airarabia.com/gaca-grants-aoc-to-the-consortium-led-by-air-arabia-to-launch-new-national-budget-carrier-in-dammam/"
+        },
+        {
+          "date": "2026-09-20",
+          "type": "Official commercial launch and live sales",
+          "detail": "Air Arabia-led consortium commenced operations from Dammam with its inaugural flight to Riyadh. Air Arabia’s official booking page offers Dammam services to Riyadh, Jeddah and Medinah.",
+          "sourceUrl": "https://press.airarabia.com/air-arabia-led-consortium-launches-its-first-flight-from-king-fahd-international-airport/"
         }
       ]
     }
