@@ -4557,6 +4557,64 @@
           "sourceUrl": "https://press.airarabia.com/air-arabia-led-consortium-launches-its-first-flight-from-king-fahd-international-airport/"
         }
       ]
+    },
+    {
+      "id": "airasia-bahrain-prelaunch-aoc-hub-2027",
+      "title": "AirAsia Bahrain – Bölgesel Havacılık Merkezi ve Pre-launch Sistem Fırsatı",
+      "organization": "AirAsia Bahrain / Capital A",
+      "country": "Bahrain",
+      "category": "Airline Startup / Regional Hub",
+      "publishedDate": "2026-11-01",
+      "deadline": null,
+      "detectedAt": "2026-11-11T09:47:02.447Z",
+      "relevance": "Medium",
+      "summary": "AirAsia, 1 Kasım 2026’da AirAsia Bahrain yönetim kurulunu atadığını ve Bahreyn’i Asya–Orta Doğu–Avrupa bağlantısında stratejik merkez olarak kurma planını teyit etti. Şirket, bölgedeki koşullara bağlı olarak Bahreyn uçuşlarının Mart 2027’de başlamasını hedefliyor. Bahreyn Ulaştırma Bakanlığı ile 2025 LOI kapsamında yerel AOC kurma ve dar gövdeli uçaklarla Doğu Avrupa, Afrika, Orta Asya ve Orta Doğu hatlarını işletme olasılığı resmî olarak açıklanmıştı. AirAsia Bahrain için PSS, IBE, mobil, DCS, WB, OCC, Crew ve dağıtım mimarisi ile satın alma takvimi açıklanmadı; ticari operasyon/satış başlangıcı da doğrulanmadı.",
+      "products": [
+        "Crane PAX - Passenger Services System",
+        "Crane IBE - Internet Booking Engine",
+        "Crane MA - Mobile Application",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane CM - Communication Manager",
+        "Crane SP - Schedule Planning",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane BPI - Business Performance Index"
+      ],
+      "sourceName": "AirAsia Newsroom; Bahrain Ministry of Transportation and Telecommunications",
+      "url": "https://newsroom.airasia.com/news/airasia-reaffirms-long-term-commitment-to-bahrain-appoints-airasia-bahrain-board",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Pre-launch / prospective Bahrain AOC and regional hub",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "AirAsia Bahrain için ticari yolcu ve operasyon sistemi sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Not applicable – pre-launch airline platform",
+      "qualificationNotes": "1 Kasım 2026 AirAsia duyurusu AirAsia Bahrain yönetim kurulunun atandığını ve Bahreyn uçuşları için Mart 2027 hedefini doğruluyor. Bahreyn Bakanlığı’nın 3 Kasım 2025 LOI duyurusu, yerel AOC kurma seçeneğini ve dar gövdeli uçaklarla yeni bölgesel hat planını teyit ediyor. AirAsia Group’un mevcut sistemlerinin yerel oluşumda kullanılıp kullanılmayacağı, tüzel AOC kapsamı, satış açılışı ve teknoloji karar sahipleri açıklanmadı.",
+      "startupStage": "Yönetim kurulu atanmış; yerel AOC ve operasyon modeli geliştirme aşamasında; ticari AirAsia Bahrain operasyonu kamuya açıklanmadı",
+      "targetLaunchDate": "2027-03",
+      "aocStatus": "Bahreyn Ulaştırma Bakanlığı, Capital A’nın Bahreyn AOC kurma olasılığını araştırdığını açıkladı; AOC başvurusu veya grant kamuya açıklanmadı",
+      "fleetPlan": "Yerel AOC kurulması halinde dar gövdeli uçaklarla Doğu Avrupa, Afrika, Orta Asya ve Orta Doğu hatları hedefleniyor; uçak adedi ve tipi açıklanmadı",
+      "fundingStatus": "AirAsia’nın Bahreyn Golden License aldığı ve Capital A–Bakanlık LOI’sinin bulunduğu açıklandı; AirAsia Bahrain için ayrı finansman tutarı açıklanmadı",
+      "futureRationale": "Atanmış yönetim kurulu, devlet destekli LOI, yerel AOC olasılığı ve Mart 2027 uçuş hedefi; ticari satış ve operasyon öncesinde yolcu, dağıtım ve operasyon sistemlerinin kapsam/entegrasyon kararlarının verilmesini gerektirir.",
+      "evidence": [
+        {
+          "date": "2026-11-01",
+          "type": "Official board and launch-target confirmation",
+          "detail": "AirAsia, AirAsia Bahrain yönetim kurulunun atandığını ve koşullara bağlı olarak Bahreyn uçuşlarının Mart 2027’de başlamasının hedeflendiğini duyurdu.",
+          "sourceUrl": "https://newsroom.airasia.com/news/airasia-reaffirms-long-term-commitment-to-bahrain-appoints-airasia-bahrain-board"
+        },
+        {
+          "date": "2025-11-03",
+          "type": "Official AOC and regional-hub evidence",
+          "detail": "Bahreyn Ulaştırma Bakanlığı, Capital A ile LOI kapsamında Bahreyn’de AOC kurma seçeneği ile dar gövdeli uçaklarla yeni bölgesel hatların araştırıldığını açıkladı.",
+          "sourceUrl": "https://www.mtt.gov.bh/node/3366"
+        }
+      ]
     }
   ]
 }
