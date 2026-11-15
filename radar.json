@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-07T06:48:48.359Z",
+  "lastScan": "2026-11-15T07:49:47.359Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4613,6 +4613,49 @@
           "type": "Official AOC and regional-hub evidence",
           "detail": "Bahreyn Ulaştırma Bakanlığı, Capital A ile LOI kapsamında Bahreyn’de AOC kurma seçeneği ile dar gövdeli uçaklarla yeni bölgesel hatların araştırıldığını açıkladı.",
           "sourceUrl": "https://www.mtt.gov.bh/node/3366"
+        }
+      ]
+    },
+    {
+      "id": "cathay-pacific-crew-tracking-system-transformation-2026",
+      "title": "Cathay Pacific – Crew Tracking System Transformation",
+      "organization": "Cathay Pacific Airways Limited",
+      "country": "Hong Kong SAR, China",
+      "category": "Crew Management / Operations Control",
+      "publishedDate": null,
+      "deadline": "2026-10-08",
+      "detectedAt": "2026-11-15T07:49:47.018Z",
+      "relevance": "Medium",
+      "summary": "Cathay Pacific’in resmî kariyer duyurusu, yeni Crew Tracking çözümünün tasarım ve testten go-live, hypercare ve iş birimlerine devre kadar uzanan uygulama programını doğruluyor. Kapsam; crew operations, flight operations, inflight services ve IT ekipleriyle birlikte veri migrasyonu, entegrasyon hazırlığı, operasyonel senaryo doğrulaması, UAT, eğitim ve cutover çalışmalarını içeriyor. Crane Crew ile doğrudan; Crane OCC ile crew disruption ve operasyonel entegrasyon bakımından anlamlı ürün eşleşmesi vardır. Sağlayıcı, go-live tarihi ve açık RFP bilgisi yayımlanmadı; iş ilanındaki vendor iş birliği ve cutover dili, çekirdek seçimin ileri aşamada olabileceğini gösterir. Bu nedenle doğrudan core replacement teklifi yerine seçilmiş sağlayıcı, entegrasyon boşlukları ve rollout kapsamı doğrulanmalıdır.",
+      "products": [
+        "Crane Crew - Crew Management",
+        "Crane OCC - Operations Control"
+      ],
+      "sourceName": "Cathay Pacific Resmî Kariyer Duyurusu",
+      "url": "https://careers.cathaypacific.com/cn/careers/jobs/hong-kong/business-readiness-manager-24-month-contract-32221",
+      "official": true,
+      "status": "Implementation / vendor selection stage not disclosed",
+      "procurementType": "Crew Tracking System replacement and implementation",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Mevcut ve seçilmiş crew tracking sağlayıcıları kamuya açıklanmadı",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Unknown",
+      "renewalSignal": "Resmî ilan, yeni crew tracking çözümünün uygulama, veri migrasyonu, UAT, cutover, go-live ve hypercare aşamalarını açıkça tanımlıyor.",
+      "qualificationNotes": "İlanın başvuru son tarihi 8 Ekim 2026’dır; bu tarih iş ilanına aittir, teknoloji tedarikinin kapanış tarihi değildir. Sağlayıcı, sözleşme tarihi, go-live takvimi ve açık satın alma kanalı açıklanmadı. İlk temas, seçilmiş vendor durumu, crew tracking kapsamı, Cathay Pacific ve Air Hong Kong rollout sınırları, crew-hours/payment modülü, entegrasyon ve ek modül ihtiyaçlarını doğrulamaya odaklanmalıdır.",
+      "futureRationale": "Resmî kariyer duyurusu; yeni çözüm için test, eğitim, cutover, go-live, stabilizasyon ve hypercare çalışmalarının henüz yürütüleceğini gösterir. Bu, gelecek 24 ay içinde Crew/OCC entegrasyon veya tamamlayıcı kapsam için belgelenmiş dönüşüm penceresidir.",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "type": "Official implementation-readiness recruitment",
+          "detail": "Cathay Pacific’in resmî ilanı, Crew Tracking System Programme için uygulama, cutover ve operasyonel hazırlık sorumluluğunu; testten go-live, hypercare ve business adoption aşamalarını açıklar.",
+          "sourceUrl": "https://careers.cathaypacific.com/cn/careers/jobs/hong-kong/business-readiness-manager-24-month-contract-32221"
+        },
+        {
+          "date": null,
+          "type": "Official programme scope",
+          "detail": "İlan; vendorlarla çalışma, veri migrasyonu, entegrasyon hazırlığı, UAT, operasyonel senaryo doğrulaması, eğitim, cutover ve stabilizasyon deneyimini arar.",
+          "sourceUrl": "https://careers.cathaypacific.com/cn/careers/jobs/hong-kong/business-readiness-manager-24-month-contract-32221"
         }
       ]
     }
