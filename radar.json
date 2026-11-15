@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-15T15:49:13.837Z",
+  "lastScan": "2026-11-15T23:45:39.279Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4482,6 +4482,54 @@
           "type": "Official AOC and regional-hub evidence",
           "detail": "Bahreyn Ulaştırma Bakanlığı, Capital A ile LOI kapsamında Bahreyn’de AOC kurma seçeneği ile dar gövdeli uçaklarla yeni bölgesel hatların araştırıldığını açıkladı.",
           "sourceUrl": "https://www.mtt.gov.bh/node/3366"
+        }
+      ]
+    },
+    {
+      "id": "polynesair-france-tahiti-prelaunch-2027",
+      "title": "POLYNESAIR – AOC, Slot ve 2027 Tarifeli Yolcu Lansmanı Hazırlığı",
+      "organization": "POLYNESAIR",
+      "country": "France / French Polynesia",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": null,
+      "deadline": null,
+      "detectedAt": "2026-11-15T23:45:38.918Z",
+      "relevance": "Medium",
+      "summary": "POLYNESAIR, resmî yol haritasında ACMI ve AOC lisanslarının alınması, havalimanı slotlarının güvence altına alınması ve finansmanın sağlanması çalışmalarının sürdüğünü bildiriyor. Şirket, rezervasyonların açılması ile Marseille–Las Vegas–Tahiti ilk uçuşunu 2027’nin ikinci–üçüncü çeyreği için hedefliyor. Ticari uçuşun veya bilet satışının başladığına dair kanıt ile PSS, IBE, DCS, Weight & Balance, OCC ve Crew sağlayıcıları kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "POLYNESAIR resmî yol haritası",
+      "url": "https://www.polynesair.com/en/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": "Yolcu ve operasyon sistemleri sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Şirketin AOC/ACMI lisansı, slot, finansman ve 2027 rezervasyon/ilk uçuş yol haritası",
+      "qualificationNotes": "Şirketin resmî sayfası, AOC ve ACMI lisanslarının alınması, slotların güvence altına alınması ve finansman çalışmalarını devam eden hazırlık olarak gösterir; rezervasyon açılışı ve ilk Marseille–Las Vegas–Tahiti uçuşu Q2–Q3 2027 hedefidir. AOC veriliş tarihi, filo planı, kesin satış açılış tarihi ve teknoloji tedarikçileri açıklanmadığından varsayılmamalıdır.",
+      "startupStage": "Pre-launch passenger airline; AOC/ACMI, slot and funding work in progress",
+      "targetLaunchDate": "Q2–Q3 2027 (şirket hedefi)",
+      "aocStatus": "Şirket yol haritasına göre ACMI ve AOC lisanslarının alınması çalışması sürüyor; veriliş tarihi açıklanmadı",
+      "fleetPlan": "Kamuya açıklanmadı",
+      "fundingStatus": "Series A finansmanı yol haritasında devam eden iş olarak yer alıyor; tutar açıklanmadı",
+      "futureRationale": "Şirket, henüz ticari uçuş veya rezervasyon satışının başladığını bildirmiyor. AOC/ACMI, slot ve finansman hazırlığı ile 2027 rezervasyon/ilk uçuş hedefi; yolcu satışı, internet rezervasyonu, havalimanı operasyonları, yük-kalkış süreçleri ve ekip/operasyon planlama için gelecekte tedarik ve entegrasyon ihtiyacına işaret eder. Sağlayıcı seçimi kamuya açıklanmadı.",
+      "evidence": [
+        {
+          "date": "Q2–Q3 2027 (şirket hedefi)",
+          "type": "Company launch roadmap",
+          "detail": "POLYNESAIR resmî yol haritası, AOC/ACMI lisansı, slot güvence altına alma ve finansman çalışmalarını sürmekte olan hazırlık olarak; rezervasyon açılışı ile ilk Marseille–Las Vegas–Tahiti uçuşunu ise Q2–Q3 2027 hedefi olarak gösterir.",
+          "sourceUrl": "https://www.polynesair.com/en/"
         }
       ]
     }
