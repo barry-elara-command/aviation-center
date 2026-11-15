@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-15T15:42:19.946Z",
+  "lastScan": "2026-11-15T15:45:16.281Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4656,64 +4656,6 @@
           "type": "Official programme scope",
           "detail": "İlan; vendorlarla çalışma, veri migrasyonu, entegrasyon hazırlığı, UAT, operasyonel senaryo doğrulaması, eğitim, cutover ve stabilizasyon deneyimini arar.",
           "sourceUrl": "https://careers.cathaypacific.com/cn/careers/jobs/hong-kong/business-readiness-manager-24-month-contract-32221"
-        }
-      ]
-    },
-    {
-      "id": "jingdong-logistics-hong-kong-new-airline-aoc-2026",
-      "title": "JINGDONG Logistics – Hong Kong Yeni Havayolu AOC ve OCC Kurulum Hazırlığı",
-      "organization": "JINGDONG Logistics",
-      "country": "Hong Kong SAR, China",
-      "category": "Airline Startup / Cargo Operations",
-      "publishedDate": null,
-      "deadline": null,
-      "detectedAt": "2026-11-15T15:42:19.946Z",
-      "relevance": "Medium",
-      "summary": "JINGDONG Logistics’in Hong Kong’daki güncel Accountable Manager ve Head of Flight Operations/Chief Pilot ilanları, yeni bir havayolunun AOC ön başvuru ve sertifikasyon süreci için kurulduğunu gösteriyor. İlanlar; Hong Kong CAD ile ön başvuru toplantısı, operasyon ve bakım organizasyonu, manuel/SMS/kalite sistemleri, doğrulama uçuşları, pilot planlaması ile OCC koordinasyonunu açıkça kapsıyor. Hong Kong CAD’nin güncel AOC sahibi listesinde JINGDONG Logistics adına bir işletmeci yer almıyor. Ticari lansman, filo adedi, sistem sağlayıcısı ve satın alma takvimi açıklanmadı.",
-      "products": [
-        "Crane CGO - Cargo Management",
-        "Crane OCC - Operations Control Center",
-        "Crane CREW - Crew Management",
-        "Crane WB - Weight & Balance"
-      ],
-      "sourceName": "JINGDONG Logistics iş ilanları; Hong Kong Civil Aviation Department",
-      "url": "https://hk.linkedin.com/jobs/view/accountable-manager-at-jingdong-logistics-4486338086",
-      "official": false,
-      "status": "Early Signal",
-      "procurementType": "Pre-launch AOC certification and airline operations build-out",
-      "commercialPriority": "P2",
-      "recommendation": "Pursue",
-      "incumbent": "Sistem sağlayıcıları kamuya açıklanmadı",
-      "incumbentPss": "Unknown",
-      "incumbentDcs": "Unknown",
-      "incumbentConfidence": "Unknown",
-      "contractEndBasis": "Unknown",
-      "renewalSignal": "AOC ön başvurusu, uçuş operasyonu ve OCC koordinasyonunu kapsayan eş zamanlı üst düzey işe alım, henüz ticari uçuşa başlamamış işletmenin operasyonel sistem ve süreçlerini kurma aşamasında olduğunu gösteriyor.",
-      "qualificationNotes": "Kaynaklar işe alım ilanlarıdır; JINGDONG Logistics’in resmi web sitesinde veya HK CAD’de aday işletmeci adıyla doğrudan AOC başvurusu duyurusu bulunamadı. HK CAD’nin yayımladığı güncel AOC sahibi listesinde JINGDONG Logistics yer almıyor. İlk temas; tüzel AOC başvuru sahibi, hedef ticari başlangıç, filo planı, Hong Kong merkezli cargo operasyonunun kapsamı ve PSS/CGO/OCC/Crew/WB karar takvimini doğrulamalıdır.",
-      "startupStage": "Hong Kong CAD AOC ön başvuru ve sertifikasyon hazırlığı; operasyon, kalite, emniyet, uçuş operasyonu ve OCC organizasyonu kuruluyor",
-      "targetLaunchDate": null,
-      "aocStatus": "İşe alım ilanları CAD ön başvuru toplantısı ve AOC sürecini belirtir; AOC verilmesi kamuya açıklanmadı",
-      "fleetPlan": "Chief Pilot ilanı A330 veya geniş gövde tip yetkisini tercih ediyor; kesin filo, adet ve teslim takvimi açıklanmadı",
-      "fundingStatus": "Unknown",
-      "futureRationale": "Ticari operasyon öncesindeki AOC, manuel, emniyet, doğrulama uçuşu, pilot planlaması ve OCC kurulum çalışmaları; cargo operasyonu için CGO, OCC, Crew ve WB altyapısı ile entegrasyon kararları açısından geleceğe dönük satış penceresi yaratır.",
-      "evidence": [
-        {
-          "date": null,
-          "type": "Pre-AOC operational leadership recruitment",
-          "detail": "Accountable Manager ilanı, Hong Kong CAD ile AOC ön başvuru toplantısı talebini, sertifikasyon sürecini ve ticari lansmana ölçeklenme planını sorumluluklar arasında sayar.",
-          "sourceUrl": "https://hk.linkedin.com/jobs/view/accountable-manager-at-jingdong-logistics-4486338086"
-        },
-        {
-          "date": null,
-          "type": "Flight operations and OCC readiness recruitment",
-          "detail": "Chief Pilot ilanı; CAD ön başvuru toplantıları, AOC onayı, doğrulama uçuşları, pilot planlaması ve OCC ile koordinasyonu kapsar.",
-          "sourceUrl": "https://hk.linkedin.com/jobs/view/head-of-flight-operations-chief-pilot-at-jingdong-logistics-4486338114"
-        },
-        {
-          "date": null,
-          "type": "CAA AOC-holder verification",
-          "detail": "Hong Kong CAD’nin yayımladığı güncel AOC sahibi listesinde JINGDONG Logistics adına bir işletmeci yer almamaktadır.",
-          "sourceUrl": "https://www.cad.gov.hk/english/airoperator.html"
         }
       ]
     }
