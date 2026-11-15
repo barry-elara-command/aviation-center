@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-15T15:47:53.306Z",
+  "lastScan": "2026-11-15T15:49:13.837Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -2580,61 +2580,6 @@
       ]
     },
     {
-      "id": "sky-express-greece-pss-dcs-transformation-2026",
-      "title": "SKY express – Next-generation PSS and DCS Transformation",
-      "organization": "SKY express",
-      "country": "Greece",
-      "category": "Passenger Service Systems",
-      "publishedDate": "2026-09-25",
-      "deadline": null,
-      "detectedAt": "2026-09-29T04:48:46Z",
-      "relevance": "Medium",
-      "summary": "SKY express, yeni nesil PSS ve DCS platformunun implementasyon ve migrasyonunu yönetecek program yöneticisi ile go-live sonrasında PSS ekosisteminin iş sahipliğini üstlenecek PSS yöneticisi arıyor. İlanlar; vendor koordinasyonu, migration, test, eğitim, cutover, deployment ve post-go-live stabilizasyonunu açıkça kapsıyor. Bu, doğrulanmış bir PSS/DCS replatform programıdır; ancak yeni sağlayıcının büyük olasılıkla seçilmiş olması nedeniyle çekirdek PSS satışı için geç aşama, entegrasyon ve tamamlayıcı ürünler için ise discovery fırsatıdır.",
-      "products": [
-        "Crane PAX - Reservation & Ticketing",
-        "Crane DCS - Departure Control System",
-        "Crane IBE - Internet Booking Engine",
-        "Crane APP - Mobile Application"
-      ],
-      "sourceName": "SKY express Careers; SKY express LinkedIn Jobs",
-      "url": "https://gr.linkedin.com/jobs/view/programme-manager-%E2%80%93-passenger-service-systems-transformation-at-sky-express-4465967708",
-      "official": true,
-      "status": "Early Signal",
-      "procurementType": "PSS/DCS Replacement / Migration",
-      "commercialPriority": "P1",
-      "recommendation": "Monitor",
-      "incumbent": "Current and selected next-generation PSS/DCS providers not publicly disclosed",
-      "incumbentPss": "Unknown",
-      "incumbentDcs": "Unknown",
-      "incumbentConfidence": "Unknown",
-      "contractStartDate": null,
-      "contractEndDate": null,
-      "contractEndBasis": "Unknown",
-      "monthsToExpiry": null,
-      "renewalSignal": "Official recruitment confirms implementation and migration of a next-generation PSS and DCS, including cutover and post-go-live stabilisation.",
-      "qualificationNotes": "Resmî kariyer sayfası iki ilgili pozisyonu listeliyor; ayrıntılı şirket LinkedIn ilanları yeni nesil PSS/DCS implementasyonu, external vendor coordination, migration, testing, training, cutover, deployment ve post-go-live stabilizasyonunu doğruluyor. Bu dil, vendor seçiminin veya en azından ileri aşama short-listing'in tamamlanmış olabileceğini düşündürüyor. Sağlayıcı adı, go-live tarihi, sözleşme süresi ve açık RFP bulunamadı. Çekirdek replacement için doğrudan teklif yerine karar vericiler ve seçilmiş vendor doğrulanmalı; açık entegrasyon, IBE/mobil, ancillary, disruption ve W&B boşlukları araştırılmalıdır.",
-      "sourceEvidence": [
-        {
-          "date": "2026-09-25",
-          "type": "Official transformation recruitment",
-          "detail": "SKY express seeks a Programme Manager to lead end-to-end implementation and migration of its next-generation PSS and DCS, including vendors, testing, training, cutover, deployment and post-go-live stabilisation.",
-          "sourceUrl": "https://gr.linkedin.com/jobs/view/programme-manager-%E2%80%93-passenger-service-systems-transformation-at-sky-express-4465967708"
-        },
-        {
-          "date": "2026-09",
-          "type": "Official PSS ownership recruitment",
-          "detail": "SKY express seeks a Business Process Lead & PSS Administrator to lead implementation, operational readiness and post-go-live administration of the new PSS ecosystem.",
-          "sourceUrl": "https://gr.linkedin.com/jobs/view/business-process-lead-pss-administrator-at-sky-express-4465970654"
-        },
-        {
-          "date": "2026-09-29",
-          "type": "Corporate careers confirmation",
-          "detail": "SKY express corporate careers page lists the Business Process Lead & PSS Administrator vacancy.",
-          "sourceUrl": "https://www.skyexpress.gr/en/company/careers"
-        }
-      ]
-    },
-    {
       "id": "siam-wings-airlines-thailand-new-aoc-2026",
       "title": "Siam Wings Airlines – Aktif AOC / Ticari Lansman Öncesi",
       "organization": "Siam Wings Airlines Co., Ltd.",
@@ -4080,63 +4025,6 @@
         }
       ],
       "futureRationale": "Ticari uçuşun 1 Nisan 2027 için hedeflenmesi, iki A320 başlangıç planı, GlobalX ile açıklanan uçak işletim niyet mektubu ve devam eden FAA sertifikasyon hedefi; PSS/IBE/mobil satış, DCS/WB, OCC, Crew ve BPI kararları için geleceğe dönük bir sistem ihtiyacı oluşturur. Bu alanlardaki sağlayıcı seçimi kamuya açıklanmadı."
-    },
-    {
-      "id": "mena-airline-jordan-peol-aoc-prelaunch",
-      "title": "MENA Airline – Ürdün’de PEOL Sonrası AOC Hazırlığındaki Bölgesel Taşıyıcı",
-      "organization": "MENA Airline",
-      "country": "Ürdün",
-      "category": "Airline Startup / Regional Passenger Airline",
-      "publishedDate": null,
-      "deadline": null,
-      "detectedAt": "2026-10-29T19:47:40.008Z",
-      "relevance": "Medium",
-      "summary": "MENA Airline, Aqaba merkezli planlanan bölgesel yolcu taşıyıcısıdır. Şirket, Jordan Civil Aviation Regulatory Commission (CARC) tarafından Preliminary Economic Operating Licence (PEOL) verildiğini, bunun AOC sertifikasyon aşamasına ilerleme imkânı sağladığını; AOC hazırlığı ve operasyonel gelişimin sürdüğünü bildiriyor. Ticari operasyon başlamadı. Şirketin yayımladığı filo stratejisi ATR 72-600’dür. PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları açıklanmadığından kayıt geleceğe dönük Pre-RFP fırsatı olarak tutulur.",
-      "products": [
-        "Crane PAX - Passenger Services System",
-        "Crane IBE - Internet Booking Engine",
-        "Crane MA - Mobile Application",
-        "Crane DCS - Departure Control System",
-        "Crane WB - Weight & Balance",
-        "Crane OCC - Operations Control Center",
-        "Crane Crew - Crew Management",
-        "Crane SP - Schedule Planning",
-        "Crane BPI - Business Performance Index"
-      ],
-      "sourceName": "MENA Airline resmî sitesi; MENA Airline LinkedIn duyurusu",
-      "url": "https://menaairline.com/",
-      "official": true,
-      "status": "Pre-RFP",
-      "procurementType": "Pre-launch / AOC certification / passenger airline-system selection",
-      "commercialPriority": "P2",
-      "recommendation": "Pursue",
-      "incumbent": "PSS, IBE, DCS, Weight & Balance, OCC, Crew ve Schedule Planning sağlayıcıları kamuya açıklanmadı.",
-      "incumbentPss": "Unknown",
-      "incumbentDcs": "Unknown",
-      "incumbentConfidence": "Unknown",
-      "contractEndBasis": "Unknown",
-      "renewalSignal": "Not applicable – new airline launch",
-      "qualificationNotes": "Resmî şirket sitesi, Aqaba birincil hubı, ATR 72-600 filo stratejisi, PEOL alındığı beyanı, AOC sertifikasyon hazırlığının sürdüğü ve ticari lansmanın gelecekte olduğunu gösterir. Şirketin LinkedIn duyurusu PEOL'un AOC olmadığını ve ticari faaliyetin başlamadığını açıkça belirtir. CARC'nin kamuya açık bir PEOL kararı bu taramada bulunamadığından lisans kilometre taşı şirket beyanı olarak sınıflandırılır. Kesin AOC tamamlanma tarihi, ilk uçuş tarihi, uçak kiralama/teslim takvimi ve teknoloji seçim takvimi açıklanmadı.",
-      "startupStage": "PEOL beyan edilmiş; AOC certification ve operational development in progress; commercial operations not started",
-      "targetLaunchDate": null,
-      "aocStatus": "AOC certification preparation in progress according to the airline; no granted AOC claimed",
-      "fleetPlan": "ATR 72-600 fleet strategy disclosed by the airline; aircraft quantity, lease/delivery timetable and registrations not disclosed",
-      "fundingStatus": "Kamuya açıklanmış finansman tutarı bulunmadı",
-      "futureRationale": "Şirket, PEOL sonrası AOC sertifikasyonu ve operasyonel hazırlığın sürdüğünü; ticari lansmanın henüz gelecekte olduğunu bildiriyor. Açıklanmış ATR 72-600 filo stratejisi, yolcu satış, yer hizmetleri, DCS/WB, OCC ve ekip sistemleri için lansman öncesi satın alma ihtiyacına işaret eder; sağlayıcılar açıklanmadı.",
-      "evidence": [
-        {
-          "date": null,
-          "type": "Official pre-launch and regulatory-progress disclosure",
-          "detail": "MENA Airline resmi sitesi, Aqaba merkezli ATR 72-600 stratejili bölgesel taşıyıcı için PEOL alındığını, AOC certification ve operational development'in sürdüğünü, commercial launch'ın gelecekte olduğunu yayımlıyor.",
-          "sourceUrl": "https://menaairline.com/"
-        },
-        {
-          "date": null,
-          "type": "Company confirmation of non-operating status",
-          "detail": "MENA Airline'ın şirket LinkedIn duyurusu, CARC'den PEOL alındığını; bunun AOC olmadığını ve ticari operasyonların henüz başlamadığını belirtiyor.",
-          "sourceUrl": "https://www.linkedin.com/company/mena-airline"
-        }
-      ]
     },
     {
       "id": "air-ayodhya-india-aoc-prelaunch-2026",
