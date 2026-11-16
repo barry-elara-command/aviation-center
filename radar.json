@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-15T23:45:39.279Z",
+  "lastScan": "2026-11-16T09:04:24.865Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -119,7 +119,7 @@
       "deadline": null,
       "detectedAt": "2026-10-10T11:07:40Z",
       "relevance": "Medium",
-      "summary": "Triple i Logistics'in %100 iştiraki Thai Cargo Airlines, CAAT'ın güncel sicilinde AOC Application aşamasında bulunuyor. Ana şirket, 2026 sonuna kadar işletme ruhsatı almayı, onaylar planlandığı gibi ilerlerse yıl sonuna kadar test uçuşlarına başlamayı ve 2027'de tam ticari kargo operasyonuna geçmeyi hedeflediğini resmen açıkladı. Sermaye 200 milyon THB'ye çıkarıldı ve uçakların öncelikle leasing yoluyla temin edilmesi planlanıyor. CGO, OCC, Weight & Balance, Crew, Schedule Planning ve analitik sağlayıcıları açıklanmadı.",
+      "summary": "Triple i Logistics'in %100 iştiraki Thai Cargo Airlines, CAAT'ın güncel sicilinde AOC Application aşamasında bulunuyor. Ana şirketin 12 Kasım 2026 yatırımcı güncellemesi, AOL ve AOC lisans başvurusunun sürdüğünü; lisansın ve ticari kargo uçuşlarının 2027 ikinci çeyreğinde hedeflendiğini bildiriyor. Daha önce kamuya duyurulan 200 milyon THB sermaye artışı ve leasing öncelikli filo planı korunuyor. CGO, OCC, Weight & Balance, Crew, Schedule Planning ve analitik sağlayıcıları açıklanmadı.",
       "products": [
         "Crane CGO - Cargo Management System",
         "Crane OCC - Operations Control Center",
@@ -141,13 +141,13 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Unknown",
       "renewalSignal": "Not applicable – new cargo airline launch",
-      "qualificationNotes": "Ana şirketin 2026 Genel Kurul tutanağı, 2026 sonuna kadar işletme ruhsatı, yıl sonuna kadar test uçuşu ve 2027'de tam ticari operasyon hedefini doğruluyor. CAAT güncel sicili AOC başvurusunu açık gösteriyor. Proje sermayesi 3 milyon THB'den 200 milyon THB'ye çıkarıldı; filo için leasing önceliği açıklandı. Kesin uçak tipi, teslimat tarihi, ilk hatlar ve teknoloji seçim takvimi kamuya açıklanmadı. İlk temas CGO/OCC/WB mimarisi, ULD/warehouse ve accounting entegrasyonları, leasing filosu ve go-live planını doğrulamaya odaklanmalıdır.",
+      "qualificationNotes": "CAAT'ın güncel resmî AOC sicili başvurunun devam ettiğini doğruluyor. Triple i Logistics'in 12 Kasım 2026 yatırımcı sunumu, lisans başvurusunun sürdüğünü ve AOL/AOC ile ticari uçuş için Q2 2027 hedefini verir. Daha önce yayımlanan 2026 Genel Kurul tutanağı sermaye artışını ve leasing öncelikli filo hazırlığını doğrular. Kesin uçak tipi, teslimat tarihi, ilk hatlar ve teknoloji seçim takvimi açıklanmadı.",
       "startupStage": "AOC application in process; funded; test-flight and commercial-launch plan announced",
-      "targetLaunchDate": "2027 tam ticari operasyon; kesin tarih açıklanmadı",
-      "aocStatus": "CAAT lists Thai Cargo Airlines Company Limited as AOC Application / On Process",
+      "targetLaunchDate": "Q2 2027 (ana şirket hedefi)",
+      "aocStatus": "CAAT lists Thai Cargo Airlines Company Limited as AOC Application / On Process; ana şirketin 12 Kasım 2026 güncellemesinde AOL/AOC başvurusu Q2 2027 hedefiyle sürüyor",
       "fleetPlan": "Aircraft to be procured primarily through leasing; type, quantity and delivery dates not publicly disclosed",
       "fundingStatus": "Registered capital increased from THB 3 million to THB 200 million; wholly owned by Triple i Logistics PCL",
-      "futureRationale": "2026 sonuna kadar ruhsat ve test uçuşu, 2027'de tam ticari operasyon hedefi resmen açıklanmıştır; AOC başvurusu devam etmekte ve temel kargo/operasyon sistemi sağlayıcıları açıklanmamıştır.",
+      "futureRationale": "AOC/AOL süreci devam ederken ana şirketin Q2 2027 ticari uçuş hedefini teyit etmesi, temel kargo ve operasyon sistemleri için zamanlaması daralmış bir seçim/entegrasyon penceresine işaret eder. Sağlayıcı seçimi kamuya açıklanmadı.",
       "evidence": [
         {
           "date": "2026-05-15",
@@ -166,6 +166,12 @@
           "type": "Official funding and fleet preparation",
           "detail": "The parent disclosed a capital increase from THB 3 million to THB 200 million for cargo-airline preparation and said aircraft would primarily be sourced through leasing.",
           "sourceUrl": "https://www.iii-logistics.com/web/wp-content/uploads/2026/05/MINUTES-OF-THE-2026-ANNUAL-GENERAL-MEETING-OF-SHAREHOLDERS.pdf"
+        },
+        {
+          "date": "2026-11-12",
+          "type": "Official Q2 2027 licensing and commercial-launch update",
+          "detail": "Triple i Logistics'in 3Q2026 yatırımcı sunumu, cargo airline için AOL/AOC lisans başvurusunun sürdüğünü ve hem lisans hem ticari uçuşun Q2 2027 hedefiyle planlandığını gösterir.",
+          "sourceUrl": "https://iii.listedcompany.com/misc/presentation/20261112-iii-am-3q2026.pdf"
         }
       ]
     },
