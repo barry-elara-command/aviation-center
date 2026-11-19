@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-19T06:45:10.544Z",
+  "lastScan": "2026-11-19T09:41:25.788Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4607,6 +4607,67 @@
           "type": "Official preparatory funding",
           "detail": "2027 bütçesinde ulusal havayolunun kuruluş hazırlıkları için GH¢69 milyon tahsis edildi.",
           "sourceUrl": "https://presidency.gov.gh/wp-content/uploads/2026/11/2026_11_12_2027-Budget-Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "jcas-airways-japan-aoc-prelaunch-2028",
+      "title": "JCAS Airways – Japonya AOC Başvurusu ve Mart 2028 Bölgesel Lansman Hazırlığı",
+      "organization": "JCAS Airways",
+      "country": "Japan",
+      "category": "Airline Startup / Passenger airline",
+      "publishedDate": "2026-11-02",
+      "deadline": null,
+      "detectedAt": "2026-11-19T09:41:25.788Z",
+      "relevance": "Medium",
+      "summary": "JCAS Airways, 30 Ekim 2026’da Japonya MLIT Osaka Aviation Bureau’ya hava taşımacılığı izni başvurusu yaptığını duyurdu. Şirket, Kansai merkezli Toyama ve Yonago hatlarında Mart 2028’de ticari operasyona başlamayı; 72 koltuklu ATR72-600 ilk uçağını Ağustos 2027’de teslim almayı hedefliyor. Teslim sonrası ekip eğitim uçuşları ve operasyonel demonstrasyon planlanıyor. PSS, IBE, DCS, WB, OCC ve Crew tedarikçileri ile bilet satış tarihi kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management",
+        "Crane SP - Schedule Planning"
+      ],
+      "sourceName": "JCAS Airways resmî duyurusu",
+      "url": "https://www.jcas.co.jp/%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%AD%E3%83%A3%E3%82%B9%E3%82%A8%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%BA%E3%80%81%E8%88%AA%E7%A9%BA%E9%81%8B%E9%80%81%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A8%B1%E5%8F%AF/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "Startup airline systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": "Yolcu ve operasyon sistemleri sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch carrier",
+      "renewalSignal": "Resmî hava taşımacılığı izni başvurusu, ATR72-600 teslimat mutabakatı, eğitim/demonstrasyon planı ve Mart 2028 ticari lansman hedefi",
+      "qualificationNotes": "Şirket, hava taşımacılığı izni başvurusunun 30 Ekim 2026’da Osaka Aviation Bureau’ya yapıldığını; ATR72-600 teslimatının Ağustos 2027’de, ticari başlangıcın Mart 2028’de hedeflendiğini açıklar. İzin verilmesi, kesin AOC/operasyon ruhsatı sonucu, satış açılışı, teknoloji kapsamı ve sağlayıcılar kamuya açıklanmadı.",
+      "startupStage": "Pre-launch regional passenger airline; regulatory application filed and fleet introduction preparation underway",
+      "targetLaunchDate": "2028-03 (şirket hedefi)",
+      "aocStatus": "30 Ekim 2026’da Osaka Aviation Bureau’ya hava taşımacılığı izni başvurusu yapıldığı şirket tarafından açıklandı; izin sonucu açıklanmadı",
+      "fleetPlan": "ATR72-600, 72 koltuk; ilk uçağın Ağustos 2027’de teslim alınması hedefleniyor",
+      "fundingStatus": "Şirketin resmî sitesinde pre-Series A turlarıyla toplam ¥650 milyon finansman toplandığı belirtiliyor",
+      "futureRationale": "Henüz ticari uçuş veya bilet satışının başladığına dair kanıt yoktur. Düzenleyici başvuru, onaylanmış ilk filo tedarik hazırlığı, eğitim/demonstrasyon planı ve Mart 2028 yolcu lansmanı; satış, rezervasyon, kalkış, ağırlık-denge, OCC ve ekip sistemleri için gelecekte tedarik/entegrasyon ihtiyacına işaret eder.",
+      "evidence": [
+        {
+          "date": "2026-10-30",
+          "type": "Company regulatory filing",
+          "detail": "JCAS, Osaka Aviation Bureau’ya hava taşımacılığı izni başvurusu yaptığını duyurdu.",
+          "sourceUrl": "https://www.jcas.co.jp/%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%AD%E3%83%A3%E3%82%B9%E3%82%A8%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%BA%E3%80%81%E8%88%AA%E7%A9%BA%E9%81%8B%E9%80%81%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A8%B1%E5%8F%AF/"
+        },
+        {
+          "date": "2027-08",
+          "type": "Company fleet and operational-readiness plan",
+          "detail": "Şirket, ATR72-600 teslimatını Ağustos 2027 için hedeflediğini; ardından ekip eğitim uçuşları ve operasyonel demonstrasyonlar yapacağını bildirir.",
+          "sourceUrl": "https://www.jcas.co.jp/%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%AD%E3%83%A3%E3%82%B9%E3%82%A8%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%BA%E3%80%81%E8%88%AA%E7%A9%BA%E9%81%8B%E9%80%81%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A8%B1%E5%8F%AF/"
+        },
+        {
+          "date": "2028-03",
+          "type": "Company launch target",
+          "detail": "Kansai–Toyama ve Kansai–Yonago tarifeli seferleri için Mart 2028 ticari başlangıç hedefi açıklandı.",
+          "sourceUrl": "https://www.jcas.co.jp/%E3%82%B8%E3%82%A7%E3%82%A4%E3%82%AD%E3%83%A3%E3%82%B9%E3%82%A8%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%BA%E3%80%81%E8%88%AA%E7%A9%BA%E9%81%8B%E9%80%81%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A8%B1%E5%8F%AF/"
         }
       ]
     }
