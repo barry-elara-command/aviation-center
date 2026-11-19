@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-16T11:18:28.601Z",
+  "lastScan": "2026-11-19T06:45:10.544Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4553,6 +4553,60 @@
           "type": "Company launch roadmap",
           "detail": "POLYNESAIR resmî yol haritası, AOC/ACMI lisansı, slot güvence altına alma ve finansman çalışmalarını sürmekte olan hazırlık olarak; rezervasyon açılışı ile ilk Marseille–Las Vegas–Tahiti uçuşunu ise Q2–Q3 2027 hedefi olarak gösterir.",
           "sourceUrl": "https://www.polynesair.com/en/"
+        }
+      ]
+    },
+    {
+      "id": "ghana-national-airline-relaunch-preparation-2026",
+      "title": "Ghana Ulusal Havayolu – Devlet Destekli Relaunch ve Sistem Hazırlığı",
+      "organization": "Ghana Hükümeti / önerilen ulusal havayolu",
+      "country": "Ghana",
+      "category": "Airline Relaunch / Passenger airline",
+      "publishedDate": "2026-11-06",
+      "deadline": null,
+      "detectedAt": "2026-11-19T06:45:10.542Z",
+      "relevance": "Medium",
+      "summary": "Gana Devlet Başkanlığı, 6 Kasım 2026’da Boeing ile ülkenin ulusal havayolunu yeniden kurmak için yol haritası üzerinde uzlaşıldığını açıkladı. Yol haritası stratejik havayolu ve teknik ortak seçimi, AOC edinimi, filo seçimi ve finansman kararlarını kapsıyor. 2027 bütçesinde ulusal havayolunun kuruluş hazırlıkları için GH¢69 milyon ayrıldı. Ticari uçuş, bilet satışı, kesin filo, teknoloji kapsamı ve tedarik takvimi kamuya açıklanmadı.",
+      "products": [
+        "Crane PAX - Reservation & Ticketing",
+        "Crane IBE - Internet Booking Engine",
+        "Crane DCS - Departure Control System",
+        "Crane WB - Weight & Balance",
+        "Crane OCC - Operations Control Center",
+        "Crane CREW - Crew Management"
+      ],
+      "sourceName": "Ghana Presidency; Ghana 2027 Budget",
+      "url": "https://presidency.gov.gh/mahama-meets-boeing-group/",
+      "official": true,
+      "status": "Pre-RFP",
+      "procurementType": "State-backed airline relaunch / prospective systems selection",
+      "commercialPriority": "P2",
+      "recommendation": "Monitor",
+      "incumbent": "Yolcu ve operasyon sistemleri sağlayıcıları kamuya açıklanmadı",
+      "incumbentPss": "Unknown",
+      "incumbentDcs": "Unknown",
+      "incumbentConfidence": "Unknown",
+      "contractEndBasis": "Not applicable – pre-launch relaunch",
+      "renewalSignal": "Resmî yol haritasında stratejik ve teknik ortak arayışı, AOC edinimi, filo seçimi ve finansman kararları; 2027 bütçesinde hazırlık ödeneği",
+      "qualificationNotes": "Ghana Presidency’nin 6 Kasım 2026 duyurusu, kurulacak taşıyıcı için stratejik havayolu/teknik ortak aranacağını, AOC edinimi, filo seçimi ve finansman kararlarının yol haritasında olduğunu doğrular. 2027 bütçesi kuruluş hazırlıkları için GH¢69 milyon ayırır. AOC başvurusunun verildiği, uçak siparişi/lease’i, satış açılışı, kesin lansman tarihi veya sistem sağlayıcısı kamuya açıklanmamıştır.",
+      "startupStage": "Devlet destekli ulusal havayolu relaunch hazırlığı; stratejik ve teknik ortak, AOC, filo ve finansman çalışmaları yol haritasında",
+      "targetLaunchDate": "2028 (resmî bilgi sayfasında beklenti; kesin tarih değil)",
+      "aocStatus": "Resmî yol haritasında edinilmesi gereken adım olarak yer alır; başvuru veya sertifika teyidi açıklanmadı",
+      "fleetPlan": "Resmî yol haritasında filo seçimi yapılacak adım olarak yer alır; tip/adet açıklanmadı",
+      "fundingStatus": "Ghana 2027 bütçesinde kuruluş hazırlıkları için GH¢69 milyon tahsis edildi",
+      "futureRationale": "Ticari uçuş ve bilet satışının başladığına dair kanıt yoktur. Resmî teknik ortak arayışı, AOC, filo ve finansman hazırlığı; satış, dağıtım, havalimanı operasyonları, yük-kalkış ve ekip/operasyon planlama sistemleri için gelecek seçim ve entegrasyon penceresine işaret eder.",
+      "evidence": [
+        {
+          "date": "2026-11-06",
+          "type": "Official establishment roadmap",
+          "detail": "Ghana Presidency, Boeing ile yeni ulusal havayolu için stratejik havayolu/teknik ortak arayışı, AOC edinimi, filo seçimi ve finansman kararlarını içeren yol haritası üzerinde uzlaşıldığını açıkladı.",
+          "sourceUrl": "https://presidency.gov.gh/mahama-meets-boeing-group/"
+        },
+        {
+          "date": "2026-11-12",
+          "type": "Official preparatory funding",
+          "detail": "2027 bütçesinde ulusal havayolunun kuruluş hazırlıkları için GH¢69 milyon tahsis edildi.",
+          "sourceUrl": "https://presidency.gov.gh/wp-content/uploads/2026/11/2026_11_12_2027-Budget-Final.pdf"
         }
       ]
     }
