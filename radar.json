@@ -2125,27 +2125,32 @@
       "organization": "Alatau Air Cargo (formerly KTZ Air Cargo)",
       "country": "Kazakhstan",
       "category": "Cargo",
-      "publishedDate": "2026-09-10",
+      "publishedDate": "2026-11-14",
       "deadline": null,
       "detectedAt": "2026-09-26T06:46:04Z",
       "relevance": "Medium",
-      "summary": "Kazakistan'ın ulusal kargo havayolu projesi hükümet tarafından uygulama aşamasında doğrulandı. 2025 sonunda KTZ Air Cargo olarak kurulan şirket, özel yatırımcı katılımı sonrasında Haziran 2026'da Alatau Air Cargo adını aldı; havayolu kuruluş deneyimine sahip CEO ve teknik/İK yönetimiyle operasyonel temelini oluşturuyor. Resmî plan başlangıçta üç kiralık uçak ve daha sonra on uçağa büyümeyi öngörüyor; ancak AOC, uçak teslimatı ve ticari başlangıç henüz doğrulanmadı. Kamuya açıklanmış cargo platformu sağlayıcısı bulunmadığından Crane CGO için P2 pre-RFP discovery fırsatıdır.",
+      "summary": "Kazakistan'ın ulusal kargo havayolu projesi Alatau Air Cargo, henüz ticari uçuşa başlamadı. 14 Kasım 2026 tarihli doğrulanabilir yerel havacılık haberi, hissedar Timur Turlov’un beyanına göre iki Airbus A340-600 için 24 aylık operating lease planı bulunduğunu; lease sözleşmesinin imzalanmadığını, ilk uçağın önümüzdeki haftalarda ve ikincinin Mart 2027’de beklendiğini bildiriyor. Teknik ve hukuki uçuş hazırlığı 2027 başı için öngörülürken ilk ticari uçuş tarihi açıklanmadı. AOC, imzalı lease, uçak teslimi ve finansmanın kapanışı kamuya açık biçimde doğrulanmadığından Crane CGO, OCC, WB, Crew, SP ve BPI için P2 pre-RFP keşif fırsatı olarak tutulur.",
       "products": [
-        "Crane CGO - Reservation & Cargo Services"
+        "Crane CGO - Reservation & Cargo Services",
+        "Crane OCC - Operations Control Center",
+        "Crane WB - Weight & Balance",
+        "Crane CREW - Crew Management",
+        "Crane SP - Schedule Planning",
+        "Crane BPI - Business Performance Index"
       ],
-      "sourceName": "Prime Minister of Kazakhstan; KTZ Express; Alatau Air Cargo",
-      "url": "https://primeminister.kz/en/news/olzhas-bektenov-holds-meeting-on-transport-sector-development-31376",
+      "sourceName": "Prime Minister of Kazakhstan; KTZ Express; Alatau Air Cargo; FlyCentralAsia",
+      "url": "https://www.flycentralasia.com/news/en/alatau-air-cargo-two-airbus-a340-600-operating-lease-24-months-bridge-loan-turlov-interview/",
       "official": true,
       "status": "Pre-RFP",
       "procurementType": "Startup Airline / New AOC",
       "commercialPriority": "P2",
       "recommendation": "Pursue",
-      "incumbent": "Cargo management/reservation platform provider not publicly disclosed",
-      "qualificationNotes": "Hükümet desteği, kurulu tüzel yapı, özel yatırımcı katılımı, deneyimli yönetim ataması ve resmî filo ölçekleme planı güçlü erken sinyallerdir. Bununla birlikte AOC başvuru/aşaması, ilk üç uçağın tipi ve kiralama sözleşmeleri, teslimat tarihi, ilk gelir uçuşu, hub/hat planı ve cargo teknoloji tedarik yöntemi kamuya açıklanmamıştır. İlk temas; AOC takvimi, launch-fleet, cargo reservation/booking, capacity and rate management, AWB/e-AWB, tracking, warehouse ve revenue-accounting entegrasyonlarını doğrulamaya odaklanmalıdır.",
+      "incumbent": "Cargo management, OCC, Weight & Balance, Crew, Schedule Planning ve analitik sağlayıcıları kamuya açıklanmadı",
+      "qualificationNotes": "14 Kasım 2026 güncellemesi, başlangıç filosu ve 2027 başı hazırlık hedefi için daha somut bir sinyal sunar; ancak yatırımcı beyanındaki lease, kredi ve uçak teslimi henüz bağımsız veya resmî biçimde kapanmış değildir. AOC, imzalı lease, ilk uçak tescili/teslimi, teknik hazırlık kapsamı, ilk gelir uçuşu, müşteri ve hat planı ile cargo teknoloji tedarik yöntemi doğrulanmalıdır.",
       "startupStage": "Company established and restructured; management build-out; pre-AOC/pre-launch implementation phase",
-      "targetLaunchDate": null,
+      "targetLaunchDate": "2027 başında teknik ve hukuki uçuş hazırlığı hedefleniyor; ilk ticari uçuş tarihi açıklanmadı",
       "aocStatus": "AOC grant not publicly confirmed",
-      "fleetPlan": "Resmî hükümet planı başlangıçta üç kiralık uçak, daha sonra on uçağa büyüme öngörüyor; uçak tipi, sözleşme ve teslimatlar doğrulanmadı",
+      "fleetPlan": "Yatırımcı beyanına göre iki A340-600 için 24 aylık operating lease planlanıyor; sözleşme imzalanmış değil. İlk uçak önümüzdeki haftalarda, ikinci uçak Mart 2027’de bekleniyor; tescil, konfigürasyon ve fiilî teslim doğrulanmadı.",
       "fundingStatus": "KTZ Express/Samruk-Kazyna kökenli ulusal proje ve özel yatırımcı katılımı doğrulandı; finansman tutarı kamuya açıklanmadı",
       "evidence": [
         {
@@ -2170,8 +2175,15 @@
           "type": "Procurement readiness",
           "detail": "KTZ Express, ulusal kargo havayolunun kurulmasında pratik aşamaya geçildiğini ve 2026 satın alma planının onaylandığını yayımladı.",
           "sourceUrl": "https://www.ktze.kz/en/cooperation/procurement"
+        },
+        {
+          "date": "2026-11-14",
+          "type": "Filo ve operasyon hazırlığı güncellemesi",
+          "detail": "Yerel havacılık yayını, yatırımcı Timur Turlov’un beyanına dayanarak iki A340-600 için 24 aylık operating lease planını bildirdi. Lease henüz imzalanmadı; ilk uçağın önümüzdeki haftalarda, ikincinin Mart 2027’de beklenmesi; teknik ve hukuki uçuş hazırlığının 2027 başında hedeflenmesi ile ticari ilk uçuş tarihinin henüz tanımlanmamış olması kaydedildi.",
+          "sourceUrl": "https://www.flycentralasia.com/news/en/alatau-air-cargo-two-airbus-a340-600-operating-lease-24-months-bridge-loan-turlov-interview/"
         }
-      ]
+      ],
+      "futureRationale": "İki uçaklık başlangıç filosu için lease hazırlığı ile 2027 başına dönük teknik/hukuki hazırlık, cargo rezervasyon, waybill, operasyon kontrolü, uçuş planlama, crew ve W&B altyapısı için yakın vadeli keşif penceresine işaret eder. Ancak AOC, lease ve teslimat doğrulanana kadar teklif fırsatı değil, P2 discovery olarak ele alınmalıdır."
     },
     {
       "id": "oneclick-airways-georgia-startup-2026",
