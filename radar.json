@@ -4359,7 +4359,7 @@
       "deadline": null,
       "detectedAt": "2026-11-04T09:43:09.262Z",
       "relevance": "Medium",
-      "summary": "Great Ghana Airline, resmî operasyon hazırlık sayfasında GCAA AOC sürecinin belge değerlendirme evresinde olduğunu, demonstrasyonların Q3 2026’da ve AOC ihracının Q4 2026’da hedeflendiğini bildiriyor. Şirket ayrıca ilk uçağın tesliminden 6–9 ay sonra, Q3 2027’de ticari yolcu operasyonuna başlama hedefi açıklıyor. PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları; filo tipi/adedi ve kesin satış başlangıcı kamuya açıklanmadı.",
+      "summary": "Great Ghana Airline, resmî operasyon hazırlık sayfasında GCAA AOC sürecinin belge değerlendirme evresinde olduğunu, demonstrasyonların Q3 2026’da ve AOC ihracının Q4 2026’da hedeflendiğini bildiriyor. Şirket ayrıca ilk uçağın tesliminden 6–9 ay sonra, Q3 2027’de ticari yolcu operasyonuna başlama hedefi açıklıyor. PSS, IBE, DCS, WB, OCC ve Crew sağlayıcıları; filo tipi/adedi ve kesin satış başlangıcı kamuya açıklanmadı. Resmî operasyon hazırlık sayfası, 24/7 OCC için SITA Mission Watch, Lido Flight Planning, AIMS OpsControl ve Rockwell Collins ARINC hedef sistemlerinde tedarikçi değerlendirmesinin sürdüğünü bildiriyor.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -4381,7 +4381,7 @@
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Not applicable – pre-launch carrier",
       "renewalSignal": "GCAA AOC süreç takvimi, aktif ekip/operasyon hazırlığı ve Q3 2027 ticari lansman hedefi",
-      "qualificationNotes": "Şirketin resmî sayfası, GCAA sertifikasyonunun belge değerlendirme evresinde olduğunu; demonstrasyonların Q3 2026 ve AOC ihracının Q4 2026 hedeflendiğini belirtir. Aynı kaynak Q3 2027 ticari lansman hedefini bildirir. GCAA’nın kamu AOC listesinde sertifika teyidi, uçak tipi/adedi, finansman, rota, bilet satış tarihi ve teknoloji tedarikçileri açıklanmamıştır.",
+      "qualificationNotes": "Şirketin resmî sayfası, GCAA sertifikasyonunun belge değerlendirme evresinde olduğunu; demonstrasyonların Q3 2026 ve AOC ihracının Q4 2026 hedeflendiğini belirtir. Aynı kaynak Q3 2027 ticari lansman hedefini bildirir. GCAA’nın kamu AOC listesinde sertifika teyidi, uçak tipi/adedi, finansman, rota, bilet satış tarihi ve teknoloji tedarikçileri açıklanmamıştır. Resmî operasyon hazırlık sayfası, 24/7 OCC için SITA Mission Watch, Lido Flight Planning, AIMS OpsControl ve Rockwell Collins ARINC hedef sistemlerinde tedarikçi değerlendirmesinin sürdüğünü bildiriyor. Bu, henüz award edilmemiş fakat OCC tedarik değerlendirmesinin somut kanıtıdır.",
       "startupStage": "Pre-launch passenger airline; GCAA AOC document-evaluation stage reported by company",
       "targetLaunchDate": "Q3 2027 (şirket hedefi)",
       "aocStatus": "Şirket beyanına göre GCAA sertifikasyonunda belge değerlendirme evresi; demonstrasyon Q3 2026 ve AOC ihracı Q4 2026 hedefi",
@@ -4399,6 +4399,12 @@
           "date": "Tarih açıklanmadı",
           "type": "Company commercial-launch target",
           "detail": "Şirketin operasyon hazırlık sayfası Q3 2027 ticari lansman hedefini ve ilk uçak teslimi ile lansman arasında 6–9 aylık zamanlamayı bildirir.",
+          "sourceUrl": "https://greatghanaairline.com/operational/"
+        },
+        {
+          "date": "Tarih açıklanmadı",
+          "type": "Company OCC systems vendor evaluation",
+          "detail": "Şirket, Accra'daki 24/7 OCC için SITA Mission Watch, Lido Flight Planning, AIMS OpsControl ve Rockwell Collins ARINC'i hedef sistemler olarak sayıyor; vendor evaluation'ın sürdüğünü belirtiyor.",
           "sourceUrl": "https://greatghanaairline.com/operational/"
         }
       ]
