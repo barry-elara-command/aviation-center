@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastScan": "2026-11-19T09:41:25.788Z",
+  "lastScan": "2026-11-24T16:45:26.564Z",
   "sourcesScanned": 340,
   "opportunities": [
     {
@@ -4729,6 +4729,43 @@
           "type": "Company launch, AOC and fleet preparation update",
           "detail": "Kurumsal yayın, Ocak 2027’de mevcut AOC sahibiyle planlanan ilk kargo operasyonunu, 2027 sonuna hedeflenen kendi AOC’si için dokümantasyon hazırlığını ve B737/B757 için devam eden görüşmeleri bildiriyor.",
           "sourceUrl": "https://apacedigitalcargo.com/born-in-the-desert-built-for-the-skies-the-countdown-begins/"
+        }
+      ]
+    },
+    {
+      "id": "royal-jordanian-cloud-contact-center-cx-rfp-2026",
+      "title": "Cloud Contact Center, Agentic AI and Customer Experience Platform",
+      "organization": "Royal Jordanian Airlines",
+      "country": "Jordan",
+      "category": "Customer Experience / Contact Center",
+      "publishedDate": null,
+      "deadline": "2026-12-06T20:00:00Z",
+      "detectedAt": "2026-11-24T16:43:00Z",
+      "relevance": "Medium",
+      "summary": "Royal Jordanian Airlines’in resmî tedarik portalı, bulut iletişim merkezi, agentic AI ve müşteri deneyimi platformu için IT kategorisinde açık Sealed Offer yayımlıyor. Portal soru son tarihini 26 Kasım 2026, teklif kapanışını 6 Aralık 2026 20:00 GMT olarak gösteriyor. Ayrıntılı teknik şartname oturum gerektiriyor; mevcut sağlayıcı ve sözleşme bitiş tarihi açıklanmıyor.",
+      "products": [
+        "Crane CCL"
+      ],
+      "sourceName": "Royal Jordanian Airlines Resmî Tedarik Portalı",
+      "url": "https://procurement.rj.com/",
+      "official": true,
+      "status": "Open",
+      "procurementType": "Sealed Offer",
+      "commercialPriority": "P2",
+      "recommendation": "Pursue",
+      "incumbent": null,
+      "incumbentPss": null,
+      "incumbentDcs": null,
+      "incumbentConfidence": "Bilinmiyor",
+      "contractEndBasis": "Açıklanmadı",
+      "renewalSignal": "Resmî tedarik portalında açık satın alma talebi olarak yayımlandı; platformun ayrıntılı kapsamı ve mevcut sağlayıcı bilgisi herkese açık duyuruda yer almıyor.",
+      "qualificationNotes": "Crane CCL kapsamı, kanal entegrasyonları, AI iş akışları, müşteri profili/PNR erişimi ve güvenlik gereksinimleri teklif dokümanı üzerinden doğrulanmalıdır.",
+      "futureRationale": "Resmî portalda teklif kapanışı 6 Aralık 2026 20:00 GMT olarak yayımlandığından, doğrulanmış ve geleceğe dönük açık teknoloji satın alma fırsatıdır.",
+      "evidence": [
+        {
+          "date": "2026-11-24",
+          "statement": "Royal Jordanian resmî tedarik portalı talebi IT kategorisinde açık Sealed Offer olarak listeliyor; soru son tarihi 26 Kasım 2026, teklif kapanışı 6 Aralık 2026 20:00 GMT.",
+          "url": "https://procurement.rj.com/"
         }
       ]
     }
