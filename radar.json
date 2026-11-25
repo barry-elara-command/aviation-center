@@ -4256,7 +4256,7 @@
       "deadline": null,
       "detectedAt": "2026-11-03T20:47:49.198Z",
       "relevance": "Medium",
-      "summary": "Air Indo, Hindistan’da kuruluş ve ilk düzenleyici hazırlık aşamasındaki planlı bölgesel yolcu havayoludur. Doğrulanabilir yerel havacılık kaynağı, şirketin MoCA başlangıç NOC’si ile MHA güvenlik iznini aldığını; DGCA AOC, uçak ve operasyon hazırlıkları tamamlanmadan ticari uçuş veya bilet satışına başlayamayacağını bildiriyor. Şirket 15’ten fazla şehir ve ATR 72-600 odaklı ağ planı açıklasa da teknoloji sağlayıcısı duyurulmadı. Bu nedenle Crane PAX, IBE, DCS, WB, OCC, Crew ve SP için pre-RFP takip fırsatıdır.",
+      "summary": "Air Indo, Hindistan’da ticari uçuş ve satış başlamamış bölgesel yolcu havayolu hazırlığı yürütüyor. Şirketin 31 Ekim 2026 tarihli resmî duyurusu, ülke genelindeki havalimanlarında ofis kurabilmesi için NOC aldığını; yer operasyonları, istasyon personeli, yer hizmetleri, filo induksiyonu, ekip alımı ve emniyet yönetim sistemi çalışmalarını sürdürdüğünü doğrular. DGCA Air Operator Permit/AOP olmadan tarifeli ticari hizmete başlayamayacağını ve Mayıs 2027 hedefinin bu onaya bağlı olduğunu açıklar. PSS, IBE, DCS, WB, OCC, Crew ve Schedule Planning sağlayıcısı açıklanmadığından pre-RFP takip fırsatıdır.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
@@ -4266,9 +4266,9 @@
         "Crane Crew - Crew Management",
         "Crane SP - Schedule Planning"
       ],
-      "sourceName": "Aviacionline (doğrulanabilir yerel havacılık haberi)",
-      "url": "https://www.aviacionline.com/english/commercial-aviation/asia-pacific/air-indo-targets-15-cities-with-the-atr-72-600-and-awaits-its-dgca-certificate_a6ae8bf729b2d9a633cfe5c0f",
-      "official": false,
+      "sourceName": "Air Indo resmi haber merkezi; Aviacionline",
+      "url": "https://www.airindo.in/newsroom",
+      "official": true,
       "status": "Pre-RFP",
       "procurementType": "Pre-launch / airline systems selection",
       "commercialPriority": "P2",
@@ -4278,20 +4278,26 @@
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
       "contractEndBasis": "Not applicable – pre-launch carrier",
-      "renewalSignal": "MoCA başlangıç NOC’si ve MHA güvenlik izni bildirildi; DGCA AOC ve ticari başlangıç beklemede",
-      "qualificationNotes": "2 Kasım 2026 tarihli doğrulanabilir yerel havacılık haberi, şirketin MoCA başlangıç NOC’si ve MHA güvenlik izni aldığını, ancak DGCA AOC olmadan uçuş veya bilet satışı yapamayacağını bildirir. Şirketin 15’ten fazla şehir ve ATR 72-600 odaklı planı açıklanmış olsa da kesin ilk uçuş tarihi, bağlayıcı uçak kira/satın alma anlaşması ve teknoloji seçim takvimi yayımlanmadı.",
-      "startupStage": "MoCA başlangıç NOC’si ve MHA güvenlik izni bildirilmiş; DGCA AOC, uçak ve operasyon hazırlığı beklemede; ticari uçuş/satış başlamadı",
-      "targetLaunchDate": null,
+      "renewalSignal": "Resmî olarak ülke çapında havalimanı ofis NOC’si, yer operasyonları ve istasyon hazırlığı; filo induksiyonu, ekip alımı, SMS uygulaması; Mayıs 2027 AOP koşullu ticari lansman hedefi",
+      "qualificationNotes": "Air Indo’nun 31 Ekim 2026 tarihli resmî duyurusu, havalimanı ofisleri için NOC alındığını ve şirketin yer operasyonları, yer hizmetleri, filo induksiyonu, ekip alımı ve SMS hazırlığını yürüttüğünü bildirir. Duyuru, DGCA AOP olmadan tarifeli ticari hizmet başlatılamayacağını açıkça belirtir. Teknoloji sağlayıcısı, bağlayıcı uçak lease/satın alma anlaşması ve AOP’nin verildiği kamuya açıklanmadı.",
+      "startupStage": "Havalimanı ofis NOC’si alınmış; AOP, yer operasyonları, filo induksiyonu, ekip alımı ve SMS hazırlığı sürüyor; ticari uçuş/satış başlamadı",
+      "targetLaunchDate": "Mayıs 2027 (AOP onayına bağlı)",
       "aocStatus": "DGCA AOC henüz verilmiş olarak kamuya açıklanmadı",
       "fleetPlan": "ATR 72-600 işletme planı ve 15’ten fazla şehir hedefi açıklandı; bağlayıcı uçak siparişi/kiralaması, teslim tarihi ve tesciller kamuya açıklanmadı",
       "fundingStatus": "Şirketin lansman için stratejik yatırım aradığı bildirildi; tutar ve koşullar açıklanmadı",
-      "futureRationale": "AOC, uçak ve ticari satış hazırlığı tamamlanmadan operasyon başlayamayacağı için yolcu satış, online rezervasyon, check-in/DCS, ağırlık-denge, OCC ve ekip sistemleri için geleceğe dönük seçim penceresi bulunmaktadır. Sağlayıcılar kamuya açıklanmadı.",
+      "futureRationale": "Resmî yer operasyonu ve istasyon hazırlığı ile Mayıs 2027’ye yönelik, AOP koşullu lansman planı; henüz sağlayıcısı açıklanmamış yolcu satış, IBE, check-in/DCS, ağırlık-denge, OCC, ekip ve ağ planlama teknolojileri için geleceğe dönük seçim/entegrasyon penceresine işaret eder.",
       "evidence": [
         {
           "date": "2026-11-02",
           "type": "Regulatory and operational readiness",
           "detail": "Aviacionline, Air Indo’nun MoCA başlangıç NOC’si ve MHA güvenlik izni aldığını; DGCA AOC’nin halen gerekli olduğunu, AOC olmadan bilet satışı veya uçuş yapılamayacağını; ATR 72-600 ve 15’ten fazla şehir için plan bulunduğunu bildirdi.",
           "sourceUrl": "https://www.aviacionline.com/english/commercial-aviation/asia-pacific/air-indo-targets-15-cities-with-the-atr-72-600-and-awaits-its-dgca-certificate_a6ae8bf729b2d9a633cfe5c0f"
+        },
+        {
+          "date": "2026-10-31",
+          "type": "Official operational-readiness milestone",
+          "detail": "Air Indo, ülke çapındaki havalimanlarında ofis kurma NOC’sini, yer operasyonları ve istasyon hazırlığını; filo induksiyonu, ekip alımı ve SMS çalışmalarını duyurdu. Tarifeli hizmetin DGCA AOP’ye bağlı olduğunu ve hedefin Mayıs 2027 olduğunu açıkladı.",
+          "sourceUrl": "https://www.airindo.in/newsroom"
         }
       ]
     },
