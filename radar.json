@@ -2599,34 +2599,34 @@
     },
     {
       "id": "siam-wings-airlines-thailand-new-aoc-2026",
-      "title": "Siam Wings Airlines – Aktif AOC / Ticari Lansman Öncesi",
+      "title": "Siam Wings Airlines – Tayland Charter Taşıyıcısı (faal)",
       "organization": "Siam Wings Airlines Co., Ltd.",
       "country": "Thailand",
       "category": "Multi-product",
       "publishedDate": "2026-07-28",
       "deadline": null,
       "detectedAt": "2026-09-29T10:20:00Z",
-      "relevance": "Medium",
-      "summary": "Tayland Sivil Havacılık Otoritesi (CAAT), Siam Wings Airlines'a AOC.0038 numaralı işletme sertifikasını 24 Eylül 2026'da verdi; sertifika 23 Eylül 2031'e kadar aktif. Airbus A330-200'ün U-Tapao'ya konumlandırılması, ICAO SHE kodu ve kabin ekibi işe alımı operasyon hazırlığını destekliyor. Ancak bilet satışı/ticari başlangıç ve PSS/DCS sağlayıcısı kamuya açık kaynaklarda doğrulanmadı; bu nedenle kayıt lansman öncesi P2 fırsat olarak korunuyor.",
+      "relevance": "Low",
+      "summary": "Siam Wings Airlines, CAAT AOC.0038 sonrasında Ekim 2026’da Rusya–Tayland charter operasyonlarına başladı. U-Tapao’nun resmî 23 Ekim duyurusu, SHE6619 seferinin 336 yolcuyla gelerek kış sezonunun açıldığını doğrular. PSS/DCS/IBE sağlayıcısı kamuya açıklanmadı; ancak taşıyıcı ticari uçuş gerçekleştirdiği için ve önümüzdeki 24 ay için belgelenmiş sözleşme bitişi, yenileme, sistem değişimi veya satın alma sinyali olmadığı için aktif fırsat değildir.",
       "products": [
         "Crane PAX - Reservation & Ticketing",
         "Crane IBE - Internet Booking Engine",
         "Crane DCS - Departure Control System",
         "Crane WB - Weight & Balance"
       ],
-      "sourceName": "Civil Aviation Authority of Thailand (CAAT); U-Tapao Rayong–Pattaya International Airport; FAA ICAO designator records",
-      "url": "https://www.caat.or.th/certificates-licenses/air-operator/certificate-status-statistics/",
+      "sourceName": "Civil Aviation Authority of Thailand (CAAT); U-Tapao Rayong–Pattaya International Airport",
+      "url": "https://www.utapao.com/en/news/news231069",
       "official": true,
-      "status": "Pre-RFP",
+      "status": "Closed – operating carrier",
       "procurementType": "Startup Airline / AOC Issued / Pre-launch",
-      "commercialPriority": "P2",
-      "recommendation": "Pursue",
-      "incumbent": "PSS/DCS provider not publicly disclosed",
+      "commercialPriority": "Watchlist",
+      "recommendation": "Monitor",
+      "incumbent": "PSS/DCS/IBE sağlayıcısı kamuya açıklanmadı",
       "incumbentPss": "Unknown",
       "incumbentDcs": "Unknown",
       "incumbentConfidence": "Unknown",
-      "qualificationNotes": "CAAT resmî sicili AOC.0038'in 24 Eylül 2026'da verildiğini ve 23 Eylül 2031'e kadar aktif olduğunu doğruluyor. Airbus A330-200 U-Tapao'ya konumlandırılmış, ICAO SHE kodu atanmış ve işe alım yapılmış durumda. Buna karşın ticari uçuş veya bilet satış başlangıcı ile PSS-DCS-IBE-W&B sağlayıcısı açıklanmadı. İlk temas kesin go-live, charter/scheduled iş modeli, uçağın lease/tescil durumu, dağıtım kanalları ve sistem seçim takvimini doğrulamaya odaklanmalıdır.",
-      "startupStage": "AOC issued and active; aircraft positioned; commercial launch not yet verified",
+      "qualificationNotes": "CAAT, AOC.0038'in aktif olduğunu doğrular. U-Tapao'nun resmî 23 Ekim 2026 duyurusu, SHE6619'un 336 yolcuyla varışını ve Siam Wings'in kış sezonu charter operasyonunu doğrular; bağımsız havaalanı duyuruları da Ekim başında Rusya–Tayland seferlerinin başladığını destekler. Bu nedenle taşıyıcı artık lansman öncesi değildir. PSS/DCS/IBE sağlayıcısı ve sözleşme bitişi açıklanmamış; 24 ay içinde belgelenmiş yenileme, migration, RFP/RFI/EOI veya yeni satın alma planı bulunmadığından aktif High/Medium satış fırsatı değildir.",
+      "startupStage": "Commercial charter operations active since October 2026",
       "aocStatus": "CAAT AOC.0038 active; issued 24 Sep 2026; valid until 23 Sep 2031",
       "fleetPlan": "Airbus A330-200 positioned at U-Tapao; broader fleet plan not publicly verified",
       "evidence": [
@@ -2653,8 +2653,16 @@
           "type": "Recruitment signal",
           "detail": "Public recruitment notices advertised cabin-crew hiring for Siam Wings Airlines; used as supporting rather than primary evidence.",
           "sourceUrl": "https://cpathailand.co.th/news-amp-events/siam-wings-airlines/"
+        },
+        {
+          "date": "2026-10-23",
+          "type": "Official commercial-operation confirmation",
+          "detail": "U-Tapao Rayong–Pattaya International Airport, Siam Wings SHE6619'un 336 yolcuyla varışını ve kış sezonu operasyonunun açılışını resmen duyurdu.",
+          "sourceUrl": "https://www.utapao.com/en/news/news231069"
         }
-      ]
+      ],
+      "targetLaunchDate": "2026-10 (ticari charter operasyonu başladı)",
+      "renewalSignal": "None verified"
     },
     {
       "id": "balkan-skyways-bulgaria-new-aoc-2026",
