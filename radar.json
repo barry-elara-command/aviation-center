@@ -4122,10 +4122,10 @@
       "country": "Jordan",
       "category": "Airline Finance / Passenger Settlement",
       "publishedDate": null,
-      "deadline": "2026-11-26T15:28:00Z",
+      "deadline": "2026-12-03T15:28:00Z",
       "detectedAt": "2026-11-01T03:42:10.292Z",
       "relevance": "High",
-      "summary": "Royal Jordanian Airlines’in resmî tedarik portalında açık Sealed Offer olarak yayımlanan talep, yolcu mutabakatı, muhasebe, kontrol ve raporlama çözümünün güncellenmesini istiyor. Portal, soru son tarihini 10 Kasım 2026 ve teklif kapanışını 26 Kasım 2026 15:28 GMT olarak gösteriyor. Mevcut sağlayıcı veya sözleşme bitiş tarihi açıklanmadı.",
+      "summary": "Royal Jordanian Airlines’in resmî tedarik portalında açık Sealed Offer olarak yayımlanan talep, yolcu mutabakatı, muhasebe, kontrol ve raporlama çözümünün güncellenmesini istiyor. Portal, soru son tarihini 10 Kasım 2026 ve teklif kapanışını 3 Aralık 2026 15:28 GMT olarak gösteriyor. Mevcut sağlayıcı veya sözleşme bitiş tarihi açıklanmadı.",
       "products": [
         "Crane PAX",
         "Crane BPI"
@@ -4144,7 +4144,7 @@
       "contractEndBasis": "Açıklanmadı",
       "renewalSignal": "Resmî portaldaki “Update” ibaresi mevcut yolcu settlement çözümünün güncellenmesi talebini gösteriyor.",
       "qualificationNotes": "PSS/finans ekipleriyle Crane PAX yolcu verisi ve Crane BPI raporlama/mutabakat uyumu teyit edilmelidir; duyuruda ürün teknik gereksinimleri yayımlanmamıştır.",
-      "futureRationale": "Resmî portalda kapanış 26 Kasım 2026 15:28 GMT olarak güncellendiğinden, doğrulanmış ve gelecek odaklı aktif satın alma fırsatıdır.",
+      "futureRationale": "Resmî portalda kapanış 3 Aralık 2026 15:28 GMT olarak uzatılmış biçimde açık göründüğünden, doğrulanmış ve gelecek odaklı aktif satın alma fırsatıdır.",
       "evidence": [
         {
           "date": "2026-11-01",
@@ -4154,6 +4154,11 @@
         {
           "date": "2026-11-17",
           "statement": "Royal Jordanian resmî tedarik portalı talebi IT kategorisinde açık Sealed Offer olarak listeliyor ve kapanışı 26 Kasım 2026 15:28 GMT olarak gösteriyor.",
+          "url": "https://procurement.rj.com/"
+        },
+        {
+          "date": "2026-11-28",
+          "statement": "Royal Jordanian resmî tedarik portalı talebi IT kategorisinde açık Sealed Offer olarak listeliyor ve teklif kapanışını 3 Aralık 2026 15:28 GMT olarak gösteriyor.",
           "url": "https://procurement.rj.com/"
         }
       ]
